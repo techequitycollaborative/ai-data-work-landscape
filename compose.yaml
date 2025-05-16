@@ -1,0 +1,23 @@
+# compose.yaml
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules # Prevents overwriting node_modules -- important for running Vite / resolving dependencies/preventing error!!
+    environment:
+      - NODE_ENV=development
+    depends_on:
+      - backend

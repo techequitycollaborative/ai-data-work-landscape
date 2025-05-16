@@ -172,3 +172,59 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv environment variables
+.env
+.env.*
+
+# Vite cache
+dist/
+.vite/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.seed
+*.db
+docker-compose.override.yml
+
+# Python (FastAPI backend)
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+env/
+venv/
+.Python
+.mypy_cache/
+.pytest_cache/
+.coverage
+
+# Editor folders
+.idea/
+.vscode/
+*.swp
+
+# Test & coverage
+coverage/
+htmlcov/
+*.cover
+.cache/
+
+# Misc
+package-lock.json
+poetry.lock
