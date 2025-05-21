@@ -1,0 +1,36 @@
+from sqlalchemy import Column, Integer, String, Text
+from db import Base
+
+class DataItem(Base):
+    __tablename__ = "data_work_landscape"
+
+    company_name = Column(String, primary_key=True, index=True)
+    alternate_company_name = Column(String, nullable=True)
+    company_website = Column(String, nullable=True)
+    include_on_microsite = Column(String, nullable=True)
+    company_headquarters = Column(String, nullable=True)
+    type_of_company = Column(String, nullable=True)
+    type_of_company_by_product = Column(String, nullable=True)
+    workforce_model = Column(String, nullable=True)
+    has_in_house_marketplace = Column(String, nullable=True)
+    in_house_marketplace_name = Column(String, nullable=True)
+    in_house_marketplace_website = Column(String, nullable=True)
+    in_house_marketplace_details = Column(Text, nullable=True)
+    product_project_assisted_by_data_workers = Column(Text, nullable=True)
+    pay_rate = Column(String, nullable=True)
+    known_worker_locations = Column(String, nullable=True)
+    worker_complaints_grievances = Column(Text, nullable=True)
+    total_funding_amount = Column(String, nullable=True)
+    investors = Column(Text, nullable=True)
+    clients = Column(Text, nullable=True)
+    notes = Column(Text, nullable=True)
+    article_1_title = Column(String, nullable=True)
+    article_1_link = Column(String, nullable=True)
+    article_2_title = Column(String, nullable=True)
+    article_2_link = Column(String, nullable=True)
+    article_3_title = Column(String, nullable=True)
+    article_3_link = Column(String, nullable=True)
+    article_4_title = Column(String, nullable=True)
+    article_4_link = Column(String, nullable=True)
+    article_5_title = Column(String, nullable=True)
+    article_5_link = Column(String, nullable=True)

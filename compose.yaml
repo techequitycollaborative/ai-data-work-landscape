@@ -7,6 +7,10 @@ services:
       - "8000:8000"
     volumes:
       - ./backend:/app
+    env_file:
+      - ./backend/.env
+    depends_on:
+      - db
     environment:
       - PYTHONUNBUFFERED=1
 
@@ -16,8 +20,23 @@ services:
       - "5173:5173"
     volumes:
       - ./frontend:/app
-      - /app/node_modules # Prevents overwriting node_modules -- important for running Vite / resolving dependencies/preventing error!!
+      - /app/node_modules # Prevent overwriting node_modules in container
     environment:
       - NODE_ENV=development
     depends_on:
       - backend
+
+  db:
+    image: postgres:15
+    restart: always
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: youruser
+      POSTGRES_PASSWORD: yourpass
+      POSTGRES_DB: yourdb
+
+volumes:
+  db_data:

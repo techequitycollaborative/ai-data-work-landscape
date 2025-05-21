@@ -1,28 +1,67 @@
 // src/App.jsx
 
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+// src/App.jsx
+import { BrowserRouter as Router, Routes, Route, Link, useLocation, useNavigate } from "react-router-dom";
 import ScrollPage from "./pages/ScrollPage";
 import About from "./pages/About";
 import Methods from "./pages/Methods";
+import { useEffect } from "react";
 
-/* Navigation bar and scroll pages on main page */
+// Wrapper to use hooks with Router
+function AppWrapper() {
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (location.pathname === "/" && location.state?.scrollTo) {
+      const section = document.getElementById(location.state.scrollTo);
+      if (section) {
+        setTimeout(() => {
+          section.scrollIntoView({ behavior: "smooth" });
+        }, 100);
+      }
+    }
+  }, [location]);
+
+  const scrollToSection = (id) => {
+    if (location.pathname !== "/") {
+      navigate("/", { state: { scrollTo: id } });
+    } else {
+      const section = document.getElementById(id);
+      if (section) section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  return (
+    <div className="scroll-smooth">
+      <nav className="fixed top-0 left-0 w-full bg-white z-10 p-4 shadow flex items-center justify-between">
+        {/* LEFT SIDE: Logo */}
+        <div>
+          <Link to="/">
+          <img src="/logo.png" alt="TechEquity Logo" className="h-6" />
+          </Link>
+        </div>
+        {/* RIGHT SIDE: Navigation Links */}
+        <div className="flex gap-4">
+          <Link to="/about">about</Link>
+          <Link to="/methods">methods</Link>
+          <button onClick={() => scrollToSection("contribute")}>contribute</button>
+        </div>
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<ScrollPage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/methods" element={<Methods />} />
+      </Routes>
+    </div>
+  );
+}
+
 export default function App() {
   return (
     <Router>
-      <div className="scroll-smooth">
-      <nav className="fixed top-0 right-0 left-0 w-full bg-white z-10 p-4 shadow flex justify-end">
-          <Link to="/" className="ml-4">Home</Link>
-          <Link to="/about" className="ml-4">About</Link>
-          <Link to="/methods" className="ml-4">Methods</Link>
-          <a href="#contribute" className="ml-4">Contribute</a>
-      </nav>
-
-        <Routes>
-          <Route path="/" element={<ScrollPage />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/methods" element={<Methods />} />
-        </Routes>
-      </div>
+      <AppWrapper />
     </Router>
   );
 }
