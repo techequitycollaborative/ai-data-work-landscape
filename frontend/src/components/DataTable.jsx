@@ -1,7 +1,5 @@
 // DataTable.jsx
 
-// DataTable.jsx
-
 import {
     useReactTable,
     getCoreRowModel,
@@ -18,30 +16,28 @@ import {
       {
         accessorKey: 'company_name',
         header: 'Company',
-        filterFn: 'includesString',
-        cell: info => (
-          <span className="font-bold text-blue-600">
-            {info.getValue()}
-          </span>
-        ),
-      },
-      {
-        accessorKey: 'company_website',
-        header: 'Website',
-        cell: info => (
-          <a
-            href={info.getValue()}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline text-blue-500"
-          >
-            {info.getValue()}
-          </a>
-        ),
+        cell: info => {
+          const row = info.row.original;
+          return (
+            <a
+              href={row.company_website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold text-blue-600 underline"
+            >
+              {info.getValue()}
+            </a>
+          );
+        },
       },
       {
         accessorKey: 'company_headquarters',
         header: 'Headquarters',
+        filterFn: 'includesString',
+      },
+      {
+        accessorKey: 'type_of_company_by_product',
+        header: 'Company Type',
         filterFn: 'includesString',
       },
       {
@@ -61,15 +57,73 @@ import {
         ),
       },
       {
-        accessorKey: 'pay_rate',
-        header: 'Pay Rate',
+        accessorKey: 'has_in_house_marketplace',
+        header: 'Has In-House Marketplace',
+        filterFn: 'includesString',
+      },
+      {
+        accessorKey: 'in_house_marketplace_name',
+        header: 'In-House Marketplace Name',
+        cell: info => {
+          const row = info.row.original;
+          return (
+            <a
+              href={row.in_house_marketplace_website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold text-blue-600 underline"
+            >
+              {info.getValue()}
+            </a>
+          );
+        },
+      },
+      {
+        accessorKey: 'in_house_marketplace_details',
+        header: 'In-House Marketplace Details',
+        filterFn: 'includesString',
+      },
+      {
+        accessorKey: 'product_project_assisted_by_data_workers',
+        header: 'Type of Work Conducted by Data Workers',
         filterFn: 'includesString',
       },
       {
         accessorKey: 'known_worker_locations',
-        header: 'Known Locations',
+        header: 'Known Worker Locations',
         filterFn: 'includesString',
       },
+      {
+        id: 'articles',
+        header: 'Relevant Articles',
+        cell: info => {
+          const row = info.row.original;
+          const articles = [];
+      
+          for (let i = 1; i <= 5; i++) {
+            const title = row[`article_${i}_title`];
+            const link = row[`article_${i}_link`];
+      
+            if (title && link) {
+              articles.push(
+                <div key={i}>
+                  <a
+                    href={link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 underline text-xs"
+                  >
+                    {title}
+                  </a>
+                </div>
+              );
+            }
+          }
+      
+          return <div className="flex flex-col gap-3">{articles}</div>;
+        },
+      }
+      
     ], []);
   
     const table = useReactTable({
@@ -97,7 +151,8 @@ import {
         />
   
         <div className="overflow-x-auto">
-          <table className="min-w-full border border-gray-300 text-sm">
+          {/* min-w-full wraps the column width. min-w-max extends the column width. */}
+          <table className="min-w-full border border-gray-300 text-sm"> 
             <thead className="bg-gray-100">
               {table.getHeaderGroups().map(headerGroup => (
                 <tr key={headerGroup.id}>
@@ -117,7 +172,7 @@ import {
                 </tr>
               ))}
             </thead>
-            <tbody>
+            <tbody className="bg-white">
               {table.getRowModel().rows.map(row => (
                 <tr key={row.id}>
                   {row.getVisibleCells().map(cell => (

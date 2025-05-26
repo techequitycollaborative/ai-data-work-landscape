@@ -40,20 +40,6 @@ export default function ScrollPage() {
         <DataTable data={data} />
       </section>
 
-      {/* CONTRIBUTE SECTION */}
-      <section id="contribute" className="h-screen snap-start flex flex-col items-center justify-center p-8">
-        <h1 className="text-4xl mb-4">Contribute</h1>
-        <form action="http://localhost:8000/submit" method="POST" className="flex flex-col gap-4 w-full max-w-md">
-          <input name="company_name" placeholder="Company Name" className="p-2 border rounded" required />
-          <input name="company_website" placeholder="Website" className="p-2 border rounded" required />
-          <input name="company_headquarters" placeholder="Headquarters" className="p-2 border rounded" />
-          <input name="workforce_model" placeholder="Workforce Model" className="p-2 border rounded" />
-          <input name="pay_rate" placeholder="Pay Rate" className="p-2 border rounded" />
-          <input name="known_worker_locations" placeholder="Known Worker Locations" className="p-2 border rounded" />
-          <button type="submit" className="p-2 bg-blue-500 text-white rounded">Submit</button>
-        </form>
-      </section>
-    
     </main>
   );
 }

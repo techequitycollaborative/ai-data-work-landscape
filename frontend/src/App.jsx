@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Link, useLocation, useNavigate 
 import ScrollPage from "./pages/ScrollPage";
 import About from "./pages/About";
 import Methods from "./pages/Methods";
+import Contribute from "./pages/Contribute";
 import { useEffect } from "react";
 
 // Wrapper to use hooks with Router
@@ -45,7 +46,8 @@ function AppWrapper() {
         <div className="flex gap-4">
           <Link to="/about">about</Link>
           <Link to="/methods">methods</Link>
-          <button onClick={() => scrollToSection("contribute")}>contribute</button>
+          <Link to="/contribute">contribute</Link>
+          {/*<button onClick={() => scrollToSection("contribute")}>contribute</button>*/}
         </div>
       </nav>
 
@@ -53,6 +55,7 @@ function AppWrapper() {
         <Route path="/" element={<ScrollPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/methods" element={<Methods />} />
+        <Route path="/contribute" element={<Contribute />} />
       </Routes>
     </div>
   );
