@@ -1,6 +1,5 @@
 // src/App.jsx
 
-// src/App.jsx
 import { BrowserRouter as Router, Routes, Route, Link, useLocation, useNavigate } from "react-router-dom";
 import ScrollPage from "./pages/ScrollPage";
 import About from "./pages/About";
@@ -35,7 +34,9 @@ function AppWrapper() {
 
   return (
     <div className="scroll-smooth">
-      <nav className="fixed top-0 left-0 w-full bg-white z-10 p-4 shadow flex items-center justify-between">
+      {/* NAVIGATION BAR */}
+      {/* Add "shadow" to add bordered effect to nav bar */}
+      <nav className="fixed top-0 left-0 w-full bg-#f3fdb8 z-10 p-4 flex items-center justify-between"> 
         {/* LEFT SIDE: Logo */}
         <div>
           <Link to="/">

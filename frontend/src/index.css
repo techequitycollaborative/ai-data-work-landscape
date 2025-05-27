@@ -14,7 +14,7 @@ html {
 body {
   font-family: 'Roboto Serif', serif;
   font-optical-sizing: auto;
-  font-weight: 400; /* Regular weight */
+  font-weight: 300; /* Regular weight */
   font-style: normal;
   color: #041c2c;
   background-color: #f3fdb8; /* site background color */

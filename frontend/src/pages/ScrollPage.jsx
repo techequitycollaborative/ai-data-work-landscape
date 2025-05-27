@@ -27,7 +27,9 @@ export default function ScrollPage() {
       
       {/* HOME SECTION */}
       <section id="home" className="h-screen snap-start flex flex-col items-center justify-center">
-        <h1 className="text-9xl mb-8">Who Powers AI?</h1>
+        <h1 className="text-9xl mb-8 ml-8">Who Powers AI?</h1>
+        <h3 className="text-4xl mb-4 ml-8">Exploring the main players in the AI data work industry</h3>
+        <p className="text-lg mb-8 ml-8 max-w-4xl text-center">All around the world, tech companies in the AI industry are powered by workers who develop, train, test, and maintain AI systems. But these workers are hidden away behind virtual marketplaces and labyrinthine supply chains. To highlight the workers who make AI possible, we must shine a light on this shadowy industry.</p>
         <button onClick={scrollToData} className="btn-scroll">
         DIG IN
         </button>
