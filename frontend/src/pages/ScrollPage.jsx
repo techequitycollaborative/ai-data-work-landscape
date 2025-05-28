@@ -1,5 +1,5 @@
-// Scroll.jsx
-// This page will house content for the scrollable sections of the microsite
+// ScrollPage.jsx
+// Scrollable hero page + data table section of the microsite
 
 // Use "9xl" for large text and "6xl" for medium text in headers
 
@@ -23,7 +23,7 @@ export default function ScrollPage() {
   };
 
   return (
-    <main className="snap-y snap-mandatory h-screen overflow-y-scroll">
+    <main className="snap-y snap-mandatory">
       
       {/* HOME SECTION */}
       <section id="home" className="h-screen snap-start flex flex-col items-center justify-left">

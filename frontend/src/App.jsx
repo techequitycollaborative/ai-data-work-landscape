@@ -33,10 +33,10 @@ function AppWrapper() {
   };
 
   return (
-    <div className="scroll-smooth">
+    <div className="scroll-smooth h-screen overflow-y-scroll">
       {/* NAVIGATION BAR */}
       {/* Add "shadow" to add bordered effect to nav bar */}
-      <nav className="fixed top-0 left-0 w-full bg-#f3fdb8 z-10 p-4 flex items-center justify-between"> 
+      <nav className="relative left-0 w-full bg-[#f3fdb8] z-10 p-4 flex items-center justify-between"> 
         {/* LEFT SIDE: Logo */}
         <div>
           <Link to="/">
