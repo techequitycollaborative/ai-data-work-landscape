@@ -1,4 +1,5 @@
 // DataTable.jsx
+// Script to build the data table component
 
 import {
     useReactTable,

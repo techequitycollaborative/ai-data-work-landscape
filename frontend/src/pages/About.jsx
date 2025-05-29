@@ -1,3 +1,6 @@
+// About.jsx
+// About the project and techequity page
+
 export default function About() {
   return (
     <section id="about" 

@@ -1,3 +1,5 @@
+// Methods.jsx
+// Data methodology page
 
 export default function Methods() {
     return (

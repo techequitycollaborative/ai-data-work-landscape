@@ -1,4 +1,5 @@
 // src/App.jsx
+// Primary entry point for the site, with routing and navigation
 
 import { BrowserRouter as Router, Routes, Route, NavLink, useLocation, useNavigate } from "react-router-dom";
 import ScrollPage from "./pages/ScrollPage";
