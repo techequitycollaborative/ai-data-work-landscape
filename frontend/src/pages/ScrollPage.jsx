@@ -44,7 +44,8 @@ export default function ScrollPage() {
       </section>
 
       {/* DATA SECTION */}
-      <section id="data" className="min-h-screen snap-start flex flex-col items-center justify-left p-8 w-full">
+      <section id="data" 
+        className="min-h-screen snap-start flex flex-col items-center justify-left p-8 w-full">
         <h2 className="text-8xl mb-4">Who Powers AI?</h2>
         <h3 className="text-3xl mb-4">Exploring the main players in the AI data work industry</h3>
         <DataTable data={data} />

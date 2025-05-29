@@ -1,6 +1,6 @@
 // src/App.jsx
 
-import { BrowserRouter as Router, Routes, Route, Link, useLocation, useNavigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, NavLink, useLocation, useNavigate } from "react-router-dom";
 import ScrollPage from "./pages/ScrollPage";
 import About from "./pages/About";
 import Methods from "./pages/Methods";
@@ -39,16 +39,16 @@ function AppWrapper() {
       <nav className="relative left-0 w-full bg-[#f3fdb8] z-10 p-4 flex items-center justify-between"> 
         {/* LEFT SIDE: Logo */}
         <div>
-          <Link to="/">
-          <h4 className="text-xs text-[#041c2c]">The Data<br></br> Work Index</h4>
+          <NavLink to="/">
+          <h4 className="text-xs text-bold text-[#041c2c]">The Data Work <br></br>Landscape</h4>
           {/*<img src="/logo.png" alt="TechEquity Logo" className="h-6" />*/}
-          </Link>
+          </NavLink>
         </div>
         {/* RIGHT SIDE: Navigation Links */}
         <div className="flex gap-4">
-          <Link to="/about">about</Link>
-          <Link to="/methods">methods</Link>
-          <Link to="/contribute">contribute</Link>
+          <NavLink to="/about" className={({ isActive }) => isActive ? "underline" : ""}>about</NavLink>
+          <NavLink to="/methods" className={({ isActive }) => isActive ? "underline" : ""}>methods</NavLink>
+          <NavLink to="/contribute" className={({ isActive }) => isActive ? "underline" : ""}>contribute</NavLink>
           {/*<button onClick={() => scrollToSection("contribute")}>contribute</button>*/}
         </div>
       </nav>
