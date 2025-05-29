@@ -40,7 +40,8 @@ function AppWrapper() {
         {/* LEFT SIDE: Logo */}
         <div>
           <Link to="/">
-          <img src="/logo.png" alt="TechEquity Logo" className="h-6" />
+          <h4 className="text-xs text-[#041c2c]">The Data<br></br> Work Index</h4>
+          {/*<img src="/logo.png" alt="TechEquity Logo" className="h-6" />*/}
           </Link>
         </div>
         {/* RIGHT SIDE: Navigation Links */}

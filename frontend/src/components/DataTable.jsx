@@ -152,7 +152,7 @@ import {
   
         <div className="overflow-x-auto">
           {/* min-w-full wraps the column width. min-w-max extends the column width. */}
-          <table className="min-w-full border border-gray-300 text-sm"> 
+          <table className="min-w-full border border-gray-300 text-xs"> 
             <thead className="bg-gray-100">
               {table.getHeaderGroups().map(headerGroup => (
                 <tr key={headerGroup.id}>

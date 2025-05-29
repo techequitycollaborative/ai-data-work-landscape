@@ -14,6 +14,7 @@ html {
 body {
   font-family: 'Roboto Serif', serif;
   font-optical-sizing: auto;
+  font-size: 14px; /* 14px base font size */
   font-weight: 300; /* Regular weight */
   font-style: normal;
   color: #041c2c;
@@ -21,7 +22,7 @@ body {
 
 }
 
-/* Anton for headings */
+/* Anton for main headings */
 h1, h2, h3 {
   font-family: 'Anton', sans-serif;
   font-weight: 400;
@@ -29,6 +30,17 @@ h1, h2, h3 {
   color: #041c2c;
   text-transform: uppercase;
 }
+
+h4 {
+  font-family: 'Roboto Serif', serif;
+  font-optical-sizing: auto;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  color: #712f39;
+}
+
+
 
 /* Button styling */
 .btn-scroll {
@@ -40,7 +52,16 @@ h1, h2, h3 {
   font-size: 24px;
   text-transform: uppercase;
   padding: 0.75rem 1.5rem; /* py-3 px-6 */
+  border: 2px solid #041c2c; /* dark border always visible */
   border-radius: 0.5rem; /* rounded */
+  transition: background-color 0.2s;
+}
+
+.btn-scroll:hover {
+  cursor: pointer;
+  background-color: #f3fdb8 !important; /* lighter/yellow color */
+  color: #041c2c; /* dark text for contrast */
+  border-color: #041c2c !important; /* add border on hover */
   transition: background-color 0.2s;
 }
 
