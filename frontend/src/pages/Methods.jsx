@@ -1,10 +1,13 @@
 // Methods.jsx
 // Data methodology page
 
+import { Link } from "react-router-dom";
+
+
 export default function Methods() {
     return (
       
-      <section id="about" 
+      <section id="methods" 
         className="min-h-screen snap-start flex flex-col items-center pt-16"
         style={{background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 8%, #ffffff 18%, #ffffff 100%)",}} /* Gradient background yellow to white */
         >
@@ -63,19 +66,18 @@ export default function Methods() {
 
           <h4 className="text-2xl pt-6 mb-4">Limitations</h4>
           <p>
-          Some of the data contained in our database is collected from the websites of the data companies under study. Many of the companies listed do not have much publicly available information. As a result, cross-verification against other sources is not always possible.
-          <br />
-          <br />
-          It’s also likely that this information will change over time. We aim to update it periodically as new information becomes available.
+          Some of the data contained in our database is collected from the websites of the data companies under study. Many of the companies listed do not have much publicly available information. As a result, cross-verification against other sources is not always possible. It’s also likely that this information will change over time. We aim to update it periodically as new information becomes available.
           <br />
           <br />
           Additionally, our database doesn’t yet give a clear picture of who the biggest players in the Data Work Landscape are. We're working on identifying key indicators—like company growth, VC funding, revenue, number of data workers, and client relationships—that can help us answer this question.
           <br />
           <br />
-          These data gaps pose limitations to understanding how these companies operate and the impact they’re having on workers in the AI supply chain. We aim to continue this body of research in order to shed light on this industry. If you have information you’d like to contribute to the project, please share it with us here.
+          These data gaps pose limitations to understanding how these companies operate and the impact they’re having on workers in the AI supply chain. We aim to continue this body of research in order to shed light on this industry. 
           <br />
           <br />
-          
+          If you have information you’d like to contribute to the project, please share it with us <Link to="/contribute" className="text-blue-600 underline">here</Link>.
+          <br />
+          <br />
           </p>
         </div>
         </section>

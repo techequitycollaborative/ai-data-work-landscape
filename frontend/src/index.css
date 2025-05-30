@@ -41,7 +41,6 @@ h4 {
 }
 
 
-
 /* Button styling */
 .btn-scroll {
   background-color: #041c2c;
@@ -67,4 +66,17 @@ h4 {
 
 .btn-scroll:hover {
   background-color: #041c2c;
+}
+
+/* Form styling */
+label {
+  display: block;
+  font-size: 0.75rem; /* small text, like Tailwind's text-sm */
+  font-family: 'Roboto Serif', serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #712f39;
+  font-weight: 500; /* medium */
+  margin-bottom: 0.25rem; /* mb-1 */
 }
