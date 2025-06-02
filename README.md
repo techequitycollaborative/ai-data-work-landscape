@@ -1,6 +1,6 @@
 # Data Work Landscape
 
-This is an initial version of a web application designed to allow users to interact with a data set about AI data work companies. A newer repository is available [here](https://here).
+The Data Work Landscape is a project that aims to shine a light on the industry of AI data work. This site features our research into the main companies in this industry. To view the site, go to https://dataworklandscape.org.
 
 ## Prerequisites
 
