@@ -2,7 +2,7 @@
 
 The Data Work Landscape is a project that aims to shine a light on the industry of AI data work. This site features our research into the main companies in this industry. To view the site, go to https://dataworklandscape.org.
 
-## Prerequisites
+## For Developers
 
 This project includes a **React frontend**, **FastAPI backend**, and **PostgreSQL database**, all wired together using Docker Compose. Before you begin, ensure you have the following installed on your system:
 
@@ -10,9 +10,9 @@ This project includes a **React frontend**, **FastAPI backend**, and **PostgreSQ
 - [Docker Compose](https://docs.docker.com/compose/)
 - [Git](https://git-scm.com/) (for cloning the repository)
 
-## Getting Started
+### Getting Started
 
-### 1. Environmental Variables
+#### 1. Environmental Variables
 
 Make sure the backend has a `.env` file in the `./backend` folder with your database credentials:
 
@@ -25,13 +25,13 @@ POSTGRES_PORT=yourport
 sslmode = require (optional)
 ```
 
-### 2. Clone the Repository
+#### 2. Clone the Repository
 
 ```bash
 git clone https://github.com/dsherbini/data-work-landscape.git
 cd data-work-landscape
 ```
-### 3. Launch the App
+#### 3. Launch the App
 
 Initial launch:
 ```bash
