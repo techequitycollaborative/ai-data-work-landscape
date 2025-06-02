@@ -9,7 +9,7 @@ class DataItem(Base):
     alternate_company_name = Column(String, nullable=True)
     company_website = Column(String, nullable=True)
     company_headquarters = Column(String, nullable=True)
-    type_of_company_by_product = Column(String, nullable=True)
+    company_type = Column(String, nullable=True)
     workforce_model = Column(String, nullable=True)
     has_in_house_marketplace = Column(String, nullable=True)
     in_house_marketplace_name = Column(String, nullable=True)

@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route, NavLink, useLocation, useNaviga
 import ScrollPage from "./pages/ScrollPage";
 import About from "./pages/About";
 import Methods from "./pages/Methods";
-import Contribute from "./pages/Contribute";
+import Contribute_Jotform from "./pages/Contribute_Jotform";
 import { useEffect } from "react";
 
 // Wrapper to use hooks with Router
@@ -49,7 +49,7 @@ function AppWrapper() {
         <div className="flex gap-4">
           <NavLink to="/about" className={({ isActive }) => isActive ? "underline" : ""}>about</NavLink>
           <NavLink to="/methods" className={({ isActive }) => isActive ? "underline" : ""}>methods</NavLink>
-          <NavLink to="/contribute" className={({ isActive }) => isActive ? "underline" : ""}>contribute</NavLink>
+          <NavLink to="/contribute" className={({ isActive }) => isActive ? "underline" : ""}>input</NavLink>
           {/*<button onClick={() => scrollToSection("contribute")}>contribute</button>*/}
         </div>
       </nav>
@@ -58,7 +58,7 @@ function AppWrapper() {
         <Route path="/" element={<ScrollPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/methods" element={<Methods />} />
-        <Route path="/contribute" element={<Contribute />} />
+        <Route path="/contribute" element={<Contribute_Jotform />} />
       </Routes>
     </div>
   );

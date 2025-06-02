@@ -2,7 +2,7 @@
 
 export default function Contribute() {
     return (
-      <section id="methods" 
+      <section id="contribute" 
       className="min-h-screen snap-start flex flex-col items-center pt-16"
       style={{background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 8%, #ffffff 18%, #ffffff 100%)",}} /* Gradient background yellow to white */
       >
@@ -29,7 +29,7 @@ export default function Contribute() {
                 <input name="company_headquarters" className="p-2 border rounded" />
 
                 <label htmlFor="company_type" className="">Company Type</label>
-                <input name="type_of_company_by_product" className="p-2 border rounded" />
+                <input name="company_type" className="p-2 border rounded" />
 
                 <label htmlFor="workforce_model" className="">Company Model</label>
                 <input name="workforce_model" className="p-2 border rounded" />

@@ -32,7 +32,7 @@ def get_data(db: Session = Depends(get_db)):
             "company_name": item.company_name,
             "company_website": item.company_website,
             "company_headquarters": item.company_headquarters,
-            "type_of_company_by_product": item.type_of_company_by_product,    
+            "company_type": item.company_type,    
             "workforce_model": item.workforce_model,
             "has_in_house_marketplace": item.has_in_house_marketplace,
             "in_house_marketplace_name": item.in_house_marketplace_name,
