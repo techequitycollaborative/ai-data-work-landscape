@@ -41,8 +41,8 @@ function AppWrapper() {
         {/* LEFT SIDE: Logo */}
         <div>
           <NavLink to="/">
-          <h4 className="text-xs text-bold text-[#041c2c]">The Data Work <br></br>Landscape</h4>
-          {/*<img src="/logo.png" alt="TechEquity Logo" className="h-6" />*/}
+          {/*<h4 className="text-xs text-bold text-[#041c2c]">The Data Work <br></br>Landscape</h4>*/}
+          <img src="/logo.png" alt="TechEquity Logo" className="h-6" />
           </NavLink>
         </div>
         {/* RIGHT SIDE: Navigation Links */}
