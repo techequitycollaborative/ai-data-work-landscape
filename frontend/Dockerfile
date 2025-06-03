@@ -11,7 +11,7 @@ WORKDIR /app
 COPY package*.json ./ 
 
 # Install dependencies
-#RUN npm install # for development
+RUN npm install
 RUN npm install -g serve # for production
 
 # Copy the rest of the app
