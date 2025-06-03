@@ -19,7 +19,7 @@ COPY . .
 RUN npm run build # for production
 
 # Expose the port Vite uses
-#EXPOSE 5173
+#EXPOSE 5173 # for developmment
 
 # Run dev server
 #CMD ["npm", "run", "dev"]
