@@ -9,11 +9,17 @@ import { useEffect, useState } from "react";
 export default function ScrollPage() {
   const [data, setData] = useState([]);
 
-  useEffect(() => {
-  fetch(`${import.meta.env.VITE_API_URL}/data`)
-    .then((res) => res.json())
-    .then(setData);
-}, []);
+  // useEffect(() => {
+  //fetch(`${import.meta.env.VITE_API_URL}/data`)
+ //  .then((res) => res.json())
+  //  .then(setData);
+//}, []);
+
+    useEffect(() => {
+    fetch("https://data-work-landscape-lymyf.ondigitalocean.app/ai-data-work-landscape-backend/data")
+      .then((res) => res.json())
+      .then(setData);
+  }, []);
 
   const scrollToData = () => {
     const dataSection = document.getElementById("data");
