@@ -11,33 +11,24 @@ WORKDIR /app
 COPY package*.json ./ 
 
 # Install dependencies
-RUN npm install
+#RUN npm install # for development
+RUN npm install -g serve # for production
 
 # Copy the rest of the app
 COPY . .
+RUN npm run build # for production
 
 # Expose the port Vite uses
 EXPOSE 5173
 
 # Run dev server
-CMD ["npm", "run", "dev"]
+#CMD ["npm", "run", "dev"]
+
+# Run produiction server
+EXPOSE 3000
+CMD ["serve", "-s", "dist", "-l", "3000"]
 
 
 
-# Dockerfile for production:
-#FROM node:18-alpine
 
-#WORKDIR /app
-
-#COPY package*.json ./
-#RUN npm install
-
-#COPY . .
-#RUN npm run build
-
-# Install a lightweight static file server
-#RUN npm install -g serve
-
-#EXPOSE 3000
-#CMD ["serve", "-s", "dist", "-l", "3000"]
 
