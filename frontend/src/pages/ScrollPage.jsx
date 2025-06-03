@@ -10,10 +10,10 @@ export default function ScrollPage() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8000/data")
-      .then((res) => res.json())
-      .then(setData);
-  }, []);
+  fetch(`${import.meta.env.VITE_API_URL}/data`)
+    .then((res) => res.json())
+    .then(setData);
+}, []);
 
   const scrollToData = () => {
     const dataSection = document.getElementById("data");
