@@ -28,8 +28,8 @@ sslmode = require (optional)
 #### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/dsherbini/data-work-landscape.git
-cd data-work-landscape
+git clone https://github.com/techequitycollaborative/ai-data-work-landscape.git
+cd ai-data-work-landscape
 ```
 #### 3. Launch the App
 
