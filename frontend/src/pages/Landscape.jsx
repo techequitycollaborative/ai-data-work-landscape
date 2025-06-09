@@ -16,8 +16,8 @@ export default function Landscape() {
 
   return (
     <main id="landscape" 
-        className="min-h-screen snap-start flex flex-col items-center pt-16"
-        style={{background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 8%, #ffffff 18%, #ffffff 100%)",}} /* Gradient background yellow to white */
+        className="min-h-screen snap-start flex flex-col items-center pt-16 pb-16"
+        style={{background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 17%, #ffffff 27%, #ffffff 100%)",}} /* Gradient background yellow to white */
         >
         
         {/* Main site header */}
@@ -26,7 +26,7 @@ export default function Landscape() {
           Who Powers AI?
         </NavLink>
         </h1>
-        <h2 className="text-3xl text-center">Exploring the main players in the AI data work industry</h2>
+        <h2 className="text-3xl text-center">Exploring the Data Work Landscape</h2>
 
         {/* Section for data table */}
         <DataTable data={data} />

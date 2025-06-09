@@ -14,7 +14,6 @@ class DataItem(Base):
     has_in_house_marketplace = Column(String, nullable=True)
     in_house_marketplace_name = Column(String, nullable=True)
     in_house_marketplace_website = Column(String, nullable=True)
-    in_house_marketplace_details = Column(Text, nullable=True)
     product_project_assisted_by_data_workers = Column(Text, nullable=True)
     known_worker_locations = Column(String, nullable=True)
     article_1_title = Column(String, nullable=True)

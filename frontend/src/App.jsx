@@ -7,20 +7,25 @@ import About from "./pages/About";
 import Methods from "./pages/Methods";
 import Contribute_Jotform from "./pages/Contribute_Jotform";
 import Landscape from "./pages/Landscape";
+import ScrollToTop from "./components/ScrollToTop";
+import Footer from "./components/Footer";
 
 // Wrapper to use hooks with Router
 function AppWrapper() {
+
+  const location = useLocation();
+
+  const showFooter = location.pathname !== "/";
+
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen flex flex-col justify-between">
       {/* NAVIGATION BAR */}
-      {/* Add "shadow" to add bordered effect to nav bar */}
-      <nav className="relative left-0 w-full bg-[#f3fdb8] z-10 p-4 mr-10 flex items-center justify-between"> 
+      <nav className="relative left-0 w-full bg-[#f3fdb8] z-10 p-4 mr-10 flex items-center justify-between">
         {/* LEFT SIDE: Logo */}
         <div>
-          <NavLink to="/">
-          {/*<h4 className="text-xs text-bold text-[#041c2c]">The Data Work <br></br>Landscape</h4>*/}
-          <img src="/logo.png" alt="TechEquity Logo" className="h-6" />
-          </NavLink>
+          <a href="https://techequity.us" target="_blank" rel="noopener noreferrer">
+            <img src="/logo.png" alt="TechEquity Logo" className="h-6" />
+          </a>
         </div>
         {/* RIGHT SIDE: Navigation Links */}
         <div className="flex gap-10">
@@ -31,13 +36,21 @@ function AppWrapper() {
         </div>
       </nav>
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/methods" element={<Methods />} />
-        <Route path="/input" element={<Contribute_Jotform />} />
-        <Route path="/landscape" element={<Landscape />} />
-      </Routes>
+      <ScrollToTop />
+
+      {/* Main page content */}
+      <div className="flex-grow">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/methods" element={<Methods />} />
+          <Route path="/input" element={<Contribute_Jotform />} />
+          <Route path="/landscape" element={<Landscape />} />
+        </Routes>
+      </div>
+
+      {/* FOOTER -- on every page except Home */}
+      {showFooter && <Footer />}
     </div>
   );
 }
@@ -49,3 +62,4 @@ export default function App() {
     </Router>
   );
 }
+

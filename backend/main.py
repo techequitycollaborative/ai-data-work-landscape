@@ -52,7 +52,6 @@ def get_data(db: Session = Depends(get_db)):
             "has_in_house_marketplace": item.has_in_house_marketplace,
             "in_house_marketplace_name": item.in_house_marketplace_name,
             "in_house_marketplace_website": item.in_house_marketplace_website,
-            "in_house_marketplace_details": item.in_house_marketplace_details,
             "product_project_assisted_by_data_workers": item.product_project_assisted_by_data_workers,
             "known_worker_locations": item.known_worker_locations,
             "article_1_title": item.article_1_title,

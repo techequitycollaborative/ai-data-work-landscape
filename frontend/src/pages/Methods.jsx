@@ -6,10 +6,10 @@ import { Link, NavLink } from "react-router-dom";
 
 export default function Methods() {
     return (
-      
+
       <section id="methods" 
         className="min-h-screen snap-start flex flex-col items-center pt-16"
-        style={{background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 8%, #ffffff 18%, #ffffff 100%)",}} /* Gradient background yellow to white */
+        style={{background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 8%, #ffffff 14%, #ffffff 100%)",}} /* Gradient background yellow to white */
         >
         
         {/* Main site header */}
@@ -18,13 +18,13 @@ export default function Methods() {
           Who Powers AI?
         </NavLink>
         </h1>
-        <h2 className="text-3xl text-center">Exploring the main players in the AI data work industry</h2>
+        <h2 className="text-3xl text-center">Exploring the Data Work Landscape</h2>
   
         {/* Section header + body text centered in a narrower column */}
         <section>
         <div className="w-full max-w-2xl mx-auto mt-20 text-left">
           <h3 className="text-4xl mb-4">Methodology</h3>
-          <h4 className="text-2xl pt-2 mb-4">Data Collection & Sources</h4>
+          <h4 className="text-2xl pt-2 mb-4">Data collection & sources</h4>
           <p>
           To populate companies for this database, we identified companies from news coverage, academic and trade publications that mentioned data workers, content moderation, and AI model building and training broadly defined. Following this, we conducted desk research on each company. This involved:
             <ul className="list-disc pl-6 pt-4 space-y-2">
@@ -65,7 +65,7 @@ export default function Methods() {
           For example, Scale AI has two subsidiaries—Outlier and Remotasks—which are both marketplaces where data workers can find work and Scale AI clients can find a workforce. In addition, Scale AI reportedly outsources work to UpWork, an independent company that operates a marketplace model.
           <br />
           <br />
-          To download our full data dictionary, click <a href="https://techequity.us" className="text-blue-600 underline">here</a>. 
+          To download our full data dictionary, click <a href="https://techequity.us" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">here</a>. 
           </p>
 
           <h4 className="text-2xl pt-6 mb-4">Limitations</h4>

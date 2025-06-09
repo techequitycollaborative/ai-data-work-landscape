@@ -46,9 +46,6 @@ export default function Contribute() {
                 <label htmlFor="in_house_marketplace_name" className="">Does the company have an in-house marketplace?</label>
                 <input name="in_house_marketplace_name" className="p-2 border rounded" />
 
-                <label htmlFor="in_house_marketplace_details" className="">Marketplace Details</label>
-                <input name="in_house_marketplace_details" className="p-2 border rounded" />
-
                 <label htmlFor="product_project_assisted_by_data_workers" className="">What type of work did you do?</label>
                 <input name="product_project_assisted_by_data_workers" className="p-2 border rounded" />
 

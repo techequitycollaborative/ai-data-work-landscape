@@ -50,7 +50,7 @@ export default function ScrollPage() {
         style={{background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 8%, #ffffff 18%, #ffffff 100%)",}} /* Gradient background yellow to white */
         >
         <h2 className="text-8xl mb-4">Who Powers AI?</h2>
-        <h3 className="text-3xl mb-4">Exploring the main players in the AI data work industry</h3>
+        <h3 className="text-3xl mb-4">Exploring the Data Work Landscape</h3>
         <DataTable data={data} />
       </section>
 

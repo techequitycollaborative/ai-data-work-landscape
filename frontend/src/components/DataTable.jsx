@@ -179,35 +179,13 @@ import {
         },
       },
       {
-        accessorKey: 'in_house_marketplace_details',
-        header: () => (
-          <div
-          title="Additional information about the company's in-house marketplace(s)"
-          className="flex items-center gap-1 cursor-help select-none justify-between items-start"
-        >
-          In-House <br></br> Marketplace  Details <br></br>
-          <span className="text-gray-500 whitespace-normal break-words">i</span>
-        </div>
-        ),
-        size: 50, // set custom width of the column
-        filterFn: 'includesString',
-        cell: info => {
-          const value = info.getValue() || "";
-          return (
-            <span className="text-xs text-gray-700 whitespace-normal break-words">
-              {value}
-            </span>
-          );
-        }
-      },
-      {
         accessorKey: 'product_project_assisted_by_data_workers',
         header: () => (
           <div
           title="Examples of the type of work data workers do for the company (e.g., data collection, annotation, model training)"
           className="flex items-center gap-1 cursor-help select-none block truncate justify-between items-start"
         >
-          Type of Work Done <br></br> by Data Workers &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<br></br>
+          Examples of Work Done <br></br> by Data Workers &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<br></br>
           <span className="text-gray-500 whitespace-normal break-words">i</span>
         </div>
         ),
@@ -311,7 +289,7 @@ import {
           placeholder="Search all columns..."
           value={globalFilter ?? ""}
           onChange={(e) => setGlobalFilter(e.target.value)}
-          className="mb-4 p-2 border rounded w-full"
+          className="mb-4 mt-4 p-2 border rounded w-full"
         />
   
         <div className="overflow-x-auto max-h-[80vh] border rounded-lg">
