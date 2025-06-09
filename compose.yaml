@@ -7,6 +7,7 @@ services:
       - "8000:8000"
     volumes:
       - ./backend:/app
+      - ./backend/.env:/app/.env
     env_file:
       - ./backend/.env
     depends_on:
@@ -30,13 +31,11 @@ services:
     image: postgres:15
     restart: always
     volumes:
-      - db_data:/var/lib/postgresql/data
+      - db_data:/var/lib/postgresql/data # Mount host folder for data persistence
     ports:
       - "5432:5432"
-    environment:
-      POSTGRES_USER: youruser
-      POSTGRES_PASSWORD: yourpass
-      POSTGRES_DB: yourdb
+    env_file:
+      - ./backend/.env
 
 volumes:
   db_data:

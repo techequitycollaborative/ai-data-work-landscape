@@ -31,7 +31,30 @@ sslmode = require (optional)
 git clone https://github.com/techequitycollaborative/ai-data-work-landscape.git
 cd ai-data-work-landscape
 ```
-#### 3. Launch the App
+
+#### 3. Adjust CORS for development
+Add your localhost url path to the CORS configuration in backend/main.py:
+
+```python
+# CORS so React can access site -- for development
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+```
+
+#### 4. Update localhost API call
+
+```jsx
+
+// ScrollPage.jsx
+    fetch('http://localhost:8000/data') // for development
+```
+
+#### 4. Launch the App
 
 Initial launch:
 ```bash

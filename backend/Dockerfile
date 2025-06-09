@@ -10,8 +10,11 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-#CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"] # development
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"] # production
+# CMD for development
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+
+# CMD for production
+#CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"] # production
 
 
 

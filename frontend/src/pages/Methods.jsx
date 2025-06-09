@@ -1,7 +1,7 @@
 // Methods.jsx
 // Data methodology page
 
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 
 export default function Methods() {
@@ -13,7 +13,11 @@ export default function Methods() {
         >
         
         {/* Main site header */}
-        <h1 className="text-8xl mb-4 text-center">Who Powers AI?</h1>
+        <h1 className="text-8xl mb-4 text-center">
+        <NavLink to="/" className="hover:underline">
+          Who Powers AI?
+        </NavLink>
+        </h1>
         <h2 className="text-3xl text-center">Exploring the main players in the AI data work industry</h2>
   
         {/* Section header + body text centered in a narrower column */}
@@ -75,7 +79,7 @@ export default function Methods() {
           These data gaps pose limitations to understanding how these companies operate and the impact they’re having on workers in the AI supply chain. We aim to continue this body of research in order to shed light on this industry. 
           <br />
           <br />
-          If you have information you’d like to contribute to the project, please share it with us <Link to="/contribute" className="text-blue-600 underline">here</Link>.
+          If you have information you’d like to contribute to the project, please share it with us <Link to="/input" className="text-blue-600 underline">here</Link>.
           <br />
           <br />
           </p>

@@ -1,5 +1,10 @@
 // Contribute.jsx
 
+// This page uses a custom form for contributions to the Data Work Landscape project (not Jotform embed)
+
+import { NavLink } from "react-router-dom";
+
+
 export default function Contribute() {
     return (
       <section id="contribute" 
@@ -8,7 +13,11 @@ export default function Contribute() {
       >
       
       {/* Main site header */}
-      <h1 className="text-8xl mb-4 text-center">Who Powers AI?</h1>
+      <h1 className="text-8xl mb-4 text-center">
+        <NavLink to="/" className="hover:underline">
+          Who Powers AI?
+        </NavLink>
+      </h1>      
       <h2 className="text-3xl text-center">Exploring the main players in the AI data work industry</h2>
 
       {/* Form */}

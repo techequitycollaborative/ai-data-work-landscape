@@ -1,6 +1,9 @@
 // About.jsx
 // About the project and techequity page
 
+import {NavLink} from "react-router-dom";
+
+
 export default function About() {
   return (
     <section id="about" 
@@ -9,7 +12,11 @@ export default function About() {
       >
       
       {/* Main site header */}
-      <h1 className="text-8xl mb-4 text-center">Who Powers AI?</h1>
+      <h1 className="text-8xl mb-4 text-center">
+        <NavLink to="/" className="hover:underline">
+          Who Powers AI?
+        </NavLink>
+      </h1>      
       <h2 className="text-3xl text-center">Exploring the main players in the AI data work industry</h2>
 
       {/* Section header + body text centered in a narrower column */}

@@ -9,14 +9,9 @@ import { useEffect, useState } from "react";
 export default function ScrollPage() {
   const [data, setData] = useState([]);
 
-  // useEffect(() => {
-  //fetch(`${import.meta.env.VITE_API_URL}/data`)
- //  .then((res) => res.json())
-  //  .then(setData);
-//}, []);
-
     useEffect(() => {
-    fetch("https://data-work-landscape-lymyf.ondigitalocean.app/ai-data-work-landscape-backend/data")
+    //fetch("https://data-work-landscape-lymyf.ondigitalocean.app/ai-data-work-landscape-backend/data") // for production
+    fetch('http://localhost:8000/data') // for development
       .then((res) => res.json())
       .then(setData);
   }, []);

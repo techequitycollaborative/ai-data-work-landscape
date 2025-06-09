@@ -42,7 +42,7 @@ h4 {
 
 
 /* Button styling */
-.btn-scroll {
+.btn-scroll, .btn-home {
   background-color: #041c2c;
   color: #f3fdb8;
   font-family: 'Anton', sans-serif;
@@ -56,16 +56,12 @@ h4 {
   transition: background-color 0.2s;
 }
 
-.btn-scroll:hover {
+.btn-scroll:hover, .btn-home:hover {
   cursor: pointer;
   background-color: #f3fdb8 !important; /* lighter/yellow color */
   color: #041c2c; /* dark text for contrast */
   border-color: #041c2c !important; /* add border on hover */
   transition: background-color 0.2s;
-}
-
-.btn-scroll:hover {
-  background-color: #041c2c;
 }
 
 /* Form styling */
@@ -79,4 +75,21 @@ label {
   color: #712f39;
   font-weight: 500; /* medium */
   margin-bottom: 0.25rem; /* mb-1 */
+}
+
+/* Table styling */
+#myTable {
+  border-top: 0 !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+}
+
+#myTable th {
+  border-top: 0 !important;
+}
+
+#myTable thead th {
+  background-color: gray-200; /* or your header bg color */
+  border-color: #ccc;      /* stable border color */
+  z-index: 10;             /* keep on top */
 }

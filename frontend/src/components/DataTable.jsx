@@ -10,6 +10,9 @@ import {
   import { useState, useMemo } from 'react';
   
   export default function DataTable({ data }) {
+    // Log the data to console for debugging
+    console.log("Data received by DataTable:", data);
+
     const [globalFilter, setGlobalFilter] = useState("");
     const [columnFilters, setColumnFilters] = useState([]);
   
@@ -311,15 +314,22 @@ import {
           className="mb-4 p-2 border rounded w-full"
         />
   
-        <div className="overflow-x-auto">
+        <div className="overflow-x-auto max-h-[80vh] border rounded-lg">
           {/* min-w-full wraps the column width. min-w-max extends the column width. */}
-          <table className="table-fixed border border-gray-300 text-xs"> 
-            <thead className="bg-gray-100">
+          <table 
+            id="myTable"
+            className="min-w-full table-auto border-b-2 border-gray-400 text-xs"
+            > 
+            <thead className="bg-gray-400">
               {table.getHeaderGroups().map(headerGroup => (
-                <tr key={headerGroup.id}>
+                <tr 
+                  key={headerGroup.id}
+                  className='border-b border-gray-200'
+                  >
                   {headerGroup.headers.map(header => (
                     <th key={header.id} 
-                      className="px-4 py-2 border text-left align-top whitespace-normal break-words"
+                      colSpan={header.colSpan}
+                      className="sticky top-0 z-10 px-4 py-2 border text-left align-top whitespace-normal break-words border border-gray-200 bg-gray-200"
                       style={{ width: header.column.getSize() }} // Allows column widths to be set based on invidual column sizes from above
                       >
                       <div className="flex flex-col justify-between h-full">
@@ -340,10 +350,12 @@ import {
             </thead>
             <tbody className="bg-white">
               {table.getRowModel().rows.map(row => (
-                <tr key={row.id}>
-                  {row.getVisibleCells().map(cell => (
-                    <td key={cell.id} 
-                    className="px-4 py-2 border whitespace-normal break-words"
+                <tr key={row.id} className="even:bg-gray-50">
+                    {row.getVisibleCells().map(cell => (
+                    <td
+                      key={cell.id}
+                      className="p-2 text-xs border-b-2 border-r border-gray-200 align-top"
+                      style={{ minWidth: cell.column.getSize() }}
                     >
                       {flexRender(
                         cell.column.columnDef.cell,

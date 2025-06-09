@@ -2,42 +2,19 @@
 // Primary entry point for the site, with routing and navigation
 
 import { BrowserRouter as Router, Routes, Route, NavLink, useLocation, useNavigate } from "react-router-dom";
-import ScrollPage from "./pages/ScrollPage";
+import Home from "./pages/Home";
 import About from "./pages/About";
 import Methods from "./pages/Methods";
 import Contribute_Jotform from "./pages/Contribute_Jotform";
-import { useEffect } from "react";
+import Landscape from "./pages/Landscape";
 
 // Wrapper to use hooks with Router
 function AppWrapper() {
-  const location = useLocation();
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    if (location.pathname === "/" && location.state?.scrollTo) {
-      const section = document.getElementById(location.state.scrollTo);
-      if (section) {
-        setTimeout(() => {
-          section.scrollIntoView({ behavior: "smooth" });
-        }, 100);
-      }
-    }
-  }, [location]);
-
-  const scrollToSection = (id) => {
-    if (location.pathname !== "/") {
-      navigate("/", { state: { scrollTo: id } });
-    } else {
-      const section = document.getElementById(id);
-      if (section) section.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
-    <div className="scroll-smooth h-screen overflow-y-scroll">
+    <div className="min-h-screen">
       {/* NAVIGATION BAR */}
       {/* Add "shadow" to add bordered effect to nav bar */}
-      <nav className="relative left-0 w-full bg-[#f3fdb8] z-10 p-4 flex items-center justify-between"> 
+      <nav className="relative left-0 w-full bg-[#f3fdb8] z-10 p-4 mr-10 flex items-center justify-between"> 
         {/* LEFT SIDE: Logo */}
         <div>
           <NavLink to="/">
@@ -46,19 +23,20 @@ function AppWrapper() {
           </NavLink>
         </div>
         {/* RIGHT SIDE: Navigation Links */}
-        <div className="flex gap-4">
+        <div className="flex gap-10">
           <NavLink to="/about" className={({ isActive }) => isActive ? "underline" : ""}>about</NavLink>
           <NavLink to="/methods" className={({ isActive }) => isActive ? "underline" : ""}>methods</NavLink>
-          <NavLink to="/contribute" className={({ isActive }) => isActive ? "underline" : ""}>input</NavLink>
-          {/*<button onClick={() => scrollToSection("contribute")}>contribute</button>*/}
+          <NavLink to="/input" className={({ isActive }) => isActive ? "underline" : ""}>input</NavLink>
+          <NavLink to="/landscape" className={({ isActive }) => isActive ? "underline" : ""}>landscape</NavLink>
         </div>
       </nav>
 
       <Routes>
-        <Route path="/" element={<ScrollPage />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/methods" element={<Methods />} />
-        <Route path="/contribute" element={<Contribute_Jotform />} />
+        <Route path="/input" element={<Contribute_Jotform />} />
+        <Route path="/landscape" element={<Landscape />} />
       </Routes>
     </div>
   );
