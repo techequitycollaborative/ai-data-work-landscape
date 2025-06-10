@@ -30,6 +30,10 @@ export default function Landscape() {
 
         {/* Section for data table */}
         <DataTable data={data} />
+        <div className="w-full max-w-4xl mx-auto mt-10 mb-10 text-center text-sm">
+            <p>Do you work in the tech industry and contribute to AI systems?</p>
+            <NavLink to="/Input" className="text-blue-600 underline">We want to hear from you.</NavLink> 
+        </div>    
     </main>
   );
 }
