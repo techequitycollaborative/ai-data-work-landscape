@@ -1,6 +1,6 @@
 // Landscape.jsx
 
-import DataTable from "../components/DataTable";
+import DataTable from "../components/DataTable_cached";
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 
