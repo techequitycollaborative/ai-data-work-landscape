@@ -26,3 +26,4 @@ class DataItem(Base):
     article_4_link = Column(String, nullable=True)
     article_5_title = Column(String, nullable=True)
     article_5_link = Column(String, nullable=True)
+

@@ -17,7 +17,12 @@ export default function Landscape() {
   return (
     <main id="landscape" 
         className="min-h-screen snap-start flex flex-col items-center pt-16 pb-16"
-        style={{background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 17%, #ffffff 27%, #ffffff 100%)",}} /* Gradient background yellow to white */
+        style={{
+            background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 11%, #ffffff 18%, #ffffff 100%)",
+            minHeight: "200vh",
+            backgroundSize: "100% 200vh", // matches visual height of gradient
+        }} /* Gradient background yellow to white */
+        
         >
         
         {/* Main site header */}

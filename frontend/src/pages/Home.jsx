@@ -6,8 +6,9 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center pt-52 pb-52 bg-[#f3fdb8]" 
-      style={{ 
+    <main 
+    className="flex flex-col justify-center items-center min-h-screen bg-[#f3fdb8] px-4"
+    style={{ 
         backgroundImage: "url('/globe.png')",
         backgroundSize: '75%',
         backgroundRepeat: 'no-repeat',

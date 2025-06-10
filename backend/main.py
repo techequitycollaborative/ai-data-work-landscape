@@ -6,13 +6,13 @@ from models import DataItem
 
 app = FastAPI()
 
+# CORS so React can access site -- for production
 #origins = [
 #    "https://dataworklandscape.org",
 #    "https://www.dataworklandscape.org",
 #    "https://data-work-landscape-lymyf.ondigitalocean.app"
 #]
 
-# CORS so React can access site -- for production
 #app.add_middleware(
 #    CORSMiddleware,
 #    allow_origins=origins, # only allow custom frontend, not all sites

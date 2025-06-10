@@ -279,18 +279,6 @@ import {
         }
       },
     ], []);
-  
-    //const table = useReactTable({
-    //  data,
-    //  columns,
-    //  columnResizeMode: 'onChange', // or 'onEnd'
-    //  getCoreRowModel: getCoreRowModel(),
-    //  getFilteredRowModel: getFilteredRowModel(),
-    //  state: { globalFilter, columnFilters },
-    //  onColumnFiltersChange: setColumnFilters,
-    //  onGlobalFilterChange: setGlobalFilter,
-    //  debugTable: false,
-    //});
 
     const table = useReactTable({
       data: memoizedData,  // using the memoized data to prevent unnecessary re-renders
