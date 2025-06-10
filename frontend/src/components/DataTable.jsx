@@ -15,6 +15,9 @@ import {
 
     const [globalFilter, setGlobalFilter] = useState("");
     const [columnFilters, setColumnFilters] = useState([]);
+
+    // Memoize the data to prevent unnecessary re-renders
+    const memoizedData = useMemo(() => data, [data]);
   
     const columns = useMemo(() => [
       {
@@ -28,7 +31,8 @@ import {
           <span className="text-gray-500 whitespace-normal break-words">i</span>
         </div>
         ),
-        size: 50, // set custom width of the column
+        //size: 50, // set custom width of the column
+        enableResizing: false, // Prevents resizing this column
         filterFn: 'includesString',
         cell: info => {
           const row = info.row.original;
@@ -55,7 +59,8 @@ import {
           <span className="text-gray-500 whitespace-normal break-words">i</span>
         </div>
         ),
-        size: 50, // set custom width of the column
+        //size: 50, // set custom width of the column
+        enableResizing: false, // Prevents resizing this column
         filterFn: 'includesString',
       },
       {
@@ -69,7 +74,8 @@ import {
           <span className="text-gray-500 whitespace-normal break-words">i</span>
         </div>
         ),
-        size: 50, // set custom width of the column
+        //size: 50, // set custom width of the column
+        enableResizing: false, // Prevents resizing this column
         filterFn: 'equals',
         meta: { filterType: 'select' },
         cell: info => {
@@ -98,7 +104,8 @@ import {
           <span className="text-gray-500 whitespace-normal break-words">i</span>
         </div>
         ),
-        size: 100, // set custom width of the column
+        //size: 100, // set custom width of the column
+        enableResizing: false, // Prevents resizing this column
         filterFn: 'includesString',
         cell: info => {
           const value = info.getValue() || "";
@@ -140,6 +147,7 @@ import {
       {
         accessorKey: 'has_in_house_marketplace',
         size: 50, // set custom width of the column
+        enableResizing: false, // Prevents resizing this column
         filterFn: 'includesString',
         header: () => (
           <div
@@ -162,7 +170,8 @@ import {
           <span className="text-gray-500 whitespace-normal break-words">i</span>
         </div>
         ),        
-        size: 50, // set custom width of the column
+        //size: 50, // set custom width of the column
+        enableResizing: false, // Prevents resizing this column
         filterFn: 'includesString',
         cell: info => {
           const row = info.row.original;
@@ -189,7 +198,8 @@ import {
           <span className="text-gray-500 whitespace-normal break-words">i</span>
         </div>
         ),
-        size: 200, // set custom width of the column
+        //size: 200, // set custom width of the column
+        enableResizing: false, // Prevents resizing this column
         filterFn: 'includesString',
         cell: info => {
           const value = info.getValue() || "";
@@ -211,7 +221,8 @@ import {
           <span className="text-gray-500 whitespace-normal break-words">i</span>
         </div>
         ),
-        size: 50, // set custom width of the column
+        //size: 50, // set custom width of the column
+        enableResizing: false, // Prevents resizing this column
         filterFn: 'includesString',
         cell: info => { 
           const value = info.getValue() || "";
@@ -233,7 +244,8 @@ import {
           <span className="text-gray-500 whitespace-normal break-words">i</span>
           </div>
         ),
-        size: 100, // set custom width of the column
+        //size: 100, // set custom width of the column
+        enableResizing: false, // Prevents resizing this column
         filterFn: 'includesString',
         cell: info => {
           const row = info.row.original;
@@ -268,17 +280,44 @@ import {
       },
     ], []);
   
+    //const table = useReactTable({
+    //  data,
+    //  columns,
+    //  columnResizeMode: 'onChange', // or 'onEnd'
+    //  getCoreRowModel: getCoreRowModel(),
+    //  getFilteredRowModel: getFilteredRowModel(),
+    //  state: { globalFilter, columnFilters },
+    //  onColumnFiltersChange: setColumnFilters,
+    //  onGlobalFilterChange: setGlobalFilter,
+    //  debugTable: false,
+    //});
+
     const table = useReactTable({
-      data,
+      data: memoizedData,  // using the memoized data to prevent unnecessary re-renders
+      //data,
       columns,
-      columnResizeMode: 'onChange', // or 'onEnd'
+      //columnResizeMode: 'onChange',
+      enableColumnResizing: false, // Disable resizing for now
       getCoreRowModel: getCoreRowModel(),
       getFilteredRowModel: getFilteredRowModel(),
       state: { globalFilter, columnFilters },
       onColumnFiltersChange: setColumnFilters,
       onGlobalFilterChange: setGlobalFilter,
+      initialState: {
+        columnSizing: {
+          company_name: 200,
+          company_headquarters: 200,
+          company_type: 182,
+          workforce_model: 268,
+          has_in_house_marketplace: 160,
+          in_house_marketplace_name: 200,
+          product_project_assisted_by_data_workers: 273,
+          known_worker_locations: 200,
+          articles: 377,
+        }
+      },
       debugTable: false,
-    });
+    });   
     
   
     return (
@@ -293,39 +332,36 @@ import {
         />
   
         <div className="overflow-x-auto max-h-[80vh] border rounded-lg">
-          {/* min-w-full wraps the column width. min-w-max extends the column width. */}
+          {/* using w-full below instead of min-w-full to prevent column width jumping. w-full forces the table to occupy exactly 100% of the container’s width from the start. */}
           <table 
             id="myTable"
-            className="min-w-full table-auto border-b-2 border-gray-400 text-xs"
+            className="w-full border-b-2 border-gray-400 text-xs"
+            style={{ tableLayout: 'fixed' }}
             > 
             <thead className="bg-gray-400">
               {table.getHeaderGroups().map(headerGroup => (
-                <tr 
-                  key={headerGroup.id}
-                  className='border-b border-gray-200'
-                  >
+                <tr key={headerGroup.id} className="border-b border-gray-200">
                   {headerGroup.headers.map(header => (
-                    <th key={header.id} 
+                    <th
+                      key={header.id}
                       colSpan={header.colSpan}
-                      className="sticky top-0 z-10 px-4 py-2 border text-left align-top whitespace-normal break-words border border-gray-200 bg-gray-200"
-                      style={{ width: header.column.getSize() }} // Allows column widths to be set based on invidual column sizes from above
-                      >
+                      className="sticky top-0 z-10 px-4 py-2 border text-left align-top whitespace-normal break-words border-gray-200 bg-gray-200"
+                      style={{ width: header.getSize() }}
+                    >
                       <div className="flex flex-col justify-between h-full">
-                      {flexRender(
-                        header.column.columnDef.header,
-                        header.getContext()
-                      )}
-                      {header.column.getCanFilter() && (
-                        <div className="mt-1">
-                        <ColumnFilter column={header.column} data={data} />
-                        </div>
-                      )}
+                        {flexRender(header.column.columnDef.header, header.getContext())}
+                        {header.column.getCanFilter() && (
+                          <div className="mt-1">
+                            <ColumnFilter column={header.column} data={data} />
+                          </div>
+                        )}
                       </div>
                     </th>
                   ))}
                 </tr>
               ))}
             </thead>
+
             <tbody className="bg-white">
               {table.getRowModel().rows.map(row => (
                 <tr key={row.id} className="even:bg-gray-50">
@@ -333,7 +369,7 @@ import {
                     <td
                       key={cell.id}
                       className="p-2 text-xs border-b-2 border-r border-gray-200 align-top"
-                      style={{ minWidth: cell.column.getSize() }}
+                      style={{ width: cell.column.getSize() }}
                     >
                       {flexRender(
                         cell.column.columnDef.cell,

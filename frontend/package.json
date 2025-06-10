@@ -9,6 +9,7 @@
     },
     "dependencies": {
         "@tanstack/react-table": "^8.21.3",
+        "@tanstack/react-virtual": "^3.13.10",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-router-dom": "^6.30.0",
