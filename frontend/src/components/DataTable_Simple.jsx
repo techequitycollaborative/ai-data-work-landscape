@@ -349,6 +349,7 @@ import {
         data: memoizedData,
         columns,
         enableColumnResizing: false,
+        enableColumnFilters: true,
         getCoreRowModel: getCoreRowModel(),
         getFilteredRowModel: getFilteredRowModel(),
         state: { globalFilter, columnFilters },
@@ -401,7 +402,7 @@ import {
                         {flexRender(header.column.columnDef.header, header.getContext())}
                         {header.column.getCanFilter() && (
                           <div className="mt-1">
-                            <ColumnFilter column={header.column} data={memoizedData} />
+                            <ColumnFilter column={header.column} data={data} />
                           </div>
                         )}
                       </div>
@@ -433,50 +434,52 @@ import {
   });
 
 
-    // Memoized ColumnFilter component
-    const ColumnFilter = memo(function ColumnFilter({ column, data }) {
-        const columnFilterValue = column.getFilterValue() ?? "";
-      
-        const uniqueValues = useMemo(() => {
-          const accessor = column.columnDef.accessorKey;
-          if (!accessor) return [];
-      
-          const values = new Set();
-          data.forEach(row => {
-            const value = row[accessor];
-            if (value !== undefined && value !== null) {
-              values.add(value);
-            }
-          });
-          return Array.from(values).sort();
-        }, [data, column.columnDef.accessorKey]);
-      
-        // These columns use a dropdown filter
-        const useDropdown = ["company_type", "workforce_model", "has_in_house_marketplace"].includes(column.id);
-      
-        return useDropdown ? (
-          <select
-            value={columnFilterValue}
-            onChange={(e) => column.setFilterValue(e.target.value || undefined)}
-            className="p-1 mt-5 border rounded min-w-full text-xs placeholder-italic placeholder-gray-200 placeholder-text-xs"
-          >
-            <option value="">All</option> { /* All = all the values in the column; default option */}
-            {uniqueValues.map(value => (
-              <option key={value} value={value}>
-                {value}
-              </option>
-            ))}
-          </select>
-        ) : (
-          <input
-            type="text"
-            value={columnFilterValue}
-            onChange={(e) => column.setFilterValue(e.target.value)}
-            placeholder={"filter here..."}
-            className="p-1 mt-5 border rounded min-w-full text-xs placeholder-italic placeholder-gray-200 placeholder-text-xs"
-          />
-        );
-      });
+  // Filter function: includes filter options for string search and single-select dropdowns
+  // This is not memoized; if memoized, it causes issues for the string/text filters
+  function ColumnFilter({ column, data }) {
+    const columnFilterValue = column.getFilterValue() ?? "";
   
+    // Get unique values for this column from data
+    const uniqueValues = useMemo(() => {
+      const accessor = column.columnDef.accessorKey;
+      if (!accessor) return [];
+  
+      const values = new Set();
+      data.forEach(row => {
+        const value = row[accessor];
+        if (value !== undefined && value !== null) {
+          values.add(value);
+        }
+      });
+      return Array.from(values).sort();
+    }, [data, column.columnDef.accessorKey]);
+  
+    // Use dropdown for specific columns
+    const useDropdown = ["company_type", "workforce_model", "has_in_house_marketplace"].includes(column.id);
+  
+    return useDropdown ? (
+      <select
+        value={columnFilterValue}
+        onChange={(e) => column.setFilterValue(e.target.value || undefined)}
+        className="p-1 mt-5 border rounded min-w-full text-xs placeholder-italic placeholder-gray-200 placeholder-text-xs" // use min-w-full so filter box takes up width of the cell
+      >
+        <option value="">All</option>
+        {uniqueValues.map(value => (
+          <option key={value} value={value}>
+            {value}
+          </option>
+        ))}
+      </select>
+    ) : (
+      <input
+        type="text"
+        value={columnFilterValue}
+        onChange={(e) => column.setFilterValue(e.target.value)}
+        placeholder={"filter here..."}
+        className="p-1 mt-5 border rounded min-w-full text-xs placeholder-italic placeholder-gray-200 placeholder-text-xs" // use min-w-full so filter box takes up width of the cell
+      />
+    );
+  }
+
   export default DataTable;
   
