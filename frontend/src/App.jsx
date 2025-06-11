@@ -1,11 +1,11 @@
 // src/App.jsx
-// Primary entry point for the site, with routing and navigation
+// Primary entry point for the microsite, with routing to other pages and navigation configuration
 
 import { BrowserRouter as Router, Routes, Route, NavLink, useLocation, useNavigate } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Methods from "./pages/Methods";
-import Contribute_Jotform from "./pages/Contribute_Jotform";
+import Contribute_Jotform from "./pages/Contribute_Jotform_cached";
 import Landscape from "./pages/Landscape";
 import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
@@ -28,7 +28,7 @@ function AppWrapper() {
           </a>
         </div>
         {/* RIGHT SIDE: Navigation Links */}
-        <div className="flex gap-10">
+        <div className="flex gap-10 mr-2">
           <NavLink to="/about" className={({ isActive }) => isActive ? "underline" : ""}>about</NavLink>
           <NavLink to="/methods" className={({ isActive }) => isActive ? "underline" : ""}>methods</NavLink>
           <NavLink to="/input" className={({ isActive }) => isActive ? "underline" : ""}>input</NavLink>

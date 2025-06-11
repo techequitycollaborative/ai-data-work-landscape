@@ -1,4 +1,4 @@
-// Contribute.jsx
+// Contribute_Jotform.jsx
 // This version of the page uses an embedded jotform for the survey
 
 
@@ -37,7 +37,7 @@ export default function Contribute_Jotform() {
       </div>
       
       {/* JotForm Embed */}
-      <div className="w-full max-w-4xl mx-auto mt-6">
+      <div className="w-full max-w-2xl mx-auto mt-6">
           <iframe
               src="https://form.jotform.com/251525543823052"
               title="Contribute Form"
@@ -48,7 +48,7 @@ export default function Contribute_Jotform() {
           ></iframe>
       </div>
       
-      <div className="w-full max-w-4xl mx-auto mt-6 mb-10 text-left">
+      <div className="w-full max-w-2xl mx-auto mt-6 mb-10 text-left">
       <h4 className="text-2xl pt-2 mb-4">Contact us</h4>
       <p>
       If you’d like to reach out to the team behind the Data Work Landscape, you can email <a href="mailto:info@techequity.us" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">info@techequity.us</a> to get in touch.

@@ -33,8 +33,9 @@ export default function About() {
         </p>  
         <br />
         <p>
-        We created the Data Work Landscape to shine a light on this shadowy industry by identifying companies that provide data work services, such as data collection, curation, annotation, model training, content moderation, and more. You can read more about the project <a href="https://techequity.us" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">here</a>.
+        We created the Data Work Landscape to shine a light on this shadowy industry by identifying companies that provide data work services, such as data collection, curation, annotation, model training, content moderation, and more.
         </p>
+         {/*ADD THIS TO THE ABOVE SENTENCE WHEN BLOG LINK IS LIVE: You can read more about the project <a href="https://techequity.us" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">here</a>.*/}
         <br />   
         <p>
         This project is just a snapshot of this growing industry. We hope that by pulling back the curtain, we can support further research and advocacy for the workers who power AI.

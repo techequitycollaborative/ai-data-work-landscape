@@ -1,5 +1,7 @@
 // DataTable.jsx - Cached Version
 
+// This script is a combined component for the data table and the data
+
 import {
     useReactTable,
     getCoreRowModel,
@@ -8,20 +10,20 @@ import {
   } from '@tanstack/react-table';
   import { useState, useMemo, useEffect, useRef, memo } from 'react';
   
-  // Method 1: Memoized DataTable Component
+  // Memoized DataTable Component
   const DataTable = memo(function DataTable({ data }) {
     console.log("DataTable rendered with data:", data);
   
     const [globalFilter, setGlobalFilter] = useState("");
-    const [columnFilters, setColumnFilters] = useState([]);
+    const [columnFilters, setColumnFilters] = useState([]); 
     
-    // Method 2: Cache data in sessionStorage (persists until tab closes)
+    // Cache data in sessionStorage (persists until tab closes)
     const [cachedData, setCachedData] = useState(() => {
       const cached = sessionStorage.getItem('dataTableCache');
       return cached ? JSON.parse(cached) : data;
     });
   
-    // Method 3: Use ref to track if data has actually changed
+    // Use ref to track if data has actually changed
     const dataRef = useRef(data);
     const dataHash = useRef(JSON.stringify(data));
   

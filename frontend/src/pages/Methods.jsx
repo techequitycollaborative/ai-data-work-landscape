@@ -46,9 +46,9 @@ export default function Methods() {
           We define data work as consisting of data collection, data curation, data annotation, model training, model evaluation, data verification, and content moderation. By extension, any company that offers these services is considered a part of the Data Work Landscape.
           <br />
           <br />
-          <span className="font-bold pb-2">Business Products and Services</span>
+          <span className="font-bold pb-2">Company Type</span>
           <br />
-          We found that data work companies offer products and services that fall into three general categories:
+          We categorize companies by the primary products and services they offer. We found that data work companies offer products and services that fall into three general categories:
           <ul className="list-disc pl-6 pt-4 space-y-2">
               <li><i>Tools:</i> AI tools such as generative AI, AI automation, data analysis, large language models (LLMs), data management, real-time analytics, and more </li>  
               <li><i>Workforce:</i> A workforce to carry out various key tasks in the development and implementation of AI tools, or</li>  
@@ -70,7 +70,7 @@ export default function Methods() {
           For example, Scale AI has two subsidiaries—Outlier and Remotasks—which are both marketplaces where data workers can find work and Scale AI clients can find a workforce. In addition, Scale AI reportedly outsources work to UpWork, an independent company that operates a marketplace model.
           <br />
           <br />
-          To download our full data dictionary, click <a href="https://techequity.us" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">here</a>. 
+          To download our full data dictionary, click <a href="/data-dictionary.csv" download target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">here</a>. 
           </p>
 
           <h4 className="text-2xl pt-6 mb-4">Limitations</h4>

@@ -1,0 +1,25 @@
+Column Name,Data type,Description,Additional Details
+Company Name,Text,Name of company,
+Company Website,URL Text,URL to primary company website,
+Company Headquarters,Text,Primary headquarters of the company,Primary headquarters of the company. This is not necessarily the same as where data workers are located.
+Company Type,Categorical Text,Categorization of companies based on the product/service they offer,"Categorization of companies based on the product/service they offer:
+Tools: AI tools such as generative AI, AI automation, data analysis, large language models (LLMs), data management, and more   
+Workforce: A workforce to carry out various key tasks in the development and implementation of AI tools, or 
+Tools + Workforce: Some combination of both tools and a workforce"
+Workforce Model,Categorical Text,A taxonomy of how workers are integrated into the AI supply chain,"A taxonomy of how workers are integrated into the AI supply chain:
+BPO (Business Process Outsourcing) Model: A BPO is a type of outsourcing where a third-party provider is engaged to carry out parts of a company’s operations. Data workers are employed at delivery centers, which are typically physical offices based in countries around the world 
+Marketplace Model: Digital platforms where distributed workers perform tasks that are posted. Data workers typically work remotely, logging onto these platforms to access tasks 
+A combination of BPOs and marketplaces
+Unclear: It's not clear what type of workforce model the company uses based on our research and available information
+N/A = The company does not operate under a Workforce Model / falls within the """"Tools"""" Company Type"
+Has In-House Marketplace,Categorical Text,Workforce model contains internal marketplace as fully owned subsidiaries or divisions within the AI company,"Workforce model contains internal marketplace as fully owned subsidiaries or divisions within the AI company. These marketplaces are digital platforms where distributed workers carry out tasks. Possible values include:
+
+Yes = Company has an in-house marketplace as a subsidiary or division within the company
+No = Company does not have an in-house marketplace as a subsidiary or division within the company
+Indeterminate = We do not know or cannot say for certain if the company does or does not have an in-house marketplace as a subsidiary or division within the company
+N/A = The company does not operate under a Workforce Model / falls within the """"Tools"""" Company Type"
+In-House Marketplace Name,Text,"Name of internal workforce marketplace, if different than company name","Name of internal workforce marketplace, if different than company name"
+In-House Marketplace Website,URL Text,"URL to website of internal workforce marketplace, if available","URL to website of internal workforce marketplace, if available"
+Examples of Work Done by Data Workers,Text,"Description of the type of work conducted by data workers for the company, based on our research",
+Known Worker Locations,Text,Known worker locations based on our research,"Known worker locations based on our research. These locations are subject to change as more information becomes available, especially since many companies employ a remote/distributed workforce."
+Relevant Articles,"Text, URL Text",Articles of interest related to the company,

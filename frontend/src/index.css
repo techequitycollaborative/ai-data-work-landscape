@@ -69,6 +69,28 @@ h4 {
   transition: background-color 0.2s;
 }
 
+.btn-download {
+  background-color: #041c2c;
+  color: #ffffff;
+  font-family: 'Roboto Serif', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  border: 2px solid #041c2c; /* dark border always visible */
+  border-radius: 0.5rem; /* rounded */
+  transition: background-color 0.2s;
+  margin-left: 4;
+}
+
+.btn-download:hover {
+  cursor: pointer;
+  background-color: #ffffff !important; /* lighter/yellow color */
+  color: #041c2c; /* dark text for contrast */
+  border-color: #041c2c !important; /* add border on hover */
+  transition: background-color 0.2s;
+}
+
+
 /* Form styling */
 label {
   display: block;

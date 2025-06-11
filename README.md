@@ -36,6 +36,7 @@ cd ai-data-work-landscape
 Add your localhost url path to the CORS configuration in backend/main.py:
 
 ```python
+# backend/main.py
 # CORS so React can access site -- for development
 app.add_middleware(
     CORSMiddleware,
@@ -50,7 +51,7 @@ app.add_middleware(
 
 ```jsx
 
-// ScrollPage.jsx
+// frontend/Landscape.jsx
     fetch('http://localhost:8000/data') // for development
 ```
 

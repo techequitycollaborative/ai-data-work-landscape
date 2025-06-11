@@ -1,5 +1,5 @@
 // ScrollPage.jsx
-// Scrollable hero page + data table section of the microsite
+// Scrollable hero page + data table section of the microsite -- archived because scrolling down to the data table conflicted with the table's intern scroll capability
 
 // Use "9xl" for large text and "6xl" for medium text in headers
 

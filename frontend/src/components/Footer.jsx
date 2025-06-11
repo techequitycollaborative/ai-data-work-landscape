@@ -1,3 +1,6 @@
+// Footer.jsx
+// Footer component for the website, featuring privacy policy and trademark
+
 export default function Footer() {
     return (
       <footer 
