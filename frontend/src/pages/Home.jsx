@@ -26,7 +26,7 @@ export default function Home() {
       </section>
       {/* Button to navigate to the landscape page */}
       <Link to="/landscape">
-        <button className="btn-home">DIG IN</button>
+        <button className="btn-home">EXPLORE THE DATA</button>
       </Link>
       </section>   
 
