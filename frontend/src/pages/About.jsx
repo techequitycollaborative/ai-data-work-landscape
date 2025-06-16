@@ -6,6 +6,7 @@ import {NavLink} from "react-router-dom";
 
 export default function About() {
   return (
+    <main id='about' className="bg-white">
     <section id="about" 
       className="min-h-screen snap-start flex flex-col items-center pt-16"
       style={{
@@ -66,5 +67,6 @@ export default function About() {
       </div>
 
     </section>
+    </main>
   );
 }

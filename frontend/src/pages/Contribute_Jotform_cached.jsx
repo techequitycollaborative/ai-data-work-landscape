@@ -7,7 +7,7 @@ import CachedJotForm from '../components/Form'; // Import the cached component
 
 const Contribute_Jotform = memo(function Contribute_Jotform() {
   return (
-    <main id='input'>
+    <main id='input' className="bg-white">
       <section 
         id="input_main"
         className="min-h-screen snap-start flex flex-col items-center pt-16"
