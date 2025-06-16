@@ -13,8 +13,8 @@ export default function Landscape() {
   const [displayedData, setDisplayedData] = useState([]); // holds filtered/memoized data from table
 
   useEffect(() => {
-    //fetch("https://data-work-landscape-lymyf.ondigitalocean.app/ai-data-work-landscape-backend/data") // for production
-    fetch("http://localhost:8000/data") // for development
+    fetch("https://data-work-landscape-lymyf.ondigitalocean.app/ai-data-work-landscape-backend/data") // for production
+    //fetch("http://localhost:8000/data") // for development
       .then((res) => res.json())
       .then(setData);
   }, []);
