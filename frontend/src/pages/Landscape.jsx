@@ -13,8 +13,8 @@ export default function Landscape() {
   const [displayedData, setDisplayedData] = useState([]); // holds filtered/memoized data from table
 
   useEffect(() => {
-    fetch("https://data-work-landscape-lymyf.ondigitalocean.app/ai-data-work-landscape-backend/data") // for production
-    //fetch("http://localhost:8000/data") // for development
+    //fetch("https://data-work-landscape-lymyf.ondigitalocean.app/ai-data-work-landscape-backend/data") // for production
+    fetch("http://localhost:8000/data") // for development
       .then((res) => res.json())
       .then(setData);
   }, []);
@@ -51,22 +51,22 @@ export default function Landscape() {
           </NavLink>
         </h1>      
         <h2 className="text-2xl md:text-3xl text-left ml-2 mr-8 md:text-center">Exploring the Data Work Landscape</h2>
-
+          
         {/* Section for data table */}
         <DataComponent initialData={data} onDataChange={setDisplayedData} />
 
         {/* Download data button */}
-        <div className="flex justify-start mt-2">
+        <div className="flex justify-start ml-6 mr-8 md:justify-end mt-2 md:ml-2 md:mr-2">
           <button
             onClick={handleDownloadCSV}
-            className="btn-download text-xs ml-4 px-3 py-1"
+            className="btn-download text-xs mr-4 px-3 py-1"
           >
             Download Full Data
           </button>
           </div>
 
         {/* Call to action for contributors */}
-        <div className="w-full max-w-4xl mx-auto mt-10 mb-10 ml-2 mr-8 text-left md:text-center text-sm">
+        <div className="w-full max-w-4xl mx-auto mt-10 mb-10 px-4 text-left md:text-center text-sm">
             <p>Do you work in the tech industry and contribute to AI systems?</p>
             <NavLink to="/Input" className="text-blue-600 underline">We want to hear from you.</NavLink> 
         </div>    
