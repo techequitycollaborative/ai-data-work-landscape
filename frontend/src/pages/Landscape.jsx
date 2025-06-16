@@ -61,7 +61,7 @@ export default function Landscape() {
             onClick={handleDownloadCSV}
             className="btn-download text-xs ml-4 px-3 py-1"
           >
-            Download Data as CSV
+            Download Full Data
           </button>
           </div>
 

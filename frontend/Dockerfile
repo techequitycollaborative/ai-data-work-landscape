@@ -7,7 +7,7 @@ FROM node:18-alpine
 WORKDIR /app
     
 # Copy package.json and lock file
- package-lock.json is optional, but it's a good practice to include it to ensure consistent installs/no dependency issues
+#package-lock.json is optional, but it's a good practice to include it to ensure consistent installs/no dependency issues
 COPY package*.json ./ 
     
 # Install dependencies
