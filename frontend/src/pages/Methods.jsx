@@ -44,7 +44,7 @@ export default function Methods() {
           <p> 
           <span className="font-bold pb-2">Data Work</span>
           <br />
-          We define data work as consisting of data collection, data curation, data annotation, model training, model evaluation, data verification, and content moderation. By extension, any company that offers these services is considered a part of the Data Work Landscape.
+          We define data work as consisting of data collection, data curation, data annotation, model training, model evaluation, data verification, and content moderation. By extension, any company that offers these services is considered a part of the Data Work Landscape. You can learn more about data work <a href="https://techequity.us/2025/01/31/ai-supply-chains-explained/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">here</a>.
           <br />
           <br />
           <span className="font-bold pb-2">Company Type</span>
@@ -58,7 +58,7 @@ export default function Methods() {
           <br />
           <span className="font-bold pb-2">Workforce Model</span>
           <br />
-          Our interest lies primarily in understanding how workers are integrated into the data work portion of the AI supply chain. Our research revealed that companies that fall into the <i>workforce</i> category tend to follow one of three organization models:
+          Our interest lies primarily in understanding how workers are integrated into the data work portion of the AI supply chain. Our research revealed that companies that fall into the <i>workforce</i> category tend to follow one of three organizational models:
           <ul className="list-disc pl-6 pt-4 space-y-2">
               <li><i>BPO (Business Process Outsourcing) Model:</i> A BPO is a type of outsourcing where a third-party provider is engaged to carry out parts of a company’s operations. Data workers are employed at delivery centers, which are typically physical offices based in countries around the world</li>
               <li><i>Marketplace Model:</i> Digital platforms where distributed workers perform tasks that are posted. Data workers typically work remotely, logging onto these platforms to access tasks</li>  
@@ -68,7 +68,7 @@ export default function Methods() {
           Additionally, these BPOs and marketplaces may be operated through two arrangements. They can be outsourced to third-party providers, which can also be BPOs or marketplaces. Or, they can be owned and operated in-house as subsidiaries or divisions within the AI company itself.
           <br />
           <br />
-          For example, Scale AI has two subsidiaries, Outlier and Remotasks (which are listed in the <i>In-House Marketplace</i> column in the <Link to="/landscape" className="text-blue-600 underline">Data Work Landscape</Link>). These are both marketplaces where data workers can find work and Scale AI clients can find a workforce. In addition, Scale AI also <a href="https://www.inc.com/sam-blum/investigation-into-scale-ai-also-targets-its-hr-partners-hireart-and-upwork/91159063" download target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">outsources work to UpWork</a>, an independent company that operates a marketplace model.
+          For example, Scale AI has two subsidiaries, <a href="https://scale.com/blog/new-era-outlier" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Outlier</a> and <a href="http://scale.com/blog/remotasks-overview" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Remotasks</a> (which are listed in the <i>In-House Marketplace</i> column in the <Link to="/landscape" className="text-blue-600 underline">Data Work Landscape</Link>). These are both marketplaces where data workers can find work and Scale AI clients can find a workforce. In addition, Scale AI also <a href="https://www.inc.com/sam-blum/investigation-into-scale-ai-also-targets-its-hr-partners-hireart-and-upwork/91159063" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">outsources work to UpWork</a>, an independent company that operates a marketplace model.
           <br />
           <br />
           To download our full data dictionary, click <a href="/data-dictionary.csv" download target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">here</a>. 
@@ -89,6 +89,11 @@ export default function Methods() {
           <br />
           <br />
           </p>
+
+          <h4 className="text-2xl pt-6 mb-4">Download the landscape</h4>
+          <p>
+          You can download the Data Work Landscape for research and educational purposes by clicking the download button at the bottom of the <Link to="/landscape" className="text-blue-600 underline">landscape</Link>.
+          </p>  
           </div>
           </section>
         </section>

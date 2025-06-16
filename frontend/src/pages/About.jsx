@@ -41,7 +41,7 @@ export default function About() {
          {/*ADD THIS TO THE ABOVE SENTENCE WHEN BLOG LINK IS LIVE: You can read more about the project <a href="https://techequity.us" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">here</a>.*/}
         <br />   
         <p>
-        This project is just a snapshot of this growing industry. We hope that by pulling back the curtain, we can support further research and advocacy for the workers who power AI.
+        This project is just a snapshot of this growing industry. We hope that by pulling back the curtain, we can support further research and advocacy for the workers who power AI. This is also just one project among many being led by researchers and advocates investigating the data work sector.
         </p>
         <br />
         <p>
