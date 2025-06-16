@@ -86,10 +86,7 @@ export default function Methods() {
           <br />
           <br />
           If you have information you’d like to contribute to the project, please share it with us <Link to="/input" className="text-blue-600 underline">here</Link>.
-          <br />
-          <br />
           </p>
-
           <h4 className="text-2xl pt-6 mb-4">Download the landscape</h4>
           <p>
           You can download the Data Work Landscape for research and educational purposes by clicking the download button at the bottom of the <Link to="/landscape" className="text-blue-600 underline">landscape</Link>.
