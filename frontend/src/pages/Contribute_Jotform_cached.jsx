@@ -19,15 +19,15 @@ const Contribute_Jotform = memo(function Contribute_Jotform() {
         }} /* Gradient background yellow to white */
       >
         {/* Main site header */}
-        <h1 className="text-8xl mb-4 text-center">
+        <h1 className="text-8xl mb-4 ml-2 mr-8 text-left md:text-center">
           <NavLink to="/" className="hover:underline">
             Who Powers AI?
           </NavLink>
-        </h1>
-        <h2 className="text-3xl text-center">Exploring the Data Work Landscape</h2>
+        </h1>      
+        <h2 className="text-3xl text-left ml-2 mr-8 md:text-center">Exploring the Data Work Landscape</h2>
         
         {/* Page header */}
-        <section>
+        <section className="ml-2 mr-8">
           <div className="w-full max-w-2xl mx-auto mt-20 text-left">
             <h3 className="text-4xl mb-4">Share your info</h3>
             <p className="mb-4">

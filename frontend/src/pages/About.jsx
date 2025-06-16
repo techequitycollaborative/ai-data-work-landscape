@@ -8,7 +8,7 @@ export default function About() {
   return (
     <main id='about' className="bg-white">
     <section id="about" 
-      className="min-h-screen snap-start flex flex-col items-center pt-16"
+      className="min-h-screen snap-start flex flex-col items-start md:items-center pt-16"
       style={{
         //background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 12%, #ffffff 22%, #ffffff 100%)",
         background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 11%, #ffffff 18%, #ffffff 100%)",
@@ -19,14 +19,15 @@ export default function About() {
       >
       
       {/* Main site header */}
-      <h1 className="text-8xl mb-4 text-center">
+      <h1 className="text-8xl mb-4 ml-2 mr-8 text-left md:text-center">
         <NavLink to="/" className="hover:underline">
           Who Powers AI?
         </NavLink>
       </h1>      
-      <h2 className="text-3xl text-center">Exploring the Data Work Landscape</h2>
+      <h2 className="text-3xl text-left ml-2 mr-8 md:text-center">Exploring the Data Work Landscape</h2>
 
       {/* Section header + body text centered in a narrower column */}
+      <section className="ml-2 mr-8">
       <div className="w-full max-w-2xl mx-auto mt-20 text-left">
         <h3 className="text-4xl mb-4">About the project</h3>
         <h4 className="text-2xl pt-2 mb-4">About the Data Work Landscape</h4>
@@ -65,8 +66,8 @@ export default function About() {
         Learn more about TechEquity <a href="https://techequity.us" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">here</a>.
         <br />
         <br />
-      </div>
-
+        </div>
+        </section>
     </section>
     </main>
   );

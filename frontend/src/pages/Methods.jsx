@@ -18,15 +18,16 @@ export default function Methods() {
         >
         
         {/* Main site header */}
-        <h1 className="text-8xl mb-4 text-center">
-        <NavLink to="/" className="hover:underline">
-          Who Powers AI?
-        </NavLink>
-        </h1>
-        <h2 className="text-3xl text-center">Exploring the Data Work Landscape</h2>
-  
+        <h1 className="text-8xl mb-4 ml-2 mr-8 text-left md:text-center">
+          <NavLink to="/" className="hover:underline">
+            Who Powers AI?
+          </NavLink>
+        </h1>      
+        <h2 className="text-3xl text-left ml-2 mr-8 md:text-center">Exploring the Data Work Landscape</h2>
+    
         {/* Section header + body text centered in a narrower column */}
         <section>
+        <section className="ml-2 mr-8">
         <div className="w-full max-w-2xl mx-auto mt-20 text-left">
           <h3 className="text-4xl mb-4">Methodology</h3>
           <h4 className="text-2xl pt-2 mb-4">Data collection & sources</h4>
@@ -88,7 +89,8 @@ export default function Methods() {
           <br />
           <br />
           </p>
-        </div>
+          </div>
+          </section>
         </section>
         
       </section>

@@ -45,12 +45,12 @@ export default function Landscape() {
         >
         
         {/* Main site header */}
-        <h1 className="text-8xl mb-4 text-center">
-        <NavLink to="/" className="hover:underline">
-          Who Powers AI?
-        </NavLink>
-        </h1>
-        <h2 className="text-3xl text-center">Exploring the Data Work Landscape</h2>
+        <h1 className="text-8xl mb-4 ml-2 mr-8 text-left md:text-center">
+          <NavLink to="/" className="hover:underline">
+            Who Powers AI?
+          </NavLink>
+        </h1>      
+        <h2 className="text-3xl text-left ml-2 mr-8 md:text-center">Exploring the Data Work Landscape</h2>
 
         {/* Section for data table */}
         <DataComponent initialData={data} onDataChange={setDisplayedData} />
@@ -66,7 +66,7 @@ export default function Landscape() {
           </div>
 
         {/* Call to action for contributors */}
-        <div className="w-full max-w-4xl mx-auto mt-10 mb-10 text-center text-sm">
+        <div className="w-full max-w-4xl mx-auto mt-10 mb-10 ml-2 mr-8 text-left md:text-center text-sm">
             <p>Do you work in the tech industry and contribute to AI systems?</p>
             <NavLink to="/Input" className="text-blue-600 underline">We want to hear from you.</NavLink> 
         </div>    
