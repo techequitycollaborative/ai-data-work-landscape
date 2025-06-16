@@ -31,7 +31,7 @@ export default function Methods() {
           <h3 className="text-4xl mb-4">Methodology</h3>
           <h4 className="text-2xl pt-2 mb-4">Data collection & sources</h4>
           <p>
-          To populate companies for this database, we identified companies from news coverage, academic and trade publications that mentioned data workers, content moderation, and AI model building and training broadly defined. Following this, we conducted desk research on each company. This involved:
+          To populate this database, we identified companies from news coverage, academic and trade publications that mentioned data workers, content moderation, and AI model building and training broadly defined. Following this, we conducted desk research on each company. This involved:
             <ul className="list-disc pl-6 pt-4 space-y-2">
               <li> Surveying company websites, looking specifically for descriptions of the products and services offered, lists of clients and investors, listings of job openings, and information about the location of workers</li>
               <li> Studying news coverage, interviews with founders/other C-suite members, and profiles on sites including Crunchbase and PitchBook to identify headquarters locations, investors, and other information</li>
