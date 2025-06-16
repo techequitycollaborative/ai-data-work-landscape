@@ -55,7 +55,11 @@ app.add_middleware(
     fetch('http://localhost:8000/data') // for development
 ```
 
-#### 4. Launch the App
+#### 5.Adjust frontend Dockerfile
+Ensure frontend/Dockerfile is configured for the development environment.
+
+
+#### 6. Launch the App
 
 Initial launch:
 ```bash
@@ -73,7 +77,7 @@ docker-compose up
 The app code is mounted into the containers for live reload during development.
 Node modules in the frontend are preserved with ```/app/node_modules``` in compose.yaml.
 
-### 4. Accessing the App
+### Accessing the App
 
 The application will be available at:
 
