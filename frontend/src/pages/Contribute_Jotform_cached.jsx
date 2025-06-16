@@ -30,10 +30,10 @@ const Contribute_Jotform = memo(function Contribute_Jotform() {
           <div className="w-full max-w-2xl mx-auto mt-20 text-left">
             <h3 className="text-4xl mb-4">Share your info</h3>
             <p className="mb-4">
-              Do you work for one of the companies highlighted on this page? Do you work for a company not listed here? We want to hear from you. We want to learn more about other companies in the AI data space, as well as stories from people who have been involved in data work.
+              Do you work for one of the companies highlighted on this page? Do you have an addition, edit, or suggestion to contribute to the Data Work Landscape? We want to hear from you. We want to learn more about other companies in the AI data space, as well as collect stories from people who have been involved in data work.
               <br />
               <br />
-              Share your data work story or submit details of companies we might have missed.
+              Share your data work story or submit details of companies we might have missed. Submit anonymously or provide your contact information if you’d like us to follow up with you.
             </p>
           </div>
           
