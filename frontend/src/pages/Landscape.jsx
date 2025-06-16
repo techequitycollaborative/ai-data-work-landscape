@@ -45,12 +45,12 @@ export default function Landscape() {
         >
         
         {/* Main site header */}
-        <h1 className="text-8xl mb-4 ml-2 mr-8 text-left md:text-center">
+        <h1 className=" text-6xl md:text-8xl mb-4 ml-2 mr-8 text-left md:text-center">
           <NavLink to="/" className="hover:underline">
             Who Powers AI?
           </NavLink>
         </h1>      
-        <h2 className="text-3xl text-left ml-2 mr-8 md:text-center">Exploring the Data Work Landscape</h2>
+        <h2 className="text-2xl md:text-3xl text-left ml-2 mr-8 md:text-center">Exploring the Data Work Landscape</h2>
 
         {/* Section for data table */}
         <DataComponent initialData={data} onDataChange={setDisplayedData} />

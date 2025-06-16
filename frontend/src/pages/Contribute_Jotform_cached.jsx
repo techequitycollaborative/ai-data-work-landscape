@@ -10,7 +10,7 @@ const Contribute_Jotform = memo(function Contribute_Jotform() {
     <main id='input' className="bg-white">
       <section 
         id="input_main"
-        className="min-h-screen snap-start flex flex-col items-center pt-16"
+        className="min-h-screen snap-start flex flex-col items-start md:items-center pt-16"
         style={{
           background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 11%, #ffffff 18%, #ffffff 100%)",
           //minHeight: "200vh",
@@ -19,16 +19,16 @@ const Contribute_Jotform = memo(function Contribute_Jotform() {
         }} /* Gradient background yellow to white */
       >
         {/* Main site header */}
-        <h1 className="text-8xl mb-4 ml-2 mr-8 text-left md:text-center">
+        <h1 className=" text-6xl md:text-8xl mb-4 ml-2 mr-8 text-left md:text-center">
           <NavLink to="/" className="hover:underline">
             Who Powers AI?
           </NavLink>
         </h1>      
-        <h2 className="text-3xl text-left ml-2 mr-8 md:text-center">Exploring the Data Work Landscape</h2>
+        <h2 className="text-2xl md:text-3xl text-left ml-2 mr-8 md:text-center">Exploring the Data Work Landscape</h2>
         
         {/* Page header */}
         <section className="ml-2 mr-8">
-          <div className="w-full max-w-2xl mx-auto mt-20 text-left">
+          <div className="w-full max-w-2xl mx-auto mt-6 md:mt-20 text-left">
             <h3 className="text-4xl mb-4">Share your info</h3>
             <p className="mb-4">
               Do you work for one of the companies highlighted on this page? Do you have an addition, edit, or suggestion to contribute to the Data Work Landscape? We want to hear from you. We want to learn more about other companies in the AI data space, as well as collect stories from people who have been involved in data work.

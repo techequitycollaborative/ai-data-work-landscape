@@ -1,17 +1,19 @@
 // Home.jsx
 // The main home page of the microsite with hero title, text, and button linking to the landscape data
+// Background globe image is responsive to device/window size
+
 
 import { Link } from "react-router-dom";
 
+
 export default function Home() {
   return (
-    <main 
-    className="flex flex-col justify-center items-center min-h-screen w-full bg-[#f3fdb8] px-4"
-    style={{ 
+    <main
+      className="flex flex-col justify-center items-center min-h-screen w-full bg-[#f3fdb8] px-4 
+                bg-no-repeat bg-[position:center-bottom] bg-[position:70%_80%] bg-[length:180%] 
+                md:bg-[length:75%] md:bg-top md:bg-[position:center_top]"
+      style={{
         backgroundImage: "url('/globe.png')",
-        backgroundSize: '75%',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: "center top",
       }}
     >
 

@@ -8,7 +8,7 @@ export default function Methods() {
     return (
 
         <section id="methods" 
-          className="min-h-screen snap-start flex flex-col items-center pt-16"
+          className="min-h-screen snap-start flex flex-col items-start md:items-center pt-16"
           style={{
             background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 11%, #ffffff 18%, #ffffff 100%)",
             minHeight: "200vh", // keep for long content if needed
@@ -18,18 +18,18 @@ export default function Methods() {
         >
         
         {/* Main site header */}
-        <h1 className="text-8xl mb-4 ml-2 mr-8 text-left md:text-center">
+        <h1 className=" text-6xl md:text-8xl mb-4 ml-2 mr-8 text-left md:text-center">
           <NavLink to="/" className="hover:underline">
             Who Powers AI?
           </NavLink>
         </h1>      
-        <h2 className="text-3xl text-left ml-2 mr-8 md:text-center">Exploring the Data Work Landscape</h2>
-    
+        <h2 className="text-2xl md:text-3xl text-left ml-2 mr-8 md:text-center">Exploring the Data Work Landscape</h2>
+      
         {/* Section header + body text centered in a narrower column */}
         <section>
         <section className="ml-2 mr-8">
-        <div className="w-full max-w-2xl mx-auto mt-20 text-left">
-          <h3 className="text-4xl mb-4">Methodology</h3>
+        <div className="w-full max-w-2xl mx-auto mt-6 md:mt-20 text-left">
+          <h3 className="text-4xl md:mb-4">Methodology</h3>
           <h4 className="text-2xl pt-2 mb-4">Data collection & sources</h4>
           <p>
           To populate this database, we identified companies from news coverage, academic and trade publications that mentioned data workers, content moderation, and AI model building and training broadly defined. Following this, we conducted desk research on each company. This involved:
