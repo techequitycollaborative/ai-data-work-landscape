@@ -29,7 +29,7 @@ export default function About() {
         <h3 className="text-4xl mb-4">About the project</h3>
         <h4 className="text-2xl pt-2 mb-4">About the Data Work Landscape</h4>
         <p>
-        AI is everywhere, consuming our data, content, and resources, relying on masses of workers worldwide to maintain its illusion of automagical ease. The workers who make it possible are often intentionally hidden behind virtual marketplaces and <a href="https://techequity.us/2025/01/31/ai-supply-chains-explained/" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">complex supply chains</a>. Without knowing who these companies are, these workers are left in the shadows, vulnerable to exploitation and harm.
+        AI is everywhere, consuming our data, content, and resources, relying on masses of workers worldwide to maintain its illusion of magical ease. The workers who make it possible are often intentionally hidden behind virtual marketplaces and <a href="https://techequity.us/2025/01/31/ai-supply-chains-explained/" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">complex supply chains</a>. Without knowing who these companies are, these workers are left in the shadows, vulnerable to exploitation and harm.
         </p>  
         <br />
         <p>
