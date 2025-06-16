@@ -14,6 +14,7 @@ export default function About() {
         background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 11%, #ffffff 18%, #ffffff 100%)",
         //minHeight: "200vh",
         backgroundSize: "100% 200vh", // matches visual height of gradient
+        backgroundRepeat: "no-repeat",
       }} /* Gradient background yellow to white */
       >
       

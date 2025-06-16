@@ -61,6 +61,14 @@ h4 {
   transition: background-color 0.2s;
 }
 
+/* Add left margin only on small screens */
+@media (max-width: 640px) {
+  .btn-home {
+    margin-left: 0.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
 .btn-scroll:hover, .btn-home:hover {
   cursor: pointer;
   background-color: #f3fdb8 !important; /* lighter/yellow color */
