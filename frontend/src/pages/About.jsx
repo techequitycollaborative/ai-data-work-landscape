@@ -45,7 +45,7 @@ export default function About() {
         </p>
         <br />
         <p>
-        We need your help to complete the picture. If you’re familiar with or work in the AI data work industry, please <NavLink to="/Input" className="text-blue-600 underline">share your experiences with us</NavLink>. 
+        We need your help to complete the picture. If you’re familiar with or work in the AI data work industry, please <NavLink to="/input" className="text-blue-600 underline">share your experiences with us</NavLink>. 
         </p>
         
         <h4 className="text-2xl pt-6 mb-4">About TechEquity</h4>

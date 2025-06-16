@@ -68,7 +68,7 @@ export default function Landscape() {
         {/* Call to action for contributors */}
         <div className="w-full max-w-4xl mx-auto mt-10 mb-10 px-4 text-left md:text-center text-sm">
             <p>Do you work in the tech industry and contribute to AI systems?</p>
-            <NavLink to="/Input" className="text-blue-600 underline">We want to hear from you.</NavLink> 
+            <NavLink to="/input" className="text-blue-600 underline">We want to hear from you.</NavLink> 
         </div>    
     </main>
   );
