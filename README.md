@@ -88,6 +88,3 @@ The application will be available at:
 - PostgreSQL: localhost:5432
 
 Update compose.yaml to change port numbers.
-
-## License
-This project is licensed under the MIT License.
