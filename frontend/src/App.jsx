@@ -2,7 +2,7 @@
 // Primary entry point for the microsite, with routing to other pages and navigation configuration
 
 import { BrowserRouter as Router, Routes, Route, NavLink, useLocation } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Methods from "./pages/Methods";
@@ -11,6 +11,20 @@ import Landscape from "./pages/Landscape";
 import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
 import { Menu, X } from "lucide-react"; // or any icon library
+import ReactGA from "react-ga4"; // for Google Analytics tracking
+
+// Initialize Google Analytics once, then use GAListener to track page views for other pages
+ReactGA.initialize("G-40YPSZ5R18");
+
+function GAListener({ children }) {
+  const location = useLocation();
+
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: location.pathname + location.search });
+  }, [location]);
+
+  return children;
+}
 
 function AppWrapper() {
   const location = useLocation();
@@ -88,7 +102,9 @@ function AppWrapper() {
 export default function App() {
   return (
     <Router>
-      <AppWrapper />
+      <GAListener>
+        <AppWrapper />
+      </GAListener>
     </Router>
   );
 }
