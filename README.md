@@ -1,3 +1,5 @@
+<img src="frontend/public/logo.png" alt="TechEquity Logo" width="10%"/>
+
 # Data Work Landscape
 
 The Data Work Landscape is a project that aims to shine a light on the industry of AI data work. This site features our research into the main companies in this industry. To view the site, go to https://dataworklandscape.org.
@@ -86,6 +88,3 @@ The application will be available at:
 - PostgreSQL: localhost:5432
 
 Update compose.yaml to change port numbers.
-
-## License
-This project is licensed under the MIT License.
