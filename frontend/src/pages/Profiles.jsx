@@ -1,0 +1,77 @@
+// src/pages/Profiles.jsx
+// Lists all company profiles; click a company to go to its profile detail page
+
+import { useNavigate, NavLink } from "react-router-dom";
+import { COMPANIES } from "../data/companies";
+import Badge from "../components/Badge";
+
+
+export default function Profiles() {
+  const navigate = useNavigate();
+
+  return (
+    <main
+      id="profiles"
+      className="min-h-screen snap-start flex flex-col pt-16 pb-16 page-gradient"
+    >
+      {/* Main site header 
+      <h1 className="text-6xl md:text-8xl mb-4 ml-2 mr-8 text-left md:text-center">
+        <NavLink to="/" className="hover:underline">
+          Who Powers AI?
+        </NavLink>
+      </h1>
+      <h2 className="text-2xl md:text-3xl text-left ml-2 mr-8 md:text-center mb-10">
+        Exploring the Data Work Landscape
+      </h2>*/}
+
+      {/* Profiles section */}
+      <div className="w-full max-w-4xl mx-auto px-4 md:px-6">
+
+        {/* Section header */}
+        <div className="border-b-4 border-[#041c2c] pb-3 mb-6">
+          <h1 className="text-5xl md:text-6xl m-0 leading-none">Company Profiles</h1>
+          <p className="mt-2 text-sm text-gray-500 font-normal normal-case" style={{ fontFamily: "'Roboto Serif', serif" }}>
+          A closer look at the companies quietly controlling the AI data industry: who they are, how they operate, and what that means for the workers powering it all.
+          </p>
+        </div>
+
+        {/* Company list */}
+        <div className="flex flex-col">
+          {COMPANIES.map((company, index) => (
+            <button
+              key={company.slug}
+              onClick={() => navigate(`/profiles/${company.slug}`)}
+              className="
+                flex items-center justify-between w-full
+                bg-transparent border-0 border-b border-gray-200
+                py-4 px-0 cursor-pointer text-left
+                transition-colors duration-100
+                hover:bg-[#f3fdb8]
+              "
+            >
+              {/* Index + Name */}
+              <div className="flex items-baseline gap-4">
+                <span className="text-xs text-gray-400 min-w-[1.5rem]" style={{ fontFamily: "'Roboto Serif', serif" }}>
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+                {/* h3/h2/h1 would pick up Anton automatically from global CSS */}
+                <span className="text-2xl" style={{ fontFamily: "'Anton', sans-serif", letterSpacing: "0.04em", color: "#041c2c" }}>
+                  {company.name}
+                </span>
+              </div>
+
+              {/* Meta */}
+              <div className="flex items-center gap-3 shrink-0">
+                <Badge label={company.companyType} />
+                <span className="hidden sm:inline text-xs text-gray-400" style={{ fontFamily: "'Roboto Serif', serif" }}>
+                  {company.hq}
+                </span>
+                <span className="text-sm font-bold">→</span>
+              </div>
+            </button>
+          ))}
+        </div>
+      </div>
+    </main>
+  );
+}

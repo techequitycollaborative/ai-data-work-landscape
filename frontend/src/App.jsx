@@ -8,6 +8,8 @@ import About from "./pages/About";
 import Methods from "./pages/Methods";
 import Contribute_Jotform from "./pages/Contribute_Jotform_cached";
 import Landscape from "./pages/Landscape";
+import Profiles from "./pages/Profiles";
+import ProfileDetail from "./pages/ProfileDetail";
 import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
 import { Menu, X } from "lucide-react"; // or any icon library
@@ -46,6 +48,7 @@ function AppWrapper() {
           <NavLink to="/methods" className={({ isActive }) => isActive ? "underline" : ""}>methods</NavLink>
           <NavLink to="/input" className={({ isActive }) => isActive ? "underline" : ""}>input</NavLink>
           <NavLink to="/landscape" className={({ isActive }) => isActive ? "underline" : ""}>landscape</NavLink>
+          <NavLink to="/profiles" className={({ isActive }) => isActive ? "underline" : ""}>profiles</NavLink>
         </div>
 
         {/* Mobile Hamburger */}
@@ -75,6 +78,7 @@ function AppWrapper() {
           <NavLink to="/methods" onClick={() => setMenuOpen(false)}>methods</NavLink>
           <NavLink to="/input" onClick={() => setMenuOpen(false)}>input</NavLink>
           <NavLink to="/landscape" onClick={() => setMenuOpen(false)}>landscape</NavLink>
+          <NavLink to="/profiles" onClick={() => setMenuOpen(false)}>profiles</NavLink>
         </div>
       )}
 
@@ -90,6 +94,9 @@ function AppWrapper() {
           <Route path="/methods" element={<Methods />} />
           <Route path="/input" element={<Contribute_Jotform />} />
           <Route path="/landscape" element={<Landscape />} />
+          {/* Profiles routes */}
+          <Route path="/profiles" element={<Profiles />} />
+          <Route path="/profiles/:slug" element={<ProfileDetail />} />
         </Routes>
       </div>
 
