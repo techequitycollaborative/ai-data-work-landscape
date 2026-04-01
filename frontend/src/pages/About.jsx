@@ -64,7 +64,7 @@ export default function About() {
           </p>
           <br />
           <p>
-            We need your help to complete the picture. If you're familiar with or work in the AI data work industry, please <NavLink to="/input" className="text-blue-600 underline">share your experiences with us</NavLink>.
+            We need your help to complete the picture. If you're familiar with or work in the AI data work industry, please <a href="https://form.jotform.com/techequity/data-work-landscape" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">share your experiences with us</a>.
           </p>
           <br />
           <h4 className="text-2xl pt-2 mb-4">Methodology</h4>
