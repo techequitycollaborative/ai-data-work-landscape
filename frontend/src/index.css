@@ -39,6 +39,15 @@ h4 {
   color: #712f39;
 }
 
+h5 {
+  font-family: 'Roboto Serif', serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: light;
+  color: #00495e;
+}
+
 /* Page gradient */
 .page-gradient {
   background: linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 15%, #ffffff 29%, #ffffff 100%);
