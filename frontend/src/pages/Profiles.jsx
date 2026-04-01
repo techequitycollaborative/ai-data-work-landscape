@@ -11,9 +11,15 @@ export default function Profiles() {
 
   return (
     <main
-      id="profiles"
-      className="min-h-screen snap-start flex flex-col pt-16 pb-16 page-gradient"
-    >
+      id="profiles" className="bg-white">
+      <section
+        className="min-h-screen snap-start flex flex-col items-start md:items-center pt-16"
+        style={{
+          background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 11%, #ffffff 18%, #ffffff 100%)",
+          backgroundSize: "100% 200vh",
+          backgroundRepeat: "no-repeat",
+        }}
+      > 
       {/* Main site header 
       <h1 className="text-6xl md:text-8xl mb-4 ml-2 mr-8 text-left md:text-center">
         <NavLink to="/" className="hover:underline">
@@ -25,15 +31,17 @@ export default function Profiles() {
       </h2>*/}
 
       {/* Profiles section */}
-      <div className="w-full max-w-4xl mx-auto px-4 md:px-6">
+      <div className="w-full max-w-2xl mx-auto px-4 md:px-6 mt-6 md:mt-20">
 
         {/* Section header */}
-        <div className="border-b-4 border-[#041c2c] pb-3 mb-6">
+        <div className="border-b-2 border-[#041c2c] pb-3 mb-6">
           <h1 className="text-5xl md:text-6xl m-0 leading-none">Company Profiles</h1>
-          <p className="mt-2 text-sm text-gray-500 font-normal normal-case" style={{ fontFamily: "'Roboto Serif', serif" }}>
-          A closer look at the companies quietly controlling the AI data industry: who they are, how they operate, and what that means for the workers powering it all.
-          </p>
         </div>
+
+        <p className="mt-2 text-sm text-gray-500 font-normal normal-case" style={{ fontFamily: "'Roboto Serif', serif" }}>
+          A closer look at the companies quietly controlling the AI data industry: who they are, how they operate, and what that means for the workers powering it all.
+        </p>
+        <br></br> 
 
         {/* Company list */}
         <div className="flex flex-col">
@@ -54,8 +62,7 @@ export default function Profiles() {
                 <span className="text-xs text-gray-400 min-w-[1.5rem]" style={{ fontFamily: "'Roboto Serif', serif" }}>
                   {String(index + 1).padStart(2, "0")}
                 </span>
-                {/* h3/h2/h1 would pick up Anton automatically from global CSS */}
-                <span className="text-2xl" style={{ fontFamily: "'Anton', sans-serif", letterSpacing: "0.04em", color: "#041c2c" }}>
+                <span className="text-2xl uppercase" style={{ fontFamily: "'Anton', sans-serif", letterSpacing: "0.04em", color: "#041c2c" }}>
                   {company.name}
                 </span>
               </div>
@@ -71,6 +78,7 @@ export default function Profiles() {
           ))}
         </div>
       </div>
-    </main>
+    </section>
+  </main>
   );
 }

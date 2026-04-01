@@ -41,15 +41,21 @@ export default function About() {
           backgroundSize: "100% 200vh",
           backgroundRepeat: "no-repeat",
         }}
-      >
+      > 
+      {/* Main site header 
         <h1 className="text-6xl md:text-8xl mb-4 ml-2 mr-8 text-left md:text-center">
           <NavLink to="/" className="hover:underline">Who Powers AI?</NavLink>
         </h1>
         <h2 className="text-2xl md:text-3xl text-left ml-2 mr-8 md:text-center">Exploring the Data Work Landscape</h2>
+        */}
 
+        {/* Section header */}
         <div className="w-full max-w-2xl mx-auto mt-6 md:mt-20 text-left ml-2 mr-8">
+        <div className="border-b-2 border-[#041c2c] pb-3 mb-6">
+          <h1 className="text-5xl md:text-6xl m-0 leading-none">About the project</h1>
+        </div>
 
-          <h3 className="text-4xl md:mb-4">About the project</h3>
+          {/* Section content */}
           <h4 className="text-2xl pt-2 mb-4">About the Data Work Landscape</h4>
           <p>
             AI is everywhere, consuming our data, content, and resources, relying on masses of workers worldwide to maintain its illusion of magical ease. The workers who make it possible are often intentionally hidden behind virtual marketplaces and <a href="https://techequity.us/2025/01/31/ai-supply-chains-explained/" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">complex supply chains</a>. Without knowing who these companies are, these workers are left in the shadows, vulnerable to exploitation and harm.
