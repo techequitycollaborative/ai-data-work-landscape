@@ -62,7 +62,6 @@ export default function Profiles() {
 
               {/* Meta */}
               <div className="flex items-center gap-3 shrink-0">
-                <Badge label={company.companyType} />
                 <span className="hidden sm:inline text-xs text-gray-400" style={{ fontFamily: "'Roboto Serif', serif" }}>
                   {company.hq}
                 </span>
