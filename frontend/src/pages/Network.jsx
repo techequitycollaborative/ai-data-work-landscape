@@ -15,14 +15,15 @@ export default function Network() {
         backgroundSize: "100% 200vh",
       }}
     >
-      <div className="w-full max-w-2xl mx-auto px-4 md:px-6 mt-6 md:mt-20">
+      <div className="w-full px-12 md:px-20 mt-6 md:mt-20">
 
         {/* Section header */}
         <div className="border-b-2 border-[#041c2c] pb-3 mb-6">
           <h1 className="text-5xl md:text-6xl m-0 leading-none">Network</h1>
         </div>
 
-        <p className="mt-2 text-sm text-gray-500 font-normal normal-case" style={{ fontFamily: "'Roboto Serif', serif" }}>
+        <p className="mt-2 text-sm text-gray-500 font-normal normal-case" 
+                      style={{ fontFamily: "'Roboto Serif', serif" }}>
           Explore the relationships between data work companies, their clients, partners, and investors.
         </p>
         <br />

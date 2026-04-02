@@ -23,7 +23,7 @@ export default function About() {
         */}
 
         {/* Section header */}
-        <div className="w-full max-w-2xl mx-auto mt-6 md:mt-20 text-left ml-2 mr-8">
+        <div className="w-full px-12 md:px-20 mt-6 md:mt-20">
         <div className="border-b-2 border-[#041c2c] pb-3 mb-6">
           <h1 className="text-5xl md:text-6xl m-0 leading-none">About the project</h1>
         </div>

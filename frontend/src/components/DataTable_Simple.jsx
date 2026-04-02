@@ -374,9 +374,9 @@ import {
       });   
   
     return (
-      <div className="w-full p-4 ">
-        {/* The margins in the div below ensure the search bar and the table are aligned and have equal margins on the left and right */}
-        <div className="ml-2 mr-2">
+      <div className="">
+        {/* No margins specified here; they are handled in Landscape.jsx */}
+        <div className="">
         {/* Search bar for global filtering */}
         <input
           type="text"

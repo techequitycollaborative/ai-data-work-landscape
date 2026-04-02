@@ -32,7 +32,7 @@ export default function Profiles() {
       </h2>*/}
 
       {/* Profiles section */}
-      <div className="w-full max-w-2xl mx-auto px-4 md:px-6 mt-6 md:mt-20">
+      <div className="w-full px-12 md:px-20 mt-6 md:mt-20">
 
         {/* Section header */}
         <div className="border-b-2 border-[#041c2c] pb-3 mb-6">
