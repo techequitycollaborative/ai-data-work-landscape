@@ -9,18 +9,16 @@ export const COMPANIES = [
       established: 2018,
       companyType: "Workforce",
       workforceModel: "Marketplace Model",
-      whatTheyDo: `Prolific is a research platform that connects researchers with a large pool of vetted participants for online studies. Unlike traditional crowdsourcing platforms, Prolific focuses on high-quality, representative samples for academic and commercial research, offering tools to filter participants by demographic criteria and ensuring fair pay standards.
-  
-                  Prolific differentiates itself through its commitment to ethical research practices, including minimum pay requirements and transparent data practices. The platform has become a go-to for behavioral scientists and AI researchers needing reliable human feedback at scale.`,
+      whatTheyDo: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
       relationships: [
-        { company: "Google", type: "Customer", notes: "Research partnerships for AI training datasets" },
-        { company: "Stanford University", type: "Customer", notes: "Academic research studies" },
-        { company: "Y Combinator", type: "Investor", notes: "Seed funding round" },
+        { company: "Maze", type: "Customer", notes: "We could put a note here" },
+        { company: "Kickstarter", type: "Customer", notes: "We could put a note here" },
+        { company: "Remesh", type: "Customer", notes: "We could put a note here" },
       ],
       sources: [
-        { label: "Scale AI's rivals say they're going hard to win its contractors and clients. Our servers are melting.", url: "#" },
-        { label: "4 side hustles you can do from your couch—some pay up to $270 for 30 minutes of work and don't require a degree", url: "#" },
-        { label: "I have a side hustle training AI and reviewing online ad", url: "#" },
+        { label: "Scale AI's rivals say they're going hard to win its contractors and clients. Our servers are melting.", url: "https://www.businessinsider.com/scale-ai-meta-big-tech-rivals-poach-contractors-clients-2025-6" },
+        { label: "4 side hustles you can do from your couch—some pay up to $270 for 30 minutes of work and don't require a degree", url: "https://www.cnbc.com/2024/12/20/side-hustles-you-can-do-from-couch-some-dont-require-degree.html" },
+        { label: "I have a side hustle training AI and reviewing online ads...", url: "https://www.businessinsider.com/data-worker-side-gig-freelance-training-reviewing-ads-2025" },
       ],
     },
     {

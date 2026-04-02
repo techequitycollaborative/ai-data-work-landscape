@@ -36,7 +36,7 @@ export default function Landscape() {
 
   return (
     <main id="landscape" 
-        className="min-h-screen snap-start flex flex-col pt-16 pb-16"
+        className="min-h-screen snap-start flex flex-col pt-8 pb-16"
         style={{
             background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 11%, #ffffff 18%, #ffffff 100%)",
             //minHeight: "200vh",
@@ -54,14 +54,15 @@ export default function Landscape() {
         <h2 className="text-2xl md:text-3xl text-left ml-2 mr-8 md:text-center">Exploring the Data Work Landscape</h2>
         */}
         
-        <div className="w-full max-w-2xl mx-auto px-4 md:px-6 mt-6 md:mt-20">
+        <div className="w-full px-12 md:px-20 mt-6 md:mt-20">
 
         {/* Section header */}
         <div className="border-b-2 border-[#041c2c] pb-3 mb-6">
           <h1 className="text-5xl md:text-6xl m-0 leading-none">Landscape</h1>
         </div>
 
-        <p className="mt-2 text-sm text-gray-500 font-normal normal-case" style={{ fontFamily: "'Roboto Serif', serif" }}>
+        <p className="mt-2 text-sm text-gray-500 font-normal normal-case" 
+                      style={{ fontFamily: "'Roboto Serif', serif" }}>
           An overview of the AI data work ecosystem: the companies and work dynamics shaping this invisible industry.
         </p>
         <br></br> 
@@ -76,7 +77,7 @@ export default function Landscape() {
           <div className="flex justify-start ml-6 mr-8 md:justify-end mt-2 md:ml-2 md:mr-2">
             <button
               onClick={handleDownloadCSV}
-              className="btn-download text-xs mr-4 px-3 py-1"
+              className="btn-download text-xs px-3 py-1"
             >
               Download Full Data
             </button>
