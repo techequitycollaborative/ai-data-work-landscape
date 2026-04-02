@@ -44,14 +44,29 @@ export default function Landscape() {
         
         >
         
-        {/* Main site header */}
+        {/* Main site header 
         <h1 className=" text-6xl md:text-8xl mb-4 ml-2 mr-8 text-left md:text-center">
           <NavLink to="/" className="hover:underline">
             Who Powers AI?
           </NavLink>
         </h1>      
         <h2 className="text-2xl md:text-3xl text-left ml-2 mr-8 md:text-center">Exploring the Data Work Landscape</h2>
-          
+        */}
+        
+        <div className="w-full max-w-2xl mx-auto px-4 md:px-6 mt-6 md:mt-20">
+
+        {/* Section header */}
+        <div className="border-b-2 border-[#041c2c] pb-3 mb-6">
+          <h1 className="text-5xl md:text-6xl m-0 leading-none">Landscape</h1>
+        </div>
+
+        <p className="mt-2 text-sm text-gray-500 font-normal normal-case" style={{ fontFamily: "'Roboto Serif', serif" }}>
+          An overview of the AI data work ecosystem: the companies and work dynamics shaping this invisible industry.
+        </p>
+        <br></br> 
+
+        </div>
+
         {/* Section for data table */}
         <DataComponent initialData={data} onDataChange={setDisplayedData} />
 

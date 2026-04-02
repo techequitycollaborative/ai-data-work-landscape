@@ -36,10 +36,11 @@ function AppWrapper() {
     <div className="min-h-screen flex flex-col justify-between">
       {/* NAVIGATION BAR */}
       <nav className="relative left-0 w-full bg-[#f3fdb8] z-30 p-4 flex items-center justify-between">
-        {/* Logo */}
+        {/* Logo  - with hover effect to indicate it is clickable */}
         <NavLink to="/">
-          <img src="/logo.png" alt="TechEquity Logo" className="h-8 md:h-6 w-auto" />
+        <img src="/logo.png" alt="TechEquity Logo" className="h-8 md:h-6 w-auto hover:opacity-40 transition-all duration-150" />
         </NavLink>
+
         {/* Or use text instead of TE logo
         <NavLink to="/" className="no-underline leading-tight" style={{ fontFamily: "'Anton', sans-serif", color: '#041c2c' }}>
           <span className="block">DATA WORK</span>
