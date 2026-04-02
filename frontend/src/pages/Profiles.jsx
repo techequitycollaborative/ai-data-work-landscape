@@ -4,6 +4,7 @@
 import { useNavigate, NavLink } from "react-router-dom";
 import { COMPANIES } from "../data/companies";
 import Badge from "../components/Badge";
+import Expander from "../components/Expander";
 
 
 export default function Profiles() {
@@ -67,7 +68,7 @@ export default function Profiles() {
                 </span>
               </div>
 
-              {/* Meta */}
+              {/* Company hq label */}
               <div className="flex items-center gap-3 shrink-0">
                 <span className="hidden sm:inline text-xs text-gray-400" style={{ fontFamily: "'Roboto Serif', serif" }}>
                   {company.hq}
@@ -76,6 +77,20 @@ export default function Profiles() {
               </div>
             </button>
           ))}
+
+        {/* Expander with disclaimer */}
+        <div className="mt-6">
+          <Expander title="Note">
+            <p>
+              Data work is an opaque industry. Companies are generally not required to reveal contractual relationships and these contracts shift constantly. 
+              In the absence of transparent information, this resource is based on an incomplete set of publicly available sources including news coverage, 
+              academic and trade publications, and company websites. The landscape provides a snapshot of some of the companies that employ data workers and 
+              their relationships, but this resource is not – and cannot be – exhaustive or completely up-to-date. Visit our methods page for more information 
+              on our methodology and limitations.       
+            </p>
+          </Expander>
+        </div>
+
         </div>
       </div>
     </section>

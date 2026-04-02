@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500&display=swap');
 
 /* ── CSS Variables scoped to network page ── */
-.network-page {
+:root {
   --bg: #ffffff;
   --surface: #ffffff;
   --border: #1e2330;
@@ -14,7 +14,6 @@
   --link-investor: #2d9f8b;
   --link-unknown: #ade4d1;
 }
-
 /* ── Network header ── */
 .network-page .network-header {
   padding: 16px 24px;

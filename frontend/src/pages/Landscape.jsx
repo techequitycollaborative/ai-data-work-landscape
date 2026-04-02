@@ -68,20 +68,22 @@ export default function Landscape() {
         </div>
 
         {/* Section for data table */}
+        <div className="w-full px-12 md:px-20">
         <DataComponent initialData={data} onDataChange={setDisplayedData} />
 
-        {/* Download data button */}
-        <div className="flex justify-start ml-6 mr-8 md:justify-end mt-2 md:ml-2 md:mr-2">
-          <button
-            onClick={handleDownloadCSV}
-            className="btn-download text-xs mr-4 px-3 py-1"
-          >
-            Download Full Data
-          </button>
-          </div>
+          {/* Download data button */}
+          <div className="flex justify-start ml-6 mr-8 md:justify-end mt-2 md:ml-2 md:mr-2">
+            <button
+              onClick={handleDownloadCSV}
+              className="btn-download text-xs mr-4 px-3 py-1"
+            >
+              Download Full Data
+            </button>
+            </div>
+        </div>
 
         {/* Call to action for contributors */}
-        <div className="w-full max-w-4xl mx-auto mt-10 mb-10 px-4 text-left md:text-center text-sm">
+        <div className="w-full mt-10 mb-10 px-4 text-center text-sm">
             <p>Do you work in the tech industry and contribute to AI systems?</p>
             <NavLink to="/input" className="text-blue-600 underline">We want to hear from you.</NavLink> 
         </div>    
