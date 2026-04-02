@@ -1,0 +1,464 @@
+name,type,industry,location
+Adobe,Commercial,Tech,"San Jose, CA, USA"
+AIMMO,Commercial,Data Work Company,South Korea
+Airbnb,Commercial,Tech,USA
+Alegion,Commercial,Data Work Company,"Austin, TX, USA; Singapore"
+Alignerr,Commercial,Data Work Company,Unknown
+Allstate,Commercial,Insurance,USA
+Amazon,Commercial,Tech,USA
+Amazon Web Services,Commercial,Tech,USA
+Ancestry,Commercial,Other,USA
+Annotation Box,Commercial,Data Work Company,"Florida, USA"
+Anthropic,Commercial,Tech,USA
+Appen,Commercial,Data Work Company,"Chatswood, New South Wales, Australia"
+Apple,Commercial,Tech,USA
+ArcelorMittal,Commercial,Manufacturing & Agriculture,Luxembourg
+Argilla,Commercial,Data Work Company,"Madrid, Spain"
+Atrium,Commercial,Data Work Company,"New York, USA"
+Automation Anywhere,Commercial,Tech,USA
+BASF,Commercial,Manufacturing & Agriculture,Germany
+Bayer,Commercial,Healthcare & Pharmaceuticals,Germany
+Black & Decker,Commercial,Retail & Consumer Goods,USA
+Bosch Siemens,Commercial,Retail & Consumer Goods,Germany
+Bristol Myers Squibb,Commercial,Healthcare & Pharmaceuticals,USA
+Burberry,Commercial,Retail & Consumer Goods,United Kingdom
+ByteDance,Commercial,Tech,China
+Cainthus,Commercial,Manufacturing & Agriculture,Ireland
+CallMiner,Commercial,Tech,USA
+CAPE Analytics,Commercial,Finance & Venture Capital,Germany
+CapeStart,Commercial,Data Work Company,"Cambridge, MA, USA"
+Centaur Labs,Commercial,Data Work Company,"Boston, MA, USA"
+Centrical,Commercial,Tech,USA
+Character.ai,Commercial,Tech,USA
+Chegg,Commercial,Higher Education,USA
+Citrix,Commercial,Tech,USA
+Clear Global,Non-Profit,Non-profit & Philanthropy ,Ireland
+Clickworker,Commercial,Data Work Company,"Essen, Nordrhein-Westfalen, Germany"
+CloudFactory,Commercial,Data Work Company,"Reading, UK"
+Cogito,Commercial,Data Work Company,"Levittown, NY, USA"
+Concentrix,Commercial,Data Work Company,"Newark, CA, USA"
+Crescendo,Commercial,Data Work Company,"San Francisco, CA"
+Criteo,Commercial,Tech,France
+Cropin,Commercial,Data Work Company,"Bengaluru, India"
+DataAnnotation.tech,Commercial,Data Work Company,USA
+Databricks,Commercial,Data Work Company,"San Francisco, CA, USA"
+DataLoop,Commercial,Data Work Company,Israel
+Datasaur Inc.,Commercial,Data Work Company,"Livermore, CA, USA"
+Defined.AI,Commercial,Data Work Company,"Seattle, WA, USA"
+DesiCrew,Commercial,Data Work Company,"Chennai, India"
+Devnagri,Commercial,Data Work Company,"NOIDA, UP, India"
+eBay,Commercial,Tech,USA
+Enabled Intelligence,Commercial,Data Work Company,"Falls Church, VA, USA"
+Encord,Commercial,Data Work Company,"London, UK"
+European Commission,Government,Government,Belgium
+Expedia,Commercial,Other,USA
+Explorium,Commercial,Data Work Company,"San Mateo, CA, USA"
+Faurecia,Commercial,Tech,USA
+Fractal,Commercial,Data Work Company,"New York, NY, USA"
+Genentech,Commercial,Healthcare & Pharmaceuticals,USA
+Genesys,Commercial,Tech,USA
+GlobalLogic,Commercial,Data Work Company,"San Jose, CA, USA"
+Google,Commercial,Tech,USA
+Google Cloud,Commercial,Tech,USA
+Google DeepMind,Commercial,Tech,United Kingdom
+Grypp,Commercial,Tech,United Kingdom
+Handshake,Commercial,Data Work Company,"San Francisco, California, United States"
+Hive AI,Commercial,Data Work Company,"San Francisco, CA, USA"
+Human Signal,Commercial,Data Work Company,"San Francisco, CA, USA"
+Husqvarna,Commercial,Retail & Consumer Goods,Sweden
+ICEYE,Commercial,Tech,USA
+Imbue,Commercial,Tech,USA
+iMerit,Commercial,Data Work Company,"San Jose, CA, USA"
+Indoor Robotics,Commercial,Tech,Israel
+IngeData,Commercial,Data Work Company,"Antananarivo, Madagascar"
+Innodata,Commercial,Data Work Company,"New Jersey, USA"
+Invisible Technologies,Commercial,Data Work Company,"San Francisco, CA, USA"
+Isahit,Commercial,Data Work Company,"Paris, France"
+Karya,Commercial,Data Work Company,India
+Khoros,Commercial,Tech,USA
+Kickstarter,Commercial,Tech,USA
+Kognic,Commercial,Data Work Company,"Göteborg, Sweden"
+Kore.ai,Commercial,Tech,USA
+Labelbox,Commercial,Data Work Company,"San Francisco, CA, USA"
+Labellerr,Commercial,Data Work Company,"USA, India"
+Lynxcare,Commercial,Data Work Company,"Leuven, Vlaams-Brabant, Belgium"
+Maze,Commercial,Tech,USA
+Medtronic,Commercial,Healthcare & Pharmaceuticals,USA
+Mercor,Commercial,Data Work Company,"San Francisco, California, United States"
+Meta,Commercial,Tech,"Menlo Park, CA, USA"
+Metroc,Commercial,Data Work Company,"Helsinki, Finland"
+Microsoft,Commercial,Tech,USA
+Minus Zero,Commercial,Data Work Company,"Bengaluru, India"
+NASA,Commercial,Government,USA
+Navana Tech,Commercial,Data Work Company,"Mumbai, Maharashtra, India"
+Nebius,Commercial,Data Work Company,"Amsterdam, Netherlands; Luzern, Switzerland"
+Neeva,Commercial,Tech,USA
+New York University,Academic,Higher Education,USA
+NextWealth,Commercial,Data Work Company,India
+NICE Nexidia,Commercial,Tech,USA
+Nugget AI,Commercial,Tech,Canada
+OpenAI,Commercial,Tech,"San Francisco, CA, USA"
+Orbisk,Commercial,Tech,Netherlands
+OrthoGrid Systems,Commercial,Healthcare & Pharmaceuticals,USA
+Overjet.ai,Commercial,Healthcare & Pharmaceuticals,USA
+Papercup,Commercial,Tech,United Kingdom
+Pareto,Commercial,Data Work Company,USA
+Pareto AI,Commercial,Data Work Company,"Stanford, CA, USA"
+Partnership on AI,Non-Profit,Non-profit & Philanthropy ,USA
+Perle AI,Commercial,Data Work Company,"San Francisco, CA, USA"
+Primer,Commercial,Finance & Venture Capital,United Kingdom
+Procter & Gamble,Commercial,Manufacturing & Agriculture,USA
+Prolific,Commercial,Data Work Company,"Oxford, Oxfordshire, United Kingdom"
+RedBrick AI,Commercial,Data Work Company,"Delaware, USA"
+Remesh,Commercial,Other,USA
+RSA Insurance Group,Commercial,Insurance,United Kingdom
+Salesforce,Commercial,Tech,USA
+Sama,Commercial,Data Work Company,"San Francisco, CA, USA"
+Sanas,Commercial,Tech,USA
+Scale AI,Commercial,Data Work Company,"San Francisco, CA, USA"
+Segments.ai,Commercial,Data Work Company,"Leuven, Belgium"
+Snorkel AI,Commercial,Data Work Company,"Redwood City, CA, USA"
+SO Development,Commercial,Data Work Company,"Tallinn, Estonia"
+Sprinklr,Commercial,Tech,USA
+Stanford University,Academic,Higher Education,USA
+Stryker,Commercial,Healthcare & Pharmaceuticals,USA
+Substack,Commercial,Media & Entertainment,USA
+SuperAnnotate,Commercial,Data Work Company,"San Mateo, CA, USA"
+Surge AI,Commercial,Data Work Company,"San Franciso, CA, USA"
+TaskUs,Commercial,Data Work Company,"Texas, USA"
+Teleperformance,Commercial,Data Work Company,"Paris, France"
+Thinscale,Commercial,Tech,Ireland
+Tredence,Commercial,Data Work Company,"San Jose, CA, USA"
+Trillbit,Commercial,Data Work Company,"Boston, Massachusetts, United States"
+Turing,Commercial,Data Work Company,"Palo Alto, California, United States"
+Twilio,Commercial,Tech,USA
+Twitch,Commercial,Tech,USA
+Twitter,Commercial,Tech,USA
+Uber,Commercial,Tech,"San Francisco, CA, USA"
+UiPath,Commercial,Tech,USA
+Uniphore,Commercial,Tech,USA
+University of California Berkeley,Academic,Higher Education,USA
+Upwork,Commercial,Data Work Company,"San Francisco, CA, USA"
+Volumental,Commercial,Tech,Sweden
+Vulcan,Commercial,Other,USA
+Walmart,Commercial,Retail & Consumer Goods,USA
+Warner Bros,Commercial,Media & Entertainment,USA
+Welocalize ,Commercial,Data Work Company,"New York, NY, USA"
+Winnow Solutions,Commercial,Tech,United Kingdom
+xAI,Commercial,Data Work Company,"San Francisco, CA, USA"
+Xarvio Digital Farming Solutions,Commercial,Tech,Netherlands
+Yale University,Academic,Higher Education,USA
+Yellow.ai,Commercial,Tech,USA
+Zenarate,Commercial,Tech,USA
+Korea Investment & Securities,Commercial,Finance & Venture Capital,
+Envestors,Commercial,Finance & Venture Capital,
+Industrial Bank of Korea,Commercial,Finance & Venture Capital,
+DS Asset Management,Commercial,Finance & Venture Capital,
+E&Investment,Commercial,Finance & Venture Capital,
+RHS Investments,Commercial,Finance & Venture Capital,
+Zetta Venture Partners,Commercial,Finance & Venture Capital,
+SAV (Scale Asia Ventures),Commercial,Finance & Venture Capital,
+Eniac Ventures,Commercial,Finance & Venture Capital,
+Criteria Venture Tech,Commercial,Finance & Venture Capital,
+Factorial Capital,Commercial,Finance & Venture Capital,
+Aerion Partners,Commercial,Finance & Venture Capital,
+Y Combinator,Commercial,Finance & Venture Capital,
+Accel,Commercial,Finance & Venture Capital,
+Alumni Ventures,Commercial,Finance & Venture Capital,
+Samsung NEXT,Commercial,Finance & Venture Capital,
+High-Tech Gruenderfonds,Commercial,Finance & Venture Capital,
+KfW,Commercial,Finance & Venture Capital,
+ACXIT Capital Partners,Commercial,Finance & Venture Capital,
+Klaus Wecken,Commercial,Finance & Venture Capital,
+VCDE Venture Partners,Commercial,Finance & Venture Capital,
+FTV Capital,Commercial,Finance & Venture Capital,
+Rockefeller Foundation,Non-Profit,Non-profit & Philanthropy ,
+Weatherford Capital,Commercial,Finance & Venture Capital,
+Sovereign’s Capital,Commercial,Finance & Venture Capital,
+Praxis,Commercial,Finance & Venture Capital,
+Boston Millennia Partners,Commercial,Finance & Venture Capital,
+FA Technology Ventures,Commercial,Finance & Venture Capital,
+General Catalyst,Commercial,Finance & Venture Capital,
+Alorica,Commercial,Other,
+Celesta Capital,Commercial,Finance & Venture Capital,
+Bill & Melinda Gates Foundation,Non-Profit,Non-profit & Philanthropy ,
+Alteria Capital,Commercial,Finance & Venture Capital,
+Chiratae Ventures,Commercial,Finance & Venture Capital,
+Ankur Capital,Commercial,Finance & Venture Capital,
+Franklin Templeton,Commercial,Finance & Venture Capital,
+Andreessen Horowitz,Commercial,Finance & Venture Capital,
+NVIDIA,Commercial,Tech,
+BlackRock,Commercial,Finance & Venture Capital,
+Temasek Holdings,Commercial,Finance & Venture Capital,
+NGP Capital,Commercial,Finance & Venture Capital,
+Alpha Wave Global,Commercial,Finance & Venture Capital,
+OurCrowd,Commercial,Finance & Venture Capital,
+F2 Venture Capital,Commercial,Finance & Venture Capital,
+Lenovo Capital and Incubator Group (LCIG),Commercial,Finance & Venture Capital,
+Initialized Capital,Commercial,Finance & Venture Capital,
+Gold House Ventures,Commercial,Finance & Venture Capital,
+Soma Capital,Commercial,Finance & Venture Capital,
+TenOneTen Ventures,Commercial,Finance & Venture Capital,
+responsAbility Investments,Commercial,Finance & Venture Capital,
+VenturEast,Commercial,Finance & Venture Capital,
+Rajiv Kuchhal,Commercial,Finance & Venture Capital,
+Venture Catalysts,Commercial,Finance & Venture Capital,
+Inflection Point Ventures,Commercial,Finance & Venture Capital,
+Sprint Vc,Commercial,Finance & Venture Capital,
+QI Ventures,Commercial,Finance & Venture Capital,
+Eaglewings Ventures,Commercial,Finance & Venture Capital,
+The Disability Opportunity Fund,Non-Profit,Non-profit & Philanthropy ,"Rockville Centre, NY, USA"
+Liquid 2 Ventures,Commercial,Finance & Venture Capital,
+Crane Venture Partners,Commercial,Finance & Venture Capital,
+CRV,Commercial,Finance & Venture Capital,
+Harpoon,Commercial,Finance & Venture Capital,
+TA Associates,Commercial,Finance & Venture Capital,
+Apax Partners,Commercial,Finance & Venture Capital,
+Khazanah Nasional,Commercial,Finance & Venture Capital,
+Aimia,Commercial,Finance & Venture Capital,
+TPG Capital Asia,Commercial,Finance & Venture Capital,
+8VC,Commercial,Finance & Venture Capital,
+Founders Fund,Commercial,Finance & Venture Capital,
+Rocketship.vc,Commercial,Finance & Venture Capital,
+Bracket Capital,Commercial,Finance & Venture Capital,
+Redpoint,Commercial,Finance & Venture Capital,
+Swift Ventures,Commercial,Finance & Venture Capital,
+Unusual Ventures,Commercial,Finance & Venture Capital,
+Bow Capital,Commercial,Finance & Venture Capital,
+Essence VC,Commercial,Finance & Venture Capital,
+Michael & Susan Dell Foundation,Non-Profit,Non-profit & Philanthropy ,
+British International Investment,Commercial,Finance & Venture Capital,
+Omidyar Network India,Non-Profit,Non-profit & Philanthropy ,
+Khosla Impact,Commercial,Finance & Venture Capital,
+Vanara Capital,Commercial,Finance & Venture Capital,
+Gaingels,Commercial,Finance & Venture Capital,
+BACKED VC,Commercial,Finance & Venture Capital,
+Greycroft,Commercial,Finance & Venture Capital,
+Day One Ventures,Commercial,Finance & Venture Capital,
+Charlie Songhurst,Commercial,Finance & Venture Capital,
+Sodexo Ventures,Commercial,Finance & Venture Capital,
+Colam Impact,Commercial,Finance & Venture Capital,
+Mandalore Partners,Commercial,Finance & Venture Capital,
+Google.org,Non-Profit,Non-profit & Philanthropy ,
+NordicNinja VC,Commercial,Finance & Venture Capital,
+Metaplanet,Commercial,Finance & Venture Capital,
+Neudi & Co,Commercial,Finance & Venture Capital,
+Stena Sessan,Commercial,Finance & Venture Capital,
+B Capital,Commercial,Finance & Venture Capital,
+Kleiner Perkins,Commercial,Finance & Venture Capital,
+First Round Capital,Commercial,Finance & Venture Capital,
+SoftBank Vision Fund,Commercial,Finance & Venture Capital,
+Upekkha Vertical AI Accelerator,Commercial,Finance & Venture Capital,
+IIT Mandi Catalyst,Commercial,Finance & Venture Capital,
+Lifeline Ventures,Commercial,Finance & Venture Capital,
+Ali Omar,Commercial,Finance & Venture Capital,"Helsinki, Finland"
+Henry Nilert,Commercial,Finance & Venture Capital,
+Wellington Management,Commercial,Finance & Venture Capital,
+Intel Capital,Commercial,Finance & Venture Capital,
+Thrive Capital,Commercial,Finance & Venture Capital,
+Nat Friedman,Commercial,Finance & Venture Capital,
+Qualcomm Ventures,Commercial,Finance & Venture Capital,
+WCM Investment Management,Commercial,Finance & Venture Capital,
+DFJ Growth,Commercial,Finance & Venture Capital,
+Ministry of Electronics and Information Technology of India - MeitY,Government,Government,India
+Snow Leopard Technology Ventures,Commercial,Finance & Venture Capital,
+JITO Angel Network,Commercial,Finance & Venture Capital,
+Stanford Angels and Entrepreneurs of Southern California,Commercial,Finance & Venture Capital,
+GSMA Innovation Fund,Commercial,Finance & Venture Capital,
+Bharat Inclusion Initiative,Commercial,Finance & Venture Capital,
+Jio Gennext,Commercial,Finance & Venture Capital,
+Orbis Investment Management,Commercial,Finance & Venture Capital,
+Foothill Ventures,Commercial,Finance & Venture Capital,
+MaC Venture Capital,Commercial,Finance & Venture Capital,
+Fearless Fund,Commercial,Finance & Venture Capital,
+NGC Ventures,Commercial,Finance & Venture Capital,
+CoinFund,Commercial,Finance & Venture Capital,
+Paper Ventures,Commercial,Finance & Venture Capital,
+Foresight Ventures,Commercial,Finance & Venture Capital,
+humbition,Commercial,Finance & Venture Capital,
+Peak XV Partners,Commercial,Finance & Venture Capital,
+Surge,Commercial,Finance & Venture Capital,Singapore
+Volta Ventures,Commercial,Finance & Venture Capital,
+Merus Capital,Commercial,Finance & Venture Capital,
+Jonathan Cornelissen,Commercial,Finance & Venture Capital,
+Lightspeed Venture Partners,Commercial,Finance & Venture Capital,
+Walden International,Commercial,Finance & Venture Capital,
+SV Angel,Commercial,Finance & Venture Capital,
+Base10 Partners,Commercial,Finance & Venture Capital,
+Plug and Play,Commercial,Finance & Venture Capital,
+Point Nine,Commercial,Finance & Venture Capital,
+Berkeley SkyDeck Fund,Commercial,Finance & Venture Capital,
+Blackstone Group,Commercial,Finance & Venture Capital,
+Navegar,Commercial,Finance & Venture Capital,
+Bridge Bank,Commercial,Finance & Venture Capital,
+Advent International,Commercial,Finance & Venture Capital,
+Chicago Pacific Founders,Commercial,Finance & Venture Capital,
+Citi,Commercial,Finance & Venture Capital,
+New Enterprise Associates,Commercial,Finance & Venture Capital,
+FirstMark,Commercial,Finance & Venture Capital,
+LLR Partners,Commercial,Finance & Venture Capital,
+Norwest Equity Partners (NEP),Commercial,Finance & Venture Capital,
+Riverside Partners,Commercial,Finance & Venture Capital,
+Norwest Mezzanine Partners,Commercial,Finance & Venture Capital,
+Tribe Capital,Commercial,Finance & Venture Capital,
+Sequoia Capital,Commercial,Finance & Venture Capital,
+La Caisse,Commercial,Finance & Venture Capital,
+Salesforce Ventures,Commercial,Finance & Venture Capital,
+Ridge Ventures,Commercial,Finance & Venture Capital,
+Vistara Growth,Commercial,Finance & Venture Capital,
+First Ascent Ventures,Commercial,Finance & Venture Capital,
+EQT Ventures,Commercial,Finance & Venture Capital,
+Spark Capital,Commercial,Finance & Venture Capital,
+Reach Capital,Commercial,Finance & Venture Capital,
+Coatue,Commercial,Finance & Venture Capital,
+Menlo Ventures,Commercial,Finance & Venture Capital,
+Felicis,Commercial,Finance & Venture Capital,
+Link Ventures,Commercial,Finance & Venture Capital,
+SignalRank,Commercial,Finance & Venture Capital,
+Partech,Commercial,Finance & Venture Capital,
+Pioneer Fund,Commercial,Finance & Venture Capital,
+Oxford Science Enterprises,Commercial,Finance & Venture Capital,
+AltaIR Capital,Commercial,Finance & Venture Capital,
+Mastercard,Commercial,Finance & Venture Capital,
+Bynd Venture Capital,Commercial,Finance & Venture Capital,
+Sony,Commercial,Retail & Consumer Goods,
+Sony Innovation Fund,Commercial,Finance & Venture Capital,
+Kibo Ventures,Commercial,Finance & Venture Capital,
+Insight Partners,Commercial,Finance & Venture Capital,
+01 Advisors,Commercial,Finance & Venture Capital,
+Zeev Ventures,Commercial,Finance & Venture Capital,
+Vintage Investment Partners,Commercial,Finance & Venture Capital,
+Matterwave Ventures,Commercial,Finance & Venture Capital,
+Elaia,Commercial,Finance & Venture Capital,
+b2venture,Commercial,Finance & Venture Capital,
+Alchemist Accelerator,Commercial,Finance & Venture Capital,
+PMV,Commercial,Finance & Venture Capital,
+Techstars,Commercial,Finance & Venture Capital,
+IvyCap Ventures,Commercial,Finance & Venture Capital,
+Refex Capital Fund,Commercial,Finance & Venture Capital,
+Motorola,Commercial,,
+Meredith,Commercial,,
+Munich RE,Commercial,,
+IBM,Commercial,,
+Olameter,Commercial,,
+Safe,Commercial,,
+Urban AI,Commercial,,
+Caltech,Academic,Higher Education,USA
+Mobidev,Commercial,,
+Houlihan Lokey,Commercial,,
+Solenis,Commercial,,
+Penske,Commercial,,
+Confluent,Commercial,,
+Medidata,Commercial,,
+Stanley Healthcare,Commercial,,
+Staples Promotional Products,Commercial,,
+Pearson,Commercial,,
+Fitch Rating,Commercial,,
+Cylance,Commercial,,
+Academic Partnerships,Commercial,,
+Nike,Commercial,,
+Clorox,Commercial,,
+IDX,Commercial,,
+AAA,Commercial,,
+Carolinas HealthCare System,Commercial,,
+Cystic Fibrosis Foundation,Non-Profit,Non-profit & Philanthropy ,
+CSL Behring,Commercial,,
+GE Healthcare,Commercial,,
+Partners Healthcare,Commercial,,
+Open AI,Commercial,,
+Prospera,Commercial,,
+National Geographic,Commercial,,
+Merck,Commercial,,
+Insitro,Commercial,,
+Metronic,Commercial,,
+Siemens Healthineers,Commercial,,
+Unilever,Commercial,,
+Vimeo,Commercial,,
+Ford,Commercial,,
+Tech Mahindra,Commercial,,
+Brunswick,Commercial,,
+Noimos,Commercial,,
+UV EYE,Commercial,,
+Cloud Factory,Commercial,,
+Syngenta,Commercial,,
+Taranis,Commercial,,
+Qualtrix,Commercial,,
+FBI,Government,Government,USA
+Zoom,Commercial,,
+Deloitte,Commercial,,
+Netflix,Commercial,,
+Ironclad,Commercial,,
+Enigma,Commercial,,
+Palantir,Commercial,,
+Physical Intelligence,Commercial,,
+Dyna Robotics,Commercial,,
+Preligens,Commercial,,
+Arterys,Commercial,,
+Group M,Commercial,,
+Wavemaker,Commercial,,
+Miroa,Commercial,,
+DeGould,Commercial,,
+Virtual Expo Group,Commercial,,
+Skill Corner,Commercial,,
+Suez,Commercial,,
+XXII Group,Commercial,,
+Boeing,Commercial,,
+Snowflake,Commercial,,
+HP,Commercial,,
+Scribd,Commercial,,
+X,Commercial,,
+Wolters Kluwer,Commercial,,
+AI21 Labs,Commercial,,
+Doordash,Commercial,,
+Cohere,Commercial,,
+Ideogram,Commercial,,
+Eleven Labs,Commercial,,
+Speak,Commercial,,
+MIT,Academic,Higher Education,USA
+University of Maryland,Academic,Higher Education,USA
+Foss,Commercial,,
+Mythos AI,Commercial,,
+Spare-it,Commercial,,
+Hugging Face,Commercial,,
+Poolside,Commercial,,
+Eightify,Commercial,,
+Nebius AI,Commercial,,
+Silo AI,Commercial,,
+Perplexity AI,Commercial,,
+BigCode,Commercial,,
+ServiceNow,Commercial,,
+Scale,Commercial,,
+Telus,Commercial,,
+Haptik,Commercial,,
+TaskMonk,Commercial,,
+Ignitarium,Commercial,,
+University of Pennsylvania,Academic,Higher Education,USA
+BNY Mellon,Commercial,,
+US Air Force,Government,Government,USA
+Chubb,Commercial,,
+Wayfair,Commercial,,
+QBE,Commercial,,
+Memorial Sloan Kettering Cancer Center,Commercial,,
+Heex,Commercial,,
+Coursera,Commercial,,
+Inara,Commercial,,
+MIS,Commercial,,
+AppTech Systems,Commercial,,
+Bahar,Commercial,,
+SLDP,Commercial,,
+Canva,Commercial,,
+Adept,Commercial,,
+Qualcomm,Commercial,,
+Motorola Solutions,Commercial,,
+Hinge Health,Commercial,,
+Buhler,Commercial,,
+Smith & Nephew,Commercial,,
+Aurora,Commercial,,
+ORSI Academy,Commercial,,
+Mistral AI,Commercial,,
+Coinbase,Commercial,,
+Whisper,Commercial,,
+Tinder,Commercial,,
+Auto Desk,Commercial,,
+Amazon Alexa Fund,Commercial,Finance & Venture Capital,
+Portugal Ventures,Commercial,Finance & Venture Capital,

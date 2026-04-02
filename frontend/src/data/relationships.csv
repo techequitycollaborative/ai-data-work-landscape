@@ -1,0 +1,504 @@
+source,target,relationship_type,relationship_source
+Appen,Adobe,Customer,
+Labelbox,Airbnb,Customer,
+Labelbox,Alignerr,Supplier or Subcontractor,
+Labelbox,Allstate,Customer,
+Surge AI,Amazon,Customer,
+Pareto,Amazon,Customer,
+Teleperformance,Amazon,Customer,
+Appen,Amazon,Customer,
+Teleperformance,Amazon Web Services,Supplier or Subcontractor,
+Labelbox,Ancestry,Customer,
+Surge AI,Anthropic,Customer,
+Pareto,Anthropic,Customer,
+Mercor,Anthropic,Customer,
+Teleperformance,Apple,Customer,
+Labelbox,ArcelorMittal,Customer,
+Prolific,Argilla,Customer,
+Teleperformance,Automation Anywhere,Supplier or Subcontractor,
+Labelbox,BASF,Customer,
+Labelbox,Bayer,Customer,
+Labelbox,Black & Decker,Customer,
+Labelbox,Bosch Siemens,Customer,
+Labelbox,Bristol Myers Squibb,Customer,
+Labelbox,Burberry,Customer,
+Pareto,ByteDance,Customer,
+Labelbox,Cainthus,Customer,
+Teleperformance,CallMiner,Supplier or Subcontractor,
+Labelbox,CAPE Analytics,Customer,
+Teleperformance,Centrical,Supplier or Subcontractor,
+Surge AI,Character.ai,Customer,
+Pareto,Character.ai,Customer,
+Labelbox,Chegg,Customer,
+Teleperformance,Citrix,Supplier or Subcontractor,
+Appen,Clear Global,Customer,
+Labelbox,Criteo,Customer,
+Surge AI,DataAnnotation.tech,Supplier or Subcontractor,
+Sama,eBay,Customer,
+Prolific,European Commission,Customer,
+Surge AI,Expedia,Customer,
+Labelbox,Faurecia,Customer,
+Labelbox,Genentech,Customer,
+Teleperformance,Genesys,Supplier or Subcontractor,
+Prolific,Google,Customer,
+Surge AI,Google,Customer,
+Sama,Google,Customer,
+GlobalLogic,Google,Customer,
+Teleperformance,Google Cloud,Supplier or Subcontractor,
+Pareto,Google DeepMind,Customer,
+Teleperformance,Grypp,Supplier or Subcontractor,
+Labelbox,Husqvarna,Customer,
+Labelbox,ICEYE,Customer,
+Prolific,Imbue,Customer,
+Pareto,Imbue,Customer,
+Sama,Indoor Robotics,Customer,
+Teleperformance,Khoros,Supplier or Subcontractor,
+Prolific,Kickstarter,Customer,
+Teleperformance,Kore.ai,Supplier or Subcontractor,
+Prolific,Maze,Customer,
+GlobalLogic,Medtronic,Customer,
+Surge AI,Meta,Customer,
+Mercor,Meta,Customer,
+Sama,Meta,Customer,
+Surge AI,Microsoft,Customer,
+Teleperformance,Microsoft,Supplier or Subcontractor,
+Appen,Microsoft,Customer,
+Labelbox,NASA,Customer,
+Sama,NASA,Customer,
+Surge AI,Neeva,Customer,
+Surge AI,New York University,Customer,
+Pareto,New York University,Customer,
+Teleperformance,NICE Nexidia,Supplier or Subcontractor,
+Prolific,Nugget AI,Customer,
+Mercor,OpenAI,Customer,
+Sama,OpenAI,Customer,
+Sama,Orbisk,Customer,
+Sama,OrthoGrid Systems,Customer,
+Labelbox,Overjet.ai,Customer,
+Prolific,Papercup,Customer,
+Prolific,Partnership on AI,Partner,
+Surge AI,Primer,Customer,
+Labelbox,Procter & Gamble,Customer,
+Prolific,Remesh,Customer,
+Teleperformance,RSA Insurance Group,Customer,
+Appen,Salesforce,Customer,
+Teleperformance,Sanas,Supplier or Subcontractor,
+Teleperformance,Sprinklr,Supplier or Subcontractor,
+Prolific,Stanford University,Customer,
+Surge AI,Stanford University,Customer,
+Pareto,Stanford University,Customer,
+Labelbox,Stryker,Customer,
+Surge AI,Substack,Customer,
+Teleperformance,Thinscale,Supplier or Subcontractor,
+Teleperformance,Twilio,Supplier or Subcontractor,
+Surge AI,Twitch,Customer,
+Surge AI,Twitter,Customer,
+Teleperformance,Uber,Customer,
+Teleperformance,UiPath,Supplier or Subcontractor,
+Teleperformance,Uniphore,Supplier or Subcontractor,
+Surge AI,University of California Berkeley,Customer,
+Sama,Volumental,Customer,
+Sama,Vulcan,Customer,
+Labelbox,Walmart,Customer,
+Sama,Walmart,Customer,
+Labelbox,Warner Bros,Customer,
+Labelbox,Winnow Solutions,Customer,
+Labelbox,Xarvio Digital Farming Solutions,Customer,
+Prolific,Yale University,Customer,
+Teleperformance,Yellow.ai,Supplier or Subcontractor,
+Teleperformance,Zenarate,Supplier or Subcontractor,
+Explorium,01 Advisors,Investor,Crunchbase
+Hive AI,8VC,Investor,Crunchbase
+CapeStart,AAA,Customer,https://www.capestart.com/
+Atrium,Academic Partnerships,Customer,https://atrium.ai/
+Centaur Labs,Accel,Investor,Crunchbase
+Scale AI,Accel,Investor,Crunchbase
+Nebius,Accel,Investor,Crunchbase
+Snorkel AI,Accel,Investor,Crunchbase
+Clickworker,ACXIT Capital Partners,Investor,Crunchbase
+SuperAnnotate,Adept,Customer,https://www.superannotate.com/
+Datasaur Inc.,Adobe,Customer,https://datasaur.ai/
+Labellerr,Adobe,Customer,https://www.labellerr.com/
+Tredence,Advent International,Investor,Crunchbase
+Centaur Labs,Aerion Partners,Investor,Crunchbase
+Invisible Technologies,AI21 Labs,Customer,https://www.invisible.co/
+Fractal,Aimia,Investor,Crunchbase
+Alegion,Airbnb,Customer,https://alegion.com/our-data-services/
+Lynxcare,Alchemist Accelerator,Investor,Crunchbase
+Metroc,Ali Omar,Investor,Crunchbase
+Crescendo,Alorica,Investor,Crunchbase
+DataLoop,Alpha Wave Global,Investor,Crunchbase
+Prolific,AltaIR Capital,Investor,Crunchbase
+Cropin,Alteria Capital,Investor,Crunchbase
+Centaur Labs,Alumni Ventures,Investor,Crunchbase
+Turing,Alumni Ventures,Investor,Crunchbase
+CapeStart,Amazon,Customer,https://www.capestart.com/
+Innodata,Amazon,Customer,https://innodata.com/
+Nebius,Amazon,Customer,https://group.nebius.com/businesses
+Surge AI,Amazon,Customer,https://www.surgehq.ai/
+Defined.AI,Amazon Alexa Fund,Investor,https://defined.ai/press-room/definedcrowd-announces-seed-funding
+Cogito,Amazon Web Services,Customer,https://www.cogitotech.com/
+Invisible Technologies,Amazon Web Services,Customer,https://www.invisible.co/
+TaskUs,Amazon Web Services,Customer,https://www.taskus.com/
+Databricks,Andreessen Horowitz,Investor,Crunchbase
+Labelbox,Andreessen Horowitz,Investor,Crunchbase
+xAI,Andreessen Horowitz,Investor,Crunchbase
+Cropin,Ankur Capital,Investor,Crunchbase
+Surge AI,Anthropic,Customer,https://www.surgehq.ai/
+Fractal,Apax Partners,Investor,Crunchbase
+Innodata,Apple,Customer,https://innodata.com/
+SO Development,AppTech Systems,Customer,https://so-development.org/
+IngeData,Arterys,Customer,https://www.ingedata.ai/
+SuperAnnotate,Aurora,Customer,https://www.superannotate.com/
+TaskUs,Auto Desk,Customer,https://www.taskus.com/
+Labelbox,B Capital,Investor,Crunchbase
+Lynxcare,b2venture,Investor,Crunchbase
+Invisible Technologies,BACKED VC,Investor,Crunchbase
+SO Development,Bahar,Customer,https://so-development.org/
+SuperAnnotate,Base10 Partners,Investor,Crunchbase
+SuperAnnotate,Berkeley SkyDeck Fund,Investor,Crunchbase
+Navana Tech,Bharat Inclusion Initiative,Investor,Crunchbase
+Nebius,BigCode,Customer,https://group.nebius.com/businesses
+Cropin,Bill & Melinda Gates Foundation,Investor,Crunchbase
+Databricks,BlackRock,Investor,Crunchbase
+Snorkel AI,BlackRock,Investor,Crunchbase
+xAI,BlackRock,Investor,Crunchbase
+TaskUs,Blackstone Group,Investor,Crunchbase
+Snorkel AI,BNY Mellon,Customer,https://snorkel.ai/
+Innodata,Boeing,Customer,https://innodata.com/
+SuperAnnotate,Bosch Siemens,Customer,https://www.superannotate.com/
+Concentrix,Boston Millennia Partners,Investor,Crunchbase
+Human Signal,Bow Capital,Investor,Crunchbase
+Hive AI,Bracket Capital,Investor,Crunchbase
+TaskUs,Bridge Bank,Investor,Crunchbase
+iMerit,British International Investment,Investor,Crunchbase
+DataLoop,Brunswick,Customer,https://dataloop.ai/about/
+SuperAnnotate,Buhler,Customer,https://www.superannotate.com/
+Defined.AI,Bynd Venture Capital,Investor,Crunchbase
+Pareto AI,ByteDance,Customer,https://pareto.ai/
+Annotation Box,Caltech,Customer,https://annotationbox.com/
+SuperAnnotate,Canva,Customer,https://www.superannotate.com/
+CapeStart,Carolinas HealthCare System,Customer,https://www.capestart.com/
+Crescendo,Celesta Capital,Investor,Crunchbase
+Pareto AI,Character.ai,Customer,https://pareto.ai/
+Invisible Technologies,Charlie Songhurst,Investor,Crunchbase
+Tredence,Chicago Pacific Founders,Investor,Crunchbase
+Cropin,Chiratae Ventures,Investor,Crunchbase
+Minus Zero,Chiratae Ventures,Investor,Crunchbase
+Snorkel AI,Chubb,Customer,https://snorkel.ai/
+Upwork,Citi,Investor,Crunchbase
+CapeStart,Clorox,Customer,https://www.capestart.com/
+DataLoop,Cloud Factory,Customer,https://dataloop.ai/about/
+Handshake,Coatue,Investor,Crunchbase
+Invisible Technologies,Cohere,Customer,https://www.invisible.co/
+TaskUs,Coinbase,Customer,https://www.taskus.com/
+Perle AI,CoinFund,Investor,Crunchbase
+Isahit,Colam Impact,Investor,Crunchbase
+Atrium,Confluent,Customer,https://atrium.ai/
+SO Development,Coursera,Customer,https://so-development.org/
+Encord,Crane Venture Partners,Investor,Crunchbase
+Argilla ,Criteria Venture Tech,Investor,Crunchbase
+Encord,CRV,Investor,Crunchbase
+CapeStart,CSL Behring,Customer,https://www.capestart.com/
+Atrium,Cylance,Customer,https://atrium.ai/
+CapeStart,Cystic Fibrosis Foundation,Customer,https://www.capestart.com/
+SuperAnnotate,Databricks,Customer,https://www.superannotate.com/
+Invisible Technologies,Day One Ventures,Investor,Crunchbase
+IngeData,DeGould,Customer,https://www.ingedata.ai/
+Datasaur Inc.,Deloitte,Customer,https://datasaur.ai/
+Innodata,Deloitte,Customer,https://innodata.com/
+Scale AI,DFJ Growth,Investor,Crunchbase
+Invisible Technologies,Doordash,Customer,https://www.invisible.co/
+TaskUs,Doordash,Customer,https://www.taskus.com/
+AIMMO,DS Asset Management,Investor,Crunchbase
+Encord,Dyna Robotics,Customer,https://encord.com/
+AIMMO,E&Investment,Investor,Crunchbase
+Devnagri,Eaglewings Ventures,Investor,Crunchbase
+Nebius,Eightify,Customer,https://group.nebius.com/businesses
+Lynxcare,Elaia,Investor,Crunchbase
+Labelbox,Eleven Labs,Customer,https://labelbox.com
+Argilla ,Eniac Ventures,Investor,Crunchbase
+Datasaur Inc.,Enigma,Customer,https://datasaur.ai/
+AIMMO,Envestors,Investor,Crunchbase
+Handshake,EQT Ventures,Investor,Crunchbase
+Human Signal,Essence VC,Investor,Crunchbase
+DataLoop,F2 Venture Capital,Investor,Crunchbase
+Explorium,F2 Venture Capital,Investor,Crunchbase
+Concentrix,FA Technology Ventures,Investor,Crunchbase
+Argilla ,Factorial Capital,Investor,Crunchbase
+Datasaur Inc.,FBI,Customer,https://datasaur.ai/
+Pareto AI,Fearless Fund,Investor,Crunchbase
+Mercor,Felicis,Investor,Crunchbase
+Sama,First Ascent Ventures,Investor,Crunchbase
+Labelbox,First Round Capital,Investor,Crunchbase
+Upwork,FirstMark,Investor,Crunchbase
+Atrium,Fitch Rating,Customer,https://atrium.ai/
+Pareto AI,Foothill Ventures,Investor,Crunchbase
+DataLoop,Ford,Customer,https://dataloop.ai/about/
+Perle AI,Foresight Ventures,Investor,Crunchbase
+Labellerr,Foss,Customer,https://www.labellerr.com/
+Hive AI,Founders Fund,Investor,Crunchbase
+Scale AI,Founders Fund,Investor,Crunchbase
+Turing,Founders Fund,Investor,Crunchbase
+Databricks,Franklin Templeton,Investor,Crunchbase
+CloudFactory,FTV Capital,Investor,Crunchbase
+Invisible Technologies,Gaingels,Investor,Crunchbase
+Turing,Gaingels,Investor,Crunchbase
+CapeStart,GE Healthcare,Customer,https://www.capestart.com/
+CapeStart,Genentech,Customer,https://www.capestart.com/
+Crescendo,General Catalyst,Investor,Crunchbase
+Hive AI,General Catalyst,Investor,Crunchbase
+Mercor,General Catalyst,Investor,Crunchbase
+Datasaur Inc.,Gold House Ventures,Investor,Crunchbase
+Cropin,Google,Investor,Crunchbase
+Datasaur Inc.,Google,Customer,https://datasaur.ai/
+Labelbox,Google,Customer,https://labelbox.com
+Snorkel AI,Google,Customer,https://snorkel.ai/
+Karya,Google.org,Investor,Crunchbase
+Invisible Technologies,Greycroft,Investor,Crunchbase
+IngeData,Group M,Customer,https://www.ingedata.ai/
+Navana Tech,GSMA Innovation Fund,Investor,Crunchbase
+NextWealth,Haptik,Customer,https://www.nextwealth.com/about-us/
+Encord,Harpoon,Investor,Crunchbase
+SO Development,Heex,Customer,https://so-development.org/
+Metroc,Henry Nilert,Investor,Crunchbase
+Clickworker,High-Tech Gruenderfonds,Investor,Crunchbase
+SuperAnnotate,Hinge Health,Customer,https://www.superannotate.com/
+Atrium,Houlihan Lokey,Customer,https://atrium.ai/
+Innodata,HP,Customer,https://innodata.com/
+Nebius,Hugging Face,Customer,https://group.nebius.com/businesses
+Perle AI,humbition,Investor,Crunchbase
+Annotation Box,IBM,Customer,https://annotationbox.com/
+SuperAnnotate,IBM,Customer,https://www.superannotate.com/
+Labelbox,Ideogram,Customer,https://labelbox.com
+CapeStart,IDX,Customer,https://www.capestart.com/
+NextWealth,Ignitarium,Customer,https://www.nextwealth.com/about-us/
+Labellerr ,IIT Mandi Catalyst,Investor,Crunchbase
+Minus Zero,IIT Mandi Catalyst,Investor,Crunchbase
+Pareto AI,Imbue,Customer,https://pareto.ai/
+SO Development,Inara,Customer,https://so-development.org/
+AIMMO,Industrial Bank of Korea,Investor,Crunchbase
+Devnagri,Inflection Point Ventures,Investor,Crunchbase
+Datasaur Inc.,Initialized Capital,Investor,Crunchbase
+Explorium,Insight Partners,Investor,Crunchbase
+Cogito,Insitro,Customer,https://www.cogitotech.com/
+Scale AI,Intel Capital,Investor,Crunchbase
+Datasaur Inc.,Ironclad,Customer,https://datasaur.ai/
+Trillbit,IvyCap Ventures,Investor,Crunchbase
+Navana Tech,Jio Gennext,Investor,Crunchbase
+Minus Zero,JITO Angel Network,Investor,Crunchbase
+Segments.ai,Jonathan Cornelissen,Investor,Crunchbase
+Clickworker,KfW,Investor,Crunchbase
+Fractal,Khazanah Nasional,Investor,Crunchbase
+iMerit,Khosla Impact,Investor,Crunchbase
+Defined.AI,Kibo Ventures,Investor,Crunchbase
+Clickworker,Klaus Wecken,Investor,Crunchbase
+Labelbox,Kleiner Perkins,Investor,Crunchbase
+Upwork,Kleiner Perkins,Investor,Crunchbase
+AIMMO,Korea Investment & Securities,Investor,Crunchbase
+Sama,La Caisse,Investor,Crunchbase
+DataLoop,Lenovo Capital and Incubator Group (LCIG),Investor,Crunchbase
+Metroc,Lifeline Ventures,Investor,Crunchbase
+Snorkel AI,Lightspeed Venture Partners,Investor,Crunchbase
+Turing,Lightspeed Venture Partners,Investor,Crunchbase
+Handshake,Lightspeed Venture Partners,Investor,Crunchbase
+Mercor,Link Ventures,Investor,Crunchbase
+Encord,Liquid 2 Ventures,Investor,Crunchbase
+Pareto AI,Liquid 2 Ventures,Investor,Crunchbase
+Welocalize,LLR Partners,Investor,Crunchbase
+Pareto AI,MaC Venture Capital,Investor,Crunchbase
+Isahit,Mandalore Partners,Investor,Crunchbase
+Defined.AI,Mastercard,Investor,Crunchbase
+Lynxcare,Matterwave Ventures,Investor,Crunchbase
+Atrium,Medidata,Customer,https://atrium.ai/
+CapeStart,Medtronic,Customer,https://www.capestart.com/
+Snorkel AI,Memorial Sloan Kettering Cancer Center,Customer,https://snorkel.ai/
+Mercor,Menlo Ventures,Investor,Crunchbase
+Cogito,Merck,Customer,https://www.cogitotech.com/
+Alegion,Meredith,Customer,https://alegion.com/our-data-services/
+Segments.ai,Merus Capital,Investor,Crunchbase
+Surge AI,Meta,Customer,https://www.surgehq.ai/
+Kognic,Metaplanet,Investor,Crunchbase
+Cogito,Metronic,Customer,https://www.cogitotech.com/
+iMerit,Michael & Susan Dell Foundation,Investor,Crunchbase
+Navana Tech,Microsoft,Investor,Crunchbase
+Alegion,Microsoft,Customer,https://alegion.com/our-data-services/
+Innodata,Microsoft,Customer,https://innodata.com/
+Invisible Technologies,Microsoft,Customer,https://www.invisible.co/
+SO Development,Microsoft,Customer,https://so-development.org/
+Surge AI,Microsoft,Customer,https://www.surgehq.ai/
+Minus Zero,Ministry of Electronics and Information Technology of India - MeitY,Investor,Crunchbase
+IngeData,Miroa,Customer,https://www.ingedata.ai/
+SO Development,MIS,Customer,https://so-development.org/
+Surge AI,Mistral AI,Customer,https://www.surgehq.ai/
+Labellerr,MIT,Customer,https://www.labellerr.com/
+Annotation Box,Mobidev,Customer,https://annotationbox.com/
+Alegion,Motorola,Customer,https://alegion.com/our-data-services/
+SuperAnnotate,Motorola Solutions,Customer,https://www.superannotate.com/
+Alegion,Munich RE,Customer,https://alegion.com/our-data-services/
+Labellerr,Mythos AI,Customer,https://www.labellerr.com/
+Scale AI,Nat Friedman,Investor,Crunchbase
+Cogito,National Geographic,Customer,https://www.cogitotech.com/
+TaskUs,Navegar,Investor,Crunchbase
+Nebius,Nebius AI,Customer,https://group.nebius.com/businesses
+Datasaur Inc.,Netflix,Customer,https://datasaur.ai/
+TaskUs,Netflix,Customer,https://www.taskus.com/
+Kognic,Neudi & Co,Investor,Crunchbase
+Upwork,New Enterprise Associates,Investor,Crunchbase
+Perle AI,NGC Ventures,Investor,Crunchbase
+DataLoop,NGP Capital,Investor,Crunchbase
+CapeStart,Nike,Customer,https://www.capestart.com/
+DataLoop,Noimos,Customer,https://dataloop.ai/about/
+Kognic,NordicNinja VC,Investor,Crunchbase
+Welocalize,Norwest Equity Partners (NEP),Investor,Crunchbase
+Welocalize,Norwest Mezzanine Partners,Investor,Crunchbase
+Databricks,NVIDIA,Investor,Crunchbase
+Scale AI,NVIDIA,Investor,Crunchbase
+Navana Tech,NVIDIA,Investor,Crunchbase
+Nebius,NVIDIA,Investor,Crunchbase
+SuperAnnotate,NVIDIA,Investor,Crunchbase
+xAI,NVIDIA,Investor,Crunchbase
+Surge AI,NVIDIA,Customer,https://www.surgehq.ai/
+Pareto AI,New York University,Customer,https://pareto.ai/
+Annotation Box,Olameter,Customer,https://annotationbox.com/
+iMerit,Omidyar Network India,Investor,Crunchbase
+Cogito,Open AI,Customer,https://www.cogitotech.com/
+Invisible Technologies,OpenAI,Customer,https://www.invisible.co/
+Labelbox,OpenAI,Customer,https://labelbox.com
+Surge AI,OpenAI,Customer,https://www.surgehq.ai/
+Nebius,Orbis Investment Management,Investor,Crunchbase
+SuperAnnotate,ORSI Academy,Customer,https://www.superannotate.com/
+DataLoop,OurCrowd,Investor,Crunchbase
+Prolific,Oxford Science Enterprises,Investor,Crunchbase
+Enabled Intelligence,Palantir,Customer,https://enabledintelligence.net/
+Innodata,Palantir,Customer,https://innodata.com/
+Perle AI,Paper Ventures,Investor,Crunchbase
+Prolific,Partech,Investor,Crunchbase
+CapeStart,Partners Healthcare,Customer,https://www.capestart.com/
+RedBrick AI,Peak XV Partners,Investor,Crunchbase
+Atrium,Pearson,Customer,https://atrium.ai/
+Atrium,Penske,Customer,https://atrium.ai/
+Nebius,Perplexity AI,Customer,https://group.nebius.com/businesses
+Encord,Physical Intelligence,Customer,https://encord.com/
+Prolific,Pioneer Fund,Investor,Crunchbase
+SuperAnnotate,Plug and Play,Investor,Crunchbase
+Turing,Plug and Play,Investor,Crunchbase
+Lynxcare,PMV,Investor,Crunchbase
+SuperAnnotate,Point Nine,Investor,Crunchbase
+Nebius,Poolside,Customer,https://group.nebius.com/businesses
+Defined.AI,Portugal Ventures,Investor,https://defined.ai/press-room/definedcrowd-announces-seed-funding
+CloudFactory,Praxis,Investor,Crunchbase
+IngeData,Preligens,Customer,https://www.ingedata.ai/
+Cogito,Prospera,Customer,https://www.cogitotech.com/
+Snorkel AI,QBE,Customer,https://snorkel.ai/
+Devnagri,QI Ventures,Investor,Crunchbase
+SuperAnnotate,Qualcomm,Customer,https://www.superannotate.com/
+Scale AI,Qualcomm Ventures,Investor,Crunchbase
+Datasaur Inc.,Qualtrix,Customer,https://datasaur.ai/
+DesiCrew,Rajiv Kuchhal,Investor,Crunchbase
+Handshake,Reach Capital,Investor,Crunchbase
+Human Signal,Redpoint,Investor,Crunchbase
+Trillbit,Refex Capital Fund,Investor,Crunchbase
+DesiCrew,responsAbility Investments,Investor,Crunchbase
+Alegion,RHS Investments,Investor,Crunchbase
+Sama,Ridge Ventures,Investor,Crunchbase
+Welocalize,Riverside Partners,Investor,Crunchbase
+CloudFactory,Rockefeller Foundation,Investor,Crunchbase
+Hive AI,Rocketship.vc,Investor,Crunchbase
+Annotation Box,Safe,Customer,https://annotationbox.com/
+Sama,Salesforce Ventures,Investor,Crunchbase
+Centaur Labs,Samsung NEXT,Investor,Crunchbase
+Argilla ,SAV (Scale Asia Ventures),Investor,Crunchbase
+NextWealth,Scale,Customer,https://www.nextwealth.com/about-us/
+Innodata,Scribd,Customer,https://innodata.com/
+xAI,Sequoia Capital,Investor,Crunchbase
+Nebius,ServiceNow,Customer,https://group.nebius.com/businesses
+Cogito,Siemens Healthineers,Customer,https://www.cogitotech.com/
+Mercor,SignalRank,Investor,Crunchbase
+Nebius,Silo AI,Customer,https://group.nebius.com/businesses
+IngeData,Skill Corner,Customer,https://www.ingedata.ai/
+SO Development,SLDP,Customer,https://so-development.org/
+SuperAnnotate,Smith & Nephew,Customer,https://www.superannotate.com/
+Minus Zero,Snow Leopard Technology Ventures,Investor,Crunchbase
+Innodata,Snowflake,Customer,https://innodata.com/
+Isahit,Sodexo Ventures,Investor,Crunchbase
+Labelbox,SoftBank Vision Fund,Investor,Crunchbase
+Atrium,Solenis,Customer,https://atrium.ai/
+Datasaur Inc.,Soma Capital,Investor,Crunchbase
+Pareto AI,Soma Capital,Investor,Crunchbase
+Innodata,Sony,Customer,https://innodata.com/
+Defined.AI,Sony Innovation Fund,Investor,https://defined.ai/press-room/definedcrowd-announces-seed-funding
+CloudFactory,Sovereign’s Capital,Investor,Crunchbase
+Labellerr,Spare-it,Customer,https://www.labellerr.com/
+Handshake,Spark Capital,Investor,Crunchbase
+Labelbox,Speak,Customer,https://labelbox.com
+Devnagri,Sprint Vc,Investor,Crunchbase
+Pareto AI,Stanford University,Customer,https://pareto.ai/
+Navana Tech,Stanford Angels and Entrepreneurs of Southern California,Investor,Crunchbase
+CapeStart,Stanford University,Customer,https://www.capestart.com/
+Datasaur Inc.,Stanford University,Customer,https://datasaur.ai/
+Labellerr,Stanford University,Customer,https://www.labellerr.com/
+Atrium,Stanley Healthcare,Customer,https://atrium.ai/
+Atrium,Staples Promotional Products,Customer,https://atrium.ai/
+Kognic,Stena Sessan,Investor,Crunchbase
+IngeData,Suez,Customer,https://www.ingedata.ai/
+RedBrick AI,Surge,Investor,https://techcrunch.com/2022/11/22/redbrick-ai-sequoia-surge-funding/
+Snorkel AI,SV Angel,Investor,Crunchbase
+Upwork,SV Angel,Investor,Crunchbase
+Human Signal,Swift Ventures,Investor,Crunchbase
+DataLoop,Syngenta,Customer,https://dataloop.ai/about/
+Fractal,TA Associates,Investor,Crunchbase
+DataLoop,Taranis,Customer,https://dataloop.ai/about/
+NextWealth,TaskMonk,Customer,https://www.nextwealth.com/about-us/
+DataLoop,Tech Mahindra,Customer,https://dataloop.ai/about/
+Trillbit,Techstars,Investor,Crunchbase
+NextWealth,Telus,Customer,https://www.nextwealth.com/about-us/
+Databricks,Temasek Holdings,Investor,Crunchbase
+Datasaur Inc.,TenOneTen Ventures,Investor,Crunchbase
+Enabled Intelligence,The Disability Opportunity Fund,Investor,Crunchbase
+Scale AI,Thrive Capital,Investor,Crunchbase
+TaskUs,Tinder,Customer,https://www.taskus.com/
+Fractal,TPG Capital Asia,Investor,Crunchbase
+xAI,Tribe Capital,Investor,Crunchbase
+Atrium,Twilio,Customer,https://atrium.ai/
+TaskUs,Uber,Customer,https://www.taskus.com/
+Cogito,Unilever,Customer,https://www.cogitotech.com/
+Labellerr,University of Maryland,Customer,https://www.labellerr.com/
+Human Signal,Unusual Ventures,Investor,Crunchbase
+Labellerr ,Upekkha Vertical AI Accelerator,Investor,Crunchbase
+Pareto AI,University of Pennsylvania,Customer,https://pareto.ai/
+Annotation Box,Urban AI,Customer,https://annotationbox.com/
+Snorkel AI,US Air Force,Customer,https://snorkel.ai/
+DataLoop,UV EYE,Customer,https://dataloop.ai/about/
+Invisible Technologies,Vanara Capital,Investor,Crunchbase
+Clickworker,VCDE Venture Partners,Investor,Crunchbase
+Devnagri,Venture Catalysts,Investor,Crunchbase
+DesiCrew,VenturEast,Investor,Crunchbase
+Cogito,Vimeo,Customer,https://www.cogitotech.com/
+Explorium,Vintage Investment Partners,Investor,Crunchbase
+IngeData,Virtual Expo Group,Customer,https://www.ingedata.ai/
+Sama,Vistara Growth,Investor,Crunchbase
+Segments.ai,Volta Ventures,Investor,Crunchbase
+Snorkel AI,Walden International,Investor,Crunchbase
+Alegion,Walmart,Customer,https://alegion.com/our-data-services/
+IngeData,Wavemaker,Customer,https://www.ingedata.ai/
+Snorkel AI,Wayfair,Customer,https://snorkel.ai/
+Scale AI,WCM Investment Management,Investor,Crunchbase
+CloudFactory,Weatherford Capital,Investor,Crunchbase
+Scale AI,Wellington Management,Investor,Crunchbase
+TaskUs,Whisper,Customer,https://www.taskus.com/
+Innodata,Wolters Kluwer,Customer,https://innodata.com/
+Innodata,X,Customer,https://innodata.com/
+Surge AI,xAI,Customer,https://www.surgehq.ai/
+IngeData,XXII Group,Customer,https://www.ingedata.ai/
+Centaur Labs,Y Combinator,Investor,Crunchbase
+Datasaur Inc.,Y Combinator,Investor,Crunchbase
+Encord,Y Combinator,Investor,Crunchbase
+Scale AI,Y Combinator,Investor,Crunchbase
+RedBrick AI,Y Combinator,Investor,Crunchbase
+Segments.ai,Y Combinator,Investor,Crunchbase
+Prolific,Y Combinator,Investor,Crunchbase
+Explorium,Zeev Ventures,Investor,Crunchbase
+Argilla ,Zetta Venture Partners,Investor,Crunchbase
+Datasaur Inc.,Zoom,Customer,https://datasaur.ai/
+TaskUs,Zoom,Customer,https://www.taskus.com/

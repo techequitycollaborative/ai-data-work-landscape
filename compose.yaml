@@ -33,7 +33,7 @@ services:
     volumes:
       - db_data:/var/lib/postgresql/data # Mount host folder for data persistence
     ports:
-      - "5432:5432"
+      - "5433:5432"
     env_file:
       - ./backend/.env
 

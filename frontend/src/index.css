@@ -39,6 +39,15 @@ h4 {
   color: #712f39;
 }
 
+h5 {
+  font-family: 'Roboto Serif', serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: light;
+  color: #00495e;
+}
+
 /* Page gradient */
 .page-gradient {
   background: linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 15%, #ffffff 29%, #ffffff 100%);
@@ -134,4 +143,203 @@ label {
   font-size: 0.6rem !important; /* smaller than text-xs */
 }
 
+/* Profiles page styling */
+#profiles h2 {
+  font-size: 1.75rem;
+}
 
+/* ProfileDetails styling */
+#profile-detail {
+  background: white;
+  min-height: 100vh;
+  padding-bottom: 4rem;
+}
+
+#profile-detail h1 {
+  font-size: clamp(2.2rem, 6vw, 3.75rem);
+  margin: 0;
+  line-height: 1;
+}
+
+#profile-detail h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+#profile-detail h3 {
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+#profile-detail p {
+  line-height: 1.65;
+  margin-bottom: 0.75rem;
+}
+
+/* Header row */
+#profile-detail .profile-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 4px solid #041c2c;
+  padding-bottom: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+#profile-detail .profile-nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding-top: 0.5rem;
+  flex-shrink: 0;
+}
+
+#profile-detail .profile-nav-buttons button {
+  background: transparent;
+  border: none;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0;
+  cursor: pointer;
+  color: #041c2c;
+}
+
+#profile-detail .profile-nav-buttons button:disabled {
+  color: #d1d5db;
+  cursor: default;
+}
+
+/* Two-column grid */
+#profile-detail .profile-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+
+@media (min-width: 700px) {
+  #profile-detail .profile-grid {
+    grid-template-columns: 55% 40%; /* left col takes up 55%, right sidebar takes 40% (with 5% gap) */
+  }
+  #profile-detail .profile-sidebar {
+    order: 2;
+  }
+}
+
+/* Sections */
+#profile-detail .profile-section {
+  margin-bottom: 2.5rem;
+}
+
+/* Relationships table */
+#profile-detail .profile-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#profile-detail .profile-table thead tr {
+  background-color: #041c2c;
+  color: #f3fdb8;
+}
+
+#profile-detail .profile-table thead th {
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 6px 12px;
+}
+
+#profile-detail .profile-table tbody tr {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+#profile-detail .profile-table tbody tr:nth-child(odd) {
+  background: white;
+}
+
+#profile-detail .profile-table tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+#profile-detail .profile-table tbody td {
+  padding: 7px 12px;
+}
+
+/* Sidebar cards */
+/* Overview and Sources cards - boxes */
+#profile-detail .profile-card {
+  border: 1px solid #e5e7eb;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Overview card - table */
+#profile-detail .profile-card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Overview card - table rows */
+#profile-detail .profile-card td {
+  padding-bottom: 0.5rem;
+  vertical-align: top;
+}
+
+/* Overview card - column label */
+#profile-detail .profile-card td:first-child {
+  font-weight: 700;
+  padding-right: 0.75rem;
+  white-space: nowrap;
+}
+
+/* Overview card - column value (i.e. the text or bages) */
+#profile-detail .profile-card td:last-child {
+  width: 100%;
+}
+
+/* Sources list */
+#profile-detail .sources-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#profile-detail .sources-list li {
+  margin-bottom: 0.5rem;
+}
+
+#profile-detail .sources-list a {
+  color: #1d4ed8;
+  text-decoration: underline;
+  line-height: 1.4;
+  display: block;
+}
+
+/* Back link */
+#profile-detail .profile-back {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+#profile-detail .profile-back button {
+  background: transparent;
+  border: none;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #6b7280;
+  padding: 0;
+}
+
+#profile-detail .profile-back button:hover {
+  color: #041c2c;
+}

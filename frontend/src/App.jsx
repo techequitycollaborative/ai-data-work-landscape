@@ -5,9 +5,11 @@ import { BrowserRouter as Router, Routes, Route, NavLink, useLocation } from "re
 import { useState, useEffect } from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Methods from "./pages/Methods";
-import Contribute_Jotform from "./pages/Contribute_Jotform_cached";
+import Contribute_Jotform from "../archived_pages/Contribute_Jotform_cached";
 import Landscape from "./pages/Landscape";
+import Profiles from "./pages/Profiles";
+import ProfileDetail from "./pages/ProfileDetail";
+import Network from "./pages/Network";
 import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
 import { Menu, X } from "lucide-react"; // or any icon library
@@ -35,18 +37,24 @@ function AppWrapper() {
     <div className="min-h-screen flex flex-col justify-between">
       {/* NAVIGATION BAR */}
       <nav className="relative left-0 w-full bg-[#f3fdb8] z-30 p-4 flex items-center justify-between">
-        {/* Logo */}
-        <a href="https://techequity.us" target="_blank" rel="noopener noreferrer">
-          <img src="/logo.png" alt="TechEquity Logo" className="h-8 md:h-6 w-auto" />
-        </a>
+        {/* Logo  - with hover effect to indicate it is clickable */}
+        <NavLink to="/">
+        <img src="/logo.png" alt="TechEquity Logo" className="h-8 md:h-6 w-auto hover:opacity-40 transition-all duration-150" />
+        </NavLink>
+
+        {/* Or use text instead of TE logo
+        <NavLink to="/" className="no-underline leading-tight" style={{ fontFamily: "'Anton', sans-serif", color: '#041c2c' }}>
+          <span className="block">DATA WORK</span>
+          <span className="block">LANDSCAPE</span>
+      </NavLink>*/}
 
         {/* Desktop Nav */}
         <div className="hidden md:flex gap-10 mr-2">
-          <NavLink to="/about" className={({ isActive }) => isActive ? "underline" : ""}>about</NavLink>
-          <NavLink to="/methods" className={({ isActive }) => isActive ? "underline" : ""}>methods</NavLink>
-          <NavLink to="/input" className={({ isActive }) => isActive ? "underline" : ""}>input</NavLink>
           <NavLink to="/landscape" className={({ isActive }) => isActive ? "underline" : ""}>landscape</NavLink>
-        </div>
+          <NavLink to="/network" className={({ isActive }) => isActive ? "underline" : ""}>network</NavLink>
+          <NavLink to="/profiles" className={({ isActive }) => isActive ? "underline" : ""}>profiles</NavLink>
+          <NavLink to="/about" className={({ isActive }) => isActive ? "underline" : ""}>about</NavLink>
+       </div>
 
         {/* Mobile Hamburger */}
         <button
@@ -71,10 +79,10 @@ function AppWrapper() {
           </button>
 
           <NavLink to="/" onClick={() => setMenuOpen(false)}>home</NavLink>
-          <NavLink to="/about" onClick={() => setMenuOpen(false)}>about</NavLink>
-          <NavLink to="/methods" onClick={() => setMenuOpen(false)}>methods</NavLink>
-          <NavLink to="/input" onClick={() => setMenuOpen(false)}>input</NavLink>
           <NavLink to="/landscape" onClick={() => setMenuOpen(false)}>landscape</NavLink>
+          <NavLink to="/network" onClick={() => setMenuOpen(false)}>network</NavLink>
+          <NavLink to="/profiles" onClick={() => setMenuOpen(false)}>profiles</NavLink>
+          <NavLink to="/about" onClick={() => setMenuOpen(false)}>about</NavLink>       
         </div>
       )}
 
@@ -86,10 +94,11 @@ function AppWrapper() {
       <div className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/methods" element={<Methods />} />
-          <Route path="/input" element={<Contribute_Jotform />} />
           <Route path="/landscape" element={<Landscape />} />
+          <Route path="/network" element={<Network />} />
+          <Route path="/profiles" element={<Profiles />} />
+          <Route path="/profiles/:slug" element={<ProfileDetail />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </div>
 
