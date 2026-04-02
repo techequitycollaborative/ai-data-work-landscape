@@ -9,6 +9,7 @@ import Contribute_Jotform from "../archived_pages/Contribute_Jotform_cached";
 import Landscape from "./pages/Landscape";
 import Profiles from "./pages/Profiles";
 import ProfileDetail from "./pages/ProfileDetail";
+import Network from "./pages/Network";
 import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
 import { Menu, X } from "lucide-react"; // or any icon library
@@ -50,6 +51,7 @@ function AppWrapper() {
         {/* Desktop Nav */}
         <div className="hidden md:flex gap-10 mr-2">
           <NavLink to="/landscape" className={({ isActive }) => isActive ? "underline" : ""}>landscape</NavLink>
+          <NavLink to="/network" className={({ isActive }) => isActive ? "underline" : ""}>network</NavLink>
           <NavLink to="/profiles" className={({ isActive }) => isActive ? "underline" : ""}>profiles</NavLink>
           <NavLink to="/about" className={({ isActive }) => isActive ? "underline" : ""}>about</NavLink>
        </div>
@@ -78,6 +80,7 @@ function AppWrapper() {
 
           <NavLink to="/" onClick={() => setMenuOpen(false)}>home</NavLink>
           <NavLink to="/landscape" onClick={() => setMenuOpen(false)}>landscape</NavLink>
+          <NavLink to="/network" onClick={() => setMenuOpen(false)}>network</NavLink>
           <NavLink to="/profiles" onClick={() => setMenuOpen(false)}>profiles</NavLink>
           <NavLink to="/about" onClick={() => setMenuOpen(false)}>about</NavLink>       
         </div>
@@ -92,6 +95,7 @@ function AppWrapper() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/landscape" element={<Landscape />} />
+          <Route path="/network" element={<Network />} />
           <Route path="/profiles" element={<Profiles />} />
           <Route path="/profiles/:slug" element={<ProfileDetail />} />
           <Route path="/about" element={<About />} />
