@@ -23,7 +23,7 @@ app = FastAPI()
 
 # CORS so React can access site -- for dev app
 origins = [
-    "https://data-work-landscape-lymyf.ondigitalocean.app"
+    "https://dev-dwl-gxd6w.ondigitalocean.app"
 ]
 
 app.add_middleware(
