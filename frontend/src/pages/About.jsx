@@ -90,7 +90,7 @@ export default function About() {
               <p>
                 Additionally, these BPOs and marketplaces may be operated through two arrangements. They can be outsourced to third-party providers, which can also be BPOs or marketplaces. Or, they can be owned and operated in-house as subsidiaries or divisions within the AI company itself.
                 <br /><br />
-                For example, Scale AI has two subsidiaries, <a href="https://scale.com/blog/new-era-outlier" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Outlier</a> and <a href="http://scale.com/blog/remotasks-overview" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Remotasks</a> (which are listed in the <i>In-House Marketplace</i> column in the <Link to="/landscape" className="text-blue-600 underline">Data Work Landscape</Link>). These are both marketplaces where data workers can find work and Scale AI clients can find a workforce. In addition, Scale AI also <a href="https://www.inc.com/sam-blum/investigation-into-scale-ai-also-targets-its-hr-partners-hireart-and-upwork/91159063" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">outsources work to UpWork</a>, an independent company that operates a marketplace model.
+                For example, Scale AI has two subsidiaries, <a href="https://scale.com/blog/new-era-outlier" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Outlier</a> and <a href="http://scale.com/blog/remotasks-overview" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Remotasks</a> (which are listed in the <i>In-House Marketplace</i> column in the <Link to="/database" className="text-blue-600 underline">Data Work Landscape</Link>). These are both marketplaces where data workers can find work and Scale AI clients can find a workforce. In addition, Scale AI also <a href="https://www.inc.com/sam-blum/investigation-into-scale-ai-also-targets-its-hr-partners-hireart-and-upwork/91159063" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">outsources work to UpWork</a>, an independent company that operates a marketplace model.
                 <br /><br />
                 To download our full data dictionary, click <a href="/data-dictionary.csv" download target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">here</a>.
               </p>
@@ -108,7 +108,7 @@ export default function About() {
 
             <Expander title="Download the landscape">
               <p>
-                You can download the Data Work Landscape for research and educational purposes by clicking the download button at the bottom of the <Link to="/landscape" className="text-blue-600 underline">landscape</Link>.
+                You can download the Data Work Landscape for research and educational purposes by clicking the download button at the bottom of the <Link to="/landscape" className="text-blue-600 underline">database</Link>.
               </p>
             </Expander>
 

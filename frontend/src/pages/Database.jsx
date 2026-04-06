@@ -1,5 +1,5 @@
-// Landscape.jsx
-// Page for the data table
+// Database.jsx
+// Page for the database
 
 import DataTable from "../components/DataTable_Simple";
 import DataComponent from "../components/Data";
@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import convertToCSV from '../components/ConvertCSV';
 
-export default function Landscape() {
+export default function Database() {
   //const [data, setData] = useState([]);
   const [data, setData] = useState([]);
   const [displayedData, setDisplayedData] = useState([]); // holds filtered/memoized data from table
@@ -35,7 +35,7 @@ export default function Landscape() {
     };
 
   return (
-    <main id="landscape" 
+    <main id="database" 
         className="min-h-screen snap-start flex flex-col pt-8 pb-16"
         style={{
             background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 11%, #ffffff 18%, #ffffff 100%)",
@@ -58,7 +58,7 @@ export default function Landscape() {
 
         {/* Section header */}
         <div className="border-b-2 border-[#041c2c] pb-3 mb-6">
-          <h1 className="text-5xl md:text-6xl m-0 leading-none">Landscape</h1>
+          <h1 className="text-5xl md:text-6xl m-0 leading-none">Database</h1>
         </div>
 
         <p className="mt-2 text-sm text-gray-500 font-normal normal-case" 

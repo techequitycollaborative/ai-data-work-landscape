@@ -1,11 +1,10 @@
-// Network.jsx
+// Graphs.jsx
 // Page for two network graph data viz
 
-// src/pages/Network.jsx
 import NetworkGraph from "../components/NetworkGraph";
 import Expander from "../components/Expander";
 
-export default function Network() {
+export default function Graphs() {
   return (
     <main
       id="network"

@@ -6,10 +6,10 @@ import { useState, useEffect } from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contribute_Jotform from "../archived_pages/Contribute_Jotform_cached";
-import Landscape from "./pages/Landscape";
+import Database from "./pages/Database";
 import Profiles from "./pages/Profiles";
 import ProfileDetail from "./pages/ProfileDetail";
-import Network from "./pages/Network";
+import Graphs from "./pages/Graphs";
 import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
 import { Menu, X } from "lucide-react"; // or any icon library
@@ -50,8 +50,8 @@ function AppWrapper() {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex gap-10 mr-2">
-          <NavLink to="/landscape" className={({ isActive }) => isActive ? "underline" : ""}>landscape</NavLink>
-          <NavLink to="/network" className={({ isActive }) => isActive ? "underline" : ""}>network</NavLink>
+          <NavLink to="/database" className={({ isActive }) => isActive ? "underline" : ""}>database</NavLink>
+          <NavLink to="/graphs" className={({ isActive }) => isActive ? "underline" : ""}>graphs</NavLink>
           <NavLink to="/profiles" className={({ isActive }) => isActive ? "underline" : ""}>profiles</NavLink>
           <NavLink to="/about" className={({ isActive }) => isActive ? "underline" : ""}>about</NavLink>
        </div>
@@ -79,8 +79,8 @@ function AppWrapper() {
           </button>
 
           <NavLink to="/" onClick={() => setMenuOpen(false)}>home</NavLink>
-          <NavLink to="/landscape" onClick={() => setMenuOpen(false)}>landscape</NavLink>
-          <NavLink to="/network" onClick={() => setMenuOpen(false)}>network</NavLink>
+          <NavLink to="/database" onClick={() => setMenuOpen(false)}>database</NavLink>
+          <NavLink to="/graphs" onClick={() => setMenuOpen(false)}>graphs</NavLink>
           <NavLink to="/profiles" onClick={() => setMenuOpen(false)}>profiles</NavLink>
           <NavLink to="/about" onClick={() => setMenuOpen(false)}>about</NavLink>       
         </div>
@@ -94,8 +94,8 @@ function AppWrapper() {
       <div className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/landscape" element={<Landscape />} />
-          <Route path="/network" element={<Network />} />
+          <Route path="/database" element={<Database />} />
+          <Route path="/graphs" element={<Graphs />} />
           <Route path="/profiles" element={<Profiles />} />
           <Route path="/profiles/:slug" element={<ProfileDetail />} />
           <Route path="/about" element={<About />} />

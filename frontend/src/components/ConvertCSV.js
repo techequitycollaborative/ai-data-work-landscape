@@ -1,5 +1,5 @@
 // ConvertCSV.js
-// Utility function to convert data to CSV format (for the download data button on the Landscape page)
+// Utility function to convert data to CSV format (for the download data button on the database page)
 
 const convertToCSV = (data) => {
     if (!data || data.length === 0) return '';
