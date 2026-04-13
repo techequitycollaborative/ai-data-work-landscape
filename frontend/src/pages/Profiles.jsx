@@ -80,7 +80,7 @@ export default function Profiles() {
 
         {/* Expander with disclaimer */}
         <div className="mt-6">
-          <Expander title="Note">
+          <Expander title="A note about these profiles">
             <p>
               Data work is an opaque industry. Companies are generally not required to reveal contractual relationships and these contracts shift constantly. 
               In the absence of transparent information, this resource is based on an incomplete set of publicly available sources including news coverage, 
