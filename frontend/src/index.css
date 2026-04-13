@@ -86,6 +86,7 @@ h5 {
   transition: background-color 0.2s;
 }
 
+/* Download button */
 .btn-download {
   background-color: #041c2c;
   color: #ffffff;
@@ -99,6 +100,7 @@ h5 {
   margin-left: 4;
 }
 
+/* Download button hover effect */
 .btn-download:hover {
   cursor: pointer;
   background-color: #ffffff !important; /* lighter/yellow color */

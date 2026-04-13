@@ -407,8 +407,7 @@ export default function NetworkGraph() {
   }, []);
 
   return (
-    <div className="network-page" style={{ display: "flex", flexDirection: "column", height: "calc(100vh - 56px)", border: "1px solid #1e2330" }}>         
-         <header className="network-header">
+      <div className="network-page" style={{ display: "flex", flexDirection: "column", height: "calc(100vh - 56px)", border: "1px solid #1e2330", borderRadius: "0.5rem", overflow: "hidden" }}>         <header className="network-header">
             {/* Toggle */}
             <div className="view-toggle">
               <button className="toggle-btn active" id="rn-btn-network">Clients</button>

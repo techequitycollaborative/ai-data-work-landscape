@@ -3,7 +3,7 @@
 
 import { BrowserRouter as Router, Routes, Route, NavLink, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Home from "./pages/Home";
+import Home from "./pages/HomeBlockLite";
 import About from "./pages/About";
 import Contribute_Jotform from "../archived_pages/Contribute_Jotform_cached";
 import Database from "./pages/Database";
@@ -11,7 +11,7 @@ import Profiles from "./pages/Profiles";
 import ProfileDetail from "./pages/ProfileDetail";
 import Graphs from "./pages/Graphs";
 import ScrollToTop from "./components/ScrollToTop";
-import Footer from "./components/Footer";
+import Footer from "./components/FooterDetailed";
 import { Menu, X } from "lucide-react"; // or any icon library
 import ReactGA from "react-ga4"; // for Google Analytics tracking
 
@@ -31,18 +31,31 @@ function GAListener({ children }) {
 function AppWrapper() {
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
+  
+  // Remove footer from home page
   const showFooter = location.pathname !== "/";
 
   return (
     <div className="min-h-screen flex flex-col justify-between">
       {/* NAVIGATION BAR */}
       <nav className="relative left-0 w-full bg-[#f3fdb8] z-30 p-4 flex items-center justify-between">
-        {/* Logo  - with hover effect to indicate it is clickable */}
+        {/* Tech Equity Logo  - with hover effect to indicate it is clickable 
         <NavLink to="/">
-        <img src="/logo.png" alt="TechEquity Logo" className="h-8 md:h-6 w-auto hover:opacity-40 transition-all duration-150" />
-        </NavLink>
+          <img src="/logo.png" alt="TechEquity Logo" className="h-8 md:h-6 w-auto hover:opacity-40 transition-all duration-150" />
+        </NavLink>*/}
 
-        {/* Or use text instead of TE logo
+        {/* Just favicon
+        <NavLink to="/">
+          <img src="/favicon1.png" alt="Globe favicon" className="h-8 md:h-6 w-auto hover:opacity-40 transition-all duration-150" />
+        </NavLink> */}
+
+        {/* Favicon + text */}
+        <NavLink to="/" className="flex items-center gap-2 hover:opacity-40 transition-all duration-150">
+          <img src="/favicon1.png" alt="TechEquity Logo" className="h-8 md:h-6 w-auto" />
+          <span className="font-light">The Data Work Landscape</span>
+      </NavLink>
+
+        {/* Just text, no logo/favicon
         <NavLink to="/" className="no-underline leading-tight" style={{ fontFamily: "'Anton', sans-serif", color: '#041c2c' }}>
           <span className="block">DATA WORK</span>
           <span className="block">LANDSCAPE</span>
@@ -103,7 +116,7 @@ function AppWrapper() {
       </div>
 
       {/* Footer */}
-      {showFooter && <Footer />}
+      {<Footer />}
     </div>
   );
 }

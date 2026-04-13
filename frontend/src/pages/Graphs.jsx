@@ -8,7 +8,7 @@ export default function Graphs() {
   return (
     <main
       id="network"
-      className="min-h-screen snap-start flex flex-col pt-16 pb-16"
+      className="min-h-screen snap-start flex flex-col pt-8 pb-16"
       style={{
         background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 11%, #ffffff 18%, #ffffff 100%)",
         backgroundSize: "100% 200vh",
@@ -18,7 +18,7 @@ export default function Graphs() {
 
         {/* Section header */}
         <div className="border-b-2 border-[#041c2c] pb-3 mb-6">
-          <h1 className="text-5xl md:text-6xl m-0 leading-none">Network</h1>
+          <h1 className="text-5xl md:text-6xl m-0 leading-none">Graphs</h1>
         </div>
 
         <p className="mt-2 text-sm text-gray-500 font-normal normal-case" 

@@ -8,16 +8,28 @@ import { NavLink } from "react-router-dom";
 import convertToCSV from '../components/ConvertCSV';
 
 export default function Database() {
-  //const [data, setData] = useState([]);
   const [data, setData] = useState([]);
-  const [displayedData, setDisplayedData] = useState([]); // holds filtered/memoized data from table
+  const [displayedData, setDisplayedData] = useState([]);
 
   useEffect(() => {
-    //fetch("https://data-work-landscape-lymyf.ondigitalocean.app/ai-data-work-landscape-backend/data") // for production app
-    fetch("https://dev-dwl-gxd6w.ondigitalocean.app/ai-data-work-landscape-backend/data") // for dev app
-    //fetch("http://localhost:8000/data") // for local development
+    const API_URLS = {
+      production: "https://data-work-landscape-lymyf.ondigitalocean.app/ai-data-work-landscape-backend/data",
+      development: "https://dev-dwl-gxd6w.ondigitalocean.app/ai-data-work-landscape-backend/data",
+      local: "http://localhost:8000/data",
+    };
+
+    const getApiUrl = () => {
+      const hostname = window.location.hostname;
+      if (hostname === "localhost" || hostname === "127.0.0.1") return API_URLS.local;
+      if (hostname.includes("dev-")) return API_URLS.development;
+      return API_URLS.production;
+    };
+
+    fetch(getApiUrl())
       .then((res) => res.json())
-      .then(setData);
+      .then(setData)
+      // error handling
+      .catch((err) => console.error("Failed to fetch data:", err));
   }, []);
 
   // Download to CSV function

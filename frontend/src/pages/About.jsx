@@ -8,7 +8,7 @@ export default function About() {
   return (
     <main id='about' className="bg-white">
       <section
-        className="min-h-screen snap-start flex flex-col items-start md:items-center pt-16"
+        className="min-h-screen snap-start flex flex-col items-start md:items-center pt-8 pb-16"
         style={{
           background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 11%, #ffffff 18%, #ffffff 100%)",
           backgroundSize: "100% 200vh",

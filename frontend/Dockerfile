@@ -1,6 +1,6 @@
 # frontend/Dockerfile
 
-# frontend/Dockerfile for development:
+# frontend/Dockerfile for local development:
 #FROM node:18-alpine
 
 # Set working directory
