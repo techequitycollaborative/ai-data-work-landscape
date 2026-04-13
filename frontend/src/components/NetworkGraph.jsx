@@ -2,7 +2,7 @@
 // component for the two network data visualizations 
 // these graphs are rendered on the Network page
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 import Papa from "papaparse";
 import nodesRaw from "../data/nodes.csv?raw";
@@ -17,6 +17,7 @@ export default function NetworkGraph() {
   const tooltipRef      = useRef(null);
   const invTooltipRef   = useRef(null);
   const tour = useGraphTour();
+  const [currentView, setCurrentView] = useState("network");
 
   useEffect(() => {
 
@@ -32,7 +33,7 @@ export default function NetworkGraph() {
     const invTip    = invTooltipRef.current;
     let width       = container.clientWidth;
     let height      = container.clientHeight;
-    let currentView = "network";
+    let viewMode = "network";
 
     const NODE_COLOR      = "#00495e";
     const DATA_WORK_COLOR = "#ff3b00";
@@ -57,7 +58,8 @@ export default function NetworkGraph() {
     const networkLegend  = document.getElementById("rn-network-legend");
 
     btnNetwork.addEventListener("click", () => {
-      currentView = "network";
+      setCurrentView("network");
+      viewMode = "network";
       networkView.classList.remove("hidden");
       investorView.classList.add("hidden");
       btnNetwork.classList.add("active");
@@ -68,7 +70,8 @@ export default function NetworkGraph() {
     });
 
     btnInvestor.addEventListener("click", () => {
-      currentView = "investor";
+      setCurrentView("investor");
+      viewMode = "investor";
       investorView.classList.remove("hidden");
       networkView.classList.add("hidden");
       btnInvestor.classList.add("active");
@@ -247,7 +250,7 @@ export default function NetworkGraph() {
         width = container.clientWidth;
         height = container.clientHeight;
         simulation.force("center", d3.forceCenter(width / 2, height / 2)).alpha(0.3).restart();
-        if (currentView === "investor") renderBipartite();
+        if (viewMode === "investor") renderBipartite();
       }
       window.addEventListener("resize", handleResize);
 
@@ -442,9 +445,9 @@ export default function NetworkGraph() {
                 <div className="legend-item"><div className="legend-line" style={{ background: "#f1592d" }} />Supplier or Subcontractor</div>
               </div>
             </div>
-            {/* Helper button */}
+            {/* Helper tour button */}
             <button
-              onClick={tour.start}
+              onClick={() => currentView === "network" ? tour.startNetwork() : tour.startInvestor()}
               className="help-btn"
               style={{
                 fontSize: 12, padding: "4px 12px",
