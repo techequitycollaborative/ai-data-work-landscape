@@ -53,7 +53,7 @@ app.add_middleware(
 
 ```jsx
 
-// frontend/Landscape.jsx
+// frontend/database.jsx
     fetch('http://localhost:8000/data') // for development
 ```
 

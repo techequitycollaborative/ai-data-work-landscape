@@ -3,15 +3,15 @@
 
 import { BrowserRouter as Router, Routes, Route, NavLink, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Home from "./pages/Home";
+import Home from "./pages/HomeBlockLite";
 import About from "./pages/About";
 import Contribute_Jotform from "../archived_pages/Contribute_Jotform_cached";
-import Landscape from "./pages/Landscape";
+import Database from "./pages/Database";
 import Profiles from "./pages/Profiles";
 import ProfileDetail from "./pages/ProfileDetail";
-import Network from "./pages/Network";
+import Graphs from "./pages/Graphs";
 import ScrollToTop from "./components/ScrollToTop";
-import Footer from "./components/Footer";
+import Footer from "./components/FooterDetailed";
 import { Menu, X } from "lucide-react"; // or any icon library
 import ReactGA from "react-ga4"; // for Google Analytics tracking
 
@@ -31,18 +31,31 @@ function GAListener({ children }) {
 function AppWrapper() {
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
+  
+  // Remove footer from home page
   const showFooter = location.pathname !== "/";
 
   return (
     <div className="min-h-screen flex flex-col justify-between">
       {/* NAVIGATION BAR */}
       <nav className="relative left-0 w-full bg-[#f3fdb8] z-30 p-4 flex items-center justify-between">
-        {/* Logo  - with hover effect to indicate it is clickable */}
+        {/* Tech Equity Logo  - with hover effect to indicate it is clickable 
         <NavLink to="/">
-        <img src="/logo.png" alt="TechEquity Logo" className="h-8 md:h-6 w-auto hover:opacity-40 transition-all duration-150" />
-        </NavLink>
+          <img src="/logo.png" alt="TechEquity Logo" className="h-8 md:h-6 w-auto hover:opacity-40 transition-all duration-150" />
+        </NavLink>*/}
 
-        {/* Or use text instead of TE logo
+        {/* Just favicon
+        <NavLink to="/">
+          <img src="/favicon1.png" alt="Globe favicon" className="h-8 md:h-6 w-auto hover:opacity-40 transition-all duration-150" />
+        </NavLink> */}
+
+        {/* Favicon + text */}
+        <NavLink to="/" className="flex items-center gap-2 hover:opacity-40 transition-all duration-150">
+          <img src="/favicon1.png" alt="TechEquity Logo" className="h-8 md:h-6 w-auto" />
+          <span className="font-light">The Data Work Landscape</span>
+      </NavLink>
+
+        {/* Just text, no logo/favicon
         <NavLink to="/" className="no-underline leading-tight" style={{ fontFamily: "'Anton', sans-serif", color: '#041c2c' }}>
           <span className="block">DATA WORK</span>
           <span className="block">LANDSCAPE</span>
@@ -50,8 +63,8 @@ function AppWrapper() {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex gap-10 mr-2">
-          <NavLink to="/landscape" className={({ isActive }) => isActive ? "underline" : ""}>landscape</NavLink>
-          <NavLink to="/network" className={({ isActive }) => isActive ? "underline" : ""}>network</NavLink>
+          <NavLink to="/database" className={({ isActive }) => isActive ? "underline" : ""}>database</NavLink>
+          <NavLink to="/graphs" className={({ isActive }) => isActive ? "underline" : ""}>graphs</NavLink>
           <NavLink to="/profiles" className={({ isActive }) => isActive ? "underline" : ""}>profiles</NavLink>
           <NavLink to="/about" className={({ isActive }) => isActive ? "underline" : ""}>about</NavLink>
        </div>
@@ -79,8 +92,8 @@ function AppWrapper() {
           </button>
 
           <NavLink to="/" onClick={() => setMenuOpen(false)}>home</NavLink>
-          <NavLink to="/landscape" onClick={() => setMenuOpen(false)}>landscape</NavLink>
-          <NavLink to="/network" onClick={() => setMenuOpen(false)}>network</NavLink>
+          <NavLink to="/database" onClick={() => setMenuOpen(false)}>database</NavLink>
+          <NavLink to="/graphs" onClick={() => setMenuOpen(false)}>graphs</NavLink>
           <NavLink to="/profiles" onClick={() => setMenuOpen(false)}>profiles</NavLink>
           <NavLink to="/about" onClick={() => setMenuOpen(false)}>about</NavLink>       
         </div>
@@ -94,8 +107,8 @@ function AppWrapper() {
       <div className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/landscape" element={<Landscape />} />
-          <Route path="/network" element={<Network />} />
+          <Route path="/database" element={<Database />} />
+          <Route path="/graphs" element={<Graphs />} />
           <Route path="/profiles" element={<Profiles />} />
           <Route path="/profiles/:slug" element={<ProfileDetail />} />
           <Route path="/about" element={<About />} />
@@ -103,7 +116,7 @@ function AppWrapper() {
       </div>
 
       {/* Footer */}
-      {showFooter && <Footer />}
+      {<Footer />}
     </div>
   );
 }

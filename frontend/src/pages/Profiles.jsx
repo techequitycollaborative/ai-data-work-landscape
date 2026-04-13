@@ -14,7 +14,7 @@ export default function Profiles() {
     <main
       id="profiles" className="bg-white">
       <section
-        className="min-h-screen snap-start flex flex-col items-start md:items-center pt-16"
+        className="min-h-screen snap-start flex flex-col items-start md:items-center pt-8 pb-16"
         style={{
           background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 11%, #ffffff 18%, #ffffff 100%)",
           backgroundSize: "100% 200vh",
@@ -36,7 +36,7 @@ export default function Profiles() {
 
         {/* Section header */}
         <div className="border-b-2 border-[#041c2c] pb-3 mb-6">
-          <h1 className="text-5xl md:text-6xl m-0 leading-none">Company Profiles</h1>
+          <h1 className="text-5xl md:text-6xl m-0 leading-none">Profiles</h1>
         </div>
 
         <p className="mt-2 text-sm text-gray-500 font-normal normal-case" style={{ fontFamily: "'Roboto Serif', serif" }}>

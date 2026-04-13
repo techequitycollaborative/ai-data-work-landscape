@@ -383,10 +383,10 @@ import {
           placeholder="Search all columns..."
           value={globalFilter ?? ""}
           onChange={(e) => setGlobalFilter(e.target.value)}
-          className="mb-4 mt-4 p-2 border rounded w-full"
+          className="mb-4 mt-4 p-2 rounded-lg border border-[#1e2330] w-full"
         />
         {/* Data table with filters and columns */}
-        <div className="overflow-x-auto max-h-[80vh] border rounded-lg">
+        <div className="overflow-x-auto max-h-[80vh] rounded-lg border border-[#1e2330]">
           <table id="myTable" className="w-full border-b-2 border-gray-400 text-xs" style={{ tableLayout: 'fixed' }}>
             <thead className="bg-gray-400">
               {table.getHeaderGroups().map(headerGroup => (
