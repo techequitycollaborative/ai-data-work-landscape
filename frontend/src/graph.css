@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500&display=swap');
 
-/* ── CSS Variables scoped to network page ── */
+/*  CSS Variables scoped to network page  */
 :root {
   --bg: #ffffff;
   --surface: #ffffff;
@@ -14,17 +14,21 @@
   --link-investor: #2d9f8b;
   --link-unknown: #ade4d1;
 }
-/* ── Network header ── */
+/*  Network header  */
 .network-page .network-header {
   padding: 16px 24px;
   border-bottom: 1px solid var(--border);
   display: grid;
-  grid-template-columns: auto auto 1fr auto;
-  grid-template-areas: "title toggle search legend";
+  grid-template-columns: auto auto 1fr auto auto;
+  grid-template-areas: "title toggle search legend help";
   align-items: center;
   gap: 20px;
   background: var(--surface);
   flex-shrink: 0;
+}
+
+.network-page .network-header .help-btn {
+  grid-area: help;
 }
 
 .network-page .network-header h1 {
@@ -38,7 +42,7 @@
   margin: 0;
 }
 
-/* ── Toggle ── */
+/*  Toggle  */
 .network-page .view-toggle {
   grid-area: toggle;
   display: flex;
@@ -68,7 +72,7 @@
 .network-page .toggle-btn:hover:not(.active) { background: rgba(0,73,94,0.08); color: var(--text); }
 .network-page .toggle-divider { width: 1px; background: var(--border); align-self: stretch; }
 
-/* ── Legend ── */
+/*  Legend  */
 .network-page .legend {
   grid-area: legend;
   justify-self: end;
@@ -110,10 +114,13 @@
   background: var(--border);
 }
 
-/* ── Search ── */
+/*  Search  */
 .network-page #rn-network-search {
   grid-area: search;
   justify-self: center;
+  display: flex;        
+  align-items: center; 
+  gap: 8px;  
 }
 
 .network-page .search input {
@@ -138,7 +145,7 @@
 
 .network-page .search input:focus { border-color: var(--accent); }
 
-/* ── Suggestions dropdown ── */
+/*  Suggestions dropdown  */
 .network-page .suggestions {
   position: absolute;
   list-style: none;
@@ -168,7 +175,7 @@
   color: #fff;
 }
 
-/* ── Graph container ── */
+/*  Graph container  */
 .network-page #rn-graph-container {
   flex: 1;
   position: relative;
@@ -180,7 +187,7 @@
   height: 100%;
 }
 
-/* ── View containers ── */
+/*  View containers  */
 .network-page #rn-network-view,
 .network-page #rn-investor-view {
   position: absolute;
@@ -206,7 +213,7 @@
 
 .network-page #rn-investor-svg { display: block; }
 
-/* ── Links ── */
+/*  Links  */
 .network-page .link {
   stroke-width: 3;
   stroke-opacity: 0.5;
@@ -223,7 +230,7 @@
 .network-page .link.dimmed      { stroke-opacity: 0.08; }
 .network-page .link.highlighted { stroke-opacity: 0.9; stroke-width: 5; }
 
-/* ── Nodes ── */
+/*  Nodes  */
 .network-page .node circle {
   stroke-width: 5;
   stroke: var(--bg);
@@ -245,7 +252,7 @@
 .network-page .node.highlighted text,
 .network-page .node:hover text { fill: var(--text); }
 
-/* ── Tooltip ── */
+/*  Tooltip  */
 .network-page #tooltip {
   position: absolute;
   background: var(--surface);
@@ -326,7 +333,7 @@
 
 .network-page #tooltip .tip-link:hover { border-color: var(--accent); }
 
-/* ── Zoom controls ── */
+/*  Zoom controls  */
 .network-page #rn-controls {
   position: absolute;
   bottom: 20px;
@@ -334,6 +341,7 @@
   display: flex;
   flex-direction: column;
   gap: 6px;
+  z-index: 10;
 }
 
 .network-page .ctrl-btn {
@@ -354,7 +362,7 @@
 
 .network-page .ctrl-btn:hover { border-color: var(--accent); color: var(--accent); }
 
-/* ── Bipartite node/link styles ── */
+/*  Bipartite node/link styles  */
 .network-page .bp-company-label {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 11px;
@@ -415,7 +423,7 @@
   fill: var(--text-dim, #5a6380);
 }
 
-/* ── Bipartite filter bar ── */
+/*  Bipartite filter bar  */
 .network-page .bp-filter-wrap {
   position: sticky;
   top: 0; left: 0; right: 0;
@@ -510,7 +518,7 @@
   margin-left: 4px;
 }
 
-/* ── Investor tooltip ── */
+/*  Investor tooltip  */
 .network-page #inv-tooltip {
   position: fixed;
   background: #fff;

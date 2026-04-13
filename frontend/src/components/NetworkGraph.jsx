@@ -2,15 +2,13 @@
 // component for the two network data visualizations 
 // these graphs are rendered on the Network page
 
-// Network.jsx
-// Page for two network graph data viz
-
 import { useEffect, useRef } from "react";
 import * as d3 from "d3";
 import Papa from "papaparse";
 import nodesRaw from "../data/nodes.csv?raw";
 import relationshipsRaw from "../data/relationships.csv?raw";
 import "../graph.css";
+import { useGraphTour, GraphTourOverlay } from "./GraphTour";
 
 export default function NetworkGraph() {
   const networkSvgRef   = useRef(null);
@@ -18,8 +16,10 @@ export default function NetworkGraph() {
   const investorSvgRef  = useRef(null);
   const tooltipRef      = useRef(null);
   const invTooltipRef   = useRef(null);
+  const tour = useGraphTour();
 
   useEffect(() => {
+
     const svgEl = networkSvgRef.current;
     if (!svgEl) return;
     
@@ -47,7 +47,7 @@ export default function NetworkGraph() {
       "unknown":                   "#ade4d1",
     };
 
-    // ── Toggle ──
+    // Toggle 
     const networkView    = document.getElementById("rn-network-view");
     const investorView   = document.getElementById("rn-investor-view");
     const btnNetwork     = document.getElementById("rn-btn-network");
@@ -79,7 +79,7 @@ export default function NetworkGraph() {
       setTimeout(() => renderBipartite(), 50);
     });
 
-    // ── Network SVG setup ──
+    // Network SVG setup 
     const svg  = d3.select(networkSvgRef.current);
     const g    = svg.append("g");
     const zoom = d3.zoom().scaleExtent([0.2, 4])
@@ -100,7 +100,7 @@ export default function NetworkGraph() {
 
     let renderBipartite = () => {};
 
-    // ── Load data ──
+    //  Load data 
     const rawNodes         = Papa.parse(nodesRaw, { header: true, skipEmptyLines: true }).data;
     const rawRelationships = Papa.parse(relationshipsRaw, { header: true, skipEmptyLines: true }).data;
 
@@ -136,9 +136,10 @@ export default function NetworkGraph() {
           .append("path").attr("d", "M0,-4L8,0L0,4").attr("fill", color).attr("opacity", 0.7);
       });
 
-      // ── Search ──
+      //  Search 
       const searchInput  = document.getElementById("rn-company-search");
       const suggestions  = document.getElementById("rn-company-suggestions");
+      const networkClear = document.getElementById("rn-network-clear");
       const companyNames = networkNodes.map(n => n.name);
       let selIdx = -1;
 
@@ -221,6 +222,15 @@ export default function NetworkGraph() {
         tooltip.classList.remove("visible");
       });
 
+      // Clear button for network graph
+      networkClear.addEventListener("click", () => {
+        searchInput.value = "";
+        suggestions.style.display = "none";
+        node.classed("dimmed", false).classed("highlighted", false);
+        link.classed("dimmed", false);
+        svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity.translate(width / 2, height / 2).scale(0.35).translate(-width / 2, -height / 2));
+      });
+
       simulation.on("tick", () => {
         link.attr("x1", d => d.source.x).attr("y1", d => d.source.y).attr("x2", d => d.target.x).attr("y2", d => d.target.y);
         node.attr("transform", d => `translate(${d.x},${d.y})`);
@@ -241,7 +251,7 @@ export default function NetworkGraph() {
       }
       window.addEventListener("resize", handleResize);
 
-      // ── Bipartite filter ──
+      //  Bipartite filter 
       const bpFilterInput = document.getElementById("rn-bp-filter");
       const bpSuggestions = document.getElementById("rn-bp-suggestions");
       const bpClear       = document.getElementById("rn-bp-clear");
@@ -281,7 +291,7 @@ export default function NetworkGraph() {
       bpFilterInput.addEventListener("blur", () => setTimeout(() => { bpSuggestions.style.display = "none"; }, 120));
       bpClear.addEventListener("click", () => applyFilter(""));
 
-      // ── Bipartite render ──
+      //  Bipartite render 
       renderBipartite = function () {
         width = container.clientWidth;
         const visibleLinks = filterQuery
@@ -404,10 +414,12 @@ export default function NetworkGraph() {
         d3.select(svgEl).selectAll("*").remove();
         window.removeEventListener("resize", handleResize);
       };
+
   }, []);
 
   return (
-      <div className="network-page" style={{ display: "flex", flexDirection: "column", height: "calc(100vh - 56px)", border: "1px solid #1e2330", borderRadius: "0.5rem", overflow: "hidden" }}>         <header className="network-header">
+      <div className="network-page" style={{ display: "flex", flexDirection: "column", height: "calc(100vh - 56px)", border: "1px solid #1e2330", borderRadius: "0.5rem", overflow: "hidden" }}>         
+      <header className="network-header">
             {/* Toggle */}
             <div className="view-toggle">
               <button className="toggle-btn active" id="rn-btn-network">Clients</button>
@@ -418,6 +430,7 @@ export default function NetworkGraph() {
             <div className="search" id="rn-network-search">
               <span className="search-label">Search for a company</span>
               <input type="text" id="rn-company-search" autoComplete="off" spellCheck="false" />
+              <button id="rn-network-clear" className="bp-clear-btn">Clear</button>
               <ul id="rn-company-suggestions" className="suggestions" />
             </div>
             {/* Legend */}
@@ -429,6 +442,19 @@ export default function NetworkGraph() {
                 <div className="legend-item"><div className="legend-line" style={{ background: "#f1592d" }} />Supplier or Subcontractor</div>
               </div>
             </div>
+            {/* Helper button */}
+            <button
+              onClick={tour.start}
+              className="help-btn"
+              style={{
+                fontSize: 12, padding: "4px 12px",
+                border: "0.5px solid rgba(0,73,94,0.3)", borderRadius: 8,
+                background: "#00495e", cursor: "pointer", color: "white",
+                fontFamily: "IBM Plex Mono, monospace",
+              }}
+            >
+              How to use this graph
+            </button>
           </header>
       
           {/* Graph container */}
@@ -460,6 +486,15 @@ export default function NetworkGraph() {
               <button className="ctrl-btn" id="rn-zoom-out">−</button>
               <button className="ctrl-btn" id="rn-reset" style={{ fontSize: "12px" }}>⌖</button>
             </div>
+            <GraphTourOverlay
+            containerRef={containerRef}
+            active={tour.active}
+            step={tour.step}
+            steps={tour.steps}
+            next={tour.next}
+            prev={tour.prev}
+            stop={tour.stop}
+          />
           </div>
         </div>
   );
