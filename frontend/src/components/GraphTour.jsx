@@ -8,7 +8,7 @@ const NETWORK_STEPS = [
   {
     id: "node",
     label: "Data work company nodes",
-    body: "Nodes in red are data work companies — the primary subjects of this network. Hover any node to see its connections highlighted and a details tooltip.",
+    body: "Nodes in red are data work companies — the primary subjects of this network. Hover on any node to see its relationships and view company details.",
     getTarget: (container) => {
       const svg = container.querySelector("svg");
       if (!svg) return null;
@@ -27,7 +27,7 @@ const NETWORK_STEPS = [
   {
     id: "links",
     label: "Relationship lines",
-    body: "Each line represents a business relationship. Blue = customer, dark red = partner, orange = supplier or subcontractor. Hover a node to highlight only its connections.",
+    body: "Each line represents a business relationship. Hover on a node to highlight only its connections.",
     getTarget: (container) => {
       const line = container.querySelector("line.link");
       if (!line) return null;
@@ -40,7 +40,7 @@ const NETWORK_STEPS = [
   {
     id: "search",
     label: "Search bar",
-    body: "Type a company name to zoom directly to it. Use arrow keys to navigate autocomplete suggestions, and Enter to select.",
+    body: "Type a company name to zoom directly to it. Click the Clear button to return to the default view.",
     getTarget: () => {
       const el = document.getElementById("rn-company-search");
       if (!el) return null;
@@ -53,7 +53,7 @@ const NETWORK_STEPS = [
   {
     id: "legend",
     label: "Legend",
-    body: "The legend maps line colours to relationship types. It hides automatically when you switch to the Investor view.",
+    body: "The legend maps line colors to relationship types.",
     getTarget: () => {
       const el = document.getElementById("rn-network-legend");
       if (!el) return null;
@@ -69,7 +69,7 @@ const INVESTOR_STEPS = [
   {
     id: "inv-company",
     label: "Data work company nodes",
-    body: "The left column lists data work companies. Hover one to highlight all its investor connections and see details in a tooltip.",
+    body: "The left column lists data work companies. Hover on one to highlight all its investor connections.",
     getTarget: (container) => {
       const circle = container.querySelector(".bp-node-company");
       if (!circle) return null;
@@ -82,7 +82,7 @@ const INVESTOR_STEPS = [
   {
     id: "inv-investor",
     label: "Investor nodes",
-    body: "The right column lists investors. Hover one to see which data work companies it has funded.",
+    body: "The right column lists investors. Hover on one to see which data work companies it has funded.",
     getTarget: (container) => {
       const circle = container.querySelector(".bp-node-investor");
       if (!circle) return null;
@@ -95,7 +95,7 @@ const INVESTOR_STEPS = [
   {
     id: "inv-search",
     label: "Search bar",
-    body: "Filter the graph by typing a company or investor name. The connections update instantly to show only matching entries.",
+    body: "Filter the graph by typing a company or investor name.",
     getTarget: () => {
       const el = document.getElementById("rn-bp-filter");
       if (!el) return null;
