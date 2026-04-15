@@ -14,32 +14,38 @@
   --link-investor: #2d9f8b;
   --link-unknown: #ade4d1;
 }
-/*  Network header  */
+
+/* Network header */
 .network-page .network-header {
   padding: 16px 24px;
   border-bottom: 1px solid var(--border);
-  display: grid;
-  grid-template-columns: auto auto 1fr auto auto;
-  grid-template-areas: "title toggle search legend help";
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 20px;
+  gap: 12px;
   background: var(--surface);
   flex-shrink: 0;
 }
 
 .network-page .network-header .help-btn {
-  grid-area: help;
+  margin-left: auto;
 }
 
-.network-page .network-header h1 {
-  grid-area: title;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin: 0;
+@media (max-width: 900px) {
+  .network-page .network-header {
+    padding: 10px 16px;
+    gap: 8px;
+  }
+
+  .network-page .legend {
+    order: 10;        /* move legend to last in the row/wrap order */
+    width: 100%;      /* full row on small screens */
+    justify-self: unset;
+  }
+
+  .network-page .network-header .help-btn {
+    margin-left: 0;
+  }
 }
 
 /*  Toggle  */
