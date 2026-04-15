@@ -14,38 +14,64 @@
   --link-investor: #2d9f8b;
   --link-unknown: #ade4d1;
 }
-/*  Network header  */
+
+/* Network header */
 .network-page .network-header {
-  padding: 16px 24px;
+  padding: 12px 20px;
   border-bottom: 1px solid var(--border);
-  display: grid;
-  grid-template-columns: auto auto 1fr auto auto;
-  grid-template-areas: "title toggle search legend help";
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   background: var(--surface);
   flex-shrink: 0;
 }
 
 .network-page .network-header .help-btn {
-  grid-area: help;
+  margin-left: auto;
 }
 
-.network-page .network-header h1 {
-  grid-area: title;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin: 0;
+/* Tablet */
+@media (max-width: 900px) {
+  .network-page .network-header {
+    padding: 10px 16px;
+    gap: 8px;
+  }
+  .network-page #rn-network-legend {
+    order: 10;
+    width: 100%;
+    padding-bottom: 4px;
+  }
+  .network-page .network-header .help-btn {
+    order: 5;
+    margin-left: auto;
+  }
 }
 
-/*  Toggle  */
+/* Mobile */
+@media (max-width: 480px) {
+  .network-page .network-header {
+    padding: 10px 12px;
+  }
+  .network-page #rn-network-legend {
+    display: none !important;
+  }
+  .network-page #rn-network-search {
+    width: 100%;
+    order: 10;
+  }
+  .network-page #rn-network-search input {
+    flex: 1;
+    width: auto;
+  }
+  .network-page .network-header .help-btn .help-text {
+    display: none;
+  }
+}
+
+/* Toggle */
 .network-page .view-toggle {
-  grid-area: toggle;
-  display: flex;
+  display: flex;        /* removed grid-area: toggle */
   align-items: center;
   gap: 0;
   border: 1px solid var(--border);
@@ -74,8 +100,6 @@
 
 /*  Legend  */
 .network-page .legend {
-  grid-area: legend;
-  justify-self: end;
   display: flex;
   gap: 24px;
   font-size: 11px;
@@ -116,11 +140,9 @@
 
 /*  Search  */
 .network-page #rn-network-search {
-  grid-area: search;
-  justify-self: center;
-  display: flex;        
-  align-items: center; 
-  gap: 8px;  
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .network-page .search input {
@@ -140,7 +162,7 @@
   text-transform: uppercase;
   color: var(--text-dim);
   margin-right: 8px;
-  margin-left: 20px;
+  margin-left: 0; 
 }
 
 .network-page .search input:focus { border-color: var(--accent); }

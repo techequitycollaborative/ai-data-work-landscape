@@ -22,19 +22,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# CORS so React can access site -- for dev app
-#origins = [
-#    "https://dev-dwl-gxd6w.ondigitalocean.app"
-#]
-
-#app.add_middleware(
-#    CORSMiddleware,
-#    allow_origins=origins, # only allow custom frontend, not all sites
-#    allow_credentials=True,
-#    allow_methods=["*"],
-#    allow_headers=["*"],
-#)
-
 # CORS so React can access site -- for local development
 #app.add_middleware(
 #    CORSMiddleware,
