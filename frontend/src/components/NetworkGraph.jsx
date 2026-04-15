@@ -456,7 +456,7 @@ export default function NetworkGraph() {
                 fontFamily: "IBM Plex Mono, monospace",
               }}
             >
-              How to use this graph
+              ?
             </button>
           </header>
       
