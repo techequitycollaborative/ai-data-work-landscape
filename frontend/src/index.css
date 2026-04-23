@@ -272,6 +272,7 @@ label {
 
 #profile-detail .profile-table tbody td {
   padding: 7px 12px;
+  font-weight: 400 !important;
 }
 
 /* Sidebar cards */

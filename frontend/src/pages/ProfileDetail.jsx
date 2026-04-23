@@ -59,7 +59,7 @@ export default function ProfileDetail() {
           <div>
             {/* What they do */}
             <section className="profile-section">
-              <h2>What They Do</h2>
+              <h2>Overview</h2>
               <ReactMarkdown
                 components={{
                   p: ({ children }) => <p>{children}</p>,
@@ -75,36 +75,27 @@ export default function ProfileDetail() {
               </ReactMarkdown>
             </section>
 
-            {/* Key Business Relationships */}
+            {/* Sources card */}
             <section className="profile-section">
-              <h2>Key Business Relationships</h2>
-              <table className="profile-table">
-                <thead>
-                  <tr>
-                    {["Company", "Relationship", "Notes"].map(h => (
-                      <th key={h}>{h}</th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {company.relationships.map((rel, i) => (
-                    <tr key={i}>
-                      <td>{rel.company}</td>
-                      <td><Badge label={rel.type} /></td>
-                      <td>{rel.notes}</td>
-                    </tr>
+                <h2>Sources</h2>
+                <ul className="sources-list">
+                  {company.sources.map((src, i) => (
+                    <li key={i}>
+                      <a href={src.url} target="_blank" rel="noopener noreferrer">
+                        › {src.label}
+                      </a>
+                    </li>
                   ))}
-                </tbody>
-              </table>
-            </section>
+                </ul>
+              </section>
           </div>
 
           {/* RIGHT COLUMN (sidebar) */}
           <div className="profile-sidebar">
 
             {/* Overview card */}
-            <div className="profile-card">
-              <h3>Overview</h3>
+            <div className="profile-card overview-card">
+              <h3>Company Details</h3>
               <table>
                 <tbody>
                   {[
@@ -121,20 +112,43 @@ export default function ProfileDetail() {
                 </tbody>
               </table>
             </div>
-
-            {/* Sources card */}
+            
+            {/* Key Business Relationships */}
             <div className="profile-card">
-              <h3>Sources</h3>
-              <ul className="sources-list">
-                {company.sources.map((src, i) => (
-                  <li key={i}>
-                    <a href={src.url} target="_blank" rel="noopener noreferrer">
-                      › {src.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
+              <h3>Key Business Relationships</h3>
+              <table className="profile-table">
+                <thead>
+                  <tr>
+                    {["Company", "Relationship"].map(h => (
+                      <th key={h} className="w-1/2">{h}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {company.relationships.map((rel, i) => (
+                    <tr key={i}>
+                      <td>{rel.company}</td>
+                      <td><Badge label={rel.type} /></td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
+
+                        {/* Sources card */}
+            <div className="profile-card">
+                <h3>In the news</h3>
+                <ul className="sources-list">
+                  {company.sources.map((src, i) => (
+                    <li key={i}>
+                      <a href={src.url} target="_blank" rel="noopener noreferrer">
+                        › {src.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            
           </div>
         </div>
 
