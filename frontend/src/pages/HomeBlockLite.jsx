@@ -12,11 +12,11 @@ export default function Home() {
       {/* HERO SECTION */}
       <section
         id="home"
-        className="flex flex-col justify-center items-start md:items-center md:text-center text-left w-full px-4 py-12
+        className="flex flex-col justify-center items-start md:items-center md:text-center text-left w-full px-4 py-6 md:py-12
                   bg-no-repeat bg-[length:180%] md:bg-[length:75%] md:bg-[position:center_top]"
         style={{ backgroundImage: "url('/globe.png')" }}
       >
-        <div className="flex flex-col md:items-center md:text-center items-start text-left mt-12">
+        <div className="flex flex-col md:items-center md:text-center items-start text-left md:mt-12">
           <h1 className="ml-2 mr-8 text-8xl md:text-9xl mb-4">Who Powers AI?</h1>
           <h3 className="ml-2 mr-8 text-3xl md:text-5xl mb-6">Exploring the Data Work Landscape</h3>
           <p className="mb-10 ml-2 mr-8 md:mb-4 pt-1 max-w-4xl text-base md:text-justify text-left">
@@ -26,7 +26,7 @@ export default function Home() {
       </section>
 
       {/* THREE PREVIEW BLOCKS */}
-      <section className="flex flex-col md:flex-row gap-6 px-12 py-16 w-full">
+      <section className="flex flex-col md:flex-row gap-6 px-12 py-8 md:py-16 w-full">
 
         {/* Database block */}
         <Link to="/database" className="group flex-1 flex flex-col gap-4 border-2 border-[#041c2c] rounded p-6 hover:bg-[#041c2c] transition-all duration-200z">
