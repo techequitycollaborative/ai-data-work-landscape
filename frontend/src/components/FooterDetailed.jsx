@@ -9,7 +9,7 @@ export default function Footer() {
     <footer id="myFooter" className="bg-[#041c2c] text-[#f3fdb8] pt-10 pb-6 px-12">
       
       {/* Main footer content */}
-      <div className="flex flex-col md:flex-row items-start justify-between gap-10 mb-10">
+      <div className="flex flex-row flex-wrap items-start justify-between gap-10 mb-10">
 
         {/* Logo block */}
         <div className="flex flex-col gap-4">
