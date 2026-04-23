@@ -4,6 +4,7 @@
 import { useParams, useNavigate, NavLink } from "react-router-dom";
 import { COMPANIES } from "../data/companies";
 import Badge from "../components/Badge";
+import ReactMarkdown from "react-markdown";
 
 export default function ProfileDetail() {
   const { slug } = useParams();
@@ -59,9 +60,19 @@ export default function ProfileDetail() {
             {/* What they do */}
             <section className="profile-section">
               <h2>What They Do</h2>
-              {company.whatTheyDo.split("\n\n").map((para, i) => (
-                <p key={i}>{para}</p>
-              ))}
+              <ReactMarkdown
+                components={{
+                  p: ({ children }) => <p>{children}</p>,
+                  a: ({ href, children }) => (
+                    <a href={href} target="_blank" rel="noopener noreferrer"
+                       className="text-blue-600 underline hover:opacity-70 transition-all">
+                      {children}
+                    </a>
+                  ),
+                }}
+              >
+                {company.whatTheyDo}
+              </ReactMarkdown>
             </section>
 
             {/* Key Business Relationships */}

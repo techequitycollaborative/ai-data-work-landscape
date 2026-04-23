@@ -3,6 +3,31 @@
 // TODO: Connect to db via backend API or imported json file
 export const COMPANIES = [
     {
+      slug: "mercor",
+      name: "Mercor",
+      hq: "San Francisco, CA, USA",
+      established: 2022,
+      companyType: "Workforce",
+      workforceModel: "Marketplace Model",
+      whatTheyDo: `Mercor is a company that supplies workers to train AI models built by companies such as OpenAI and Anthropic. Mercor positions itself as providing higher value training and evaluation data by hiring qualified professionals across a wide range of occupations to question AI models, critique their responses, and create detailed examples of accurate responses, together with the reasoning that went into crafting them. Mercor operates on a marketplace model, where distributed workers perform tasks that are posted to a digital platform. Workers are hired as independent contractors and are paid by the hour. Workers have no knowledge of which clients they are working for or which models they are training. There is no guarantee of on-going work and no fixed working hours; projects can become available at any time. Workers have reported projects becoming scarce, reduction in time allocated to complete tasks, and reduction in pay compared to similar previous projects. After signing on, workers are expected to install monitoring software on their computers which tracks time spent on projects and determines pay.`,
+      relationships: [
+        { company: "Anthropic", type: "Customer", notes: "" },
+        { company: "Meta", type: "Customer", notes: "" },
+        { company: "OpenAI", type: "Customer", notes: "" },
+        { company: "Felicis", type: "Investor", notes: "" },
+        { company: "General Catalyst", type: "Investor", notes: "" },
+        { company: "Link Ventures", type: "Investor", notes: "" },
+        { company: "Menlo Ventures", type: "Investor", notes: "" },
+        { company: "SignalRank", type: "Investor", notes: "" },
+      ],
+      sources: [
+        { label: "Mercor company website", url: "https://www.mercor.com/" },
+        { label: "White collar workers training AI", url: "https://www.theverge.com/cs/features/877388/white-collar-workers-training-ai-mercor" },
+        { label: "The recruitment company training AI to do your job", url: "https://www.ft.com/content/0cab0fcd-e355-40e8-83a3-2ad5066d7b48" },
+      ],
+    },
+
+    {
       slug: "prolific",
       name: "Prolific",
       hq: "London, United Kingdom",
@@ -21,14 +46,21 @@ export const COMPANIES = [
         { label: "I have a side hustle training AI and reviewing online ads...", url: "https://www.businessinsider.com/data-worker-side-gig-freelance-training-reviewing-ads-2025" },
       ],
     },
+
     {
-      slug: "mercor",
-      name: "Mercor",
-      hq: "San Francisco, CA, USA",
-      established: 2022,
-      companyType: "Workforce",
-      workforceModel: "Marketplace Model",
-      whatTheyDo: `Mercor is a company that supplies workers to train AI models built by companies such as OpenAI and Anthropic. Mercor positions itself as providing higher value training and evaluation data by hiring qualified professionals across a wide range of occupations to question AI models, critique their responses, and create detailed examples of accurate responses, together with the reasoning that went into crafting them. Mercor operates on a marketplace model, where distributed workers perform tasks that are posted to a digital platform. Workers are hired as independent contractors and are paid by the hour. Workers have no knowledge of which clients they are working for or which models they are training. There is no guarantee of on-going work and no fixed working hours; projects can become available at any time. Workers have reported projects becoming scarce, reduction in time allocated to complete tasks, and reduction in pay compared to similar previous projects. After signing on, workers are expected to install monitoring software on their computers which tracks time spent on projects and determines pay.`,
+      slug: "teleperformance",
+      name: "Teleperformance",
+      hq: "Paris, France",
+      established: 1978,
+      companyType: "Tools + Workforce",
+      workforceModel: "Unclear",
+      whatTheyDo: `Teleperformance is a French multinational Business Process Outsourcing (BPO) firm that has branched into AI-related data work through its [TP.ai Dataservices](https://www.tp.com/en-us/services/ai-solutions/dataservices/) division. It is the [largest call center operator in the world](https://fortune.com/2025/10/09/teleperformance-worlds-largest-call-center-operator-blending-artificial-intelligence-with-emotional-intelligence/). Companies outsource their customer service, back-office operations, content moderation, and digital tasks to Teleperformance, which provides a human workforce through call centers supported by AI. Teleperformance earns revenue by delivering these services for clients across tech, media, finance, healthcare, retail, government and other industries. [In the U.S.](https://cwa-union.org/news/teleperformance-workers-mobilize-national-action-against-companys-mistreatment-american), Teleperformance workers "provide call center customer service support, debt collection, data security, phone and video language interpretation services, American Sign Language interpreting services, social media content moderation, and more to major global and U.S. companies."
+
+For fiscal year 2025, [Teleperformance estimated](https://www.tp.com/media/tcab4o1d/tp-fy-2025-results-presentation.pdf) that its data services for AI accounted for 2% of its overall revenue, although it expects this area to grow. The company [touts](https://www.tp.com/media/tcab4o1d/tp-fy-2025-results-presentation.pdf) its "Flexible Workforce Mode," which includes "crowdsourced" workers and full time employees. In 2025, Teleperformance [acquired](https://www.prnewswire.com/news-releases/tp-fuels-expansion-of-tpai-data-services-with-acquisition-of-agents-only-302484985.html) [Agents Only](https://www.agentsonly.com/), "an AI-enabled crowdsourcing gig work platform," to expand its "on-demand access [for] data labelling, data annotation and generative AI support services." Teleperformance previously acquired [Majorel](https://www.tp.com/en-us/investors/publications-and-events/acquisition-of-majorel/?page=1) and [Intelenet](https://www.tp.com/media/nfidqf0b/lettre_teleperformance_1018_en-vfinale-web.pdf).
+      
+In 2022, Teleperformance [signed an agreement with UNI Global Union](https://uniglobalunion.org/news/teleperformance-and-uni-global-union-sign-global-agreement/) to secure the rights of workers to join unions and engage in collective bargaining, as well as improvements in health and safety and workplace monitoring. The agreement covered 440,000 workers across 88 countries. However, Teleperformance customer support workers in Greece, working for clients such as Apple, Google, Microsoft, and Netflix, [called for a strike](https://www.theguardian.com/business/2025/jan/14/teleperformance-strike-greece-apple-google-netflix) in 2025 to protest alleged retaliation against union organizers, constant surveillance, and productivity metrics that even disallow workers from taking restroom breaks. Also in 2025, Ghanaian workers at Majorel, a company acquired by Teleperformance, reported inadequate mental health care from the company to deal with the [psychological trauma](https://www.theguardian.com/technology/2025/apr/27/meta-faces-ghana-lawsuits-over-impact-of-extreme-content-on-moderators) they suffered as a result of the content moderation work they do. Wages that are below cost of living needs, poor living conditions in company-provided accommodations, and close surveillance are also [reported by workers](https://www.theguardian.com/technology/2025/apr/27/meta-faces-ghana-lawsuits-over-impact-of-extreme-content-on-moderators) in Ghana.
+      
+Similar conditions together with unreasonable productivity demands, salary deductions and close surveillance were also reported in 2023 by TikTok content moderators [working for Teleperformance in Colombia](https://committees.parliament.uk/writtenevidence/120135/pdf/). According to the Communications Workers of America (CWA), workers across the U.S. report receiving [low pay, being transferred to lower paying contracts, and an inability to afford health insurance](https://cwa-union.org/news/teleperformance-workers-mobilize-national-action-against-companys-mistreatment-american) because of high deductibles and low coverage. In May 2025, workers held a day of action in protest, demanding better working conditions and union representation.`,
       relationships: [
         { company: "Anthropic", type: "Customer", notes: "" },
         { company: "Meta", type: "Customer", notes: "" },

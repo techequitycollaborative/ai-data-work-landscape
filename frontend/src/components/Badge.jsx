@@ -2,13 +2,14 @@
 // Reusable badge component for company profiles, with color coding based on company type, workforce model, and relationship type
 
 const BADGE_COLORS = {
-    Workforce:           { bg: "#5b8dee", text: "#fff" },
-    Platform:            { bg: "#7c5cbf", text: "#fff" },
+    Workforce:           { bg: "#cde1f9", text: "#000" },
+    Tools:               { bg: "#ade4d1", text: "#000" },
+    "Tools + Workforce": { bg: "#f6d7ff", text: "#000" },
     Customer:            { bg: "#5b8dee", text: "#fff" },
     Investor:            { bg: "#3aaf6e", text: "#fff" },
-    "Parent Company":    { bg: "#888",    text: "#fff" },
-    "Marketplace Model": { bg: "#041c2c", text: "#fff" },
-    "Managed Workforce": { bg: "#041c2c", text: "#fff" },
+    "Marketplace Model": { bg: "#00495e", text: "#fff" },
+    "BPO Model":         { bg: "#712f39", text: "#fff" },
+    "Unclear":           { bg: "#444716", text: "#fff" },
     default:             { bg: "#ccc",    text: "#000" },
   };
   
