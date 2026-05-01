@@ -38,8 +38,7 @@ export const COMPANIES = [
 
 'Participants,' as Prolific calls these workers, are independent contractors, but the company advertises that it [does not depend on further outsourced workers](https://www.prolific.com/participant-pool?utm_source=chatgpt.com) or subcontractors: “We don’t outsource our most important asset: people. Our crowd is fully ours, and we never share or rely on other panels.” It claims to have over 200,000 active participants.
 
-Tasks are advertised as paid online studies which offer quick pay and flexible schedules. [According to Prolific](https://www.prolific.com/participants), the tasks can include answering questionnaires related to human emotions or relationships, evaluating machine learning models and human-AI interactions, and providing feedback on various AI products and services. Workers are paid per hour and remuneration varies based on the task. Prolific [claims](https://researcher-help.prolific.com/en/articles/445230-prolific-s-payment-principles) to “recommend participants are paid at least £9.00 / $12.00 per hour, while the minimum pay allowed is £6.00 / $8.00 per hour.” Reports indicate that while Prolific pay rates might be higher than other similar companies, workers might have to [join a waitlist](https://www.cnbc.com/2024/12/20/side-hustles-you-can-do-from-couch-some-dont-require-degree.html), and the [higher paid jobs can be harder to come by](https://www.businessinsider.com/data-worker-side-gig-freelance-training-reviewing-ads-2025). Prolific [also provides](https://www.prolific.com/model-evaluation) its “human evaluation infrastructure” for AI model evaluation services.
-`,
+Tasks are advertised as paid online studies which offer quick pay and flexible schedules. [According to Prolific](https://www.prolific.com/participants), the tasks can include answering questionnaires related to human emotions or relationships, evaluating machine learning models and human-AI interactions, and providing feedback on various AI products and services. Workers are paid per hour and remuneration varies based on the task. Prolific [claims](https://researcher-help.prolific.com/en/articles/445230-prolific-s-payment-principles) to “recommend participants are paid at least £9.00 / $12.00 per hour, while the minimum pay allowed is £6.00 / $8.00 per hour.” Reports indicate that while Prolific pay rates might be higher than other similar companies, workers might have to [join a waitlist](https://www.cnbc.com/2024/12/20/side-hustles-you-can-do-from-couch-some-dont-require-degree.html), and the [higher paid jobs can be harder to come by](https://www.businessinsider.com/data-worker-side-gig-freelance-training-reviewing-ads-2025). Prolific [also provides](https://www.prolific.com/model-evaluation) its “human evaluation infrastructure” for AI model evaluation services.`,
       relationships: [
         { company: "Argilla", type: "Partner", notes: "" },
         { company: "Ai2", type: "Customer", notes: "" },
@@ -47,7 +46,7 @@ Tasks are advertised as paid online studies which offer quick pay and flexible s
         { company: "Outset", type: "Partner", notes: "" },
         { company: "Dashmap", type: "Customer", notes: "" },
         { company: "Unidata", type: "Partner", notes: "" },
-        { company: "European Commission", type: "customer", notes: "" },
+        { company: "European Commission", type: "Customer", notes: "" },
         { company: "Google", type: "Customer", notes: "" },
         { company: "Imbue", type: "Customer", notes: "" },
         { company: "Modality.ai ", type: "Customer", notes: "" },
@@ -66,6 +65,7 @@ Tasks are advertised as paid online studies which offer quick pay and flexible s
         { company: "Pioneer Fund", type: "Investor", notes: "" },
         { company: "Y Combinator", type: "Investor", notes: "" },
       ],
+      sources: [],
     },
 
     {

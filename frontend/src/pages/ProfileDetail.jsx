@@ -29,6 +29,16 @@ export default function ProfileDetail() {
   return (
     
     <main id="profile-detail">
+      <div
+        className="w-full min-h-screen"
+        /* Gradient here is a bit higher so the yellow doesn't lay on top of the profile sections
+        Especially the overview card */
+        style={{
+          background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 5%, #ffffff 10%, #ffffff 100%)",
+          backgroundSize: "100% 200vh",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
       <div className="w-full max-w-6xl mx-auto px-4 md:px-6 pt-8">
 
         {/* Header: company name + prev/next */}
@@ -74,20 +84,6 @@ export default function ProfileDetail() {
                 {company.whatTheyDo}
               </ReactMarkdown>
             </section>
-
-            {/* Sources card */}
-            <section className="profile-section">
-                <h2>Sources</h2>
-                <ul className="sources-list">
-                  {company.sources.map((src, i) => (
-                    <li key={i}>
-                      <a href={src.url} target="_blank" rel="noopener noreferrer">
-                        › {src.label}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </section>
           </div>
 
           {/* RIGHT COLUMN (sidebar) */}
@@ -135,19 +131,21 @@ export default function ProfileDetail() {
               </table>
             </div>
 
-                        {/* Sources card */}
-            <div className="profile-card">
-                <h3>In the news</h3>
-                <ul className="sources-list">
-                  {company.sources.map((src, i) => (
-                    <li key={i}>
-                      <a href={src.url} target="_blank" rel="noopener noreferrer">
-                        › {src.label}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
+            {/* Sources card - only display if sources is not blank */}
+            {company.sources?.length > 0 && (
+              <div className="profile-card">
+                  <h3>In the news</h3>
+                  <ul className="sources-list">
+                    {company.sources.map((src, i) => (
+                      <li key={i}>
+                        <a href={src.url} target="_blank" rel="noopener noreferrer">
+                          › {src.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
               </div>
+            )}
             
           </div>
         </div>
@@ -157,6 +155,7 @@ export default function ProfileDetail() {
           <button onClick={() => navigate("/profiles")}>← All Profiles</button>
         </div>
 
+      </div>
       </div>
     </main>
   );

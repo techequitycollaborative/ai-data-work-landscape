@@ -14,9 +14,10 @@ export default function Profiles() {
     <main
       id="profiles" className="bg-white">
       <section
+        /* Gradient here is a bit higher so as not to have yellow on any of the company names */
         className="min-h-screen snap-start flex flex-col items-start md:items-center pt-8 pb-16"
         style={{
-          background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 11%, #ffffff 18%, #ffffff 100%)",
+          background: "linear-gradient(to bottom, #f3fdb8 0%, #f3fdb8 9%, #ffffff 16%, #ffffff 100%)",
           backgroundSize: "100% 200vh",
           backgroundRepeat: "no-repeat",
         }}
