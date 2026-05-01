@@ -9,27 +9,34 @@ export const COMPANIES = [
       established: 2022,
       companyType: "Workforce",
       workforceModel: "Marketplace Model",
-      whatTheyDo: `Mercor is a company that supplies workers to train AI models built by companies such as OpenAI and Anthropic. Mercor positions itself as providing higher value training and evaluation data by hiring qualified professionals across a wide range of occupations. The company markets itself as “the definitive network for human knowledge and capabilities”. Workers are required to question AI models, critique their responses, and create detailed examples of accurate responses, together with the reasoning that went into crafting them. 
+      whatTheyDo: `Mercor is a company that [supplies workers to train AI models](https://www.theinformation.com/articles/two-openai-business-partners-each-discuss-2-billion-valuation) built by companies such as OpenAI and Anthropic. Mercor positions itself as providing higher value training and evaluation data by hiring qualified [professionals across a wide range of occupations](https://www.businessinsider.com/how-much-ai-training-companies-paying-investment-bankers-wall-street-2025-11). The company markets itself as [“the definitive network for human knowledge and capabilities”](https://www.mercor.com/blog/building-the-network-of-human-knowledge/). Workers are required to question AI models, critique their responses, and create detailed examples of accurate responses, together with the reasoning that went into crafting them. 
 
-Distributed workers perform tasks that are posted to a digital platform. According to Mercor job postings, workers are hired as independent contractors and are paid by the hour. Workers are hired from across the world, with India being the largest source, followed by the U.S. Mercor used automated AI interviews to hire workers despite research that shows that biases may be embedded in such systems.
+Distributed workers perform tasks that are posted to a digital platform. According to Mercor job postings, workers are hired as independent contractors and are paid by the hour. Workers are hired from across the world, with [India being the largest source,](https://futurism.com/startup-investors-gig-jobs-ai) followed by the U.S. Mercor [used automated AI interviews](https://web.archive.org/web/20260419080820/https://www.forbes.com/sites/alexkonrad/2024/09/18/mercor-ai-interviewer-reaches-250-million-valuation/) to hire workers despite [research that shows that biases may be embedded in such systems](https://www.washington.edu/news/2024/10/31/ai-bias-resume-screening-race-gender/).
 
-Workers report that there is no guarantee of on-going work and no fixed working hours; projects can become available at any time, which some workers say places them under immense stress as they try to get scarce jobs. After signing on, workers reported having to install monitoring software on their computers, including software called Insightful, which tracks time spent on projects and determines pay. If workers are unable to complete complex tasks within assigned timeframes, they are likely to be “offboarded.” Workers have also reported projects becoming scarce, sudden and large-scale layoffs, reduction in time allocated to complete tasks, and reduction in pay compared to similar previous projects. 
+Workers report that there is no guarantee of on-going work and no fixed working hours; [projects can become available at any time,](https://web.archive.org/web/20260312083703/https://nymag.com/intelligencer/article/white-collar-workers-training-ai.html) which some workers say places them under immense stress as they try to get scarce jobs. After signing on, workers reported having to [install monitoring software on their computers,](https://web.archive.org/web/20260312083703/https://nymag.com/intelligencer/article/white-collar-workers-training-ai.html) including software called [Insightful](https://www.wsj.com/tech/ai/mercor-ai-startup-personal-data-lawsuit-0b5c349b), which [tracks time spent](https://www.bloomberg.com/news/features/2026-04-16/ai-company-hiring-on-linkedin-wants-to-train-your-replacement-at-work) on projects and [determines pay](https://web.archive.org/web/20260312083703/https://nymag.com/intelligencer/article/white-collar-workers-training-ai.html). If workers are unable to complete complex tasks within assigned timeframes, they are likely to be [“offboarded.”](https://web.archive.org/web/20260312083703/https://nymag.com/intelligencer/article/white-collar-workers-training-ai.html) Workers have also [reported](https://www.forbes.com/sites/iainmartin/2025/11/12/the-worlds-youngest-self-made-billionaires-just-slashed-these-workers-wages-by-a-third/) projects becoming scarce, sudden and large-scale layoffs, reduction in time allocated to complete tasks, and [reduction in pay compared to similar previous projects](https://www.businessinsider.com/mercor-cuts-contractors-meta-project-less-money-musen-nova-ai-2025-11). 
 
-In March 2026, Mercor experienced a data breach, leading to the exposure of “the personal data of 40,000+ contractors, proprietary source code, video interviews, and potentially the AI training methodologies of multiple frontier labs”.  Meta reportedly instituted a pause on all projects with Mercor in April 2026 and at least five lawsuits have been filed against the company by contractors claiming damages for the disclosure of their data.`,
+In March 2026, [Mercor experienced a data breach,](https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/) leading to the exposure of “the [personal data](https://www.strikegraph.com/blog/the-mercor-breach-exposed-silicon-valleys-fragile-ai-supply-chain) of 40,000+ contractors, proprietary source code, video interviews, and potentially the AI training methodologies of multiple frontier labs”.  Meta [reportedly instituted a pause on all projects with Mercor](https://www.wired.com/story/meta-pauses-work-with-mercor-after-data-breach-puts-ai-industry-secrets-at-risk/) in April 2026 and [at least five lawsuits](https://www.businessinsider.com/mercor-lawsuits-data-breach-2026-4) have been filed against the company by contractors claiming damages for the disclosure of their data.`,
       relationships: [
         { company: "Anthropic", type: "Customer", notes: "" },
-        { company: "Meta", type: "Customer", notes: "" },
-        { company: "OpenAI", type: "Customer", notes: "" },
+        { company: "Applied Compute", type: "Customer", notes: "" },
+        { company: "Benchmark", type: "Investor", notes: "" },
         { company: "Felicis", type: "Investor", notes: "" },
         { company: "General Catalyst", type: "Investor", notes: "" },
+        { company: "Jack Dorsey", type: "Investor", notes: "" },
+        { company: "Larry Summers", type: "Investor", notes: "" },
         { company: "Link Ventures", type: "Investor", notes: "" },
         { company: "Menlo Ventures", type: "Investor", notes: "" },
+        { company: "Meta", type: "Customer", notes: "" },
+        { company: "OpenAI", type: "Customer", notes: "" },
+        { company: "Peter Thiel", type: "Investor", notes: "" },
+        { company: "Robinhood Ventures", type: "Investor", notes: "" },
         { company: "SignalRank", type: "Investor", notes: "" },
       ],
       sources: [
-        { label: "Mercor company website", url: "https://www.mercor.com/" },
-        { label: "White collar workers training AI", url: "https://www.theverge.com/cs/features/877388/white-collar-workers-training-ai-mercor" },
-        { label: "The recruitment company training AI to do your job", url: "https://www.ft.com/content/0cab0fcd-e355-40e8-83a3-2ad5066d7b48" },
+        { label: "The World’s Youngest Self Made Billionaires Just Slashed These Workers’ Wages", url: "https://www.forbes.com/sites/iainmartin/2025/11/12/the-worlds-youngest-self-made-billionaires-just-slashed-these-workers-wages-by-a-third/" },
+        { label: "The Laid-off Scientists and Lawyers Training AI to Steal Their Careers", url: "https://web.archive.org/web/20260312083703/https://nymag.com/intelligencer/article/white-collar-workers-training-ai.html" },
+        { label: "An AI startup powering Meta and OpenAI cut thousands of workers — then offered them a similar project for less money", url: "https://www.businessinsider.com/mercor-cuts-contractors-meta-project-less-money-musen-nova-ai-2025-11" },
+        { label: "Meta Pauses Work With Mercor After Data Breach Puts AI Industry Secrets at Risk", url: "https://www.wired.com/story/meta-pauses-work-with-mercor-after-data-breach-puts-ai-industry-secrets-at-risk/" },
       ],
     },
 
