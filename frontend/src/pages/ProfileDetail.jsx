@@ -3,7 +3,7 @@
 
 import { useParams, useNavigate, NavLink } from "react-router-dom";
 import { COMPANIES } from "../data/companies";
-import Badge from "../components/Badge";
+import Badge, { BadgeList } from "../components/Badge";
 import ReactMarkdown from "react-markdown";
 
 export default function ProfileDetail() {
@@ -98,7 +98,7 @@ export default function ProfileDetail() {
                     { label: "Headquarters",   value: company.hq },
                     { label: "Established",    value: company.established },
                     { label: "Company type",   value: <Badge label={company.companyType} /> },
-                    { label: "Workforce model",value: <Badge label={company.workforceModel} /> },
+                    { label: "Workforce model",value: <BadgeList labels={company.workforceModel} /> },
                   ].map(({ label, value }) => (
                     <tr key={label}>
                       <td>{label}:</td>

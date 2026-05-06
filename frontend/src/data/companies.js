@@ -7,7 +7,7 @@ export const COMPANIES = [
     name: "Appen",
     hq: "Chatswood, New South Wales, Australia",
     established: 2022,
-    companyType: "Tools + workforce",
+    companyType: "Tools + Workforce",
     workforceModel: ["Marketplace Model","BPO Model"],
     whatTheyDo: `Appen is an Australia-based company providing AI training data services such as  data collection, data annotation, and data labeling through its platform CrowdGen as well as through call centers. It’s unclear whether or not Appen outsources labor to subcontractors. Appen is [a minority investor in other data companies](https://www.appen.com/press-release/appen-invests-in-synthetic-data) such as Mindtech which is “a synthetic data company that creates training datasets for computer vision models.” 
 

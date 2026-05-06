@@ -54,3 +54,15 @@ const BADGE_COLORS = {
       </span>
     );
   }
+
+  export function BadgeList({ labels }) {
+    if (!labels) return null;
+    const items = Array.isArray(labels) ? labels : [labels];
+    return (
+      <div className="flex flex-wrap gap-1">
+        {items.map((label) => (
+          <Badge key={label} label={label} />
+        ))}
+      </div>
+    );
+  }
