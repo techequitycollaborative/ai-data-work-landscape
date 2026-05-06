@@ -1,10 +1,44 @@
 // About.jsx
 // About the project and techequity page
 
+import { useState, useEffect } from "react";
 import { NavLink, Link } from "react-router-dom";
 import Expander from "../components/Expander";
+import convertToCSV from "../components/ConvertCSV";
 
 export default function About() {
+  const [displayedData, setDisplayedData] = useState([]);
+
+  useEffect(() => {
+    const API_URLS = {
+      production: "https://data-work-landscape-lymyf.ondigitalocean.app/ai-data-work-landscape-backend/data",
+      development: "https://dev-dwl-gxd6w.ondigitalocean.app/ai-data-work-landscape-backend/data",
+      local: "http://localhost:8000/data",
+    };
+    const getApiUrl = () => {
+      const hostname = window.location.hostname;
+      if (hostname === "localhost" || hostname === "127.0.0.1") return API_URLS.local;
+      if (hostname.includes("dev-")) return API_URLS.development;
+      return API_URLS.production;
+    };
+    fetch(getApiUrl())
+      .then((res) => res.json())
+      .then(setDisplayedData)
+      .catch((err) => console.error("Failed to fetch data:", err));
+  }, []);
+
+  const handleDownloadCSV = () => {
+    const csv = convertToCSV(displayedData);
+    const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "data.csv");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <main id='about' className="bg-white">
       <section
@@ -31,15 +65,15 @@ export default function About() {
           {/* Section content */}
           <h4 className="text-2xl pt-2 mb-4">About the Data Work Landscape</h4>
           <p>
-            AI is everywhere, consuming our data, content, and resources, relying on masses of workers worldwide to maintain its illusion of magical ease. The workers who make it possible are often intentionally hidden behind virtual marketplaces and <a href="https://techequity.us/2025/01/31/ai-supply-chains-explained/" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">complex supply chains</a>. Without knowing who these companies are, these workers are left in the shadows, vulnerable to exploitation and harm.
+          AI is everywhere, consuming our data, content, and resources, relying on masses of workers worldwide to maintain its illusion of magical ease. The workers who make it possible are often intentionally hidden behind virtual marketplaces and <a href="https://techequity.us/2025/01/31/ai-supply-chains-explained/" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">complex supply chains</a>. Little information is currently publicly available explaining how this industry operates, leaving workers vulnerable to exploitation and harm.
           </p>
           <br />
           <p>
-            We created the Data Work Landscape to shine a light on this shadowy industry by identifying companies that provide data work services, such as data collection, curation, annotation, model training, content moderation, and more.
+          We created the Data Work Landscape to shine a light on this shadowy industry by identifying companies that provide data work services, such as data collection, curation, annotation, model training, content moderation, and more. This project is just a snapshot of this growing industry. We launched this microsite in 2025 with the database feature. In the spring of 2026, we updated the database, added profiles of some of the companies in the database and launched visualizations to highlight the relationships between some of these companies and their reported clients.
           </p>
           <br />
           <p>
-            This project is just a snapshot of this growing industry. We hope that by pulling back the curtain, we can support further research and advocacy for the workers who power AI. This is also just one project among many being led by researchers and advocates investigating the data work sector.
+          We hope that by pulling back the curtain, we can support further research and advocacy for the workers who power AI.
           </p>
           <br />
           <p>
@@ -51,13 +85,17 @@ export default function About() {
 
             <Expander title="Data collection & sources">
               <p>
-                To populate this database, we identified companies from news coverage, academic and trade publications that mentioned data workers, content moderation, and AI model building and training broadly defined. Following this, we conducted desk research on each company. This involved:
+                To populate our company database, relationship graphs, and company profiles, we identified companies from news coverage, academic and trade publications that mentioned data workers, content moderation, and AI model building and training broadly defined. Following this, we conducted desk research on each company. This involved:
               </p>
               <ul className="list-disc pl-6 pt-4 space-y-2">
                 <li>Surveying company websites, looking specifically for descriptions of the products and services offered, lists of clients and investors, listings of job openings, and information about the location of workers</li>
                 <li>Studying news coverage, interviews with founders/other C-suite members, and profiles on sites including Crunchbase and PitchBook to identify headquarters locations, investors, and other information</li>
                 <li>Using company LinkedIn profiles to triangulate categories of job openings and worker locations</li>
               </ul>
+              <br />
+              <p>
+
+              </p>
             </Expander>
 
             <Expander title="Definitions">
@@ -91,8 +129,6 @@ export default function About() {
                 Additionally, these BPOs and marketplaces may be operated through two arrangements. They can be outsourced to third-party providers, which can also be BPOs or marketplaces. Or, they can be owned and operated in-house as subsidiaries or divisions within the AI company itself.
                 <br /><br />
                 For example, Scale AI has two subsidiaries, <a href="https://scale.com/blog/new-era-outlier" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Outlier</a> and <a href="http://scale.com/blog/remotasks-overview" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Remotasks</a> (which are listed in the <i>In-House Marketplace</i> column in the <Link to="/database" className="text-blue-600 underline">Data Work Landscape</Link>). These are both marketplaces where data workers can find work and Scale AI clients can find a workforce. In addition, Scale AI also <a href="https://www.inc.com/sam-blum/investigation-into-scale-ai-also-targets-its-hr-partners-hireart-and-upwork/91159063" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">outsources work to UpWork</a>, an independent company that operates a marketplace model.
-                <br /><br />
-                To download our full data dictionary, click <a href="/data-dictionary.csv" download target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">here</a>.
               </p>
             </Expander>
 
@@ -102,13 +138,29 @@ export default function About() {
                 <br /><br />
                 Additionally, our database doesn't yet give a clear picture of who the biggest players in the Data Work Landscape are. We're working on identifying key indicators—like company growth, VC funding, revenue, number of data workers, and client relationships—that can help us answer this question.
                 <br /><br />
-                These data gaps pose limitations to understanding how these companies operate and the impact they're having on workers in the AI supply chain. We aim to continue this body of research in order to shed light on this industry.
+                These data gaps pose limitations to understanding how these companies operate and the impact they’re having on workers in the AI supply chain. Data work is an opaque industry. Companies are generally not required to reveal contractual relationships and these contracts shift constantly. In the absence of transparent information, information on this site is based on an incomplete set of publicly available sources including news coverage, academic and trade publications, and company websites. The information provided on this site is a snapshot of some of the companies that employ data workers and their relationships, but this resource is not—and cannot be— exhaustive or completely up-to-date.
+                <br /><br />
+                We aim to continue this research in order to shed light on this industry. If you have information you’d like to contribute to the project, please <a href="https://form.jotform.com/techequity/data-work-landscape" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">share it with us</a>.
               </p>
             </Expander>
 
             <Expander title="Download the landscape">
               <p>
-                You can download the Data Work Landscape for research and educational purposes by clicking the download button at the bottom of the <Link to="/landscape" className="text-blue-600 underline">database</Link>.
+              The data on this site is free to use for research and educational purposes.
+              <ul className="list-disc pl-6 pt-4 space-y-2">
+                <li>You can download our company database <button onClick={handleDownloadCSV} className="text-blue-600 underline">here</button> and our full data dictionary <a href="/data-dictionary.csv" download target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">here</a>.</li>
+                <li>You can access our relationship graph data and full list of sources here.</li>
+              </ul>
+              </p>
+            </Expander>
+
+            <Expander title="Acknowledgments">
+              <p>
+              We’d like to thank the following undergraduate students at the University of California Berkeley for their support conducting some of the research for this project: Anvi Abhijit Gaikwad, Yasamin L. Hatefi, Georgia Darcy Richards, Naomi Tran, Mads Emil Matz Walbum, Alicia Williams-LeDoux.
+              </p>
+              <br />
+              <p>
+              This is also just one project among many being led by researchers and advocates investigating the data work sector. We’ve compiled a list of reports, books, maps, and other resources from friends worldwide if you want to <a href="https://techequity.us/2025/06/25/whos-powering-ai-shining-a-light-on-the-ai-data-work-industry/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">learn more</a>.
               </p>
             </Expander>
 
@@ -117,6 +169,11 @@ export default function About() {
           <h4 className="text-2xl pt-10 mb-4">About TechEquity</h4>
           <p>
           We raise public consciousness about economic equity issues resulting from the tech industry’s products and practices and advocate for change that ensures tech’s evolution benefits everyone. Learn more about TechEquity <a href="https://techequity.us" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">here</a>.
+          </p>
+
+          <h4 className="text-2xl pt-10 mb-4">Contact us</h4>
+          <p>
+          If you’d like to reach out to the team behind the Data Work Landscape, you can email <a href="mailto:info@techequity.us" className="text-blue-600 underline">info@techequity.us</a> to get in touch.
           </p>
         </div>
       </section>
