@@ -101,7 +101,7 @@ const INVESTOR_STEPS = [
       if (!el) return null;
       const rect = el.getBoundingClientRect();
       const wrap = document.getElementById("rn-graph-container").getBoundingClientRect();
-      return { x: rect.left - wrap.left - 8, y: -46 + (rect.top - wrap.top) + 4, w: rect.width + 16, h: rect.height + 8 };
+      return { x: rect.left - wrap.left - 8, y: rect.top - wrap.top - 4, w: rect.width + 16, h: rect.height + 8 };
     },
     anchor: "below",
   },
