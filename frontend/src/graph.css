@@ -268,7 +268,6 @@
   font-size: 16px;
   fill: var(--text-dim);
   pointer-events: none;
-  dominant-baseline: middle;
 }
 
 .network-page .node.highlighted text,
