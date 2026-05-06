@@ -216,8 +216,7 @@ export default function NetworkGraph() {
         });
         node.classed("dimmed", n => !cIds.has(n.id)).classed("highlighted", n => cIds.has(n.id));
         link.classed("dimmed", (l, i) => !cIdx.has(i)).classed("highlighted", (l, i) => cIdx.has(i));
-        const srcHTML = rSrc.size > 0 ? `<div class="tip-sources"><span class="tip-sources-label">Sources:</span>${[...rSrc].map(s => `<div class="tip-source-item">${s}</div>`).join("")}</div>` : "";
-        tooltip.innerHTML = `<div class="tip-color-bar" style="background:${NODE_COLOR}"></div><div class="tip-name">${d.name}</div>${d.industry ? `<div class="tip-industry" style="color:${NODE_COLOR}">${d.industry}</div>` : ""}${d.location ? `<div class="tip-location" style="color:${NODE_COLOR}">${d.location}</div>` : ""}${srcHTML}`;
+        tooltip.innerHTML = `<div class="tip-color-bar" style="background:${NODE_COLOR}"></div><div class="tip-name">${d.name}</div>${d.industry ? `<div class="tip-industry" style="color:${NODE_COLOR}">Industry: ${d.industry}</div>` : ""}${d.location ? `<div class="tip-location" style="color:${NODE_COLOR}">Location: ${d.location}</div>` : ""}`;
         tooltip.classList.add("visible"); moveTooltip(event);
       }).on("mousemove", moveTooltip).on("mouseleave", () => {
         node.classed("dimmed", false).classed("highlighted", false);
