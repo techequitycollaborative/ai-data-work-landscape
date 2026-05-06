@@ -43,7 +43,7 @@ export default function NetworkGraph() {
     const linkColor = {
       "customer":                  "#0041d9",
       "partner":                   "#712f39",
-      "supplier or subcontractor": "#f1592d",
+      "supplier":                  "#f1592d",
       "investor":                  "#2d9f8b",
       "unknown":                   "#ade4d1",
     };
@@ -442,7 +442,7 @@ export default function NetworkGraph() {
                 <span style={{ color: "#5a6380", fontSize: "10px", textTransform: "uppercase", letterSpacing: ".08em" }}>Relationship type</span>
                 <div className="legend-item"><div className="legend-line" style={{ background: "#0041d9" }} />Customer</div>
                 <div className="legend-item"><div className="legend-line" style={{ background: "#712f39" }} />Partner</div>
-                <div className="legend-item"><div className="legend-line" style={{ background: "#f1592d" }} />Supplier or Subcontractor</div>
+                <div className="legend-item"><div className="legend-line" style={{ background: "#f1592d" }} />Supplier</div>
               </div>
             </div>
             {/* Helper tour button */}
