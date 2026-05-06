@@ -280,7 +280,7 @@ In a widely reported case, a group of 185 former [content moderators in Kenya su
       { company: "Walmart", type: "Customer", notes: "" },
       { company: "Bestseller Foundation", type: "Investor", notes: "" },
       { company: "Bluecrest Limited Capital", type: "Investor", notes: "" },
-      { company: "Caisse de dépôt et placement du Québec (CDPQ)", type: "Investor", notes: "" },
+      { company: "La Caisse", type: "Investor", notes: "" },
       { company: "First Ascent Ventures", type: "Investor", notes: "" },
       { company: "Ridge Ventures", type: "Investor", notes: "" },
       { company: "Salesforce Ventures", type: "Investor", notes: "" },

@@ -112,18 +112,18 @@ export default function ProfileDetail() {
             {/* Key Business Relationships */}
             <div className="profile-card">
               <h3>Key Business Relationships</h3>
-              <table className="profile-table">
+              <table className="profile-table w-full table-fixed">
                 <thead>
                   <tr>
-                    {["Company", "Relationship"].map(h => (
-                      <th key={h} className="w-1/2">{h}</th>
-                    ))}
+                    <th className="w-[55%]">Company</th>
+                    <th className="w-[45%]">Relationship</th>
                   </tr>
                 </thead>
                 <tbody>
                   {company.relationships.map((rel, i) => (
                     <tr key={i}>
-                      <td>{rel.company}</td>
+                      {/* break-words and whitespace-normal to prevent long company names from breaking the layout */}
+                      <td className="break-words whitespace-normal">{rel.company}</td>
                       <td><Badge label={rel.type} /></td>
                     </tr>
                   ))}
