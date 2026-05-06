@@ -358,7 +358,7 @@ export default function NetworkGraph() {
             invSvg.selectAll(".bp-node-company").classed("dimmed", function () { return d3.select(this.parentNode).datum() !== company; }).classed("highlighted", function () { return d3.select(this.parentNode).datum() === company; });
             const relLinks = visibleLinks.filter(l => l.source === company);
             const sources = [...new Set(relLinks.map(l => l.relationship_source).filter(Boolean))];
-            invTip.innerHTML = `<div class="inv-tip-label">Data Work Company</div><div class="inv-tip-name" style="color:#ff3b00">${company}</div><div class="inv-tip-connections">${connected.size} investor${connected.size !== 1 ? "s" : ""}: ${[...connected].join(", ")}</div>${sources.length ? `<div class="inv-tip-source">Source: ${sources.join(", ")}</div>` : ""}`;
+            invTip.innerHTML = `<div class="inv-tip-label">Data Work Company</div><div class="inv-tip-name" style="color:#ff3b00">${company}</div><div class="inv-tip-connections">${connected.size} investor${connected.size !== 1 ? "s" : ""}: ${[...connected].join(", ")}</div>`;
             invTip.classList.add("visible"); moveBpTooltip(event);
           }).on("mousemove", moveBpTooltip).on("mouseleave", resetHL);
         });
@@ -376,7 +376,7 @@ export default function NetworkGraph() {
             invSvg.selectAll(".bp-node-company").classed("dimmed", function () { return !connected.has(d3.select(this.parentNode).datum()); }).classed("highlighted", function () { return connected.has(d3.select(this.parentNode).datum()); });
             invSvg.selectAll(".bp-node-investor").classed("dimmed", function () { return d3.select(this.parentNode).datum() !== investor; }).classed("highlighted", function () { return d3.select(this.parentNode).datum() === investor; });
             const sources = [...new Set(relLinks.map(l => l.relationship_source).filter(Boolean))];
-            invTip.innerHTML = `<div class="inv-tip-label">Investor</div><div class="inv-tip-name" style="color:#2d9f8b">${investor}</div><div class="inv-tip-connections">${connected.size} investe${connected.size !== 1 ? "es" : "e"}: ${[...connected].join(", ")}</div>${sources.length ? `<div class="inv-tip-source">Source: ${sources.join(", ")}</div>` : ""}`;
+            invTip.innerHTML = `<div class="inv-tip-label">Investor</div><div class="inv-tip-name" style="color:#2d9f8b">${investor}</div><div class="inv-tip-connections">${connected.size} investe${connected.size !== 1 ? "es" : "e"}: ${[...connected].join(", ")}</div>`;
             invTip.classList.add("visible"); moveBpTooltip(event);
           }).on("mousemove", moveBpTooltip).on("mouseleave", resetHL);
         });
