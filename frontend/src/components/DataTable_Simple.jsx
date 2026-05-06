@@ -7,11 +7,11 @@ import {
     getFilteredRowModel,
     flexRender,
   } from '@tanstack/react-table';
-  import { useState, useMemo, memo } from 'react';
+  import { useState, useMemo, memo, useEffect } from 'react';
   import Tippy from '@tippyjs/react'; // For the tooltips on the column headers
   import 'tippy.js/dist/tippy.css'; // Optional styling
   
-  const DataTable = memo(function DataTable({ data }) {
+  const DataTable = memo(function DataTable({ data, onFilteredRowCountChange}) {
     const [globalFilter, setGlobalFilter] = useState("");
     const [columnFilters, setColumnFilters] = useState([]);
     
@@ -371,7 +371,13 @@ import {
           }
         },
         debugTable: false,
-      });   
+      });  
+
+      useEffect(() => {
+        if (onFilteredRowCountChange) {
+          onFilteredRowCountChange(table.getFilteredRowModel().rows.length);
+        }
+      }, [globalFilter, columnFilters, onFilteredRowCountChange]);
   
     return (
       <div className="">
@@ -432,7 +438,6 @@ import {
       </div>
     );
   });
-
 
   // Filter function: includes filter options for string search and single-select dropdowns
   // This is not memoized; if memoized, it causes issues for the string/text filters

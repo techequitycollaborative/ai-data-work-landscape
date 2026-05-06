@@ -10,6 +10,7 @@ import convertToCSV from '../components/ConvertCSV';
 export default function Database() {
   const [data, setData] = useState([]);
   const [displayedData, setDisplayedData] = useState([]);
+  const [filteredCount, setFilteredCount] = useState(0);
 
   useEffect(() => {
     const API_URLS = {
@@ -77,23 +78,30 @@ export default function Database() {
                       style={{ fontFamily: "'Roboto Serif', serif" }}>
           An overview of the AI data work ecosystem: the companies shaping this invisible industry.
         </p>
-        <br></br> 
+        <br></br>
 
         </div>
 
         {/* Section for data table */}
         <div className="w-full px-12 md:px-20">
-        <DataComponent initialData={data} onDataChange={setDisplayedData} />
+        <DataComponent 
+          initialData={data} 
+          onDataChange={setDisplayedData}
+          onFilteredRowCountChange={setFilteredCount}
+        />
 
-          {/* Download data button */}
-          <div className="flex justify-start ml-6 mr-8 md:justify-end mt-2 md:ml-2 md:mr-2">
-            <button
-              onClick={handleDownloadCSV}
-              className="btn-download text-xs px-3 py-1"
-            >
-              Download Full Data
-            </button>
-            </div>
+        <div className="flex justify-between items-center ml-6 mr-8 mt-2 md:ml-2 md:mr-2">
+          <p className="text-sm text-gray-500 font-normal normal-case"
+            style={{ fontFamily: "'Roboto Serif', serif" }}>
+            Showing {filteredCount} of {data.length} companies
+          </p>
+          <button
+            onClick={handleDownloadCSV}
+            className="btn-download text-xs px-3 py-1"
+          >
+            Download Full Data
+          </button>
+        </div>
         </div>
 
         {/* Call to action for contributors */}
