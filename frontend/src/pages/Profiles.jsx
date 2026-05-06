@@ -41,7 +41,7 @@ export default function Profiles() {
         </div>
 
         <p className="mt-2 text-sm text-gray-500 font-normal normal-case" style={{ fontFamily: "'Roboto Serif', serif" }}>
-          A closer look at the companies quietly controlling the AI data industry: who they are, how they operate, and what that means for the workers powering it all.
+        A closer look at some of the companies providing data services to the AI industry: who they are, how they operate, and what that means for the workers powering it all.
         </p>
         <br></br> 
 
