@@ -75,7 +75,7 @@ export default function Database() {
 
         <p className="mt-2 text-sm text-gray-500 font-normal normal-case" 
                       style={{ fontFamily: "'Roboto Serif', serif" }}>
-          An overview of the AI data work ecosystem: the companies and work dynamics shaping this invisible industry.
+          An overview of the AI data work ecosystem: the companies shaping this invisible industry.
         </p>
         <br></br> 
 
