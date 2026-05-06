@@ -4,7 +4,7 @@
 import DataTable from "../components/DataTable_Simple";
 import DataComponent from "../components/Data";
 import { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import convertToCSV from '../components/ConvertCSV';
 
 export default function Database() {
@@ -106,9 +106,12 @@ export default function Database() {
 
         {/* Call to action for contributors */}
         <div className="w-full mt-10 mb-10 px-4 text-center text-sm">
-            <p>Do you work in the tech industry and contribute to AI systems?</p>
-            <NavLink to="/input" className="text-blue-600 underline">We want to hear from you.</NavLink> 
-        </div>    
+            <p>Do you work in the tech industry and contribute to AI systems?
+            <br/>
+            <a href="https://form.jotform.com/techequity/data-work-landscape" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">We want to hear from you.</a>
+            </p>
+          </div>    
+
     </main>
   );
 }
