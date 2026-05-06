@@ -62,37 +62,30 @@ According to the [CrowdGen website](https://jobs.lever.co/appen), workers are hi
     slug: "handshakeai",
     name: "Handshake AI",
     hq: "San Francisco, CA, USA",
-    established: 2022,
+    established: "2014 (Handshake), 2025 (Handshake AI)",
     companyType: "Workforce",
     workforceModel: "Marketplace Model",
-    whatTheyDo: `Mercor is a company that [supplies workers to train AI models](https://www.theinformation.com/articles/two-openai-business-partners-each-discuss-2-billion-valuation) built by companies such as OpenAI and Anthropic. Mercor positions itself as providing higher value training and evaluation data by hiring qualified [professionals across a wide range of occupations](https://www.businessinsider.com/how-much-ai-training-companies-paying-investment-bankers-wall-street-2025-11). The company markets itself as [“the definitive network for human knowledge and capabilities”](https://www.mercor.com/blog/building-the-network-of-human-knowledge/). Workers are required to question AI models, critique their responses, and create detailed examples of accurate responses, together with the reasoning that went into crafting them. 
+    whatTheyDo: `Handshake AI is an offshoot of the company Handshake which was set up in 2014 as a platform for college students and recent graduates looking for jobs and internships. Handshake AI was established in 2025 and [benefited] from a glut of demand](https://time.com/7294699/meta-scale-ai-data-industry/) that followed clients reportedly leaving Scale AI after Meta’s investment in that company. [Handshake AI claims](https://joinhandshake.com/ai/labs) that it “connects students, experts, and professionals with leading AI labs” and says that it “partner[s] directly with universities [through a] network [that] includes verified students, alumni, and graduate degree holders across disciplines,” even [including improv actors.](https://www.theverge.com/ai-artificial-intelligence/893931/ai-companies-handshake-improv-actors-training-data) Workers [are hired as contractors and paid hourly](https://www.businessinsider.com/handshake-ceo-ai-training-evolving-generalists-to-stem-experts-pay-2025-7), with the remuneration varying widely depending on the task. We did not find any information to suggest that Handshake sources workers from other platforms or subcontractors.
 
-Distributed workers perform tasks that are posted to a digital platform. According to Mercor job postings, workers are hired as independent contractors and are paid by the hour. Workers are hired from across the world, with [India being the largest source,](https://futurism.com/startup-investors-gig-jobs-ai) followed by the U.S. Mercor [used automated AI interviews](https://web.archive.org/web/20260419080820/https://www.forbes.com/sites/alexkonrad/2024/09/18/mercor-ai-interviewer-reaches-250-million-valuation/) to hire workers despite [research that shows that biases may be embedded in such systems](https://www.washington.edu/news/2024/10/31/ai-bias-resume-screening-race-gender/).
+Similar to Mercor, Prolific and Surge AI, Handshake AI identifies [specialist training of AI models as a bottleneck](https://joinhandshake.com/blog/our-team/introducing-handshake-ai/) that it purports to solve with its network of “1,500 university partners in the US and Europe and a network of 18 million students and alumni, including 3 million graduate-level scholars.” Only U.S. and Canada-based students and graduates with work authorization are eligible for Handshake AI jobs.
 
-Workers report that there is no guarantee of on-going work and no fixed working hours; [projects can become available at any time,](https://web.archive.org/web/20260312083703/https://nymag.com/intelligencer/article/white-collar-workers-training-ai.html) which some workers say places them under immense stress as they try to get scarce jobs. After signing on, workers reported having to [install monitoring software on their computers,](https://web.archive.org/web/20260312083703/https://nymag.com/intelligencer/article/white-collar-workers-training-ai.html) including software called [Insightful](https://www.wsj.com/tech/ai/mercor-ai-startup-personal-data-lawsuit-0b5c349b), which [tracks time spent](https://www.bloomberg.com/news/features/2026-04-16/ai-company-hiring-on-linkedin-wants-to-train-your-replacement-at-work) on projects and [determines pay](https://web.archive.org/web/20260312083703/https://nymag.com/intelligencer/article/white-collar-workers-training-ai.html). If workers are unable to complete complex tasks within assigned timeframes, they are likely to be [“offboarded.”](https://web.archive.org/web/20260312083703/https://nymag.com/intelligencer/article/white-collar-workers-training-ai.html) Workers have also [reported](https://www.forbes.com/sites/iainmartin/2025/11/12/the-worlds-youngest-self-made-billionaires-just-slashed-these-workers-wages-by-a-third/) projects becoming scarce, sudden and large-scale layoffs, reduction in time allocated to complete tasks, and [reduction in pay compared to similar previous projects](https://www.businessinsider.com/mercor-cuts-contractors-meta-project-less-money-musen-nova-ai-2025-11). 
-
-In March 2026, [Mercor experienced a data breach,](https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/) leading to the exposure of “the [personal data](https://www.strikegraph.com/blog/the-mercor-breach-exposed-silicon-valleys-fragile-ai-supply-chain) of 40,000+ contractors, proprietary source code, video interviews, and potentially the AI training methodologies of multiple frontier labs”.  Meta [reportedly instituted a pause on all projects with Mercor](https://www.wired.com/story/meta-pauses-work-with-mercor-after-data-breach-puts-ai-industry-secrets-at-risk/) in April 2026 and [at least five lawsuits](https://www.businessinsider.com/mercor-lawsuits-data-breach-2026-4) have been filed against the company by contractors claiming damages for the disclosure of their data.`,
+Handshake AI offers students the [Model Validation Expert Fellowship (MOVE)](https://joinhandshake.com/blog/our-team/introducing-handshake-ai/), which is advertised as a program that offers training, upskilling and certification in preparation for the AI economy. Students who sign up for this program might write prompts and evaluate the outputs of LLMs, assess models’ reasoning, or write ideal responses together with reasoning for AI companies. A [Bloomberg report](https://www.bloomberg.com/news/articles/2025-07-24/college-grads-are-finding-jobs-training-ai-models) indicates that as jobs become harder to find, students are turning to training AI systems in their fields of expertise. A [Business Inside]r report](https://www.businessinsider.com/contractors-claim-unpaid-wages-handshake-ai-suspended-accounts-2026-2) in March 2026 claimed: “Some contractors working for Handshake AI say the AI training startup has denied them up to several thousand dollars each for work they performed, after accusing them of breaking platform rules.”`,
     relationships: [
-      { company: "Anthropic", type: "Customer", notes: "" },
-      { company: "Applied Compute", type: "Customer", notes: "" },
-      { company: "Benchmark", type: "Investor", notes: "" },
-      { company: "Felicis", type: "Investor", notes: "" },
-      { company: "General Catalyst", type: "Investor", notes: "" },
-      { company: "Jack Dorsey", type: "Investor", notes: "" },
-      { company: "Larry Summers", type: "Investor", notes: "" },
-      { company: "Link Ventures", type: "Investor", notes: "" },
-      { company: "Menlo Ventures", type: "Investor", notes: "" },
-      { company: "Meta", type: "Customer", notes: "" },
       { company: "OpenAI", type: "Customer", notes: "" },
-      { company: "Peter Thiel", type: "Investor", notes: "" },
-      { company: "Robinhood Ventures", type: "Investor", notes: "" },
-      { company: "SignalRank", type: "Investor", notes: "" },
+      { company: "EQT Ventures", type: "Investor", notes: "" },
+      { company: "Kleiner Perkins", type: "Investor", notes: "" },
+      { company: "GGV Capital", type: "Investor", notes: "" },
+      { company: "Lightspeed Venture Partners", type: "Investor", notes: "" },
+      { company: "Spark Capital", type: "Investor", notes: "" },
+      { company: "Reach Capital", type: "Investor", notes: "" },
+      { company: "Coatue", type: "Investor", notes: "" },
+      { company: "Valiant Peregrine Fund", type: "Investor", notes: "" },
+      { company: "Base 10 Partners", type: "Investor", notes: "" },
+      { company: "Omidyar Network", type: "Investor", notes: "" },
     ],
     sources: [
-      { label: "The World’s Youngest Self Made Billionaires Just Slashed These Workers’ Wages", url: "https://www.forbes.com/sites/iainmartin/2025/11/12/the-worlds-youngest-self-made-billionaires-just-slashed-these-workers-wages-by-a-third/" },
-      { label: "The Laid-off Scientists and Lawyers Training AI to Steal Their Careers", url: "https://web.archive.org/web/20260312083703/https://nymag.com/intelligencer/article/white-collar-workers-training-ai.html" },
-      { label: "An AI startup powering Meta and OpenAI cut thousands of workers — then offered them a similar project for less money", url: "https://www.businessinsider.com/mercor-cuts-contractors-meta-project-less-money-musen-nova-ai-2025-11" },
-      { label: "Meta Pauses Work With Mercor After Data Breach Puts AI Industry Secrets at Risk", url: "https://www.wired.com/story/meta-pauses-work-with-mercor-after-data-breach-puts-ai-industry-secrets-at-risk/" },
+      { label: "Some contractors who worked on OpenAI projects say Handshake AI is withholding thousands of dollars in pay", url: "https://www.businessinsider.com/contractors-claim-unpaid-wages-handshake-ai-suspended-accounts-2026-2" },
+      { label: "College Grads Are Pursuing a New Career Path: Training AI Models", url: "https://www.bloomberg.com/news/articles/2025-07-24/college-grads-are-finding-jobs-training-ai-models" },
     ],
   },
   {
