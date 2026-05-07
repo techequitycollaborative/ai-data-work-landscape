@@ -67,7 +67,7 @@ export default function ProfileDetail() {
 
           {/* LEFT COLUMN */}
           <div>
-            {/* What they do */}
+            {/* Overview */}
             <section className="profile-section">
               <h2>Overview</h2>
               <ReactMarkdown
@@ -84,6 +84,22 @@ export default function ProfileDetail() {
                 {company.whatTheyDo}
               </ReactMarkdown>
             </section>
+          
+          {/* Sources card - only display if sources is not blank */}
+          {company.sources?.length > 0 && (
+              <div className="profile-card">
+                  <h3>In the news</h3>
+                  <ul className="sources-list">
+                    {company.sources.map((src, i) => (
+                      <li key={i}>
+                        <a href={src.url} target="_blank" rel="noopener noreferrer">
+                          › {src.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+              </div>
+            )}
           </div>
 
           {/* RIGHT COLUMN (sidebar) */}
@@ -130,22 +146,6 @@ export default function ProfileDetail() {
                 </tbody>
               </table>
             </div>
-
-            {/* Sources card - only display if sources is not blank */}
-            {company.sources?.length > 0 && (
-              <div className="profile-card">
-                  <h3>In the news</h3>
-                  <ul className="sources-list">
-                    {company.sources.map((src, i) => (
-                      <li key={i}>
-                        <a href={src.url} target="_blank" rel="noopener noreferrer">
-                          › {src.label}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-              </div>
-            )}
             
           </div>
         </div>
