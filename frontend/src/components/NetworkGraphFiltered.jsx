@@ -728,7 +728,7 @@ export default function NetworkGraphFiltered() {
             </div>
             <ol style={{
               fontFamily:  "IBM Plex Mono, monospace",
-              fontSize:    12,
+              fontSize:    11,
               color:       "var(--text)",
               lineHeight:  2,
               textAlign:   "left",
