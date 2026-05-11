@@ -10,7 +10,7 @@
   --accent: #00495e;
   --link-customer: #0041d9;
   --link-partner: #712f39;
-  --link-supplier: #f1592d;
+  --link-subcontractor: #f1592d;
   --link-investor: #2d9f8b;
   --link-unknown: #ade4d1;
 }
@@ -245,7 +245,7 @@
 
 .network-page .link.customer { stroke: var(--link-customer); }
 .network-page .link.partner  { stroke: var(--link-partner); }
-.network-page .link.supplier { stroke: var(--link-supplier); }
+.network-page .link.subcontractor { stroke: var(--link-subcontractor); }
 .network-page .link.investor { stroke: var(--link-investor); }
 .network-page .link.unknown  { stroke: var(--link-unknown); }
 

@@ -23,7 +23,7 @@ export default function Graphs() {
 
         <p className="mt-2 text-sm text-gray-500 font-normal normal-case" 
                       style={{ fontFamily: "'Roboto Serif', serif" }}>
-          Explore the relationships between data work companies, their clients, and investors.
+          Explore the relationships between data work companies and  their customers, partners, and investors.
         </p>
         <br />
 
@@ -39,10 +39,10 @@ export default function Graphs() {
         <Expander title="A note about these graphs">
         <div className="space-y-4">
         <p>
-          Data work is an opaque industry. Companies are generally not required to reveal contractual relationships and these contracts shift constantly. In the absence of transparent information, these graphs are based on an incomplete set of publicly available sources including news coverage, academic and trade publications, and company websites.
+        Data work is an opaque industry. Companies are generally not required to reveal contractual relationships and these contracts shift constantly. In the absence of transparent information, these graphs are based on an incomplete set of publicly available sources including news coverage, academic and trade publications, and company websites.
         </p>
         <p>
-          The graphs provide a snapshot of some of the companies that employ data workers and their relationships, but this resource is not—and cannot be—exhaustive or completely up-to-date.
+        The graphs provide a snapshot of some of the companies involved in data services and their relationships, but this resource is not—and cannot be—exhaustive or completely up-to-date. It’s not often that information is made public about when contracts start and end nor the specific type of services exchanged.
         </p>
         <p>
           Visit our <a href="https://dataworklandscape.org/about" className="text-blue-600 underline hover:opacity-70 transition-all">About</a> page for more information on our methodology and limitations.
