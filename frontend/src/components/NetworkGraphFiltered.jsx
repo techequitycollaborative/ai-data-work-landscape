@@ -46,11 +46,16 @@ const _ALL_LINKS = _rawRels
     target:              d.target.trim(),
     type:                (d.relationship_type || "").trim().toLowerCase() || "unknown",
     relationship_source: (d.relationship_source || "").trim(),
+    include:             (d["Include in graphs on microsite? "] || "").trim().toLowerCase(),
   }))
   .filter(d => _rawNodeMap.has(d.source) && _rawNodeMap.has(d.target));
 
-// Keep only verified relationships
-const ALL_LINKS = _ALL_LINKS.filter(l => !UNCLEAR_TYPES.has(l.type));
+// Keep only verified relationships that are marked for inclusion
+// i.e. they cannot have 'unclear' or 'could not verify' types, and must have 'yes' in the include column
+const ALL_LINKS = _ALL_LINKS.filter(l =>
+  !UNCLEAR_TYPES.has(l.type) &&
+  l.include === "yes"
+);
 
 // Now we know which IDs have legit relationships
 const LEGIT_IDS = new Set(ALL_LINKS.flatMap(l => [l.source, l.target]));
