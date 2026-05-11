@@ -8,7 +8,7 @@ const BADGE_COLORS = {
     Customer:            { bg: "#5b8dee", text: "#fff" },
     Investor:            { bg: "#3aaf6e", text: "#fff" },
     Partner:             { bg: "#f9a825", text: "#fff" },
-    Supplier:            { bg: "#d84315", text: "#fff" },
+    Subcontractor:            { bg: "#d84315", text: "#fff" },
     "Marketplace Model": { bg: "#00495e", text: "#fff" },
     "BPO Model":         { bg: "#712f39", text: "#fff" },
     "Unclear":           { bg: "#444716", text: "#fff" },

@@ -18,7 +18,7 @@ const FALLBACK_COLOR  = "#ade4d1";
 const REL_TYPES = {
   customer: { color: "#0041d9", label: "Customers" },
   partner:  { color: "#712f39", label: "Partners"  },
-  supplier: { color: "#e8a020", label: "Suppliers" },  // amber — distinct from DATA_WORK_COLOR red
+  subcontractor: { color: "#e8a020", label: "Subcontractors" },  // amber — distinct from DATA_WORK_COLOR red
   investor: { color: "#2d9f8b", label: "Investors" },
 };
 
@@ -716,7 +716,7 @@ export default function NetworkGraphFiltered() {
             }}>
               <li>- Type any company name into the search bar, or select a data work company from the list on the left.</li>
               <li>- Click a node in the network graph to jump to that company and explore its relationships.</li>
-              <li>- Toggle on and off different relationship types: customers, partners, suppliers, and investors.</li>
+              <li>- Toggle on and off different relationship types: customers, partners, subcontractors, and investors.</li>
               <li>- Select <strong>1 level</strong> to show direct relationships, or <strong>2 levels</strong> to show relationships of relationships.</li>
             </ol>
             <div style={{
