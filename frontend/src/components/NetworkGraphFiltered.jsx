@@ -719,7 +719,7 @@ export default function NetworkGraphFiltered() {
             {/* Rest of instructional text */}
             <div style={{
               fontFamily:    "IBM Plex Mono, monospace",
-              fontSize:      24,
+              fontSize:      16,
               color:         "var(--text)",
               fontWeight:    600,
               letterSpacing: "0.06em",
@@ -728,7 +728,7 @@ export default function NetworkGraphFiltered() {
             </div>
             <ol style={{
               fontFamily:  "IBM Plex Mono, monospace",
-              fontSize:    14,
+              fontSize:    12,
               color:       "var(--text)",
               lineHeight:  2,
               textAlign:   "left",
