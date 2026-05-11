@@ -5,16 +5,14 @@ import { BrowserRouter as Router, Routes, Route, NavLink, useLocation } from "re
 import { useState, useEffect } from "react";
 import Home from "./pages/HomeBlockLite";
 import About from "./pages/About";
-import Contribute_Jotform from "../archived_pages/Contribute_Jotform_cached";
 import Database from "./pages/Database";
 import Profiles from "./pages/Profiles";
 import ProfileDetail from "./pages/ProfileDetail";
-import Graphs from "./pages/Graphs";
 import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/FooterDetailed";
 import { Menu, X } from "lucide-react"; // or any icon library
 import ReactGA from "react-ga4"; // for Google Analytics tracking
-import GraphsV2 from "./pages/GraphsV2";
+import NetworkGraph from "./pages/NetworkGraphPage";
 
 // Initialize Google Analytics once, then use GAListener to track page views for other pages
 ReactGA.initialize("G-40YPSZ5R18");
@@ -65,8 +63,7 @@ function AppWrapper() {
         {/* Desktop Nav */}
         <div className="hidden md:flex gap-10 mr-2">
           <NavLink to="/database" className={({ isActive }) => isActive ? "underline" : ""}>database</NavLink>
-          <NavLink to="/graphs" className={({ isActive }) => isActive ? "underline" : ""}>graphs</NavLink>
-          <NavLink to="/graphsV2" className={({ isActive }) => isActive ? "underline" : ""}>graph v2</NavLink>
+          <NavLink to="/networkgraph" className={({ isActive }) => isActive ? "underline" : ""}>network graph</NavLink>
           <NavLink to="/profiles" className={({ isActive }) => isActive ? "underline" : ""}>profiles</NavLink>
           <NavLink to="/about" className={({ isActive }) => isActive ? "underline" : ""}>about</NavLink>
        </div>
@@ -95,8 +92,7 @@ function AppWrapper() {
 
           <NavLink to="/" onClick={() => setMenuOpen(false)}>home</NavLink>
           <NavLink to="/database" onClick={() => setMenuOpen(false)}>database</NavLink>
-          <NavLink to="/graphs" onClick={() => setMenuOpen(false)}>graphs</NavLink>
-          <NavLink to="/graphsV2" onClick={() => setMenuOpen(false)}>graph v2</NavLink>     
+          <NavLink to="/networkgraph" onClick={() => setMenuOpen(false)}>network graph</NavLink>     
           <NavLink to="/profiles" onClick={() => setMenuOpen(false)}>profiles</NavLink>
           <NavLink to="/about" onClick={() => setMenuOpen(false)}>about</NavLink>  
         </div>
@@ -111,11 +107,10 @@ function AppWrapper() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/database" element={<Database />} />
-          <Route path="/graphs" element={<Graphs />} />
+          <Route path="/networkgraph" element={<NetworkGraph/>} />
           <Route path="/profiles" element={<Profiles />} />
           <Route path="/profiles/:slug" element={<ProfileDetail />} />
           <Route path="/about" element={<About />} />
-          <Route path="/graphsV2" element={<GraphsV2 />} />
         </Routes>
       </div>
 

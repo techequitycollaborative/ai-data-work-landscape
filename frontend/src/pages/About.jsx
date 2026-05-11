@@ -85,7 +85,7 @@ export default function About() {
 
             <Expander title="Data collection & sources">
               <p>
-                To populate our company database, relationship graphs, and company profiles, we identified companies from news coverage, academic and trade publications that mentioned data workers, content moderation, and AI model building and training broadly defined. Following this, we conducted desk research on each company. This involved:
+                To populate our company database, network graph, and company profiles, we identified companies from news coverage, academic and trade publications that mentioned data workers, content moderation, and AI model building and training broadly defined. Following this, we conducted desk research on each company. This involved:
               </p>
               <ul className="list-disc pl-6 pt-4 space-y-2">
                 <li>Surveying company websites, looking specifically for descriptions of the products and services offered, lists of customers and investors, listings of job openings, and information about the location of workers;</li>

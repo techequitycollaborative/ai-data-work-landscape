@@ -32,7 +32,7 @@ export default function Footer() {
         <div className="flex flex-col gap-3 text-sm items-end mr-2">
         <span className="font-semibold uppercase tracking-widest mb-1">Explore</span>
         <NavLink to="/database" className="hover:opacity-60 transition-all">Database</NavLink>
-        <NavLink to="/graphs" className="hover:opacity-60 transition-all">Graphs</NavLink>
+        <NavLink to="/networkgraph" className="hover:opacity-60 transition-all">Network Graph</NavLink>
         <NavLink to="/profiles" className="hover:opacity-60 transition-all">Profiles</NavLink>
         <NavLink to="/about" className="hover:opacity-60 transition-all">About</NavLink>
         </div>

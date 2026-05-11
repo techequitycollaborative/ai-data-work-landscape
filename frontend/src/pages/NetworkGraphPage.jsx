@@ -1,10 +1,10 @@
-// GraphsV2.jsx
+// NetworkGraphPage.jsx
 // Page for the new network graph (filtered/explorable view)
 
 import NetworkGraphFiltered from "../components/NetworkGraphFiltered";
 import Expander from "../components/Expander";
 
-export default function GraphsV2() {
+export default function NetworkGraph() {
   return (
     <main
       id="network"
@@ -18,7 +18,7 @@ export default function GraphsV2() {
 
         {/* Section header */}
         <div className="border-b-2 border-[#041c2c] pb-3 mb-6">
-          <h1 className="text-5xl md:text-6xl m-0 leading-none">Graphs</h1>
+          <h1 className="text-5xl md:text-6xl m-0 leading-none">Network Graph</h1>
         </div>
 
         <p className="mt-2 text-sm text-gray-500 font-normal normal-case"
@@ -39,10 +39,10 @@ export default function GraphsV2() {
         <Expander title="A note about this graph">
           <div className="space-y-4">
             <p>
-            Data work is an opaque industry. Companies are generally not required to reveal contractual relationships and these contracts shift constantly. In the absence of transparent information, these graphs are based on an incomplete set of publicly available sources including news coverage, academic and trade publications, and company websites.
+            Data work is an opaque industry. Companies are generally not required to reveal contractual relationships and these contracts shift constantly. In the absence of transparent information, this graph is based on an incomplete set of publicly available sources including news coverage, academic and trade publications, and company websites.
             </p>
             <p>
-            The graphs provide a snapshot of some of the companies involved in data services and their relationships, but this resource is not—and cannot be—exhaustive or completely up-to-date. It’s not often that information is made public about when contracts start and end nor the specific type of services exchanged.
+            The graph provides a snapshot of some of the companies involved in data services and their relationships, but this resource is not—and cannot be—exhaustive or completely up-to-date. It’s not often that information is made public about when contracts start and end nor the specific type of services exchanged.
             </p>
             <p>
               Visit our <a href="https://dataworklandscape.org/about" className="text-blue-600 underline hover:opacity-70 transition-all">About</a> page for more information on our methodology and limitations.
