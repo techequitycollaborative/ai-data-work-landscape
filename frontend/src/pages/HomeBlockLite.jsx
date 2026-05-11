@@ -43,7 +43,7 @@ export default function Home() {
         <Link to="/graphs" className="group flex-1 flex flex-col gap-4 border-2 border-[#041c2c] rounded p-6 hover:bg-[#041c2c] transition-all duration-200">
           <h3 className="text-3xl group-hover:text-[#f3fdb8] transition-all duration-200">Explore the supply chain</h3>
           <p className="text-sm group-hover:text-[#f3fdb8]/80 transition-all duration-200">
-          Interactive visualizations highlighting client, data work provider, and investor relationships in the AI data work industry.
+          Interactive visualizations highlighting customer, partner, and investor relationships in the AI data work industry.
           </p>
           <span className="mt-auto text-sm font-semibold uppercase tracking-widest group-hover:text-[#f3fdb8] transition-all duration-200">
             Explore →

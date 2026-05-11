@@ -14,6 +14,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/FooterDetailed";
 import { Menu, X } from "lucide-react"; // or any icon library
 import ReactGA from "react-ga4"; // for Google Analytics tracking
+import GraphsV2 from "./pages/GraphsV2";
 
 // Initialize Google Analytics once, then use GAListener to track page views for other pages
 ReactGA.initialize("G-40YPSZ5R18");
@@ -65,6 +66,7 @@ function AppWrapper() {
         <div className="hidden md:flex gap-10 mr-2">
           <NavLink to="/database" className={({ isActive }) => isActive ? "underline" : ""}>database</NavLink>
           <NavLink to="/graphs" className={({ isActive }) => isActive ? "underline" : ""}>graphs</NavLink>
+          <NavLink to="/graphsV2" className={({ isActive }) => isActive ? "underline" : ""}>graph v2</NavLink>
           <NavLink to="/profiles" className={({ isActive }) => isActive ? "underline" : ""}>profiles</NavLink>
           <NavLink to="/about" className={({ isActive }) => isActive ? "underline" : ""}>about</NavLink>
        </div>
@@ -94,8 +96,9 @@ function AppWrapper() {
           <NavLink to="/" onClick={() => setMenuOpen(false)}>home</NavLink>
           <NavLink to="/database" onClick={() => setMenuOpen(false)}>database</NavLink>
           <NavLink to="/graphs" onClick={() => setMenuOpen(false)}>graphs</NavLink>
+          <NavLink to="/graphsV2" onClick={() => setMenuOpen(false)}>graph v2</NavLink>     
           <NavLink to="/profiles" onClick={() => setMenuOpen(false)}>profiles</NavLink>
-          <NavLink to="/about" onClick={() => setMenuOpen(false)}>about</NavLink>       
+          <NavLink to="/about" onClick={() => setMenuOpen(false)}>about</NavLink>  
         </div>
       )}
 
@@ -112,6 +115,7 @@ function AppWrapper() {
           <Route path="/profiles" element={<Profiles />} />
           <Route path="/profiles/:slug" element={<ProfileDetail />} />
           <Route path="/about" element={<About />} />
+          <Route path="/graphsV2" element={<GraphsV2 />} />
         </Routes>
       </div>
 

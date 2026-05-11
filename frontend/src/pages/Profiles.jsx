@@ -87,7 +87,7 @@ export default function Profiles() {
             Data work is an opaque industry. Companies are generally not required to reveal contractual relationships and these contracts shift constantly. In the absence of transparent information, these profiles are based on an incomplete set of publicly available sources including news coverage, academic and trade publications, and company websites.
             </p>
             <p>
-            These profiles provide a snapshot of some of the companies that employ data workers and their relationships, but this resource is not—and cannot be—exhaustive or completely up-to-date. 
+            These profiles provide a snapshot of some of the companies that provide data services and their relationships, but this resource is not—and cannot be—exhaustive or completely up-to-date.
             </p>
             <p>
               Visit our <a href="https://dataworklandscape.org/about" className="text-blue-600 underline hover:opacity-70 transition-all">About</a> page for more information on our methodology and limitations.
