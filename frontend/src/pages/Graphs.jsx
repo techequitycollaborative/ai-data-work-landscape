@@ -23,7 +23,7 @@ export default function Graphs() {
 
         <p className="mt-2 text-sm text-gray-500 font-normal normal-case" 
                       style={{ fontFamily: "'Roboto Serif', serif" }}>
-          Explore the relationships between data work companies, their customers, partners, and investors.
+          Explore the relationships between data work companies and  their customers, partners, and investors.
         </p>
         <br />
 
