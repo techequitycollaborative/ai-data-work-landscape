@@ -22,6 +22,8 @@ const REL_TYPES = {
   investor: { color: "#2d9f8b", label: "Investors" },
 };
 
+const UNCLEAR_TYPES = new Set(["unclear", "could not verify any relationship"]);
+
 function relColor(type) {
   return REL_TYPES[type]?.color ?? FALLBACK_COLOR;
 }
@@ -30,27 +32,42 @@ function isDataWork(node) {
   return node?.industry === "Data Work Company";
 }
 
-//  Data (parsed once at module level) ─
+// Parse raw data
 const _rawNodes = Papa.parse(nodesRaw, { header: true, skipEmptyLines: true }).data;
 const _rawRels  = Papa.parse(relationshipsRaw, { header: true, skipEmptyLines: true }).data;
 
-const ALL_NODES = _rawNodes.map(d => ({
-  id:       d.name.trim(),
-  name:     d.name.trim(),
-  type:     (d.type     || "").trim(),
-  industry: (d.industry || "").trim(),
-  location: (d.location || "").trim(),
-}));
-const NODE_MAP = new Map(ALL_NODES.map(n => [n.id, n]));
+// Build a temporary node map from ALL raw nodes (needed to validate link endpoints)
+const _rawNodeMap = new Map(_rawNodes.map(d => [d.name.trim(), d]));
 
-const ALL_LINKS = _rawRels
+// Parse all links, filtering only to nodes that exist
+const _ALL_LINKS = _rawRels
   .map(d => ({
     source:              d.source.trim(),
     target:              d.target.trim(),
     type:                (d.relationship_type || "").trim().toLowerCase() || "unknown",
     relationship_source: (d.relationship_source || "").trim(),
   }))
-  .filter(d => NODE_MAP.has(d.source) && NODE_MAP.has(d.target));
+  .filter(d => _rawNodeMap.has(d.source) && _rawNodeMap.has(d.target));
+
+// Keep only verified relationships
+const ALL_LINKS = _ALL_LINKS.filter(l => !UNCLEAR_TYPES.has(l.type));
+
+// Now we know which IDs have legit relationships
+const LEGIT_IDS = new Set(ALL_LINKS.flatMap(l => [l.source, l.target]));
+
+// Build ALL_NODES filtered to only legit companies
+const ALL_NODES = _rawNodes
+  .map(d => ({
+    id:       d.name.trim(),
+    name:     d.name.trim(),
+    type:     (d.type     || "").trim(),
+    industry: (d.industry || "").trim(),
+    location: (d.location || "").trim(),
+  }))
+  .filter(n => LEGIT_IDS.has(n.id));
+
+// NODE_MAP now only contains legit nodes
+const NODE_MAP = new Map(ALL_NODES.map(n => [n.id, n]));
 
 // Adjacency map: id → [{ neighbor, type, relationship_source }]
 const ADJACENCY = new Map();
