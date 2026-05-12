@@ -12,6 +12,13 @@ export default function Database() {
   const [displayedData, setDisplayedData] = useState([]);
   const [filteredCount, setFilteredCount] = useState(0);
 
+  // Sync filteredCount to full data length when data first loads
+  useEffect(() => {
+    if (data.length > 0 && filteredCount === 0) {
+      setFilteredCount(data.length);
+    }
+  }, [data]);
+
   useEffect(() => {
     const API_URLS = {
       production: "https://data-work-landscape-lymyf.ondigitalocean.app/ai-data-work-landscape-backend/data",

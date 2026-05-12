@@ -42,7 +42,7 @@ def get_db():
 
 @app.get("/data")
 def get_data(db: Session = Depends(get_db)):
-    items = db.query(DataItem).all()
+    items = db.query(DataItem).order_by(DataItem.company_name).all()
     return [
         {
             "company_name": item.company_name,
