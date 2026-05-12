@@ -46,9 +46,12 @@ const _ALL_LINKS = _rawRels
     target:              d.target.trim(),
     type:                (d.relationship_type || "").trim().toLowerCase() || "unknown",
     relationship_source: (d.relationship_source || "").trim(),
-    include:             (d["Include in graphs on microsite? "] || "").trim().toLowerCase(),
+    include:             (d["Include in graphs on microsite?"] || "").trim().toLowerCase(),
   }))
   .filter(d => _rawNodeMap.has(d.source) && _rawNodeMap.has(d.target));
+
+console.log("Raw rels:", _rawRels.length);
+console.log("After node existence filter:", _ALL_LINKS.length);
 
 // Keep only verified relationships that are marked for inclusion
 // i.e. they cannot have 'unclear' or 'could not verify' types, and must have 'yes' in the include column
@@ -89,11 +92,11 @@ ALL_NODES.forEach(n => DEGREE.set(n.id, ADJACENCY.get(n.id)?.length ?? 0));
 
 const ALL_COMPANY_NAMES = ALL_NODES.map(n => n.name).sort();
 
-// Data Work Companies — shown in sidebar for quick selection
+// Data Work Companies — shown in sidebar for quick selection (alphabetized)
 const DATA_WORK_COMPANIES = ALL_NODES
   .filter(n => n.industry === "Data Work Company")
   .map(n => n.name)
-  .sort();
+  .sort((a, b) => a.localeCompare(b, undefined, { sensitivity: "base" }));
 
 //  Ego subgraph builder 
 function buildEgoGraph(centerId, hops, activeTypes) {
@@ -624,12 +627,6 @@ export default function NetworkGraphFiltered() {
             {graphStats.nodes} {graphStats.nodes === 1 ? "company" : "companies"}
             &nbsp;·&nbsp;
             {graphStats.links} {graphStats.links === 1 ? "relationship" : "relationships"}
-            {hops === 1 && totalDeg > graphStats.nodes - 1
-              ? (() => {
-                  const more = totalDeg - (graphStats.nodes - 1);
-                  return `  ·  ${more} more at 2 levels`;
-                })()
-              : ""}
           </span>
         )}
 
