@@ -131,8 +131,8 @@ export default function ProfileDetail() {
               <table className="profile-table w-full table-fixed">
                 <thead>
                   <tr>
-                    <th className="w-[55%]">Company</th>
-                    <th className="w-[45%]">Relationship</th>
+                    <th className="w-[65%]">Company</th>
+                    <th className="w-[35%]">Type</th>
                   </tr>
                 </thead>
                 <tbody>
