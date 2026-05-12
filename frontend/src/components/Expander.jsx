@@ -18,7 +18,7 @@ export default function Expander({ title, children }) {
             display: "inline-block",
             transform: open ? "rotate(90deg)" : "rotate(0deg)",
             transition: "transform 0.2s",
-            fontSize: "1.2rem",
+            fontSize: "2rem",
             color: "#712f39",
           }}
         >
