@@ -733,8 +733,9 @@ export default function NetworkGraphFiltered() {
               paddingLeft: 22,
               margin:      0,
             }}>
-              <li>- Type any company name into the search bar, or select a data work company from the list on the left.</li>
+              <li>- To start, type any company name into the search bar, or select a data work company from the list on the left.</li>
               <li>- Click a node in the network graph to jump to that company and explore its relationships.</li>
+              <li>- To go back to the previously selected company, click on its node.</li>
               <li>- Toggle on and off different relationship types: customers, partners, subcontractors, and investors.</li>
               <li>- Select <strong>1 level</strong> to show direct relationships, or <strong>2 levels</strong> to show relationships of relationships.</li>
             </ol>
