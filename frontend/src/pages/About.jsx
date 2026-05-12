@@ -130,6 +130,7 @@ export default function About() {
                 <br /><br />
                 For example, Scale AI has two subsidiaries, <a href="https://scale.com/blog/new-era-outlier" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Outlier</a> and <a href="http://scale.com/blog/remotasks-overview" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Remotasks</a> (which are listed in the <i>In-House Marketplace</i> column in the <Link to="/database" className="text-blue-600 underline">database</Link>). These are both marketplaces where data workers can find work and Scale AI customers can find a workforce. In addition, Scale AI also <a href="https://www.inc.com/sam-blum/investigation-into-scale-ai-also-targets-its-hr-partners-hireart-and-upwork/91159063" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">outsources work to UpWork</a>, an independent company that operates a marketplace model.
               </p>
+              <br />
               <p>
                 <span className="font-bold">Relationship Type</span>
                 <br />

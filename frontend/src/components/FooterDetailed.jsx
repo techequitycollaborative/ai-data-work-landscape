@@ -13,11 +13,9 @@ export default function Footer() {
 
         {/* Logo block */}
         <div className="flex flex-col gap-4">
-          <div className="flex items-center gap-3">
-            <img src="/favicon1.png" alt="Globe favicon" className="h-8 w-auto" />
-            <span className="font-light text-sm">The Data Work Landscape</span>
-          </div>
-          <img src="/logo_white.png" alt="TechEquity Logo" className="h-16 w-auto ml-12" />
+        <a href="https://techequity.us" target="_blank" rel="noopener noreferrer">
+        <img src="/logo_white.png" alt="TechEquity Logo" className="h-16 w-auto ml-12" />
+        </a>        
         </div>
 
         {/* Nav links — 2x2 grid 
