@@ -136,7 +136,7 @@ function buildEgoGraph(centerId, hops, activeTypes) {
   return { nodes, links };
 }
 
-//  Component ─
+//  Component
 export default function NetworkGraphFiltered() {
   const svgRef       = useRef(null);
   const containerRef = useRef(null);
@@ -301,7 +301,7 @@ export default function NetworkGraphFiltered() {
       .attr("class", d => `link ${d.type}`);
       // arrowheads omitted (matches original NetworkGraph)
 
-    //  Nodes ─
+    //  Nodes
     const nodeSel = g.append("g").attr("class", "nodes")
       .selectAll("g").data(nodes).join("g")
       .attr("class", "node")
@@ -312,7 +312,7 @@ export default function NetworkGraphFiltered() {
           .on("end",   (e, d) => { if (!e.active) sim.alphaTarget(0); d.fx = null; d.fy = null; })
       );
 
-    // Outer ring — matches original node style
+    // Outer ring of nodes
     nodeSel.append("circle")
       .attr("r",            d => d.id === selectedCompany ? 22 : 16)
       .attr("fill",         d => isDataWork(d) ? DATA_WORK_COLOR : NODE_COLOR)
@@ -320,7 +320,7 @@ export default function NetworkGraphFiltered() {
       .attr("stroke",       d => isDataWork(d) ? DATA_WORK_COLOR : NODE_COLOR)
       .attr("stroke-width", d => d.id === selectedCompany ? 2 : 1);
 
-    // Inner glow dot
+    // Inner glow dot of nodes
     nodeSel.append("circle")
       .attr("r",            d => d.id === selectedCompany ? 7 : 5)
       .attr("fill",         d => isDataWork(d) ? DATA_WORK_COLOR : NODE_COLOR)
@@ -347,8 +347,6 @@ export default function NetworkGraphFiltered() {
       .attr("font-weight",       d => d.id === selectedCompany || isDataWork(d) ? "700" : "400")
       .attr("fill",              d => isDataWork(d) ? DATA_WORK_COLOR : null) // null inherits graph.css fill
       .text(d => d.name.length > 28 ? d.name.slice(0, 26) + "…" : d.name);
-
-    // (degree badge removed — total relationships shown in tooltip only)
 
     //  Interactions 
     nodeSel
@@ -383,7 +381,7 @@ export default function NetworkGraphFiltered() {
         const shownDeg  = neighbourIds.size - 1;
         const nodeColor = isDataWork(d) ? DATA_WORK_COLOR : NODE_COLOR;
 
-        // Pluralise helper
+        // Pluralize helper
         const rWord = n => n === 1 ? "relationship" : "relationships";
 
         // Relationship type rows — DATA WORK COMPANIES ONLY
@@ -454,7 +452,7 @@ export default function NetworkGraphFiltered() {
     }
     window.addEventListener("resize", handleResize);
 
-    //  Zoom buttons ─
+    //  Zoom buttons
     const btnIn  = document.getElementById("egf-zoom-in");
     const btnOut = document.getElementById("egf-zoom-out");
     const btnRst = document.getElementById("egf-zoom-reset");
@@ -491,7 +489,7 @@ export default function NetworkGraphFiltered() {
   const centerNode = selectedCompany ? NODE_MAP.get(selectedCompany) : null;
   const totalDeg   = selectedCompany ? (DEGREE.get(selectedCompany) ?? 0) : 0;
 
-  //  JSX ─
+  //  JSX
   return (
     <div
       className="network-page"

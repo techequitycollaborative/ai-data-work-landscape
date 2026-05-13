@@ -228,3 +228,6 @@ htmlcov/
 # Misc
 package-lock.json
 poetry.lock
+
+# Ignore archived pages folder
+archived_pages/
