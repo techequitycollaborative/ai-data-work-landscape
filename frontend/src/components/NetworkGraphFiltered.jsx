@@ -153,6 +153,9 @@ export default function NetworkGraphFiltered() {
   const containerRef = useRef(null);
   const tooltipRef   = useRef(null);
   const simRef       = useRef(null);
+  // History stack to enable going back to the previously clicked on company/node
+  const historyRef = useRef([]);
+  const selectedCompanyRef = useRef(null);
 
   const [selectedCompany, setSelectedCompany] = useState(null);
   const [hops,            setHops]            = useState(1);
@@ -161,6 +164,7 @@ export default function NetworkGraphFiltered() {
   const [suggestions,     setSuggestions]     = useState([]);
   const [selIdx,          setSelIdx]          = useState(-1);
   const [graphStats,      setGraphStats]      = useState(null);
+  const [historyLen,      setHistoryLen]      = useState(0);  // For back button visibility
 
   //  Search 
   const handleSearchChange = useCallback(e => {
@@ -176,6 +180,13 @@ export default function NetworkGraphFiltered() {
   }, []);
 
   const selectCompany = useCallback(name => {
+    const current = selectedCompanyRef.current;
+    if (current) {
+      const newStack = [...historyRef.current, current];
+      historyRef.current = newStack;
+      setHistoryLen(newStack.length);
+    }
+    selectedCompanyRef.current = name;
     setSelectedCompany(name);
     setSearchVal(name);
     setSuggestions([]);
@@ -183,13 +194,31 @@ export default function NetworkGraphFiltered() {
   }, []);
 
   const clearSelection = useCallback(() => {
+    selectedCompanyRef.current = null;
     setSelectedCompany(null);
     setSearchVal("");
     setSuggestions([]);
     setSelIdx(-1);
     setGraphStats(null);
+    historyRef.current = [];
+    setHistoryLen(0);
     if (simRef.current) { simRef.current.stop(); simRef.current = null; }
     d3.select(svgRef.current).selectAll("*").remove();
+  }, []);
+
+  // Go back to previously selected company (pops from history stack)
+  const goBack = useCallback(() => {
+    const stack = historyRef.current;
+    if (!stack.length) return;
+    const prev = stack[stack.length - 1];
+    const newStack = stack.slice(0, -1);
+    historyRef.current = newStack;
+    setHistoryLen(newStack.length);
+    selectedCompanyRef.current = prev;
+    setSelectedCompany(prev);
+    setSearchVal(prev);
+    setSuggestions([]);
+    setSelIdx(-1);
   }, []);
 
   const toggleType = useCallback(type => {
@@ -681,6 +710,17 @@ export default function NetworkGraphFiltered() {
             {graphStats.links} {graphStats.links === 1 ? "relationship" : "relationships"}
           </span>
         )}
+        
+        {/* Back button */}
+        {selectedCompany && historyLen > 0 && (
+        <button
+          className="bp-clear-btn"
+          onClick={goBack}
+          style={{ marginLeft: 0, display: "flex", alignItems: "center", gap: 4 }}
+        >
+          ← {historyRef.current[historyRef.current.length - 1]}
+        </button>
+      )}
 
       </header>
 
@@ -787,7 +827,7 @@ export default function NetworkGraphFiltered() {
             }}>
               <li>- To start, type any company name into the search bar, or select a data work company from the list on the left.</li>
               <li>- Click a node in the network graph to jump to that company and explore its relationships.</li>
-              <li>- To go back to the previously selected company, click on its node.</li>
+              <li>- To go back to the previously selected company, click the back button in the upper righthand corner or click on its node.</li>
               <li>- Toggle on and off different relationship types: customers, partners, subcontractors, and investors.</li>
               <li>- Select <strong>1 level</strong> to show direct relationships, or <strong>2 levels</strong> to show relationships of relationships.</li>
             </ol>
