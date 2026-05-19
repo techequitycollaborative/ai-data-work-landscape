@@ -69,7 +69,7 @@ export default function About() {
           </p>
           <br />
           <p>
-          We created the Data Work Landscape to shine a light on this shadowy industry by identifying companies that provide data work services, such as data collection, curation, annotation, model training, content moderation, and more. This project is just a snapshot of this growing industry. We launched this microsite in 2025 with the database feature. In the spring of 2026, we updated the database, added profiles of some of the companies in the database and launched visualizations to highlight the relationships between these companies and their reported customers, investors, and partners.
+          We created the Data Work Landscape to shine a light on this shadowy industry by identifying companies that provide data work services, such as data collection, curation, annotation, model training, content moderation, and more. This project is just a snapshot of this growing industry. We launched this microsite in 2025 with the database feature. In the spring of 2026, we updated the database, added profiles of some of the companies in the database, and launched visualizations to highlight the relationships between these companies and their reported customers, investors, and partners. We hope to be able to provide updates over time.
           </p>
           <br />
           <p>
@@ -85,7 +85,7 @@ export default function About() {
 
             <Expander title="Data collection & sources">
               <p>
-                To populate our company database, network graph, and company profiles, we identified companies from news coverage, academic and trade publications that mentioned data workers, content moderation, and AI model building and training broadly defined. Following this, we conducted desk research on each company. This involved:
+                To populate our company database, network graph, and company profiles, we identified companies from news coverage, academic papers, and trade publications that mentioned data workers, content moderation, and AI model building and training broadly defined. Following this, we conducted desk research on each company. This involved:
               </p>
               <ul className="list-disc pl-6 pt-4 space-y-2">
                 <li>Surveying company websites, looking specifically for descriptions of the products and services offered, lists of customers and investors, listings of job openings, and information about the location of workers;</li>
@@ -156,7 +156,7 @@ export default function About() {
                 <br /><br />
                 Additionally, our database doesn’t yet give a clear picture of who the biggest players in the Data Work Landscape are. We're working on identifying key indicators—like company growth, VC funding, revenue, number of data workers, and customer relationships—that can help us answer this question.
                 <br /><br />
-                These data gaps pose limitations to understanding how these companies operate and the impact they’re having on workers in the AI supply chain. Data work is an opaque industry. Companies are generally not required to reveal contractual relationships and these contracts shift constantly. In the absence of transparent information, information on this site is based on an incomplete set of publicly available sources including news coverage, academic and trade publications, and company websites. The information provided on this site is a snapshot of some of the companies that provide data services and their relationships, but this resource is not—and cannot be— exhaustive or completely up-to-date.
+                These data gaps pose limitations to understanding how these companies operate and the impact they’re having on workers in the AI supply chain. Data work is an opaque industry. Companies are generally not required to reveal contractual relationships and these contracts shift constantly. In the absence of transparent information, information on this site is based on an incomplete set of publicly available sources including news coverage, academic papers, trade publications, and company websites. The information provided on this site is a snapshot of some of the companies that provide data services and their relationships, but this resource is not—and cannot be— exhaustive or completely up-to-date.
                 <br /><br />
                 We aim to continue this research in order to shed light on this industry. If you have information you’d like to contribute to the project, please <a href="https://form.jotform.com/techequity/data-work-landscape" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">share it with us</a>.
               </p>
@@ -174,7 +174,7 @@ export default function About() {
 
             <Expander title="Acknowledgments">
               <p>
-              We’d like to thank the following undergraduate students at the University of California Berkeley for their support conducting some of the research for this project: Anvi Abhijit Gaikwad, Yasamin L. Hatefi, Georgia Darcy Richards, Naomi Tran, Mads Emil Matz Walbum, Alicia Williams-LeDoux.
+              We would like to thank the following undergraduate students at the University of California Berkeley for their support conducting some of the research for this project: Anvi Abhijit Gaikwad, Yasamin L. Hatefi, Georgia Darcy Richards, Naomi Tran, Mads Emil Matz Walbum, and Alicia Williams-LeDoux. We would also like to thank Margarida Silva at SOMO <a href="https://www.somo.nl/big-tech-sets-unfair-terms-and-conditions-for-ai-data-workers-globally/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">whose recent research on data work</a> helped informed recent updates to this project.
               </p>
               <br />
               <p>

@@ -18,8 +18,19 @@ const FALLBACK_COLOR  = "#ade4d1";
 const REL_TYPES = {
   customer: { color: "#0041d9", label: "Customers" },
   partner:  { color: "#712f39", label: "Partners"  },
-  subcontractor: { color: "#e8a020", label: "Subcontractors" },  // amber — distinct from DATA_WORK_COLOR red
+  subcontractor: { color: "#f1592d", label: "Subcontractors" },  // amber — distinct from DATA_WORK_COLOR red
   investor: { color: "#2d9f8b", label: "Investors" },
+};
+
+const REL_TOOLTIPS = {
+  customer:
+    "A business that purchases a company’s goods or services, tools, etc.",
+  partner:
+    "A business or institution with which a company maintains a strategic relationship (e.g. a data work company partnering with a cloud service provider).",
+  subcontractor:
+    "A business to which a company outsources parts of its production or service process (e.g. Scale AI outsources data work to UpWork).",
+  investor:
+    "A business or individual that commits capital to a company in expectation of a financial return.",
 };
 
 const UNCLEAR_TYPES = new Set(["unclear", "could not verify any relationship"]);
@@ -142,6 +153,9 @@ export default function NetworkGraphFiltered() {
   const containerRef = useRef(null);
   const tooltipRef   = useRef(null);
   const simRef       = useRef(null);
+  // History stack to enable going back to the previously clicked on company/node
+  const historyRef = useRef([]);
+  const selectedCompanyRef = useRef(null);
 
   const [selectedCompany, setSelectedCompany] = useState(null);
   const [hops,            setHops]            = useState(1);
@@ -150,6 +164,7 @@ export default function NetworkGraphFiltered() {
   const [suggestions,     setSuggestions]     = useState([]);
   const [selIdx,          setSelIdx]          = useState(-1);
   const [graphStats,      setGraphStats]      = useState(null);
+  const [historyLen,      setHistoryLen]      = useState(0);  // For back button visibility
 
   //  Search 
   const handleSearchChange = useCallback(e => {
@@ -165,6 +180,13 @@ export default function NetworkGraphFiltered() {
   }, []);
 
   const selectCompany = useCallback(name => {
+    const current = selectedCompanyRef.current;
+    if (current) {
+      const newStack = [...historyRef.current, current];
+      historyRef.current = newStack;
+      setHistoryLen(newStack.length);
+    }
+    selectedCompanyRef.current = name;
     setSelectedCompany(name);
     setSearchVal(name);
     setSuggestions([]);
@@ -172,13 +194,31 @@ export default function NetworkGraphFiltered() {
   }, []);
 
   const clearSelection = useCallback(() => {
+    selectedCompanyRef.current = null;
     setSelectedCompany(null);
     setSearchVal("");
     setSuggestions([]);
     setSelIdx(-1);
     setGraphStats(null);
+    historyRef.current = [];
+    setHistoryLen(0);
     if (simRef.current) { simRef.current.stop(); simRef.current = null; }
     d3.select(svgRef.current).selectAll("*").remove();
+  }, []);
+
+  // Go back to previously selected company (pops from history stack)
+  const goBack = useCallback(() => {
+    const stack = historyRef.current;
+    if (!stack.length) return;
+    const prev = stack[stack.length - 1];
+    const newStack = stack.slice(0, -1);
+    historyRef.current = newStack;
+    setHistoryLen(newStack.length);
+    selectedCompanyRef.current = prev;
+    setSelectedCompany(prev);
+    setSearchVal(prev);
+    setSuggestions([]);
+    setSelIdx(-1);
   }, []);
 
   const toggleType = useCallback(type => {
@@ -309,7 +349,9 @@ export default function NetworkGraphFiltered() {
         d3.drag()
           .on("start", (e, d) => { if (!e.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
           .on("drag",  (e, d) => { d.fx = e.x; d.fy = e.y; })
-          .on("end",   (e, d) => { if (!e.active) sim.alphaTarget(0); d.fx = null; d.fy = null; })
+          .on("end",   (e, d) => { if (!e.active) sim.alphaTarget(0); })
+          // fx/fy intentionally left set — node stays pinned where user dropped it
+          // this allows users to drag nodes out of crowded clusters and have them stay put, improving readability (especially in 2-level views)
       );
 
     // Outer ring of nodes
@@ -337,6 +379,15 @@ export default function NetworkGraphFiltered() {
       .attr("stroke-dasharray","3,3")
       .attr("stroke-opacity",  0.4)
       .attr("pointer-events",  "none");
+
+    // Right click a node to release it from being pinned/reset the view
+    nodeSel.on("contextmenu", (event, d) => {
+      event.preventDefault();  // stops browser context menu
+      event.stopPropagation();
+      d.fx = null;
+      d.fy = null;
+      sim.alphaTarget(0.15).restart();
+    });
 
     // Label
     nodeSel.append("text")
@@ -405,7 +456,7 @@ export default function NetworkGraphFiltered() {
           ${d.location  ? `<div class="tip-location"  style="color:${nodeColor}">${d.location}</div>`  : ""}
           ${divider}
           ${typeRows}
-          <div class="tip-footer">${shownDeg} shown&nbsp;·&nbsp;${totalDeg} total ${rWord(totalDeg)}</div>
+          <div class="tip-footer">${shownDeg} shown&nbsp;·&nbsp;${totalDeg} direct ${rWord(totalDeg)}</div>
         `;
         tooltip.classList.add("visible");
         moveTooltip(event);
@@ -499,7 +550,7 @@ export default function NetworkGraphFiltered() {
         height:        "calc(100vh - 56px)",
         border:        "1px solid #1e2330",
         borderRadius:  "0.5rem",
-        overflow:      "hidden",
+        overflow: "visible",
       }}
     >
       {/*  Header  */}
@@ -546,19 +597,37 @@ export default function NetworkGraphFiltered() {
 
         {/* Depth toggle — uses graph.css .view-toggle classes */}
         <div className="view-toggle">
-          <button
-            className={`toggle-btn${hops === 1 ? " active" : ""}`}
-            onClick={() => setHops(1)}
-          >
-            1 Level
-          </button>
+
+          <div className="level-tooltip-wrap">
+            <button
+              className={`toggle-btn${hops === 1 ? " active" : ""}`}
+              onClick={() => setHops(1)}
+            >
+              1 Level
+            </button>
+
+            <div className="level-tooltip">
+              Shows only direct relationships of the selected company.
+              <span className="level-tooltip-arrow" />
+            </div>
+          </div>
+
           <div className="toggle-divider" />
-          <button
-            className={`toggle-btn${hops === 2 ? " active" : ""}`}
-            onClick={() => setHops(2)}
-          >
-            2 Levels
-          </button>
+
+          <div className="level-tooltip-wrap">
+            <button
+              className={`toggle-btn${hops === 2 ? " active" : ""}`}
+              onClick={() => setHops(2)}
+            >
+              2 Levels
+            </button>
+
+            <div className="level-tooltip">
+              Shows direct relationships plus relationships of relationships.
+              <span className="level-tooltip-arrow" />
+            </div>
+          </div>
+
         </div>
 
         {/* Relationship type filter — toggle buttons */}
@@ -574,40 +643,51 @@ export default function NetworkGraphFiltered() {
           }}>
             Show
           </span>
+
           {Object.entries(REL_TYPES).map(([k, { color, label }]) => {
             const on = activeTypes.has(k);
+
             return (
-              <button
-                key={k}
-                onClick={() => toggleType(k)}
-                style={{
-                  display:       "flex",
-                  alignItems:    "center",
-                  gap:           6,
-                  padding:       "4px 10px",
-                  fontFamily:    "IBM Plex Mono, monospace",
-                  fontSize:      11,
-                  cursor:        "pointer",
-                  userSelect:    "none",
-                  borderRadius:  4,
-                  border:        `1px solid ${on ? color : "#d0d7db"}`,
-                  background:    on ? `${color}18` : "transparent",
-                  color:         on ? color : "var(--text-dim)",
-                  fontWeight:    on ? 600 : 400,
-                  opacity:       on ? 1 : 0.55,
-                  transition:    "all 0.15s",
-                }}
-              >
-                <span style={{
-                  width:        8,
-                  height:       8,
-                  borderRadius: "50%",
-                  background:   on ? color : "#ccc",
-                  flexShrink:   0,
-                  transition:   "background 0.15s",
-                }} />
-                {label}
-              </button>
+              <div key={k} className="level-tooltip-wrap">
+
+                <button
+                  onClick={() => toggleType(k)}
+                  style={{
+                    display:       "flex",
+                    alignItems:    "center",
+                    gap:           6,
+                    padding:       "4px 10px",
+                    fontFamily:    "IBM Plex Mono, monospace",
+                    fontSize:      11,
+                    cursor:        "pointer",
+                    userSelect:    "none",
+                    borderRadius:  4,
+                    border:        `1px solid ${on ? color : "#d0d7db"}`,
+                    background:    on ? `${color}18` : "transparent",
+                    color:         on ? color : "var(--text-dim)",
+                    fontWeight:    on ? 600 : 400,
+                    opacity:       on ? 1 : 0.55,
+                    transition:    "all 0.15s",
+                  }}
+                >
+                  <span style={{
+                    width:        8,
+                    height:       8,
+                    borderRadius: "50%",
+                    background:   on ? color : "#ccc",
+                    flexShrink:   0,
+                    transition:   "background 0.15s",
+                  }} />
+
+                  {label}
+                </button>
+
+                <div className="level-tooltip">
+                  {REL_TOOLTIPS[k]}
+                  <span className="level-tooltip-arrow" />
+                </div>
+
+              </div>
             );
           })}
         </div>
@@ -622,11 +702,25 @@ export default function NetworkGraphFiltered() {
             letterSpacing: "0.04em",
             whiteSpace:    "nowrap",
           }}>
+            <span>
+              SHOWING:&nbsp;&nbsp;&nbsp;
+            </span>
             {graphStats.nodes} {graphStats.nodes === 1 ? "company" : "companies"}
             &nbsp;·&nbsp;
             {graphStats.links} {graphStats.links === 1 ? "relationship" : "relationships"}
           </span>
         )}
+        
+        {/* Back button */}
+        {selectedCompany && historyLen > 0 && (
+        <button
+          className="bp-clear-btn"
+          onClick={goBack}
+          style={{ marginLeft: 0, display: "flex", alignItems: "center", gap: 4 }}
+        >
+          ← {historyRef.current[historyRef.current.length - 1]}
+        </button>
+      )}
 
       </header>
 
@@ -733,7 +827,7 @@ export default function NetworkGraphFiltered() {
             }}>
               <li>- To start, type any company name into the search bar, or select a data work company from the list on the left.</li>
               <li>- Click a node in the network graph to jump to that company and explore its relationships.</li>
-              <li>- To go back to the previously selected company, click on its node.</li>
+              <li>- To go back to the previously selected company, click the back button in the upper righthand corner or click on its node.</li>
               <li>- Toggle on and off different relationship types: customers, partners, subcontractors, and investors.</li>
               <li>- Select <strong>1 level</strong> to show direct relationships, or <strong>2 levels</strong> to show relationships of relationships.</li>
             </ol>
@@ -786,7 +880,7 @@ export default function NetworkGraphFiltered() {
               </span>
             )}
             <span style={{ fontSize: 9, color: "#bbb", marginLeft: 4 }}>
-              {totalDeg} total {totalDeg === 1 ? "relationship" : "relationships"}
+              {totalDeg} direct {totalDeg === 1 ? "relationship" : "relationships"}
             </span>
           </div>
         )}

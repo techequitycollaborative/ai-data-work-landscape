@@ -7,29 +7,29 @@ from models import DataItem
 app = FastAPI()
 
 # CORS so React can access site -- for production app and dev app
-origins = [
-    "https://dataworklandscape.org",
-    "https://www.dataworklandscape.org",
-    "https://data-work-landscape-lymyf.ondigitalocean.app",
-    "https://dev-dwl-gxd6w.ondigitalocean.app"
-]
+#origins = [
+#    "https://dataworklandscape.org",
+#    "https://www.dataworklandscape.org",
+#    "https://data-work-landscape-lymyf.ondigitalocean.app",
+#    "https://dev-dwl-gxd6w.ondigitalocean.app"
+#]
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins, # only allow custom frontend, not all sites
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-# CORS so React can access site -- for local development
 #app.add_middleware(
 #    CORSMiddleware,
-#    allow_origins=["http://localhost:5173"],
+#    allow_origins=origins, # only allow custom frontend, not all sites
 #    allow_credentials=True,
 #    allow_methods=["*"],
 #    allow_headers=["*"],
 #)
+
+# CORS so React can access site -- for local development
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 # Dependency to get DB session

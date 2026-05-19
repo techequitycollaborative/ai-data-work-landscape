@@ -41,7 +41,7 @@ export default function Profiles() {
         </div>
 
         <p className="mt-2 text-sm text-gray-500 font-normal normal-case" style={{ fontFamily: "'Roboto Serif', serif" }}>
-        A closer look at some of the companies providing data services to the AI industry: who they are, how they operate, and what that means for the workers powering it all.
+        A closer look at some of the companies providing data services to the AI industry: who they are, how they operate, and what that means for the workers powering it all. <i>[Last updated: May 2026]</i>
         </p>
         <br></br> 
 
@@ -84,7 +84,7 @@ export default function Profiles() {
           <Expander title="A note about these profiles">
           <div className="space-y-4">
             <p>
-            Data work is an opaque industry. Companies are generally not required to reveal contractual relationships and these contracts shift constantly. In the absence of transparent information, these profiles are based on an incomplete set of publicly available sources including news coverage, academic and trade publications, and company websites.
+            Data work is an opaque industry. Companies are generally not required to reveal contractual relationships and these contracts shift constantly. In the absence of transparent information, these profiles are based on an incomplete set of publicly available sources including news coverage, academic papers, trade publications, and company websites.
             </p>
             <p>
             These profiles provide a snapshot of some of the companies that provide data services and their relationships, but this resource is not—and cannot be—exhaustive or completely up-to-date.
