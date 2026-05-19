@@ -23,7 +23,7 @@ export default function NetworkGraph() {
 
         <p className="mt-2 text-sm text-gray-500 font-normal normal-case"
                       style={{ fontFamily: "'Roboto Serif', serif" }}>
-          Explore the relationships between data work companies and  their customers, partners, and investors.
+          Explore the supply chain relationships between data work companies and their customers, partners, and investors. <i>[Last updated: May 2026]</i>
         </p>
         <br />
 
