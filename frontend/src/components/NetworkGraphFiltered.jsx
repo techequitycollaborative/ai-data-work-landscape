@@ -18,7 +18,7 @@ const FALLBACK_COLOR  = "#ade4d1";
 const REL_TYPES = {
   customer: { color: "#0041d9", label: "Customers" },
   partner:  { color: "#712f39", label: "Partners"  },
-  subcontractor: { color: "#e8a020", label: "Subcontractors" },  // amber — distinct from DATA_WORK_COLOR red
+  subcontractor: { color: "#f1592d", label: "Subcontractors" },  // amber — distinct from DATA_WORK_COLOR red
   investor: { color: "#2d9f8b", label: "Investors" },
 };
 
