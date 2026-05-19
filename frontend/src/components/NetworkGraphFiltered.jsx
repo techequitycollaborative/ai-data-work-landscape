@@ -550,11 +550,11 @@ export default function NetworkGraphFiltered() {
         height:        "calc(100vh - 56px)",
         border:        "1px solid #1e2330",
         borderRadius:  "0.5rem",
-        overflow: "visible",
+        overflow: "hidden",
       }}
     >
       {/*  Header  */}
-      <header className="network-header" style={{ gap: 40 }}>
+      <header className="network-header" style={{ gap: 40, overflow: "visible" }}>
 
         {/* Search — uses graph.css .search classes */}
         <div className="search" id="rn-network-search" style={{ position: "relative" }}>
