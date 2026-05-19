@@ -131,7 +131,7 @@ Chiratae Ventures,Finance & Venture Capital,"Bengaluru, India",,Yes
 Chubb,Insurance,"Zurich, Switzerland",,Yes
 Citi,Finance & Venture Capital,"New York, NY, USA",,Yes
 Citrix,Tech,USA,,No
-Clickworker,Data Work Company,"Essen, Nordrhein-Westfalen, Germany",,Yes
+Clickworker,Data Work Company,"Essen, Nordrhein-Westfalen, Germany",,No
 Clorox,Retail & Consumer Goods,"Oakland, CA, USA",,Yes
 Cloud Factory,Data Work Company,US / UK / Nepal / Kenya,,No
 CloudFactory,Data Work Company,"Reading, UK",,Yes
@@ -282,7 +282,7 @@ Medtronic,Healthcare & Pharmaceuticals,USA,,Yes
 Memorial Sloan Kettering Cancer Center,Healthcare & Pharmaceuticals,"New York, NY, USA",,Yes
 Menlo Ventures,Finance & Venture Capital,"Menlo Park, CA, USA",,Yes
 Merck,Healthcare & Pharmaceuticals,"Rahway, NJ, USA",,Yes
-Mercor,Data Work Company,"San Francisco, California, United States",,Yes
+Mercor,Data Work Company,"San Francisco, California, USA",,Yes
 Meredith,Media & Entertainment,"Des Moines, IA, USA",,No
 Merus Capital,Finance & Venture Capital,"Menlo Park, CA, USA",,Yes
 Meta,Tech,"Menlo Park, CA, USA",,Yes
@@ -417,7 +417,7 @@ TaskUs,Data Work Company,"Texas, USA",,Yes
 Tech Mahindra,Data Work Company,"Schaumburg, IL, USA",,Yes
 Techstars,Finance & Venture Capital,"New York, NY, USA",,Yes
 Teleperformance,Data Work Company,"Paris, France",,Yes
-Telus,Tech,"Vancouver, Canada",,No
+Telus Digital,Tech,"Vancouver, Canada",,No
 Temasek Holdings,Finance & Venture Capital,Singapore,,No
 TenOneTen Ventures,Finance & Venture Capital,"Los Angeles, CA, USA",,Yes
 Thinscale,Tech,Ireland,,No
@@ -426,8 +426,8 @@ Tinder,Tech,"West Hollywood, CA, USA",,Yes
 TPG Capital Asia,Finance & Venture Capital,"Shanghai, China",,Yes
 Tredence,Data Work Company,"San Jose, CA, USA",,Yes
 Tribe Capital,Finance & Venture Capital,"Menlo Park, CA, USA",,Yes
-Trillbit,Data Work Company,"Boston, Massachusetts, United States",,Yes
-Turing,Data Work Company,"Palo Alto, California, United States",,Yes
+Trillbit,Data Work Company,"Boston, Massachusetts, USA",,Yes
+Turing,Data Work Company,"Palo Alto, California, USA",,Yes
 Twilio,Tech,USA,,No
 Twitch,Tech,USA,,No
 Twitter,Tech,USA,,No
@@ -1401,21 +1401,21 @@ Zendesk,Tech,USA,,Yes
 Zenseact,Tech,Sweden,,Yes
 ZF,Manufacturing & Agriculture,Germany,,Yes
 Zipline ,Transportation & Logistics,USA,,Yes
-Handshake AI,Data Work Company,"San Francisco, California, United States",,Yes
+Handshake AI,Data Work Company,"San Francisco, California, USA",,Yes
 Centaur AI,Data Work Company,"Boston, MA, USA",,Yes
 Pareto AI,Data Work Company,"Stanford, CA, USA",,Yes
 TrustScale,Data Work Company,"Los Altos, CA, USA",,Yes
-Startek,Data Work Company,"Denver, Colorado, United States",,Yes
-Quadrant Technologies,Data Work Company,"Redmond, Washington, United States",,Yes
-iSoftStone,Data Work Company,"Bellevue, Washington, United States",,Yes
+Startek,Data Work Company,"Denver, Colorado, USA",,Yes
+Quadrant Technologies,Data Work Company,"Redmond, Washington, USA",,Yes
+iSoftStone,Data Work Company,"Bellevue, Washington, USA",,Yes
 ScaleHub,Data Work Company,"Norderstedt, Schleswig-Holstein, Germany",,Yes
 Mettamatch,Data Work Company,"Manila, the Philippines ",,Yes
-Deepen AI,Data Work Company,"Santa Clara, California, United States",,Yes
+Deepen AI,Data Work Company,"Santa Clara, California, USA",,Yes
 SmartOne.AI,Data Work Company,"Montréal, Quebec, Canada",,Yes
 Netramark,Data Work Company,"Toronto, Ontario, Canada",,Yes
 Tasq.ai,Data Work Company,"Tel Aviv-yafo, Tel Aviv, Israel",,Yes
 Haidata,Data Work Company,"Tamilnadu and Karnataka, India",,Yes
-Micro1,Data Work Company,"Palo Alto, California, United States",,Yes
+Micro1,Data Work Company,"Palo Alto, California, USA",,Yes
 CipherSense AI,Data Work Company,"Lagos, Nigeria",,Yes
 VeritaAI,Data Work Company,"San Francisco, CA, USA",,Yes
 Stellar,Data Work Company,"Indianapolis, Indiana, USA",,Yes
@@ -1424,10 +1424,10 @@ Deccan AI,Data Work Company,"San Francisco, California, USA",,Yes
 Hume AI,Data Work Company,"New York, New York, USA",,Yes
 David AI Labs Inc,Data Work Company,"San Francisco, California, USA",,Yes
 Infosearch BPO,Data Work Company,"Chennai, Tamil Nadu, India",,Yes
-DatologyAI,Data Work Company,"Redwood City, California, United States",,Yes
-Flywheel.io,Data Work Company,"Minneapolis, Minnesota, United States",,Yes
-Roboflow,Data Work Company,"Remote, Oregon, United States",,Yes
-Unstructured,Data Work Company,"Rocklin, California, United States",,Yes
+DatologyAI,Data Work Company,"Redwood City, California, USA",,Yes
+Flywheel.io,Data Work Company,"Minneapolis, Minnesota, USA",,Yes
+Roboflow,Data Work Company,"Remote, Oregon, USA",,Yes
+Unstructured,Data Work Company,"Rocklin, California, USA",,Yes
 Anolytics,Data Work Company,"Levittown, NY, USA",,Yes
 Centific,Data Work Company,"Seattle, WA, USA",,Yes
 DataPure,Data Work Company,"San Mateo, CA, USA",,Yes
@@ -1438,8 +1438,8 @@ LXT AI,Data Work Company,"Ontario, Canada",,Yes
 M47,Data Work Company,"Bacelona and Madrid, Spain",,Yes
 RWS,Data Work Company,United Kingdom,,Yes
 Supervisely,Data Work Company,"Tallinn, Estonia",,Yes
-Label Your Data,Data Work Company,"Wilmington, Delaware, United States",,Yes
-Sapien AI,Data Work Company,"San Francisco, California, United States",,Yes
+Label Your Data,Data Work Company,"Wilmington, Delaware, USA",,Yes
+Sapien AI,Data Work Company,"San Francisco, California, USA",,Yes
 Infosys BPM,Data Work Company,"Bengaluru, India",,Yes
 Conectys,Data Work Company,"Bucharest, Romania",,Yes
 ZKW,Retail & Consumer Goods,Austria,,Yes
@@ -1561,3 +1561,42 @@ Europe Direct,Government,European Union,,Yes
 Indian Institute of Technology,Education,India,,Yes
 Nabla,Healthcare & Pharmaceuticals,France,,Yes
 Databricks,Tech,USA,,Yes
+Nexdata,Tech,Singapore,,
+Eaglepoint AI,Tech,USA,,
+Covalen,Tech,Ireland,,
+Domino's,Other,USA,,
+Fox Sports,Media & Entertainment,USA,,
+Marriott International,Other,USA,,
+Manulife,Finance & Venture Capital,Canada,,
+Braze,Tech,USA,,
+Contentful,Tech,Germany,,
+Five9,Tech,USA,,
+Amplitude,Tech,USA,,
+Appian,Tech,USA,,
+BigCommerce,Retail & Consumer Goods,USA,,
+Branch,Tech,USA,,
+Broadcom,Tech,USA,,
+Cohesity,Tech,USA,,
+CommerceTools,Retail & Consumer Goods,Germany,,
+Contentstack,Tech,USA,,
+CyberArk,Tech,USA,,
+eGain,Tech,USA,,
+Fortinet,Tech,USA,,
+Morpheus AI,Tech,USA,,
+NetApp,Tech,USA,,
+Optimizely,Tech,USA,,
+Orca Security,Tech,USA,,
+PAR Technology,Tech,USA,,
+Rapid One,Tech,Israel,,
+ShiftMed,Healthcare & Pharmaceuticals,USA,,
+Sumsub,Tech,United Kingdom,,
+Talon.One,Tech,Germany,,
+USA,Tech,USA,,
+Tripwire,Tech,USA,,
+Verint,Tech,USA,,
+Uniform,Tech,USA,,
+WorkVivo,Tech,Ireland,,
+Aptiv,Tech,Switzerland,,
+DeepMotion,Tech,USA,,
+Cassava Technologies,Tech,United Kingdom,,
+Schaeffler Technologies,Transportation & Logistics,Germany,,
