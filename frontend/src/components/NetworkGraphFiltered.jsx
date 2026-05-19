@@ -22,6 +22,17 @@ const REL_TYPES = {
   investor: { color: "#2d9f8b", label: "Investors" },
 };
 
+const REL_TOOLTIPS = {
+  customer:
+    "A business that purchases a company’s goods or services, tools, etc.",
+  partner:
+    "A business or institution with which a company maintains a strategic relationship (e.g. a data work company partnering with a cloud service provider).",
+  subcontractor:
+    "A business to which a company outsources parts of its production or service process (e.g. Scale AI outsources data work to UpWork).",
+  investor:
+    "A business or individual that commits capital to a company in expectation of a financial return.",
+};
+
 const UNCLEAR_TYPES = new Set(["unclear", "could not verify any relationship"]);
 
 function relColor(type) {
@@ -405,7 +416,7 @@ export default function NetworkGraphFiltered() {
           ${d.location  ? `<div class="tip-location"  style="color:${nodeColor}">${d.location}</div>`  : ""}
           ${divider}
           ${typeRows}
-          <div class="tip-footer">${shownDeg} shown&nbsp;·&nbsp;${totalDeg} total ${rWord(totalDeg)}</div>
+          <div class="tip-footer">${shownDeg} shown&nbsp;·&nbsp;${totalDeg} direct ${rWord(totalDeg)}</div>
         `;
         tooltip.classList.add("visible");
         moveTooltip(event);
@@ -592,40 +603,51 @@ export default function NetworkGraphFiltered() {
           }}>
             Show
           </span>
+
           {Object.entries(REL_TYPES).map(([k, { color, label }]) => {
             const on = activeTypes.has(k);
+
             return (
-              <button
-                key={k}
-                onClick={() => toggleType(k)}
-                style={{
-                  display:       "flex",
-                  alignItems:    "center",
-                  gap:           6,
-                  padding:       "4px 10px",
-                  fontFamily:    "IBM Plex Mono, monospace",
-                  fontSize:      11,
-                  cursor:        "pointer",
-                  userSelect:    "none",
-                  borderRadius:  4,
-                  border:        `1px solid ${on ? color : "#d0d7db"}`,
-                  background:    on ? `${color}18` : "transparent",
-                  color:         on ? color : "var(--text-dim)",
-                  fontWeight:    on ? 600 : 400,
-                  opacity:       on ? 1 : 0.55,
-                  transition:    "all 0.15s",
-                }}
-              >
-                <span style={{
-                  width:        8,
-                  height:       8,
-                  borderRadius: "50%",
-                  background:   on ? color : "#ccc",
-                  flexShrink:   0,
-                  transition:   "background 0.15s",
-                }} />
-                {label}
-              </button>
+              <div key={k} className="level-tooltip-wrap">
+
+                <button
+                  onClick={() => toggleType(k)}
+                  style={{
+                    display:       "flex",
+                    alignItems:    "center",
+                    gap:           6,
+                    padding:       "4px 10px",
+                    fontFamily:    "IBM Plex Mono, monospace",
+                    fontSize:      11,
+                    cursor:        "pointer",
+                    userSelect:    "none",
+                    borderRadius:  4,
+                    border:        `1px solid ${on ? color : "#d0d7db"}`,
+                    background:    on ? `${color}18` : "transparent",
+                    color:         on ? color : "var(--text-dim)",
+                    fontWeight:    on ? 600 : 400,
+                    opacity:       on ? 1 : 0.55,
+                    transition:    "all 0.15s",
+                  }}
+                >
+                  <span style={{
+                    width:        8,
+                    height:       8,
+                    borderRadius: "50%",
+                    background:   on ? color : "#ccc",
+                    flexShrink:   0,
+                    transition:   "background 0.15s",
+                  }} />
+
+                  {label}
+                </button>
+
+                <div className="level-tooltip">
+                  {REL_TOOLTIPS[k]}
+                  <span className="level-tooltip-arrow" />
+                </div>
+
+              </div>
             );
           })}
         </div>
@@ -640,6 +662,9 @@ export default function NetworkGraphFiltered() {
             letterSpacing: "0.04em",
             whiteSpace:    "nowrap",
           }}>
+            <span>
+              SHOWING:&nbsp;&nbsp;&nbsp;
+            </span>
             {graphStats.nodes} {graphStats.nodes === 1 ? "company" : "companies"}
             &nbsp;·&nbsp;
             {graphStats.links} {graphStats.links === 1 ? "relationship" : "relationships"}
@@ -804,7 +829,7 @@ export default function NetworkGraphFiltered() {
               </span>
             )}
             <span style={{ fontSize: 9, color: "#bbb", marginLeft: 4 }}>
-              {totalDeg} total {totalDeg === 1 ? "relationship" : "relationships"}
+              {totalDeg} direct {totalDeg === 1 ? "relationship" : "relationships"}
             </span>
           </div>
         )}
