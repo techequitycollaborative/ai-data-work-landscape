@@ -166,8 +166,8 @@ export default function About() {
               <p>
               The data on this site is free to use for non-commercial educational purposes.
               <ul className="list-disc pl-6 pt-4 space-y-2">
-                <li>You can download our company database <button onClick={handleDownloadCSV} className="text-blue-600 underline">here</button> and our full data dictionary <a href="/data-dictionary.csv" download target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">here</a>.</li>
-                <li>You can access our relationship graph data and full list of sources <a href="/relationship-data.csv" download target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">here</a>.</li>
+                <li>You can download our company database <button onClick={handleDownloadCSV} className="text-blue-600 underline">here</button> and our full data dictionary <a href="/data-dictionary.csv" download className="text-blue-600 underline">here</a>.</li>
+                <li>You can access our relationship graph data and full list of sources <a href="/relationship-data.csv" download className="text-blue-600 underline">here</a>.</li>
               </ul>
               </p>
             </Expander>
