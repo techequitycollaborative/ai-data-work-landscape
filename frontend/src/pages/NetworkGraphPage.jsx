@@ -39,7 +39,7 @@ export default function NetworkGraph() {
         <Expander title="A note about this graph">
           <div className="space-y-4">
             <p>
-            Data work is an opaque industry. Companies are generally not required to reveal contractual relationships and these contracts shift constantly. In the absence of transparent information, this graph is based on an incomplete set of publicly available sources including news coverage, academic and trade publications, and company websites.
+            Data work is an opaque industry. Companies are generally not required to reveal contractual relationships and these contracts shift constantly. In the absence of transparent information, this graph is based on an incomplete set of publicly available sources including news coverage, academic papers, trade publications, and company websites.
             </p>
             <p>
             The graph provides a snapshot of some of the companies involved in data services and their relationships, but this resource is not—and cannot be—exhaustive or completely up-to-date. It’s not often that information is made public about when contracts start and end nor the specific type of services exchanged.
