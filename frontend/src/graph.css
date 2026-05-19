@@ -76,7 +76,7 @@
   gap: 0;
   border: 1px solid var(--border);
   border-radius: 4px;
-  overflow: hidden;
+  overflow: visible;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 11px;
   flex-shrink: 0;
@@ -561,4 +561,54 @@
 .network-page .inv-tip-name  { font-weight: 700; font-size: 12px; margin-bottom: 5px; }
 .network-page .inv-tip-connections { font-size: 10px; color: #5a6380; line-height: 1.5; }
 .network-page .inv-tip-source { font-size: 10px; color: #5a6380; margin-top: 4px; }
+
+/* Level toggle tooltips */
+
+.level-tooltip-wrap {
+  position: relative;
+  display: inline-flex;
+}
+
+.level-tooltip {
+  position: absolute;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 240px;
+
+  background: #041c2c;
+  color: #fff;
+
+  padding: 10px 12px;
+
+  font-size: 11px;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  line-height: 1.5;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+
+  z-index: 9999;
+}
+
+.level-tooltip-arrow {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 0;
+  height: 0;
+
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #041c2c;
+}
+
+.level-tooltip-wrap:hover .level-tooltip {
+  opacity: 1;
+}
 

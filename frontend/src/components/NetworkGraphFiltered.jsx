@@ -499,7 +499,7 @@ export default function NetworkGraphFiltered() {
         height:        "calc(100vh - 56px)",
         border:        "1px solid #1e2330",
         borderRadius:  "0.5rem",
-        overflow:      "hidden",
+        overflow: "visible",
       }}
     >
       {/*  Header  */}
@@ -546,19 +546,37 @@ export default function NetworkGraphFiltered() {
 
         {/* Depth toggle — uses graph.css .view-toggle classes */}
         <div className="view-toggle">
-          <button
-            className={`toggle-btn${hops === 1 ? " active" : ""}`}
-            onClick={() => setHops(1)}
-          >
-            1 Level
-          </button>
+
+          <div className="level-tooltip-wrap">
+            <button
+              className={`toggle-btn${hops === 1 ? " active" : ""}`}
+              onClick={() => setHops(1)}
+            >
+              1 Level
+            </button>
+
+            <div className="level-tooltip">
+              Shows only direct relationships of the selected company.
+              <span className="level-tooltip-arrow" />
+            </div>
+          </div>
+
           <div className="toggle-divider" />
-          <button
-            className={`toggle-btn${hops === 2 ? " active" : ""}`}
-            onClick={() => setHops(2)}
-          >
-            2 Levels
-          </button>
+
+          <div className="level-tooltip-wrap">
+            <button
+              className={`toggle-btn${hops === 2 ? " active" : ""}`}
+              onClick={() => setHops(2)}
+            >
+              2 Levels
+            </button>
+
+            <div className="level-tooltip">
+              Shows direct relationships plus relationships of relationships.
+              <span className="level-tooltip-arrow" />
+            </div>
+          </div>
+
         </div>
 
         {/* Relationship type filter — toggle buttons */}
