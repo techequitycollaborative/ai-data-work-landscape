@@ -84,7 +84,7 @@ export default function Profiles() {
           <Expander title="A note about these profiles">
           <div className="space-y-4">
             <p>
-            Data work is an opaque industry. Companies are generally not required to reveal contractual relationships and these contracts shift constantly. In the absence of transparent information, these profiles are based on an incomplete set of publicly available sources including news coverage, academic and trade publications, and company websites.
+            Data work is an opaque industry. Companies are generally not required to reveal contractual relationships and these contracts shift constantly. In the absence of transparent information, these profiles are based on an incomplete set of publicly available sources including news coverage, academic papers, trade publications, and company websites.
             </p>
             <p>
             These profiles provide a snapshot of some of the companies that provide data services and their relationships, but this resource is not—and cannot be—exhaustive or completely up-to-date.
