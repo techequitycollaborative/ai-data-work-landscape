@@ -320,7 +320,9 @@ export default function NetworkGraphFiltered() {
         d3.drag()
           .on("start", (e, d) => { if (!e.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
           .on("drag",  (e, d) => { d.fx = e.x; d.fy = e.y; })
-          .on("end",   (e, d) => { if (!e.active) sim.alphaTarget(0); d.fx = null; d.fy = null; })
+          .on("end",   (e, d) => { if (!e.active) sim.alphaTarget(0); })
+          // fx/fy intentionally left set — node stays pinned where user dropped it
+          // this allows users to drag nodes out of crowded clusters and have them stay put, improving readability (especially in 2-level views)
       );
 
     // Outer ring of nodes
@@ -348,6 +350,15 @@ export default function NetworkGraphFiltered() {
       .attr("stroke-dasharray","3,3")
       .attr("stroke-opacity",  0.4)
       .attr("pointer-events",  "none");
+
+    // Right click a node to release it from being pinned/reset the view
+    nodeSel.on("contextmenu", (event, d) => {
+      event.preventDefault();  // stops browser context menu
+      event.stopPropagation();
+      d.fx = null;
+      d.fy = null;
+      sim.alphaTarget(0.15).restart();
+    });
 
     // Label
     nodeSel.append("text")
