@@ -6,11 +6,12 @@ from models import DataItem
 
 app = FastAPI()
 
-# CORS so React can access site -- for production
+# CORS so React can access site -- for production app and dev app
 origins = [
     "https://dataworklandscape.org",
     "https://www.dataworklandscape.org",
-    "https://data-work-landscape-lymyf.ondigitalocean.app"
+    "https://data-work-landscape-lymyf.ondigitalocean.app",
+    "https://dev-dwl-gxd6w.ondigitalocean.app"
 ]
 
 app.add_middleware(
@@ -21,7 +22,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# CORS so React can access site -- for development
+# CORS so React can access site -- for local development
 #app.add_middleware(
 #    CORSMiddleware,
 #    allow_origins=["http://localhost:5173"],
@@ -41,7 +42,7 @@ def get_db():
 
 @app.get("/data")
 def get_data(db: Session = Depends(get_db)):
-    items = db.query(DataItem).all()
+    items = db.query(DataItem).order_by(DataItem.company_name).all()
     return [
         {
             "company_name": item.company_name,

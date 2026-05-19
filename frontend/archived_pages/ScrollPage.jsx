@@ -1,4 +1,5 @@
 // ScrollPage.jsx
+// This is an older version of the home page
 // Scrollable hero page + data table section of the microsite -- archived because scrolling down to the data table conflicted with the table's intern scroll capability
 
 // Use "9xl" for large text and "6xl" for medium text in headers
@@ -10,8 +11,8 @@ export default function ScrollPage() {
   const [data, setData] = useState([]);
 
     useEffect(() => {
-    //fetch("https://data-work-landscape-lymyf.ondigitalocean.app/ai-data-work-landscape-backend/data") // for production
-    fetch('http://localhost:8000/data') // for development
+    fetch("https://data-work-landscape-lymyf.ondigitalocean.app/ai-data-work-landscape-backend/data") // for production
+    //fetch('http://localhost:8000/data') // for development
       .then((res) => res.json())
       .then(setData);
   }, []);

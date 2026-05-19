@@ -7,11 +7,11 @@ import {
     getFilteredRowModel,
     flexRender,
   } from '@tanstack/react-table';
-  import { useState, useMemo, memo } from 'react';
+  import { useState, useMemo, memo, useEffect } from 'react';
   import Tippy from '@tippyjs/react'; // For the tooltips on the column headers
   import 'tippy.js/dist/tippy.css'; // Optional styling
   
-  const DataTable = memo(function DataTable({ data }) {
+  const DataTable = memo(function DataTable({ data, onFilteredRowCountChange}) {
     const [globalFilter, setGlobalFilter] = useState("");
     const [columnFilters, setColumnFilters] = useState([]);
     
@@ -371,22 +371,28 @@ import {
           }
         },
         debugTable: false,
-      });   
+      });  
+
+      useEffect(() => {
+        if (onFilteredRowCountChange) {
+          onFilteredRowCountChange(table.getFilteredRowModel().rows.length);
+        }
+      }, [globalFilter, columnFilters, onFilteredRowCountChange]);
   
     return (
-      <div className="w-full p-4 ">
-        {/* The margins in the div below ensure the search bar and the table are aligned and have equal margins on the left and right */}
-        <div className="ml-2 mr-2">
+      <div className="">
+        {/* No margins specified here; they are handled in Landscape.jsx */}
+        <div className="">
         {/* Search bar for global filtering */}
         <input
           type="text"
           placeholder="Search all columns..."
           value={globalFilter ?? ""}
           onChange={(e) => setGlobalFilter(e.target.value)}
-          className="mb-4 mt-4 p-2 border rounded w-full"
+          className="mb-4 mt-4 p-2 rounded-lg border border-[#1e2330] w-full"
         />
         {/* Data table with filters and columns */}
-        <div className="overflow-x-auto max-h-[80vh] border rounded-lg">
+        <div className="overflow-x-auto max-h-[80vh] rounded-lg border border-[#1e2330]">
           <table id="myTable" className="w-full border-b-2 border-gray-400 text-xs" style={{ tableLayout: 'fixed' }}>
             <thead className="bg-gray-400">
               {table.getHeaderGroups().map(headerGroup => (
@@ -432,7 +438,6 @@ import {
       </div>
     );
   });
-
 
   // Filter function: includes filter options for string search and single-select dropdowns
   // This is not memoized; if memoized, it causes issues for the string/text filters

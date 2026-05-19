@@ -3,7 +3,7 @@
 
 import { NavLink } from "react-router-dom";
 import { memo } from 'react';
-import CachedJotForm from '../components/Form'; // Import the cached component
+import CachedJotForm from '../src/components/Form'; // Import the cached component
 
 const Contribute_Jotform = memo(function Contribute_Jotform() {
   return (

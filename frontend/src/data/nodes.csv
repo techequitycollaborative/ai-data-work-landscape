@@ -1,0 +1,1602 @@
+name,industry,location,notes,has legit relationship?
+Accenture,Other,"Chicago, IL, USA","Listed in companies tab as a data work company, but no relationships in relationships tab so do not include as data work company in graph",Yes
+NBC Universal,Media & Entertainment,"New York, NY, USA",Separate entity from NBC,Yes
+NBC,Media & Entertainment,"New York, NY, USA",Separate entity from NBC Universal,Yes
+BigCode,Tech,,Unknown location,No
+Almond,Tech,,Unknown location,Yes
+Ativion,Education,,Unknown location,Yes
+Bearwith,Tech,,Unknown location,Yes
+Dashmap,Tech,,Unknown location,Yes
+InfAI,Tech,,Unknown location,Yes
+injoy,Tech,,Unknown location,Yes
+Interview Optimiser,Tech,,Unknown location,Yes
+Jammy Chat,Tech,,Unknown location,Yes
+Josh Lefkowitz,Finance & Venture Capital,,Unknown location,Yes
+Journee,Tech,,Unknown location,Yes
+Lista DAO,Tech,,Unknown Location,Yes
+Midcentury,Tech,,Unknown location,Yes
+New Computer,Tech,,Unknown location,Yes
+Papago,Manufacturing & Agriculture,,Unknown location,Yes
+Perceptly,Tech,,Unknown location,Yes
+Quantum.AI,Tech,,Unknown location,Yes
+Quello,Tech,,Unknown location,Yes
+SignalFire,Finance & Venture Capital,,Unknown location,Yes
+Untold,Tech,,Unknown location,Yes
+Voltaco,Real Estate & Construction,,Unknown location,Yes
+Volva,Tech,,Unknown location,Yes
+Zepeto,Media & Entertainment,,Unknown location,Yes
+Zillia,Tech,,Unknown location,Yes
+Parchaa AI,Tech,,Unknown location,Yes
+Tagger,Data Work Company,,Unknown location,Yes
+FlexiBench,Data Work Company,,Unknown location,Yes
+Bill.com,Tech,USA,,Yes
+Bahar,Non-profit & Philanthropy ,Turkey,,Yes
+Bill & Melinda Gates Foundation,Non-profit & Philanthropy ,"Seattle, WA, USA",,Yes
+Clear Global,Non-profit & Philanthropy ,Ireland,,Yes
+Cystic Fibrosis Foundation,Non-profit & Philanthropy ,"Bethesda, MD, USA",,Yes
+Google.org,Non-profit & Philanthropy ,"Mountain View, CA, USA",,Yes
+Inara,Non-profit & Philanthropy ,"Wassaic, NY, USA",,Yes
+Michael & Susan Dell Foundation,Non-profit & Philanthropy ,"Austin, TX, USA",,Yes
+Omidyar Network India,Non-profit & Philanthropy ,"Mumbai, India",,No
+Partnership on AI,Non-profit & Philanthropy ,USA,,No
+Rockefeller Foundation,Non-profit & Philanthropy ,"New York, NY, USA",,Yes
+Syrian Legal Development Programme (SLDP),Non-profit & Philanthropy ,"London, England, United Kingdom",,Yes
+The Disability Opportunity Fund,Non-profit & Philanthropy ,"Rockville Centre, NY, USA",,Yes
+European Commission,Government,Belgium,,Yes
+FBI,Government,USA,,Yes
+Ministry of Electronics and Information Technology of India - MeitY,Government,India,,Yes
+NASA,Government,USA,,Yes
+US Air Force,Government,USA,,No
+01 Advisors,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+8VC,Finance & Venture Capital,"Austin, TX, USA",,Yes
+AAA,Insurance,"Heathrow, FL, USA",,Yes
+Academic Partnerships,Education,"Dallas, TX, USA",,No
+Accel,Finance & Venture Capital,"Palo Alto, CA, USA",,Yes
+ACXIT Capital Partners,Finance & Venture Capital,"Frankfurt, Germany",,Yes
+Adept,Tech,"San Francisco, CA, USA",,Yes
+Adobe,Tech,"San Jose, CA, USA",,Yes
+Advent International,Finance & Venture Capital,"Boston, MA, USA",,Yes
+Aerion Partners,Finance & Venture Capital,"London, England, United Kingdom",,Yes
+AI21 Labs,Tech,"Tel Aviv, Israel",,Yes
+Aimia,Finance & Venture Capital,"Toronto, Canada",,Yes
+AIMMO,Data Work Company,South Korea,,Yes
+Airbnb,Tech,USA,,Yes
+Alchemist Accelerator,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+Alegion,Data Work Company,"Austin, TX, USA; Singapore",,Yes
+Ali Omar,Finance & Venture Capital,"Helsinki, Finland",,Yes
+Allstate,Insurance,USA,,Yes
+Alorica,Other,"Irvine, CA, USA",,Yes
+Alpha Wave Global,Finance & Venture Capital,"New York, NY, USA",,Yes
+AltaIR Capital,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+Alteria Capital,Finance & Venture Capital,"Mumbai, India",,Yes
+Alumni Ventures,Finance & Venture Capital,"Manchester, NH, USA",,Yes
+Amaron,Healthcare & Pharmaceuticals,Belgium,,Yes
+Amazon,Tech,USA,,Yes
+Amazon Alexa Fund,Finance & Venture Capital,"Seattle, WA, USA",,Yes
+Amazon Web Services,Tech,"Seattle, WA, USA",,Yes
+Amplify Partners,Finance & Venture Capital,"Menlo Park, CA, USA",,Yes
+Ancestry,Other,USA,,Yes
+Andreessen Horowitz,Finance & Venture Capital,"Menlo Park, CA, USA",,Yes
+Ankur Capital,Finance & Venture Capital,"Mumbai, India",,Yes
+Annotation Box,Data Work Company,"Florida, USA",,Yes
+Anthropic,Tech,USA,,Yes
+Apax Partners,Finance & Venture Capital,"London, England, United Kingdom",,Yes
+Appen,Data Work Company,"Chatswood, New South Wales, Australia",,Yes
+Apple,Tech,USA,,Yes
+AppTech Systems,Tech,"Istanbul, Turkey",,Yes
+ArcelorMittal,Manufacturing & Agriculture,Luxembourg,,Yes
+Argilla,Data Work Company,"Madrid, Spain",,Yes
+Arterys,Tech,"San Francisco, CA, USA",,No
+Aurora,Tech,"Pittsburgh, PA, USA",,Yes
+Auto Desk,Tech,"San Francisco, CA, USA",,Yes
+Automation Anywhere,Tech,USA,,Yes
+B Capital,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+b2venture,Finance & Venture Capital,"St. Gallen, Switzerland",,No
+BACKED VC,Finance & Venture Capital,"London, England, United Kingdom",,Yes
+Base10 Partners,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+BASF,Manufacturing & Agriculture,Germany,,Yes
+Bayer,Healthcare & Pharmaceuticals,Germany,,Yes
+Berkeley SkyDeck Fund,Finance & Venture Capital,"Berkeley, CA, USA",,Yes
+Bharat Inclusion Initiative,Finance & Venture Capital,"Ahmedabad, India",,Yes
+Black & Decker,Retail & Consumer Goods,USA,,Yes
+BlackRock,Finance & Venture Capital,"New York, NY, USA",,Yes
+Blackstone Group,Finance & Venture Capital,"New York, NY, USA",,Yes
+BNY Mellon,Finance & Venture Capital,"New York, NY, USA",,Yes
+Boeing,Manufacturing & Agriculture,"Arlington, Virginia",,Yes
+Bosch,Retail & Consumer Goods,Germany,,Yes
+Boston Millennia Partners,Finance & Venture Capital,"Boston, MA, USA",,Yes
+Bow Capital,Finance & Venture Capital,"Menlo Park, CA, USA",,Yes
+Bracket Capital,Finance & Venture Capital,"Los Angeles, CA, USA",,No
+Bridge Bank,Finance & Venture Capital,"San Jose, CA, USA",,Yes
+Bristol Myers Squibb,Healthcare & Pharmaceuticals,USA,,Yes
+British International Investment,Finance & Venture Capital,"London, England, United Kingdom",,Yes
+Brunswick,Manufacturing & Agriculture,"Mettawa, IL, USA",,Yes
+Buhler,Manufacturing & Agriculture,"Uzwil, Switzerland",,Yes
+Burberry,Retail & Consumer Goods,United Kingdom,,Yes
+Bynd Venture Capital,Finance & Venture Capital,"Lisbon, Portugal",,Yes
+ByteDance,Tech,China,,Yes
+Cainthus,Manufacturing & Agriculture,Ireland,,Yes
+CallMiner,Tech,USA,,No
+Canva,Tech,"Sydney, Australia",,Yes
+CAPE Analytics,Finance & Venture Capital,Germany,,Yes
+CapeStart,Data Work Company,"Cambridge, MA, USA",,Yes
+Carolinas HealthCare System,Healthcare & Pharmaceuticals,"Charlotte, NC, USA",,Yes
+Celesta Capital,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+Centrical,Tech,USA,,No
+Character.ai,Tech,USA,,Yes
+Charlie Songhurst,Finance & Venture Capital,"Kirkland, WA, USA",,Yes
+Chegg,Education,USA,,Yes
+Chicago Pacific Founders,Finance & Venture Capital,"Chicago, IL, USA",,Yes
+Chiratae Ventures,Finance & Venture Capital,"Bengaluru, India",,Yes
+Chubb,Insurance,"Zurich, Switzerland",,Yes
+Citi,Finance & Venture Capital,"New York, NY, USA",,Yes
+Citrix,Tech,USA,,No
+Clickworker,Data Work Company,"Essen, Nordrhein-Westfalen, Germany",,No
+Clorox,Retail & Consumer Goods,"Oakland, CA, USA",,Yes
+Cloud Factory,Data Work Company,US / UK / Nepal / Kenya,,No
+CloudFactory,Data Work Company,"Reading, UK",,Yes
+Coatue,Finance & Venture Capital,"New York, NY, USA",,Yes
+Cogito,Data Work Company,"Levittown, NY, USA",,Yes
+Cohere,Tech,"Toronto, Canada",,Yes
+Coinbase,Finance & Venture Capital,USA,,Yes
+CoinFund,Finance & Venture Capital,"Brooklyn, NY, USA",,Yes
+Colam Impact,Finance & Venture Capital,"Paris, France",,Yes
+Concentrix,Data Work Company,"Newark, CA, USA",,Yes
+Confluent,Tech,"Burlingame, CA, USA",,No
+Coursera,Education,"Mountain View, CA, USA",,Yes
+Crane Venture Partners,Finance & Venture Capital,"London, England, United Kingdom",,Yes
+Crescendo,Data Work Company,"San Francisco, CA",,Yes
+Criteo,Tech,France,,Yes
+Criteria Venture Tech,Finance & Venture Capital,"Barcelona, Spain",,Yes
+Cropin,Data Work Company,"Bengaluru, India",,Yes
+CRV,Finance & Venture Capital,"Palo Alto, CA, USA",,Yes
+CSL Behring,Healthcare & Pharmaceuticals,"King of Prussia, PA, USA",,Yes
+Cylance,Tech,"Irvine, CA, USA",,No
+DataAnnotation.tech,Data Work Company,USA,,No
+Dataloop,Data Work Company,Israel,,Yes
+Datasaur Inc.,Data Work Company,"Livermore, CA, USA",,Yes
+Day One Ventures,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+Defined.AI,Data Work Company,"Seattle, WA, USA",,Yes
+DeGould,Tech,"Exeter, United Kingdom",,Yes
+Deloitte,Finance & Venture Capital,"New York, NY, USA",,Yes
+DesiCrew,Data Work Company,"Chennai, India",,Yes
+Devnagri,Data Work Company,"NOIDA, UP, India",,Yes
+DFJ Growth,Finance & Venture Capital,"Menlo Park, CA, USA",,Yes
+Doordash,Tech,"San Francisco, CA, USA",,Yes
+DS Asset Management,Finance & Venture Capital,"Tokyo, Japan",,Yes
+Dyna Robotics,Tech,"Redwood City, CA, USA",,Yes
+E&Investment,Finance & Venture Capital,"Abu Dhabi, United Arab Emirates",,Yes
+Eaglewings Ventures,Finance & Venture Capital,"Mumbai, India",,Yes
+eBay,Tech,USA,,Yes
+Eightify,Tech,"San Francisco, CA, USA",,No
+Elaia,Finance & Venture Capital,"Paris, France",,Yes
+Eleven Labs,Tech,"New York, NY, USA",,Yes
+Enabled Intelligence,Data Work Company,"Falls Church, VA, USA",,Yes
+Encord,Data Work Company,"London, UK",,Yes
+Eniac Ventures,Finance & Venture Capital,"New York, NY, USA",,Yes
+Enigma,Tech,"New York, NY, USA",,Yes
+Envestors,Finance & Venture Capital,United Kingdom,,No
+EQT Ventures,Finance & Venture Capital,"Stockholm, Sweden",,Yes
+Essence VC,Finance & Venture Capital,"Seattle, WA, USA",,Yes
+Expedia,Other,USA,,No
+Explorium,Data Work Company,"San Mateo, CA, USA",,Yes
+F2 Venture Capital,Finance & Venture Capital,"Tel Aviv, Israel",,Yes
+FA Technology Ventures,Finance & Venture Capital,"Boston, MA, USA",,Yes
+Factorial Capital,Finance & Venture Capital,"Brooklyn, NY, USA",,Yes
+Faurecia,Tech,USA,,Yes
+Fearless Fund,Finance & Venture Capital,"Atlanta, GA, USA",,Yes
+Felicis,Finance & Venture Capital,"Menlo Park, CA, USA",,Yes
+First Ascent Ventures,Finance & Venture Capital,"Toronto, Canada",,Yes
+First Round Capital,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+FirstMark,Finance & Venture Capital,"New York, NY, USA",,Yes
+Fitch Rating,Finance & Venture Capital,"New York, NY, USA",,No
+Foothill Ventures,Finance & Venture Capital,"Los Altos, CA, USA",,Yes
+Ford,Manufacturing & Agriculture,"Dearborn, MI, USA",,Yes
+Foresight Ventures,Finance & Venture Capital,Singapore,,No
+Foss,Manufacturing & Agriculture,Denmark,,Yes
+Founders Fund,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+Fractal,Data Work Company,"New York, NY, USA",,Yes
+Franklin Templeton,Finance & Venture Capital,"San Mateo, CA, USA",,No
+FTV Capital,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+Gaingels,Finance & Venture Capital,"Burlington, VT, USA",,Yes
+GE Healthcare,Healthcare & Pharmaceuticals,"Chicago, IL, USA",,Yes
+Genentech,Healthcare & Pharmaceuticals,USA,,Yes
+General Catalyst,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+Genesys,Tech,USA,,Yes
+GlobalLogic,Data Work Company,"San Jose, CA, USA",,Yes
+Gold House Ventures,Finance & Venture Capital,"Los Angeles, CA, USA",,Yes
+Google,Tech,USA,,Yes
+Google Cloud,Tech,USA,,Yes
+Google DeepMind,Tech,United Kingdom,,No
+Greycroft,Finance & Venture Capital,"New York, NY, USA",,Yes
+Group M,Media & Entertainment,"New York, NY, USA",,Yes
+Grypp,Tech,United Kingdom,,No
+GSMA Innovation Fund,Finance & Venture Capital,"London, England, United Kingdom",,Yes
+Haptik,Tech,"Mumbai, India",,No
+Harpoon Ventures,Finance & Venture Capital,"San Diego, CA, USA",,No
+Heex,Tech,"Paris, France",,Yes
+Henry Nilert,Finance & Venture Capital,"Helsinki, Finland",,Yes
+High-Tech Gruenderfonds,Finance & Venture Capital,"Bonn, Germany",,Yes
+Hinge Health,Healthcare & Pharmaceuticals,"San Francisco, CA, USA",,Yes
+Hive AI,Data Work Company,"San Francisco, CA, USA",,Yes
+Houlihan Lokey,Finance & Venture Capital,"Los Angeles, CA, USA",,No
+HP,Tech,"Palo Alto, CA, USA",,Yes
+Hugging Face,Tech,"New York, NY, USA",,Yes
+Human Signal,Data Work Company,"San Francisco, CA, USA",,Yes
+humbition,Finance & Venture Capital,"Miami, FL, USA",,Yes
+Husqvarna,Retail & Consumer Goods,Sweden,,Yes
+IBM,Tech,"New York, NY, USA",,Yes
+ICEYE,Tech,USA,,Yes
+Ideogram,Tech,"Toronto, Canada",,Yes
+IDX,Manufacturing & Agriculture,"Grand Rapids, MI, USA",,Yes
+Ignitarium,Tech,"Bengaluru, India",,No
+IIT Mandi Catalyst,Finance & Venture Capital,"Kamand, India",,Yes
+Imbue,Tech,USA,,Yes
+iMerit,Data Work Company,"San Jose, CA, USA",,Yes
+Indoor Robotics,Tech,Israel,,Yes
+Industrial Bank of Korea,Finance & Venture Capital,"Seoul, South Korea",,Yes
+Inflection Point Ventures,Finance & Venture Capital,"Gurgaon, India",,Yes
+IngeData,Data Work Company,"Antananarivo, Madagascar",,Yes
+Initialized Capital,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+Innodata,Data Work Company,"New Jersey, USA",,Yes
+Insight Partners,Finance & Venture Capital,"New York, NY, USA",,Yes
+Insitro,Healthcare & Pharmaceuticals,"San Francisco, CA, USA",,Yes
+Intel Capital,Finance & Venture Capital,"Santa Clara, CA, USA",,Yes
+Invisible Technologies,Data Work Company,"San Francisco, CA, USA",,Yes
+Ironclad,Tech,"San Francisco, CA, USA",,Yes
+Isahit,Data Work Company,"Paris, France",,Yes
+IvyCap Ventures,Finance & Venture Capital,"Mumbai, India",,No
+Jio Gennext,Finance & Venture Capital,"Mumbai, India",,Yes
+JITO Angel Network,Finance & Venture Capital,"Mumbai, India",,Yes
+Jonathan Cornelissen,Finance & Venture Capital,"New York, NY, USA",,No
+Karya,Data Work Company,India,,Yes
+KfW,Finance & Venture Capital,"Frankfurt, Germany",,Yes
+Khazanah Nasional,Finance & Venture Capital,"Kuala Lumpur, Malaysia",,Yes
+Khoros,Tech,USA,,No
+Khosla Impact,Finance & Venture Capital,"Menlo Park, CA, USA",,Yes
+Kibo Ventures,Finance & Venture Capital,"Madrid, Spain",,Yes
+Kickstarter,Tech,USA,,Yes
+Klaus Wecken,Finance & Venture Capital,"Basel, Switzerland",,Yes
+Kleiner Perkins,Finance & Venture Capital,"Menlo Park, CA, USA",,Yes
+Kognic,Data Work Company,"Göteborg, Sweden",,Yes
+Kore.ai,Tech,USA,,No
+Korea Investment & Securities,Finance & Venture Capital,"Seoul, South Korea",,No
+La Caisse,Finance & Venture Capital,"Quebec City, Canada",,Yes
+Labelbox,Data Work Company,"San Francisco, CA, USA",,Yes
+Labellerr,Data Work Company,"USA, India",,Yes
+Lenovo Capital and Incubator Group (LCIG),Finance & Venture Capital,"Beijing, China",,No
+Lifeline Ventures,Finance & Venture Capital,"Helsinki, Finland",,Yes
+Lightspeed Venture Partners,Finance & Venture Capital,"Menlo Park, CA, USA",,Yes
+Link Ventures,Finance & Venture Capital,"Cambridge, MA, USA",,Yes
+Liquid 2 Ventures,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+LLR Partners,Finance & Venture Capital,"Philadelphia, PA, USA",,Yes
+Lynxcare,Data Work Company,"Leuven, Vlaams-Brabant, Belgium",,Yes
+M12 Ventures,Finance & Venture Capital,USA,,Yes
+MaC Venture Capital,Finance & Venture Capital,"Los Angeles, CA, USA",,Yes
+Mandalore Partners,Finance & Venture Capital,"Paris, France",,Yes
+Mastercard,Finance & Venture Capital,"New York, NY, USA",,Yes
+Matterwave Ventures,Finance & Venture Capital,"Munich, Germany",,Yes
+Maze,Tech,USA,,Yes
+Medidata,Tech,"New York, NY, USA",,Yes
+Medtronic,Healthcare & Pharmaceuticals,USA,,Yes
+Memorial Sloan Kettering Cancer Center,Healthcare & Pharmaceuticals,"New York, NY, USA",,Yes
+Menlo Ventures,Finance & Venture Capital,"Menlo Park, CA, USA",,Yes
+Merck,Healthcare & Pharmaceuticals,"Rahway, NJ, USA",,Yes
+Mercor,Data Work Company,"San Francisco, California, USA",,Yes
+Meredith,Media & Entertainment,"Des Moines, IA, USA",,No
+Merus Capital,Finance & Venture Capital,"Menlo Park, CA, USA",,Yes
+Meta,Tech,"Menlo Park, CA, USA",,Yes
+Metaplanet,Finance & Venture Capital,"Tokyo, Japan",,Yes
+Metroc,Data Work Company,"Helsinki, Finland",,Yes
+Metronic,Healthcare & Pharmaceuticals,"Minneapolis, MN, USA",,No
+Microsoft,Tech,USA,,Yes
+Minus Zero,Data Work Company,"Bengaluru, India",,Yes
+Mistral AI,Tech,"Paris, France",,No
+Mobidev,Tech,"Atlanta, GA, USA",,Yes
+Motorola,Tech,"Chicago, IL, USA",,Yes
+Munich RE,Insurance,"Munich, Germany",,No
+Mythos AI,Tech,"West Palm Beach, FL, USA",,Yes
+Nat Friedman,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+National Geographic,Media & Entertainment,"Washington, DC, USA",,No
+Navana Tech,Data Work Company,"Mumbai, Maharashtra, India",,Yes
+Navegar,Finance & Venture Capital,"Manila, Philippines",,Yes
+Nebius,Data Work Company,"Amsterdam, Netherlands; Luzern, Switzerland",,Yes
+Nebius AI,Tech," Amsterdam, Netherlands",,No
+Neeva,Tech,USA,,Yes
+Netflix,Tech,"Los Gatos, CA, USA",,Yes
+Neudi & Co,Finance & Venture Capital,"Gothenburg, Sweden",,Yes
+New Enterprise Associates,Finance & Venture Capital,"Menlo Park, CA, USA",,Yes
+NextWealth,Data Work Company,India,,Yes
+NGC Ventures,Finance & Venture Capital,Singapore,,No
+NGP Capital,Finance & Venture Capital,"Palo Alto, CA, USA",,Yes
+NICE Nexidia,Tech,USA,,No
+Nike,Retail & Consumer Goods,"Beaverton, OR, USA",,Yes
+Noimos,Insurance,"Zurich, Switzerland",,Yes
+NordicNinja VC,Finance & Venture Capital,"Helsinki, Finland",,Yes
+Norwest Equity Partners (NEP),Finance & Venture Capital,"Minneapolis, MN, USA",,Yes
+Norwest Mezzanine Partners,Finance & Venture Capital,"Minneapolis, MN, USA",,Yes
+Nugget AI,Tech,Canada,,Yes
+NVIDIA,Tech,"Santa Clara, CA, USA",,Yes
+Olameter,Other,"Montreal, Canada",,Yes
+OpenAI,Tech,"San Francisco, CA, USA",,Yes
+Orbis Investment Management,Finance & Venture Capital,"Hamilton, Bermuda",,Yes
+Orbisk,Tech,Netherlands,,Yes
+ORSI Academy,Tech,"Melle, Belgium",,Yes
+OrthoGrid Systems,Healthcare & Pharmaceuticals,USA,,No
+OurCrowd,Finance & Venture Capital,Israel,,No
+Overjet.ai,Healthcare & Pharmaceuticals,USA,,No
+Oxford Science Enterprises,Finance & Venture Capital,"Oxford, United Kingdom",,Yes
+Palantir,Tech,"Miami, FL, USA",,Yes
+Paper Ventures,Finance & Venture Capital,"London, England, United Kingdom",,Yes
+Papercup,Tech,United Kingdom,,Yes
+Partech,Finance & Venture Capital,"New Hartford, NY, USA",,Yes
+Partners Healthcare,Healthcare & Pharmaceuticals,"Somerville, MA, USA",,Yes
+Peak XV Partners,Finance & Venture Capital,"Bengaluru, India",,Yes
+Pearson,Education,"London, England, United Kingdom",,No
+Penske,Other,"Bloomfield Hills, MI, USA",,No
+Perle AI,Data Work Company,"San Francisco, CA, USA",,Yes
+Perplexity AI,Tech,"San Francisco, CA, USA",,No
+Physical Intelligence,Tech,"San Francisco, CA, USA",,Yes
+Pioneer Fund,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+Plug and Play,Finance & Venture Capital,"Sunnyvale, CA, USA",,Yes
+PMV,Finance & Venture Capital,"Brussels, Belgium",,Yes
+Point Nine,Finance & Venture Capital,"Berlin, Germany",,Yes
+Poolside,Tech,"San Francisco, CA, USA",,Yes
+Portugal Ventures,Finance & Venture Capital,"Porto, Portugal",,Yes
+Praxis,Finance & Venture Capital,"Chicago, IL, USA",,Yes
+Primer,Finance & Venture Capital,United Kingdom,,No
+Procter & Gamble,Manufacturing & Agriculture,USA,,Yes
+Prolific,Data Work Company,"Oxford, Oxfordshire, United Kingdom",,Yes
+QBE,Insurance,"Sydney, Australia",,Yes
+QI Ventures,Finance & Venture Capital,"Bengaluru, India",,No
+Qualcomm,Tech,"San Diego, CA, USA",,Yes
+Qualcomm Ventures,Finance & Venture Capital,"San Diego, CA, USA",,Yes
+Qualtrics,Tech,"Provo, UT, USA",,Yes
+Rajiv Kuchhal,Finance & Venture Capital,"Bengaluru, India",,Yes
+Reach Capital,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+RedBrick AI,Data Work Company,"Delaware, USA",,Yes
+Redpoint Ventures,Finance & Venture Capital,"Menlo Park, CA, USA",,Yes
+Refex Capital Fund,Finance & Venture Capital,"Chennai, India",,Yes
+Remesh,Other,USA,,Yes
+responsAbility Investments,Finance & Venture Capital,"Zurich, Switzerland",,Yes
+RHS Investments,Finance & Venture Capital,"Austin, TX, USA",,Yes
+Ridge Ventures,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+Riverside Partners,Finance & Venture Capital,"Boston, MA, USA",,Yes
+Rocketship.vc,Finance & Venture Capital,"Los Altos, CA, USA",,No
+RSA Insurance Group,Insurance,United Kingdom,,Yes
+Safran AI,Tech,"Paris, France",,Yes
+Salesforce,Tech,USA,,Yes
+Salesforce Ventures,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+Sama,Data Work Company,"San Francisco, CA, USA",,Yes
+Samsung NEXT,Finance & Venture Capital,"Mountain View, CA, USA",,Yes
+Sanas,Tech,USA,,Yes
+SAV (Scale Asia Ventures),Finance & Venture Capital,"Palo Alto, CA, USA",,Yes
+Scale AI,Data Work Company,"San Francisco, CA, USA",,Yes
+Scribd,Tech,"San Francisco, CA, USA",,Yes
+Segments.ai,Data Work Company,"Leuven, Belgium",,Yes
+Sequoia Capital,Finance & Venture Capital,"Menlo Park, CA, USA",,Yes
+ServiceNow,Tech,"Santa Clara, CA, USA",,Yes
+Siemens Healthineers,Healthcare & Pharmaceuticals,"Erlangen, Germany",,Yes
+SignalRank,Finance & Venture Capital,"Palo Alto, CA, USA",,No
+Silo AI,Tech,"Helsinki, Finland",,No
+Skill Corner,Tech,"Paris, France",,No
+Smith & Nephew,Healthcare & Pharmaceuticals,"Watford, England, United Kingdom",,No
+Snorkel AI,Data Work Company,"Redwood City, CA, USA",,Yes
+Snow Leopard Technology Ventures,Finance & Venture Capital,"Pune, India",,Yes
+Snowflake,Tech,"Menlo Park, CA, USA",,Yes
+SO Development,Data Work Company,"Tallinn, Estonia",,Yes
+Sodexo Ventures,Finance & Venture Capital,"Issy-les-Moulineaux, France",,Yes
+SoftBank Vision Fund,Finance & Venture Capital,"London, England, United Kingdom",,Yes
+Solenis,Manufacturing & Agriculture,"Milwaukee, WI, USA",,No
+Soma Capital,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+Sony,Retail & Consumer Goods,"Tokyo, Japan",,Yes
+Sony Innovation Fund,Finance & Venture Capital,"Tokyo, Japan",,Yes
+Sovereign’s Capital,Finance & Venture Capital,"Atlanta, GA, USA",,Yes
+Spare-it,Tech,"Somerville, MA, USA",,Yes
+Spark Capital,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+Speak,Tech,"San Francisco, CA, USA",,Yes
+Sprinklr,Tech,USA,,No
+Sprint Vc,Finance & Venture Capital,"Brisbane, Australia",,No
+Stanford Angels and Entrepreneurs of Southern California,Finance & Venture Capital,"Stanford, CA, USA",,Yes
+Stanley Healthcare,Healthcare & Pharmaceuticals,"Lincoln, NE, USA",,No
+Staples Promotional Products,Retail & Consumer Goods,"Overland Park, KS, USA",,No
+Stena Sessan,Finance & Venture Capital,"Stockholm, Sweden",,Yes
+Stryker,Healthcare & Pharmaceuticals,USA,,Yes
+Substack,Media & Entertainment,USA,,No
+Suez,Other,"Paris, France",,Yes
+SuperAnnotate,Data Work Company,"San Mateo, CA, USA",,Yes
+Surge,Finance & Venture Capital,Singapore,,No
+Surge AI,Data Work Company,"San Franciso, CA, USA",,Yes
+SV Angel,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+Swift Ventures,Finance & Venture Capital,"Lafayette, CA, USA",,Yes
+Syngenta,Manufacturing & Agriculture,"Basel, Switzerland",,Yes
+TA Associates,Finance & Venture Capital,"Austin, TX, USA",,Yes
+Taranis,Manufacturing & Agriculture,"Westfield, IN, USA",,Yes
+TaskMonk,Tech,"Bengaluru, India",,Yes
+TaskUs,Data Work Company,"Texas, USA",,Yes
+Tech Mahindra,Data Work Company,"Schaumburg, IL, USA",,Yes
+Techstars,Finance & Venture Capital,"New York, NY, USA",,Yes
+Teleperformance,Data Work Company,"Paris, France",,Yes
+Telus Digital,Tech,"Vancouver, Canada",,No
+Temasek Holdings,Finance & Venture Capital,Singapore,,No
+TenOneTen Ventures,Finance & Venture Capital,"Los Angeles, CA, USA",,Yes
+Thinscale,Tech,Ireland,,No
+Thrive Capital,Finance & Venture Capital,"New York, NY, USA",,Yes
+Tinder,Tech,"West Hollywood, CA, USA",,Yes
+TPG Capital Asia,Finance & Venture Capital,"Shanghai, China",,Yes
+Tredence,Data Work Company,"San Jose, CA, USA",,Yes
+Tribe Capital,Finance & Venture Capital,"Menlo Park, CA, USA",,Yes
+Trillbit,Data Work Company,"Boston, Massachusetts, USA",,Yes
+Turing,Data Work Company,"Palo Alto, California, USA",,Yes
+Twilio,Tech,USA,,No
+Twitch,Tech,USA,,No
+Twitter,Tech,USA,,No
+Uber,Tech,"San Francisco, CA, USA",,Yes
+UiPath,Tech,USA,,Yes
+Unilever,Retail & Consumer Goods,"London, England, United Kingdom",,Yes
+Uniphore,Tech,USA,,Yes
+Unusual Ventures,Finance & Venture Capital,"Menlo Park, CA, USA",,Yes
+Upekkha Vertical AI Accelerator,Finance & Venture Capital,"Bengaluru, India",,Yes
+Upwork,Data Work Company,"San Francisco, CA, USA",,Yes
+Urban AI,Other,"Paris, France",,Yes
+UV EYE,Tech,"Teaneck, NJ, USA",,Yes
+Valiant Peregrine Fund,Finance & Venture Capital,"Santa Monica, CA, USA",,Yes
+Valor Capital Group,Finance & Venture Capital,"New York, NY, USA",,Yes
+Valor Equity Partners,Finance & Venture Capital,"Chicago, IL, USA",,Yes
+Vanara Capital,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+VCDE Venture Partners,Finance & Venture Capital,"Frankfurt, Germany",,Yes
+Venture Catalysts,Finance & Venture Capital,"Mumbai, India",,Yes
+VenturEast,Finance & Venture Capital,"Bengaluru, India",,Yes
+Vimeo,Tech,"New York, NY, USA",,Yes
+Vintage Investment Partners,Finance & Venture Capital,"Herzliya Pituach, Israel",,Yes
+Virtual Expo Group,Other,"Marseille, France",,Yes
+Vistara Growth,Finance & Venture Capital,"Vancouver, Canada",,Yes
+Volta Ventures,Finance & Venture Capital,"Ghent, Belgium",,Yes
+Volumental,Tech,Sweden,,Yes
+Vulcan,Other,USA,,Yes
+Walden International,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+Walmart,Retail & Consumer Goods,USA,,Yes
+Warner Bros,Media & Entertainment,USA,,Yes
+Wavemaker,Media & Entertainment,"London, England, United Kingdom",,Yes
+Wayfair,Retail & Consumer Goods,"Boston, MA, USA",,Yes
+WCM Investment Management,Finance & Venture Capital,"Laguna Beach, CA, USA",,No
+Weatherford Capital,Finance & Venture Capital,"Tampa, FL, USA",,Yes
+Wellington Management,Finance & Venture Capital,"Boston, MA, USA",,Yes
+Welocalize,Data Work Company,"New York, NY, USA",,Yes
+Whisper,Tech,"San Francisco, CA, USA",,Yes
+Winnow Solutions,Tech,United Kingdom,,Yes
+Wolters Kluwer,Tech,Netherlands,,Yes
+X,Tech," Bastrop, TX, USA",,Yes
+xAI,Data Work Company,"San Francisco, CA, USA",,Yes
+Xarvio Digital Farming Solutions,Tech,Netherlands,,No
+XXII Group,Manufacturing & Agriculture,"Buffalo, NY, USA",,Yes
+Y Combinator,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+Yellow.ai,Tech,USA,,No
+Zeev Ventures,Finance & Venture Capital,"Palo Alto, CA, USA",,Yes
+Zenarate,Tech,USA,,No
+Zetta Venture Partners,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+Zoom,Tech,"San Jose, CA, USA",,Yes
+Caltech,Education,USA,,Yes
+MIT,Education,"Cambridge, MA, USA",,Yes
+New York University,Education,USA,,No
+Stanford University,Education,"Stanford, CA, USA",,Yes
+University of California Berkeley,Education,USA,,No
+University of Maryland,Education,"College Park, MD, USA",,Yes
+University of Pennsylvania,Education,"Philadelphia, PA, USA",,No
+Yale University,Education,USA,,Yes
+1Password,Tech,"Toronto, Canada",,Yes
+2.12 Angels,Finance & Venture Capital,USA,,Yes
+4everland,Tech,Australia,,Yes
+A-Insinöörit,Other,Finland,,Yes
+A91,Finance & Venture Capital,India,,Yes
+ABB,Manufacturing & Agriculture,"Zurich, Switzerland",,Yes
+ABC Impact,Finance & Venture Capital,Singapore,,Yes
+Aboitiz ,Tech,"Manila, Philippines",,Yes
+Accutrac Capital Solutions Inc.,Finance & Venture Capital,"Ontario, Canada",,Yes
+Acrew Capital,Finance & Venture Capital,USA,,Yes
+Activ Surgical,Tech,"Boston, MA, USA",,Yes
+Activant Capital,Finance & Venture Capital,USA,,Yes
+ACV Auctions,Tech,"Buffalo, NY, USA",,Yes
+Adam D’Angelo,Finance & Venture Capital,USA,,Yes
+Addition,Finance & Venture Capital,USA,,Yes
+Advanced Institute of Convergence Technology,Education,South Korea,,Yes
+advanced.farm,Manufacturing & Agriculture,"Davis, CA, USA",,Yes
+Advent Health Partners,Healthcare & Pharmaceuticals,"Nashville, TN, USA",,Yes
+AEDIT,Tech,"New York, NY, USA",,Yes
+Aeva Technologies,Manufacturing & Agriculture,"Mountain View, CA, USA",,Yes
+Afore Capital,Finance & Venture Capital,USA,,Yes
+afreeca tv,Media & Entertainment,South Korea,,Yes
+Afrikwity,Finance & Venture Capital,France,,Yes
+Aftershoot,Tech,"Lewes, DE, USA",,Yes
+AGCO,Manufacturing & Agriculture,"Duluth, GA, USA",,Yes
+Ai2,Non-profit & Philanthropy ,"Seattle, WA, USA",,Yes
+AIBerry,Healthcare & Pharmaceuticals,"Bellevue, WA, USA",,Yes
+Aidan Gomez,Finance & Venture Capital,USA,,Yes
+Aigora,Tech,"Richmond, VA, uSA",,Yes
+aiMotive,Tech,"Budapest, Hungary",,Yes
+Airbus,Manufacturing & Agriculture,France,,Yes
+Ajay Agarwal,Finance & Venture Capital,USA,,Yes
+Aker Solutions,Other,Norway,,Yes
+AlgoTherapeutix SAS,Healthcare & Pharmaceuticals,France,,Yes
+Allison Pickens,Finance & Venture Capital,USA,,Yes
+Alstom,Manufacturing & Agriculture,France,,Yes
+Alt Capital,Finance & Venture Capital,USA,,Yes
+Altris AI,Healthcare & Pharmaceuticals,"Chicago, IL, USA",,Yes
+Amazon Mechanical Turk,Data Work Company,"Seattle, WA, USA",,Yes
+AMD Ventures,Finance & Venture Capital,USA,,Yes
+American Ancestors,Other,"Boston, MA, USA",,Yes
+American Family Insurance,Insurance,"Madison, WI, USA",,Yes
+American Woodmark,Manufacturing & Agriculture,"Winchester, VA, USA",,Yes
+Amiti Ventures,Finance & Venture Capital,Israel,,Yes
+Amjad Masad,Finance & Venture Capital,USA,,Yes
+Anari AI,Tech,"San Francisco, CA, USA",,Yes
+Anduril,Manufacturing & Agriculture,"Orange County, CA, USA",,Yes
+Aneesh Chopra,Finance & Venture Capital,USA,,Yes
+Anheuser-Busch,Retail & Consumer Goods,"St. Louis, MO, USA",,Yes
+Annalise.ai,Healthcare & Pharmaceuticals,"Syndey, Australia",,Yes
+Antler India,Finance & Venture Capital,India,,No
+AOS Data,Tech,"Tokyo, Japan",,Yes
+Applied Compute,Tech,"San Francisco, CA, USA",,Yes
+Arcee AI,Tech,"San Francisco, CA, USA",,Yes
+Argonautic Ventures,Finance & Venture Capital,USA,,Yes
+Armored Things,Other,"Boston, MA, USA",,Yes
+Ascend.io,Tech,"San Francisco, CA, USA",,Yes
+Asensus Surgical,Healthcare & Pharmaceuticals,"Durham, NC, USA",,Yes
+Asher Orion,Tech,"Pittsburgh, PA, USA",,Yes
+Ashley FDE,Retail & Consumer Goods,"Wisconsin, USA",,Yes
+Ashok Leyland,Manufacturing & Agriculture,India,,Yes
+Asklepion Pharmaceuticals,Healthcare & Pharmaceuticals,"Baltimore, MD, USA",,Yes
+Aston Martin Aramco Formula One™ Team,Other,United Kingdom,,Yes
+Audi ,Manufacturing & Agriculture,Germany,,Yes
+AudioStack,Tech,"London, England, United Kingdom",,Yes
+Auriel Wright,Finance & Venture Capital,USA,,Yes
+Autoblocks AI,Tech,"New York, NY, USA",,Yes
+Autodesk,Tech,"San Francisco, CA, USA",,Yes
+Automotive Research Association of India,Manufacturing & Agriculture,"Pune, India",,Yes
+AVL,Manufacturing & Agriculture,Austria,,Yes
+Avride,Tech,"Austin, TX, USA",,Yes
+Awaaz AI,Tech,"San Francisco, CA, USA",,Yes
+Axa,Insurance,"Austin, TX, USA",,Yes
+Axion Biosystems,Healthcare & Pharmaceuticals,"Atlanta, GA, USA",,Yes
+Ayadata,Tech,"London, England, United Kingdom",,Yes
+b-rayZ,Healthcare & Pharmaceuticals,"Zurich, Switzerland",,Yes
+BAE Systems,Manufacturing & Agriculture,UK,,Yes
+Bain & Company,Finance & Venture Capital,USA,,Yes
+Bain Capital Ventures,Finance & Venture Capital,USA,,Yes
+Bajaj Finserv,Finance & Venture Capital,"Pune, India",,Yes
+Balkonser,Other,Finland,,Yes
+Baron Capital Group,Finance & Venture Capital,USA,,Yes
+Barry McCardel,Finance & Venture Capital,USA,,Yes
+Base 10 Partners,Finance & Venture Capital,USA,,Yes
+Bayada,Healthcare & Pharmaceuticals,"New Jersey, USA",,Yes
+BayWa,Manufacturing & Agriculture,Germany,,Yes
+BCforward,Tech,"Indianapolis, IN, USA",,Yes
+Bear Flag Robotics,Manufacturing & Agriculture,"Newark, CA, USA",,Yes
+BeMyEye,Tech,"London, England, United Kingdom",,Yes
+Benchmark,Finance & Venture Capital,USA,,Yes
+Benchmark Capital Partners,Finance & Venture Capital,USA,,Yes
+Beringea,Finance & Venture Capital,USA,,Yes
+Bestseller Foundation,Finance & Venture Capital,Denmark,,Yes
+Bewater,Finance & Venture Capital,Spain,,No
+Bezos Expeditions,Finance & Venture Capital,USA,,Yes
+BFR Systems,Manufacturing & Agriculture,"Chicago, IL, USA",,Yes
+BHASHINI,Tech,"New Delhi, India",,Yes
+BIC,Retail & Consumer Goods,France,,Yes
+BioticsAI,Healthcare & Pharmaceuticals,"Oakland, CA, USA",,Yes
+Birds.ai,Tech,Netherlands,,Yes
+Bitsensing,Tech,South Korea,,Yes
+Bloomfield Robotics,Manufacturing & Agriculture,"Pittsburgh, PA, USA",,Yes
+Blue River Technology,Manufacturing & Agriculture,"Santa Clara, CA, USA",,Yes
+Blue Sky Carbon,Other,"Connecticut, USA",,Yes
+Bluecrest Limited Capital,Finance & Venture Capital,UK,,Yes
+Blueprint Pro AI,Tech,"Atlanta, GA, USA",,Yes
+BMW Group,Manufacturing & Agriculture,Germany,,Yes
+BlueVine,Finance & Venture Capital,"Jersey City, NJ, USA",,Yes
+BNSF,Manufacturing & Agriculture,"Texas, USA",,Yes
+Bob van Luijt,Finance & Venture Capital,Netherlands,,Yes
+Boehringer Ingelheim,Healthcare & Pharmaceuticals,Germany,,Yes
+Bombora,Tech,"New York, NY, USA",,Yes
+boomi,Tech,"Pennsylvania, USA",,Yes
+Box Group,Finance & Venture Capital,USA,,Yes
+Brown University,Education,"Providence, RI, USA",,Yes
+Box,Tech,"Redwood City, CA, USA",,Yes
+Bupa Hong Kong,Insurance,Hong Kong,,Yes
+BY Ventures,Finance & Venture Capital,USA,,Yes
+c3.ai,Tech,"Redwood City, CA, USA",,Yes
+Cabana,Healthcare & Pharmaceuticals,"New Orleans, LA, USA",,Yes
+Cabinet Roux,Insurance,France,,Yes
+Caixa Capital Risc,Finance & Venture Capital,Spain,,Yes
+Calm,Tech,"San Francisco, CA, USA",,Yes
+Calvin French-Owen,Finance & Venture Capital,USA,,Yes
+Cambridge Health Alliance,Healthcare & Pharmaceuticals,"Cambridge, MA, USA",,Yes
+Canon,Retail & Consumer Goods,"Tokyo, Japan",,Yes
+Canoo,Manufacturing & Agriculture,"Texas, USA",,Yes
+Capgemini,Tech,France,,Yes
+Capital Square Partners,Finance & Venture Capital,USA,,Yes
+Caption Health,Healthcare & Pharmaceuticals,"San Mateo, CA, USA",,Yes
+Cardiologs,Healthcare & Pharmaceuticals,"Paris, France",,Yes
+Carestream Dental,Healthcare & Pharmaceuticals,"Atlanta, GA, USA",,Yes
+Carta Healthcare,Healthcare & Pharmaceuticals,"San Francisco, CA, USA",,Yes
+Cassidy Williams,Finance & Venture Capital,USA,,Yes
+Caterpillar Inc.,Manufacturing & Agriculture,"Texas, USA",,Yes
+Celonis,Tech,Germany,,Yes
+CenturyPly,Manufacturing & Agriculture,India,,Yes
+Cerebras,Tech,"Sunnyvale, CA, USA",,Yes
+Ceros,Tech,"New York, NY, USA",,Yes
+Cervi,Manufacturing & Agriculture,Finland,,Yes
+CETIM,Manufacturing & Agriculture,France,,Yes
+Charles Schwab,Finance & Venture Capital,"Texas, USA",,Yes
+Charlotte Hornets,Other,"Charlotte, NC, USA",,Yes
+Checkr,Tech,"San Francisco, CA, USA",,Yes
+Cheongju University,Education,South Korea,,Yes
+Chet Kapoor,Finance & Venture Capital,USA,,Yes
+Christian Szegedy,Finance & Venture Capital,USA,,Yes
+BT Properties,Real Estate & Construction,"Mountain View, CA, USA",,Yes
+Cisco,Tech,USA,,Yes
+Cisco Investments,Finance & Venture Capital,USA,,Yes
+Clay,Tech,"New York, NY, USA",,Yes
+Clova,Tech,"San Francisco, CA, USA",,Yes
+Coalition for Epidemic Preparedness Innovations,Healthcare & Pharmaceuticals,"Oslo, Norway",,Yes
+Coconote,Tech,"Marseille, France",,Yes
+Cognism,Tech,"London, England, United Kingdom",,Yes
+Cognizant,Data Work Company,"New Jersey, USA",,Yes
+Comcast Ventures,Finance & Venture Capital,USA,,Yes
+Common Room,Tech,"Seattle, WA, USA",,Yes
+Community Brands,Tech,"Florida, USA",,Yes
+CompanionLabs,Tech,"San Francisco, CA, USA",,Yes
+Companyon Ventures,Finance & Venture Capital,USA,,Yes
+Computer Associates,Tech,"New York, USA",,Yes
+Comscore,Media & Entertainment,"Reston, VA, USA",,Yes
+Condé Nast,Media & Entertainment,"New York, NY, USA",,Yes
+Conigital,Tech,"Birmingham, United Kingdom",,Yes
+Connected Women,Other,Philippines,,Yes
+Consensus,Tech,"Atlanta, GA, USA",,Yes
+Consti,Other,"Helsinki, Finland",,Yes
+ConstructConnect,Tech,"Cincinnati, OH, USA",,Yes
+Continental,Manufacturing & Agriculture,Germany,,Yes
+Conviction Capital,Finance & Venture Capital,USA,,Yes
+Cooley,Finance & Venture Capital,USA,,Yes
+CoorsTek,Manufacturing & Agriculture,"Golden, CO, USA",,Yes
+Cory Levy,Finance & Venture Capital,USA,,Yes
+Coupang,Retail & Consumer Goods,"Seattle, WA, USA",,Yes
+CPP Investments,Finance & Venture Capital,Canada,,Yes
+Craft Ventures,Finance & Venture Capital,USA,,Yes
+CrowdReason,Tech,"Texas, USA",,Yes
+CrowdStrike,Tech,"Austin, Texas, USA",,Yes
+Cruise Automation,Manufacturing & Agriculture,"San Francisco, CA, USA",,Yes
+Cubox,Tech,South Korea,,Yes
+Cummins,Manufacturing & Agriculture,"Columbus, IN, USA",,Yes
+Cyan Banister,Finance & Venture Capital,USA,,Yes
+Daimler Truck,Manufacturing & Agriculture,Germany,,Yes
+Dalus Capital,Finance & Venture Capital,Mexico,,Yes
+Dan Westgarth,Finance & Venture Capital,USA,,Yes
+DAMAC Group,Real Estate & Construction,"Dubai, United Arab Emirates",,Yes
+Daniel Gross,Finance & Venture Capital,USA,,Yes
+Damco,Tech,"New York, NY, USA",,Yes
+Dandelion,Healthcare & Pharmaceuticals,"New York, NY, USA",,Yes
+Danu ,Manufacturing & Agriculture,"Edinburgh, Scotland",,Yes
+Databricks Ventures,Finance & Venture Capital,USA,,Yes
+Darkhorse.AI,Tech,"Palo Alto, CA, USA",,Yes
+DataDog,Tech,"New York, NY, USA",,Yes
+Datamaran,Tech,"London, England, United Kingdom",,Yes
+DATEV,Tech,Germany,,Yes
+Decagon,Tech,"San Francisco, CA, USA",,Yes
+Decentriq,Tech,"Zurich, Switzerland",,Yes
+Dedalus,Tech,"Milan, Italy",,Yes
+Deep Sentinel,Tech,"Pleasanton, CA, USA",,Yes
+Deepc,Manufacturing & Agriculture,Germany,,Yes
+Deepen,Tech,"San Jose, CA, USA",,Yes
+Deepwater Asset Management,Finance & Venture Capital,USA,,Yes
+Deeptek,Healthcare & Pharmaceuticals,"New York, NY, USA",,Yes
+DELETE,Other,Finland,,Yes
+Dell,Tech,"Texas, USA",,Yes
+Denso,Manufacturing & Agriculture,"Michigan, USA",,Yes
+Dentium,Manufacturing & Agriculture,South Korea,,Yes
+Denvr Dataworks,Tech,"Calgary, Canada",,Yes
+Deque,Tech,"Herndon, VA, USA",,Yes
+Dialpad,Tech,"San Ramon, CA, USA",,Yes
+Digital Green,Non-profit & Philanthropy ,"San Francisco, CA, USA",,Yes
+DinGo,Tech,"Brisbane, Australia",,Yes
+Disney,Media & Entertainment,"Burbank, CA, USA",,Yes
+Div Garg,Finance & Venture Capital,USA,,Yes
+DJ Patil,Finance & Venture Capital,USA,,Yes
+Disney Advertising,Media & Entertainment,"New York, NY, USA",,Yes
+DLA Piper,Other,"London, England, United Kingdom",,Yes
+Douwe Kiela,Finance & Venture Capital,USA,,Yes
+DocuSign,Tech,"San Francisco, CA, USA",,Yes
+Dream Ventures,Finance & Venture Capital,USA,,Yes
+Drew Houston,Finance & Venture Capital,USA,,Yes
+Dr. Agarwal's Eye Hospital,Healthcare & Pharmaceuticals,India,,Yes
+Drive.ai,Tech,"Mountain View, CA, USA",,Yes
+DroneDeploy,Tech,"San Francisco, CA, USA",,Yes
+DST Global Partners,Finance & Venture Capital,USA,,Yes
+Dropbox,Tech,"San Francisco, CA, USA",,Yes
+Dynamic Loop Capital,Finance & Venture Capital,USA,,Yes
+DXOMARK ,Tech,France,,Yes
+Eagle Eye,Tech,"London, England, United Kingdom",,Yes
+EDP Ventures,Finance & Venture Capital,Portugal,,Yes
+Edelman,Media & Entertainment,"New York, NY, USA",,Yes
+Eight Sleep,Retail & Consumer Goods,"New York, NY, USA",,Yes
+Einride,Other,"Stockholm, Sweden",,Yes
+Elad Gil,Finance & Venture Capital,USA,,Yes
+Eko,Tech,"New York, NY, USA",,Yes
+Elastic,Tech,"San Francisco, CA, USA",,Yes
+Elbit Systems,Manufacturing & Agriculture,Israel,,Yes
+Elevate Ventures,Finance & Venture Capital,USA,,Yes
+Elektrobit,Tech,Germany,,Yes
+Eli Lilly,Healthcare & Pharmaceuticals,"Indianapolis, IN, USA",,Yes
+Elsevier,Other,"Amsterdam, Netherlands",,Yes
+Ema,Tech,"San Francisco, CA, USA",,Yes
+Emerge Ventures,Finance & Venture Capital,Israel,,Yes
+Embotech,Tech,"Zurich, Switzerland",,Yes
+Enago,Tech,"New York, NY, USA",,Yes
+Enel Group,Other,"Rome, Italy",,Yes
+Enlitic,Healthcare & Pharmaceuticals,"Loveland, CO, USA",,Yes
+Epic Games,Tech,"Cary, NC, USA",,Yes
+Ernström & Co,Finance & Venture Capital,Sweden,,Yes
+ERIKS,Manufacturing & Agriculture,Netherlands,,Yes
+ESPN,Media & Entertainment,"Bristol, CT, USA",,Yes
+Etex,Other,Belgium,,Yes
+ETRI,Tech,South Korea,,Yes
+Evan Sharp,Finance & Venture Capital,USA,,Yes
+Etsy,Retail & Consumer Goods,"Brooklyn, NY, USA",,Yes
+Eve,Tech,"San Mateo, CA, USA",,Yes
+Evolution Equity,Finance & Venture Capital,USA,,Yes
+Everfriends.AI,Tech,"Grand Rapids, MI, USA",,Yes
+Factory,Finance & Venture Capital,USA,,Yes
+Fathom Capital,Finance & Venture Capital,USA,,Yes
+Felicis Ventures,Finance & Venture Capital,USA,,Yes
+Fidelity Management & Research Company,Finance & Venture Capital,USA,,Yes
+Experian,Tech,"Costa Mesa, CA, USA",,Yes
+Fidi,Healthcare & Pharmaceuticals,"Sao Paulo, Brazil",,Yes
+Finalcad,Tech,"Paris, France",,Yes
+Finch,Tech,"New York, NY, USA",,Yes
+Finnish Criminal Sanctions Office,Government,Finland,,Yes
+FJ Labs,Finance & Venture Capital,USA,,Yes
+Flagstar Bank,Finance & Venture Capital,"Hicksville, NY, USA",,Yes
+Fletcher Sports,Media & Entertainment,"Burr Ridge, IL, USA",,Yes
+FLIR Systems,Manufacturing & Agriculture,"Bethesda, MD, USA",,Yes
+Flo Health,Tech,"London, England, United Kingdom",,Yes
+Flo Sports,Media & Entertainment,"Austin, TX, USA",,Yes
+FloVision,Tech,"South Bend, IN, USA",,Yes
+Fondazione per la Medicina Personalizzata,Healthcare & Pharmaceuticals,Italy,,Yes
+Foresight Health Solutions,Tech,"San Francisco, CA, USA",,Yes
+Forest Systems ,Finance & Venture Capital,"Mountain View, CA, USA",,Yes
+Fort Ross Ventures,Finance & Venture Capital,USA,,Yes
+Fortissimo Capital,Finance & Venture Capital,Israel,,Yes
+Fortius Ventures,Finance & Venture Capital,USA,,Yes
+Fortum,Other,Norway,,Yes
+Foundation Capital,Finance & Venture Capital,USA,,Yes
+Framework Ventures,Finance & Venture Capital,USA,,Yes
+Fredrik Löfberg,Finance & Venture Capital,Sweden,,Yes
+Freestyle VC,Finance & Venture Capital,USA,,Yes
+Frontier Ventures,Finance & Venture Capital,USA,,Yes
+Frontline,Finance & Venture Capital,Ireland,,Yes
+Fyusion,Tech,"San Francisco, CA, USA",,Yes
+G3 Lasers,Healthcare & Pharmaceuticals,India,,Yes
+Gabriel Peterson,Finance & Venture Capital,USA,,Yes
+GAF,Other,"New Jersey, USA",,Yes
+Gates Foundation,Non-profit & Philanthropy ,"Seattle, WA, USA",,Yes
+Gatik,Tech,"Mountain View, CA, USA",,Yes
+GE  ,Manufacturing & Agriculture,"Boston, MA, USA",,Yes
+GE 32 Capital,Finance & Venture Capital,USA,,Yes
+Geberit,Manufacturing & Agriculture,Switzerland,,Yes
+General Motors,Manufacturing & Agriculture,"Detroit, MI, USA",,Yes
+Gentle Monster,Retail & Consumer Goods,South Korea,,Yes
+Geoffrey Hinton,Finance & Venture Capital,Canada,,Yes
+GeoNOVA,Other,Saudi Arabia,,Yes
+Getty Images,Media & Entertainment,"Seattle, WA, USA",,Yes
+GGV Capital,Finance & Venture Capital,USA,,Yes
+Gilead Sciences,Tech,"Foster City, CA, USA",,Yes
+Giphy ,Media & Entertainment,"New York, NY, USA",,Yes
+GlassesUSA.com,Retail & Consumer Goods,"Atlanta, GA, USA",,Yes
+Global Atlantic Financial Group,Finance & Venture Capital,"New York, NY, USA",,Yes
+Global Founders Capital,Finance & Venture Capital,Germany,,Yes
+Globespan Capital Partners,Finance & Venture Capital,USA,,Yes
+Glynn Capital,Finance & Venture Capital,USA,,Yes
+Gokul Rajaram,Finance & Venture Capital,USA,,Yes
+Good Growth Capital,Finance & Venture Capital,USA,,Yes
+GoodData,Tech,"San Francisco, CA, USA",,Yes
+Google for Startups,Finance & Venture Capital,USA,,No
+Government of Qatar,Government,Qatar,,Yes
+Government of the United Kingdom,Government,United Kingdom,,Yes
+Gradient Health,Healthcare & Pharmaceuticals,"Durham, NC, USA",,Yes
+Gradient Ventures,Finance & Venture Capital,USA,,Yes
+Granite Asia,Finance & Venture Capital,Singapore,,Yes
+Great North Ventures,Finance & Venture Capital,USA,,Yes
+Greenoaks,Finance & Venture Capital,USA,,Yes
+Greenzie,Tech,"Atlanta, GA, USA",,Yes
+Greg Brockman,Finance & Venture Capital,USA,,Yes
+Greylock,Finance & Venture Capital,USA,,Yes
+Groove X,Retail & Consumer Goods,"Tokyo, Japan",,Yes
+Groq,Manufacturing & Agriculture,"Mountain View, CA, USA",,Yes
+Ground Game,Finance & Venture Capital,USA,,Yes
+Guerbet,Healthcare & Pharmaceuticals,France,,Yes
+Guillermo Rauch,Finance & Venture Capital,USA,,Yes
+GumGum,Tech,"Santa Monica, CA, USA",,Yes
+Gundersen Health System,Finance & Venture Capital,USA,,Yes
+GV,Finance & Venture Capital,USA,,Yes
+Hanwha Investment & Securities,Finance & Venture Capital,South Korea,,Yes
+Hanwha Systems,Manufacturing & Agriculture,South Korea,,Yes
+Harpoon,Finance & Venture Capital,USA,,Yes
+Harrison Chase,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
+Harry Hurst,Finance & Venture Capital,USA,,Yes
+Hashkey,Finance & Venture Capital,Hong Kong,,Yes
+Headway,Healthcare & Pharmaceuticals,"New York, NY, USA",,Yes
+Helm.ai,Tech,"Redwood City, CA, USA",,Yes
+Heran Partners,Finance & Venture Capital,USA,,Yes
+Hermes GPE,Finance & Venture Capital,UK,,Yes
+Hewlett Packard Enterprise,Finance & Venture Capital,USA,,Yes
+HFS Research,Other,"Woburn, MA, USA",,Yes
+Hivemind,Tech,"Cape Town, South Africa",,Yes
+HNVR,Finance & Venture Capital,USA,,Yes
+HOF Capital,Finance & Venture Capital,USA,,Yes
+Home Depot,Retail & Consumer Goods,"Atlanta, GA, USA",,Yes
+Hopstack Inc,Tech,"Austin, TX, USA",,Yes
+Howard Hughes Holdings,Finance & Venture Capital,"Texas, USA",,Yes
+HPE Pathfinder,Finance & Venture Capital,USA,,Yes
+hpy,Tech,"San Diego, CA, USA",,Yes
+Huawei Cloud,Tech,China,,Yes
+Humanode,Non-profit & Philanthropy ,"Batum, Ajaria, Georgia",,Yes
+Hurrikaanit,Other,Finland,,Yes
+Hydrolix,Tech,"Portland, OR, USA",,Yes
+Hyundai,Manufacturing & Agriculture,South Korea,,Yes
+IBAU,Manufacturing & Agriculture,Germany,,Yes
+IBM Ventures,Finance & Venture Capital,USA,,Yes
+Ibotta,Tech,"Denver, CO, USA",,Yes
+ICICI Bank,Finance & Venture Capital,India,,Yes
+IDFC First Bank,Finance & Venture Capital,India,,Yes
+IFC Venture Capital Group,Finance & Venture Capital,USA,,Yes
+iFit,Other,"Logan, UT, USA",,Yes
+iHerb,Retail & Consumer Goods,"Irvine, CA, USA",,Yes
+Image Biopsy Lab,Healthcare & Pharmaceuticals,"Vienna, Austria",,Yes
+Imbio,Manufacturing & Agriculture,"Minneapolis, MN, USA",,Yes
+In-Q-Tel,Finance & Venture Capital,USA,,Yes
+Inception,Tech,"Abu Dhabi, UAE",,Yes
+Inception Point,Tech,"Venice, CA, USA",,Yes
+Indeed,Tech,"Austin, TX, USA",,Yes
+Index Ventures,Finance & Venture Capital,UK,,Yes
+Indian Institute of Science,Education,India,,Yes
+Innolitics,Tech,"Austin, TX, USA",,Yes
+Insurtech Capital,Finance & Venture Capital,USA,,Yes
+Intel,Tech,"Santa Clara, CA, USA",,Yes
+IntelinAir,Manufacturing & Agriculture,"Indianapolis, IN, USA",,Yes
+IntelliVix,Tech,South Korea,,Yes
+Interius Farms,Manufacturing & Agriculture,"Montreal, Canada",,Yes
+Intuit,Tech,USA,,Yes
+Intuition Robotics,Tech,"Palo Alto, CA, USA",,Yes
+Intuitive,Manufacturing & Agriculture,"California, USA",,Yes
+Intuitive Ventures,Finance & Venture Capital,USA,,Yes
+Invenshure,Finance & Venture Capital,USA,,Yes
+Invisible AI,Tech,"San Francisco, CA, USA",,Yes
+IPG,Manufacturing & Agriculture,"Sarasota, FL, US",,Yes
+Iris Insights,Other,"Tampa, FL, USA",,Yes
+IronFire Ventures,Finance & Venture Capital,USA,,Yes
+ironSource,Tech,"Tel Aviv, Israel",,Yes
+iSelect,Finance & Venture Capital,USA,,Yes
+Ivan Zhang,Finance & Venture Capital,USA,,Yes
+Jack Altman,Finance & Venture Capital,USA,,Yes
+Jack Dorsey,Finance & Venture Capital,USA,,Yes
+Jaineo Avishk Singhi Capital Finance,Finance & Venture Capital,India,,Yes
+Jari Paakkarinen,Finance & Venture Capital,Finland,,Yes
+Jascha Sohl-Dickstein,Finance & Venture Capital,USA,,Yes
+Jeff Dean,Finance & Venture Capital,USA,,Yes
+Jeff Morris,Finance & Venture Capital,USA,,Yes
+Jericho Capital,Finance & Venture Capital,USA,,Yes
+JetBrains,Tech,"Amsterdam, Netherlands",,Yes
+"JG Summit Holdings, Inc.",Other,Philippines,,Yes
+JLR,Manufacturing & Agriculture,United Kingdom,,Yes
+John Deere,Manufacturing & Agriculture,"Moline, IL, USA",,Yes
+John Smedley,Retail & Consumer Goods,United Kingdom,,Yes
+Johnson & Johnson,Healthcare & Pharmaceuticals,"New Jersey, USA",,Yes
+Jonathan Frankle,Finance & Venture Capital,USA,,Yes
+Joshua Browder,Finance & Venture Capital,USA,,No
+JSR Corporation,Finance & Venture Capital,Japan,,Yes
+Julkisivukonsultointi JK Oy,Other,Finland,,Yes
+Justin Kan,Finance & Venture Capital,USA,,Yes
+Kasisto,Tech,"New York, NY, USA",,Yes
+Kattotutka,Other,Finland,,Yes
+KBC Group,Finance & Venture Capital,Belgium,,Yes
+Kevin Systrom,Finance & Venture Capital,USA,,Yes
+Key Investments,Finance & Venture Capital,USA,,Yes
+Khazanah Nasional Berhad,Finance & Venture Capital,Malaysia,,Yes
+KinaTrax,Tech,"Boca Raton, FL, USA",,Yes
+King's College London,Education,UK,,No
+Kingdom Holding Company,Finance & Venture Capital,Saudi Arabia,,No
+Kitware,Tech,"Clifton Park, NY, USA",,Yes
+Kiveda,Retail & Consumer Goods,Germany,,Yes
+Knockri,Tech,"Toronto, Canada",,Yes
+Knowles Corporation,Manufacturing & Agriculture,"Itasca, IL, USA",,Yes
+Kodiak,Tech,"Mountain View, CA, USA",,Yes
+Kohler,Manufacturing & Agriculture,"Wisconsin, USA",,Yes
+Körber,Manufacturing & Agriculture,Germany,,Yes
+Korea Asset Investment & Securities,Finance & Venture Capital,South Korea,,Yes
+Korea Electronics Technology Institute,Other,South Korea,,Yes
+Korechi,Manufacturing & Agriculture,"Ontario, Canada",,Yes
+Krea University,Education,Turkey,,Yes
+Krevera,Manufacturing & Agriculture,"Boston, MA, USA",,Yes
+Krutrim,Tech,India,,Yes
+Kustomer,Tech,"New York, NY, USA",,Yes
+Kwantis,Other,"Milan, Italy",,Yes
+L'Oréal,Retail & Consumer Goods,France,,Yes
+L2,Finance & Venture Capital,USA,,Yes
+Lambda School,Education,"San Francisco, CA, USA",,Yes
+Laon People,Tech,South Korea,,Yes
+Larry Summers,Finance & Venture Capital,USA,,Yes
+Latitude,Tech,"Pittsburgh, PA, USA",,Yes
+Launch,Finance & Venture Capital,USA,,Yes
+LELO,Retail & Consumer Goods,"Stockholm, Sweden",,Yes
+Lemlist,Tech,"New York, NY, USA",,Yes
+Leyton,Other,France,,Yes
+LG Technology Ventures,Finance & Venture Capital,South Korea,,Yes
+Liberty Mutual,Insurance,"Boston, MA, USA",,Yes
+Lightricks,Tech,Israel,,Yes
+Lightsource Research,Other,"Houston, TX, USA",,Yes
+Lindbergh Schools,Education,"St. Louis, MO, USA",,Yes
+Lineage Inc,Real Estate & Construction,"Novi, MI, USA",,Yes
+Loacker,Retail & Consumer Goods,Italy,,Yes
+Loimua,Other,Finland,,Yes
+Loomba Group,Other,United Kingdom,,Yes
+Louhintahiekka,Other,Finland,,Yes
+Lucem Health,Tech,"Raleigh, NC, USA",,Yes
+Lufthansa,Transportation & Logistics,Germany,,Yes
+Luno,Finance & Venture Capital,"London, England, United Kingdom",,Yes
+Luxonis,Tech,"Denver, CO, USA",,Yes
+Lyft,Transportation & Logistics,"San Francisco, CA, USA",,Yes
+Madrona,Finance & Venture Capital,USA,,Yes
+Majlis Advisory,Finance & Venture Capital,UAE,,Yes
+Maltem Consulting Group,Finance & Venture Capital,France,,Yes
+Mango Capital,Finance & Venture Capital,USA,,Yes
+Mastodon Capital Management,Finance & Venture Capital,USA,,Yes
+Matrix,Finance & Venture Capital,USA,,Yes
+Max Altman,Finance & Venture Capital,USA,,Yes
+ManoMano,Tech,"Paris, France",,Yes
+ManoMotion,Tech,"Stockholm, Sweden",,Yes
+Markets EQ,Tech,"New York, NY, USA",,Yes
+MARSS,Manufacturing & Agriculture,"London, England, United Kingdom",,Yes
+Mass General Brigham,Healthcare & Pharmaceuticals,"Somerville, MA, USA",,Yes
+Mayfair Concierge,Other,"London, England, United Kingdom",,Yes
+Mayo Clinic,Healthcare & Pharmaceuticals,"Rochester, MN, USA",,Yes
+Meritech,Finance & Venture Capital,USA,,Yes
+MGX,Finance & Venture Capital,UAE,,Yes
+McAfee,Tech,"San Jose, CA, USA",,Yes
+Mike Krieger,Finance & Venture Capital,USA,,No
+Mike Maples,Finance & Venture Capital,USA,,Yes
+Mikhail Parakhin,Finance & Venture Capital,USA,,Yes
+McDonald's Corporation,Retail & Consumer Goods,"Chicago, IL, USA",,Yes
+Mead Johnson Nutrition,Manufacturing & Agriculture,"Chicago, IL, USA",,Yes
+Mindset Ventures,Finance & Venture Capital,Brazil,,Yes
+Median,Healthcare & Pharmaceuticals,"Berlin, Germany",,Yes
+Median Technologies,Tech,France,,Yes
+Mediazen,Media & Entertainment,"Toronto, Canada",,Yes
+Meesho,Tech,"Bengaluru, India",,Yes
+Melio,Finance & Venture Capital,"New York, NY, USA",,Yes
+Merchants Fleet,Finance & Venture Capital,"New Hampshire, USA",,Yes
+Milvue,Manufacturing & Agriculture,France,,Yes
+mimik,Tech,"Oakland, CA, USA",,Yes
+Mint Medical,Healthcare & Pharmaceuticals,Germany,,Yes
+Minus Zero ,Tech,"Bengaluru, India",,Yes
+Mira Technology Park,Real Estate & Construction,United Kingdom,,Yes
+Mitsubishi,Manufacturing & Agriculture,"Tokyo, Japan",,Yes
+MNB Kitchen,Retail & Consumer Goods,"Miami, FL, USA",,Yes
+Morgan Stanley,Finance & Venture Capital,USA,,Yes
+Mobot,Tech,"New York, NY, USA",,Yes
+Mostyn Investments (Mauritius) Ltd,Finance & Venture Capital,Mauritius,,Yes
+Modality.ai ,Tech,"San Francisco, CA, USA",,Yes
+Motley Fool Ventures,Finance & Venture Capital,USA,,Yes
+Monday,Tech,"Tel Aviv, Israel",,Yes
+MTIP,Finance & Venture Capital,Switzerland,,Yes
+MVP Ventures,Finance & Venture Capital,USA,,Yes
+MongoDB,Tech,"New York, NY, USA",,Yes
+My SeedCap,Finance & Venture Capital,USA,,Yes
+N47,Finance & Venture Capital,Switzerland,,Yes
+MongoDB Ventures,Finance & Venture Capital,"New York, NY, USA",,Yes
+Monk,Tech,"New York, NY, USA",,Yes
+MoodMetrics AI,Tech,"London, England, United Kingdom",,Yes
+Moonvalley,Tech,"Toronto, Canada",,Yes
+Moroccan Oil,Retail & Consumer Goods,"New York, NY, USA",,Yes
+Motives,Other,"London, England, United Kingdom",,Yes
+Move.AI,Tech,"London, England, United Kingdom",,Yes
+My Heritage,Other,Israel,,Yes
+Naveen Rao,Finance & Venture Capital,USA,,Yes
+namR,Real Estate & Construction,France,,Yes
+Nancy AI,Tech,"Amsterdam, Netherlands",,Yes
+Nas Daily,Media & Entertainment,"New York, NY, USA",,Yes
+NASA JPL,Government,"Pasadena, CA, USA",,Yes
+Nepenthe Capital,Finance & Venture Capital,USA,,Yes
+Nasdaq,Finance & Venture Capital,"New York, NY, USA",,Yes
+National Institute of Mental Health ,Healthcare & Pharmaceuticals,"Washington DC, USA",,Yes
+National Institutes of Health,Healthcare & Pharmaceuticals,"Bethesda, MD, USA",,Yes
+National Payments Corporation of India,Finance & Venture Capital,India,,Yes
+Naver,Tech,South Korea,,Yes
+Nayya,Tech,"New York, NY, USA",,Yes
+Nick Candito,Finance & Venture Capital,USA,,Yes
+Nestle,Retail & Consumer Goods,Switzerland,,Yes
+Neulanen,Healthcare & Pharmaceuticals,Finland,,Yes
+NI (National Instruments),Manufacturing & Agriculture,"Austin, TX, USA",,Yes
+Niantic,Tech,"San Francisco, CA, USA",,Yes
+Nice,Tech,Israel,,Yes
+Nightfall AI,Tech,"San Francisco, CA, USA",,Yes
+Northwell Holdings,Finance & Venture Capital,USA,,Yes
+Novalis Lifesciences,Finance & Venture Capital,USA,,Yes
+Novartis,Finance & Venture Capital,Switzerland,,Yes
+Nippon Paint,Manufacturing & Agriculture,"Osaka, Japan",,Yes
+Niqo Robotics,Tech,"Bengaluru, India",,Yes
+Nissan,Manufacturing & Agriculture,Japan,,Yes
+NVentures,Finance & Venture Capital,USA,,Yes
+Objectways,Data Work Company,"Scottsdale, Arizona, USA",,Yes
+Nokia,Tech,Finland,,Yes
+Odeon Capital Group,Finance & Venture Capital,USA,,Yes
+Northwell Health,Healthcare & Pharmaceuticals,"New Hyde Park, NY, USA",,Yes
+Nuro,Tech,"Mountain View, CA, USA",,Yes
+nuTonomy,Tech,"Boston, MA, USA",,Yes
+Nuvia,Other,France,,Yes
+Omega,Finance & Venture Capital,USA,,Yes
+Omidyar Network,Finance & Venture Capital,USA,,Yes
+Observe AI,Tech,"Redwood City, CA, USA",,Yes
+OdySight,Tech,Israel,,Yes
+Ogilvy,Media & Entertainment,"New York, NY, USA",,Yes
+Ohi Tech,Tech,"New York, NY, USA",,Yes
+Olea Medical,Healthcare & Pharmaceuticals,France,,Yes
+OMRON,Tech,Japan,,Yes
+OneCup,Tech,"Calgary, Canada",,Yes
+Onepanel,Tech,"San Francisco, CA, USA",,Yes
+ONET Technologies,Other,France,,Yes
+Ontario Brain Institute,Healthcare & Pharmaceuticals,"Ontario, Canada",,Yes
+Ontra,Tech,"Concord, CA, USA",,Yes
+Ooyala,Tech,"San Jose, CA, USA",,Yes
+Oracle,Tech,"Nashville, TN, USA",,Yes
+Orbem,Tech,Germany,,Yes
+Orbital Insight,Tech,"Palo Alto, CA, USA",,Yes
+Orpak,Other,Israel,,Yes
+Otis,Manufacturing & Agriculture,"Farmington, CT, USA",,Yes
+OTIV,Tech,Belgium,,Yes
+Otto,Retail & Consumer Goods,Germany,,Yes
+Otto Motors,Manufacturing & Agriculture,Canada,,Yes
+Outset Capital,Finance & Venture Capital,USA,,Yes
+Ouster,Tech,"San Francisco, CA, USA",,Yes
+Outcomes ,Tech,"Kansas City, MO, USA",,Yes
+Outreach,Tech,"Seattle, WA, USA",,Yes
+Outrider,Tech,"Colorado, USA",,Yes
+Outset,Tech,"San Francisco, CA, USA",,Yes
+Outsight,Tech,"Paris, France",,Yes
+Oxa,Tech,United Kingdom,,Yes
+P&G,Retail & Consumer Goods,"Cincinnati, OH, USA",,Yes
+Pareto Holdings,Finance & Venture Capital,USA,,Yes
+Packworks,Tech,"Manila, Philippines",,Yes
+Paige,Retail & Consumer Goods,"Los Angeles, CA, USA",,Yes
+Panther,Tech,"San Francisco, CA, USA",,Yes
+Paramount,Media & Entertainment,"Los Angeles, CA, USA",,Yes
+Parloa,Tech,Germany,,Yes
+Peer VC,Finance & Venture Capital,USA,,Yes
+ParrotPrep.AI,Tech,"Los Angeles, CA, USA",,Yes
+Payoneer,Finance & Venture Capital,"New York, NY, USA",,Yes
+Paypal,Finance & Venture Capital,"San Jose, CA, USA",,Yes
+Peer Robotics,Manufacturing & Agriculture,India,,Yes
+Pegasystems Inc.,Tech,"Waltham, MA, USA",,Yes
+Pella,Manufacturing & Agriculture,"Pella, IA, USA",,Yes
+Pellenc ST,Manufacturing & Agriculture,France,,Yes
+Peloton,Retail & Consumer Goods,"New York, NY, USA",,Yes
+Pentara Corporation,Other,"Mill Creek, UT, USA",,Yes
+Peter Thiel,Finance & Venture Capital,USA,,Yes
+PepsiCo,Retail & Consumer Goods,"Purchase, NY, USA",,Yes
+Percepto,Manufacturing & Agriculture,"Austin, TX, USA",,Yes
+Perfect World,Media & Entertainment,China,,Yes
+Pfizer,Healthcare & Pharmaceuticals,"New York, NY, USA",,Yes
+Phantom AI,Tech,"Mountain View, CA, USA",,Yes
+Philips,Retail & Consumer Goods,"Amsterdam, Netherlands",,Yes
+Picsellia,Tech,"Toulouse, France",,Yes
+Pinecone,Tech,"New York, NY, USA",,Yes
+PINTEL,Tech,South Korea,,Yes
+Play Time Ventures,Finance & Venture Capital,USA,,Yes
+Pinterest,Tech,"San Francisco, CA, USA",,Yes
+Pixellot,Tech,Israel,,Yes
+Pixxel,Manufacturing & Agriculture,"Bengaluru, India",,Yes
+PlayTech,Tech,United Kingdom,,Yes
+PlayVision,Tech,"San Francisco, CA, USA",,Yes
+PLDT,Media & Entertainment,"Manila, Philippines",,Yes
+Plume,Tech,"Palo Alto, CA, USA",,Yes
+PolyPerception,Tech,Belgium,,Yes
+PostgreSQL,Tech,"Santa Barbara, CA, USA",,Yes
+Prairie Robotics,Tech,Canada,,Yes
+Precision AI,Tech,Canada,,Yes
+Preferred Networks,Tech,"Tokyo, Japan",,Yes
+Preligens,Tech,"Paris, France",,Yes
+"Premier, Inc.",Healthcare & Pharmaceuticals,"Charlotte, NC, USA",,Yes
+Princeville Capital,Finance & Venture Capital,USA,,Yes
+Prenuvo,Healthcare & Pharmaceuticals,"Redwood City, CA, USA",,Yes
+Prosperity 7 Ventures,Finance & Venture Capital,Saudi Arabia,,Yes
+Prosus Ventures,Finance & Venture Capital,Netherlands,,Yes
+Protagonist,Finance & Venture Capital,USA,,Yes
+PressMaster,Manufacturing & Agriculture,Sweden,,Yes
+"Priimamaalaus Oy
+",Manufacturing & Agriculture,Finland,,Yes
+Priority,Finance & Venture Capital,"Alpharetta, GA, USA",,Yes
+Protege,Tech,"New York, NY, USA",,Yes
+Qatar Investment Authority,Finance & Venture Capital,Qatar,,Yes
+Proxy,Tech,"San Francisco, CA, USA",,Yes
+Public Record Office Victoria (PROV),Government,Australia,,Yes
+Puma,Retail & Consumer Goods,Germany,,Yes
+Quiet Capital,Finance & Venture Capital,USA,,Yes
+Quinag Bidco Ltd,Finance & Venture Capital,United Kingdom,,Yes
+Quantum Surgical,Healthcare & Pharmaceuticals,France,,Yes
+Quiq,Tech,"Bozeman, MT, USA",,Yes
+Radical Ventures,Finance & Venture Capital,Canada,,Yes
+Qure.ai,Tech,"Mumbai, India",,Yes
+Radiomics,Tech,Belgium,,Yes
+RapidAI,Tech,"San Mateo, CA, USA",,Yes
+Reactive Reality,Tech,Austria,,Yes
+Readii,Tech,Australia,,Yes
+Reale Group,Insurance,"Turin, Italy",,Yes
+Reality Defender,Tech,"New York, NY, USA",,Yes
+Ream,Tech,United Kingdom,,Yes
+Recraft,Tech,"San Francisco, CA, USA",,Yes
+Red Bull,Retail & Consumer Goods,Austria,,Yes
+Red Games,Media & Entertainment,"Salt Lake City, UT, USA",,Yes
+Reddit,Tech,USA,,Yes
+Reliance Industries Limited,Other,"Mumbai, India",,Yes
+REM People,Tech,"Istanbul, Turkey",,Yes
+Remedy Logic,Tech,"New York, NY, USA",,Yes
+Revelum,Tech,"Miami, FL, USA",,Yes
+RF,Manufacturing & Agriculture,"Brookfield, WI, USA",,Yes
+Rivian,Manufacturing & Agriculture,"Irvine, CA, USA",,Yes
+Robinhood Ventures,Finance & Venture Capital,USA,,Yes
+Roark,Tech,"San Francisco, CA, USA",,Yes
+Rocketeer Management,Finance & Venture Capital,USA,,Yes
+Rocket Companies,Finance & Venture Capital,"Detroit, MI, USA",,Yes
+Ronnie Screwvala,Finance & Venture Capital,India,,Yes
+RoleMapper,Tech,United Kingdom,,Yes
+Royal Navy,Government,United Kingdom,,Yes
+RT Moore,Other,"Indianapolis, IN, USA",,Yes
+Runa Capital,Finance & Venture Capital,USA,,Yes
+Rubrik,Tech,"Palo Alto, CA, USA",,Yes
+S&S Investment,Finance & Venture Capital,USA,,Yes
+Runway,Tech,"Brooklyn, NY, USA",,Yes
+Saint-Gobain,Manufacturing & Agriculture,France,,Yes
+Salesforge,Tech,Estonia,,Yes
+Sam Altman,Finance & Venture Capital,USA,,Yes
+Salvatore Ferragamo,Retail & Consumer Goods,Italy,,Yes
+Sambanova,Tech,"Palo Alto, CA, USA",,Yes
+Samsara,Tech,"San Francisco, CA, USA",,Yes
+Sandeep Singhal,Finance & Venture Capital,India,,Yes
+Samsung,Tech,South Korea,,Yes
+Sanro Health,Healthcare & Pharmaceuticals,"Grand Rapids, MI, USA",,Yes
+SAP,Tech,Germany,,Yes
+Satcen,Government,Spain,,Yes
+Satisfai Health,Tech,Canada,,Yes
+Savings.com,Retail & Consumer Goods,"Los Angeles, CA, USA",,Yes
+SBB CFF FFS,Transportation & Logistics,Switzerland,,Yes
+SBI Mutual Fund,Finance & Venture Capital,India,,Yes
+Scatter Lab,Tech,South Korea,,Yes
+SciBite,Tech,United Kingdom,,Yes
+Science Applications International Corporation (SAIC),Tech,"Reston, VA, USA",,Yes
+Scott Sandell,Finance & Venture Capital,USA,,Yes
+Scortex,Tech,France,,Yes
+Scoutbee,Tech,Germany,,Yes
+Scythe,Manufacturing & Agriculture,"Colorado, USA",,Yes
+Seabed VC,Finance & Venture Capital,USA,,Yes
+Sea Machines,Tech,"Boston, MA, USA",,Yes
+See Tree,Tech,Israel,,Yes
+Seek Capital,Finance & Venture Capital,USA,,Yes
+Seedtag,Tech,Spain,,Yes
+Segmed,Tech,"Palo Alto, CA, USA",,Yes
+Semapa Next,Finance & Venture Capital,Portugal,,Yes
+Semalytix,Tech,Germany,,Yes
+Sensi.AI,Tech,"Austin, TX, USA",,Yes
+Sentera,Tech,"St Paul, MN, USA",,Yes
+Seraph,Finance & Venture Capital,USA,,Yes
+Seoul Robotics,Tech,South Korea,,Yes
+ServiceNow Ventures,Finance & Venture Capital,USA,,Yes
+SG Growth Partners,Finance & Venture Capital,Singapore,,Yes
+Service Pack,Tech,"Houston, TX, USA",,Yes
+Shai Dekel,Finance & Venture Capital,USA,,Yes
+Shaip,Data Work Company,USA,,Yes
+SGS Digicomply,Tech,Switzerland,,Yes
+Sharewise,Finance & Venture Capital,Australia,,Yes
+Sharper Shape,Tech,"Salt Lake City, UT,  USA",,Yes
+Shelby Heinecke,Finance & Venture Capital,USA,,Yes
+SheerID,Tech,"Portland, OR, USA",,Yes
+Shield Capital,Finance & Venture Capital,"California, USA",,Yes
+Shopify,Tech,Canada,,Yes
+Shore Capital Partners,Finance & Venture Capital,"Chicago, IL, USA",,Yes
+Shyamal Hitesh Anadkat,Finance & Venture Capital,USA,,Yes
+Shutterstock,Media & Entertainment,"New York, NY, USA",,Yes
+Sigma Partners,Finance & Venture Capital,USA,,Yes
+Siemens,Tech,Germany,,Yes
+Silicon Bridge,Tech,South Korea,,Yes
+Simply,Tech,Israel,,Yes
+SK Telecom,Other,South Korea,,Yes
+Skaala,Finance & Venture Capital,Estonia,,Yes
+Skydio,Manufacturing & Agriculture,"San Mateo, CA, USA",,Yes
+Slope Agency,Finance & Venture Capital,USA,,Yes
+SM Investments,Finance & Venture Capital,Philippines,,Yes
+SkyFi,Tech,"Austin, TX, USA",,Yes
+Smart Radar System,Tech,South Korea,,Yes
+SmartestEnergy,Other,"London, England, United Kingdom",,Yes
+smartmicro,Tech,Germany,,Yes
+Snowpoint Ventures,Finance & Venture Capital,USA,,Yes
+Smith Nephew,Tech,United Kingdom,,Yes
+Social Impact Ventures,Finance & Venture Capital,USA,,Yes
+SOCAR,Other,Azerbaijan,,Yes
+Socium Ventures,Finance & Venture Capital,USA,,Yes
+Social Sweethearts,Media & Entertainment,Germany,,Yes
+SoGal Ventures,Finance & Venture Capital,USA,,Yes
+Solidus AI Tech,Tech,"Dubai, United Arab Emirates",,Yes
+Soligest,Other,Paris,,Yes
+Sony Music,Media & Entertainment,"New York, NY, USA",,Yes
+Soundcloud,Media & Entertainment,Germany,,Yes
+Sozo Ventures,Finance & Venture Capital,USA,,Yes
+SourceWhale,Tech,"London, England, United Kingdom",,Yes
+Spacept,Tech,"Stockholm, Sweden",,Yes
+Spike Ventures,Finance & Venture Capital,USA,,Yes
+Spatial,Tech,"San Francisco, CA, USA",,Yes
+Spimed-AI,Tech,France,,Yes
+Spin A Web,Tech,"Jamestown, NC, USA",,Yes
+Spoken,Tech,"Portland, OR, USA",,Yes
+SpoofSense,Tech,India,,Yes
+Sportlogiq,Tech,Canada,,Yes
+SpotAI,Tech,"San Francisco, CA, USA",,Yes
+Spotify,Tech,Sweden,,Yes
+Sprout Solutions,Tech,Philippines,,Yes
+Squarespace,Tech,"New York, NY, USA",,Yes
+SSG.com,Retail & Consumer Goods,South Korea,,Yes
+ST Engineering,Tech,Singapore,,Yes
+Stables,Finance & Venture Capital,Singapore,,Yes
+Standard AI ,Tech,"San Francisco, CA, USA",,Yes
+Stanford Brain Stimulation Lab,Education,"Stanford, CA, USA",,Yes
+State of Texas,Government,USA,,Yes
+Stepstone Group,Finance & Venture Capital,USA,,Yes
+Stone Bridge Ventures,Finance & Venture Capital,USA,,Yes
+Stimuler,Tech,India,,Yes
+Strava,Tech,USA,,Yes
+StradVision,Tech,South Korea,,Yes
+Streetspotr,Tech,Germany,,Yes
+Striveworks,Tech,"Austin, TX, USA",,Yes
+Studio G,Retail & Consumer Goods,USA,,Yes
+Sukitusvalvonta,Other,Finland,,Yes
+Suno,Tech,"Cambridge, MA, USA",,Yes
+Superb AI,Tech,"San Mateo, CA, USA",,Yes
+Superset,Tech,"San Francisco, CA, USA",,Yes
+SuperSmart,Tech,Israel,,Yes
+SureHire,Other,Canada,,Yes
+SURGAR (Surgical Augmented Reality) ,Healthcare & Pharmaceuticals,France,,Yes
+Surge (Sequoia India),Finance & Venture Capital,India,,Yes
+Susa,Finance & Venture Capital,USA,,Yes
+Susquehanna,Finance & Venture Capital,USA,,Yes
+SVA,Finance & Venture Capital,USA,,Yes
+Sweco,Real Estate & Construction,Sweden,,Yes
+Swift,Finance & Venture Capital,Belgium,,Yes
+Swiss Gear,Retail & Consumer Goods,Switzerland,,Yes
+Symantec,Tech,"San Jose, CA, USA",,Yes
+Synthesia,Tech,"London, England, United Kingdom",,Yes
+Sysnav,Tech,France,,Yes
+Systems Nakashima,Tech,Japan,,Yes
+T-Mobile,Other,USA,,Yes
+T. Rowe Price,Finance & Venture Capital,USA,,Yes
+Taboola,Tech,"New York, NY, USA",,Yes
+TAFE (Tractors and Farm Equipment Limited),Manufacturing & Agriculture,India,,Yes
+TalkingPoints,Non-profit & Philanthropy ,"San Francisco, CA, USA",,Yes
+Tallwoods Capital,Finance & Venture Capital,USA,,Yes
+Tata AIA Life Insurance,Insurance,India,,Yes
+Tata Motors,Manufacturing & Agriculture,India,,Yes
+Telespazio,Other,"Rome, Italy",,Yes
+Tencent,Tech,China,,Yes
+Tennis Point,Retail & Consumer Goods,Germany,,Yes
+teradata,Finance & Venture Capital,"San Diego, CA, USA",,Yes
+TERMEX,Real Estate & Construction,Latvia,,Yes
+Terumo,Healthcare & Pharmaceuticals,Japan,,Yes
+Tess Ventures,Finance & Venture Capital,USA,,Yes
+Textron Aviation,Manufacturing & Agriculture,"Wichita, KS, USA",,Yes
+The Collective Intelligence Project ,Non-profit & Philanthropy ,"Texas, USA",,Yes
+The Field Museum,Non-profit & Philanthropy ,"Chicago, IL, USA",,Yes
+The Marcy Lab School,Education,"New York, NY, USA",,Yes
+The University of Oxford,Education,"Oxford, United Kingdom",,Yes
+The University of Texas Medical Branch,Education,USA,,Yes
+The/Nudge Foundation,Finance & Venture Capital,India,,Yes
+Thiel Fellowship,Finance & Venture Capital,USA,,Yes
+Thomson Reuters,Media & Entertainment,Canada,,Yes
+Thordrive,Tech,"Cincinnati, OH, USA",,Yes
+Thumos Care,Healthcare & Pharmaceuticals,USA,,Yes
+Tier IV,Tech,Japan,,Yes
+Tiger Global Management,Finance & Venture Capital,USA,,Yes
+TIME Magazine,Media & Entertainment,"New York, NY, USA",,Yes
+Tomales Bay Capital,Finance & Venture Capital,USA,,Yes
+Tone AI,Tech,"Palo Alto, CA, USA",,Yes
+Toshiba,Retail & Consumer Goods,Japan,,Yes
+Toss Investment,Finance & Venture Capital,South Korea,,Yes
+Toyota,Manufacturing & Agriculture,Japan,,Yes
+Travel and Leisure Co.,Other,USA,,Yes
+Travelport,Tech,United Kingdom,,Yes
+Travis May,Finance & Venture Capital,USA,,Yes
+Trax,Tech,"Boston, MA, USA",,Yes
+Trello,Tech,"New York, NY, USA",,Yes
+Tribe Dynamics,Tech,"San Francisco, CA, USA",,Yes
+TripAdvisor,Tech,USA,,Yes
+Trivago,Tech,Germany,,Yes
+Truvian,Healthcare & Pharmaceuticals,"San Diego, CA, USA",,Yes
+Turku Energia,Other,Finland,,Yes
+Turner Door,Retail & Consumer Goods,"Ilinois, USA",,Yes
+Turvatalo,Tech,Finland,,Yes
+Twelve Labs,Tech,"San Francisco, CA, USA",,Yes
+Twiggle,Tech,Israel,,Yes
+Typeface,Tech,"San Francisco, CA, USA",,Yes
+Ubisoft,Media & Entertainment,France,,Yes
+Ujjivan,Finance & Venture Capital,India,,Yes
+Ulteig,Real Estate & Construction,"Fargo, ND, USA",,Yes
+Unbotify,Tech,Israel,,Yes
+Union Square Ventures,Finance & Venture Capital,USA,,Yes
+UnionBank of the Philippines,Finance & Venture Capital,Philippines,,Yes
+Universal Robots,Tech,USA,,Yes
+University Hospital Basel (TotalSegmentator),Education,"Basel, Switzerland",,Yes
+"University of California, San Francisco",Education,"San Francisco, CA, USA",,Yes
+University of Missouri - St. Louis,Education,"St. Louis, MO, USA",,Yes
+University of Southern California,Education,"California, USA",,Yes
+University of Washington,Education,"Washington, USA",,Yes
+University of Wisconsin-Madison,Education,"Madison, WI, USA",,Yes
+University of Zurich,Education,"Zurich, Switzerland",,Yes
+Upekkha,Finance & Venture Capital,India,,Yes
+Uphonest Capital,Finance & Venture Capital,USA,,Yes
+Upsource by Solutions,Other,Saudi Arabia,,Yes
+Upstage,Tech,South Korea,,Yes
+US Department of Defense,Government,USA,,Yes
+USG,Manufacturing & Agriculture,USA,,Yes
+Vantor (formerly Maxar Intelligence),Tech,USA,,Yes
+Vapi,Tech,"San Francisco, CA, USA",,Yes
+Väriset,Real Estate & Construction,Finland,,Yes
+Velsera,Tech,India,,Yes
+Venbrook,Insurance,USA,,Yes
+Venture Field,Finance & Venture Capital,USA,,Yes
+Verily,Tech,USA,,Yes
+Verizon,Other,USA,,Yes
+Vevo,Tech,USA,,Yes
+Vicomtech,Tech,Spain,,Yes
+Viewmagine,Tech,South Korea,,Yes
+Vieworks,Tech,USA,,Yes
+VillageMD,Healthcare & Pharmaceuticals,USA,,Yes
+Vimaan,Tech,USA,,Yes
+Virtue AI,Tech,"San Francisco, CA, USA",,Yes
+VirtuSense,Tech,USA,,Yes
+Visa,Finance & Venture Capital,USA,,Yes
+Vivek Ranadivé,Finance & Venture Capital,USA,,Yes
+VM Financial Services,Finance & Venture Capital,USA,,Yes
+Volastra,Healthcare & Pharmaceuticals,"New York, USA",,Yes
+Volkswagen,Manufacturing & Agriculture,Germany,,Yes
+Volvo,Manufacturing & Agriculture,Sweden,,Yes
+Vonova,Healthcare & Pharmaceuticals,USA,,Yes
+Voximetry Partners,Tech,USA,,Yes
+Voyage81,Tech,Israel,,Yes
+Vuno,Tech,South Korea,,Yes
+Vy Capital,Finance & Venture Capital,UAE,,Yes
+Wadhwani Institute,Non-profit & Philanthropy ,India,,Yes
+Wahtari,Tech,Germany,,Yes
+Wallenius Wilhelmsen,Transportation & Logistics,Norway,,Yes
+WCM,Finance & Venture Capital,USA,,Yes
+Webster University,Education,USA,,Yes
+Waypoint Transit,Tech,"San Francisco, CA, USA",,Yes
+Waze,Tech,Israel,,Yes
+Weaviate,Tech,Netherlands,,Yes
+WestBridge Capital,Finance & Venture Capital,USA,,Yes
+WebAppClouds,Tech,"New Jersey, USA",,Yes
+Wefi,Tech,USA,,Yes
+WellBe Senior Medical,Healthcare & Pharmaceuticals,"Chicago, IL, USA",,Yes
+William Gaviria Rojas ,Finance & Venture Capital,USA,,Yes
+Wellth,Healthcare & Pharmaceuticals,USA,,Yes
+Western Digital,Tech,USA,,Yes
+Whiteboard,Other,USA,,Yes
+Wikipedia,Non-profit & Philanthropy ,USA,,Yes
+Windō,Tech,United Kingdom,,Yes
+Wizard,Tech,USA,,Yes
+Workable,Tech,USA,,Yes
+Workboard AI,Tech,USA,,Yes
+Yann LeCun,Finance & Venture Capital,USA,,Yes
+Workday,Tech,USA,,Yes
+World Bank,Non-profit & Philanthropy ,"Washington DC, USA",,Yes
+Worldwide Clinical Trials,Healthcare & Pharmaceuticals,USA,,Yes
+WRITER,Tech,"San Francisco, CA, USA",,Yes
+Yes Bank,Finance & Venture Capital,India,,Yes
+Yext,Tech,"New York, NY, USA",,Yes
+Zedge,Media & Entertainment,USA,,Yes
+Zeitview,Other,India,,Yes
+Zendesk,Tech,USA,,Yes
+Zenseact,Tech,Sweden,,Yes
+ZF,Manufacturing & Agriculture,Germany,,Yes
+Zipline ,Transportation & Logistics,USA,,Yes
+Handshake AI,Data Work Company,"San Francisco, California, USA",,Yes
+Centaur AI,Data Work Company,"Boston, MA, USA",,Yes
+Pareto AI,Data Work Company,"Stanford, CA, USA",,Yes
+TrustScale,Data Work Company,"Los Altos, CA, USA",,Yes
+Startek,Data Work Company,"Denver, Colorado, USA",,Yes
+Quadrant Technologies,Data Work Company,"Redmond, Washington, USA",,Yes
+iSoftStone,Data Work Company,"Bellevue, Washington, USA",,Yes
+ScaleHub,Data Work Company,"Norderstedt, Schleswig-Holstein, Germany",,Yes
+Mettamatch,Data Work Company,"Manila, the Philippines ",,Yes
+Deepen AI,Data Work Company,"Santa Clara, California, USA",,Yes
+SmartOne.AI,Data Work Company,"Montréal, Quebec, Canada",,Yes
+Netramark,Data Work Company,"Toronto, Ontario, Canada",,Yes
+Tasq.ai,Data Work Company,"Tel Aviv-yafo, Tel Aviv, Israel",,Yes
+Haidata,Data Work Company,"Tamilnadu and Karnataka, India",,Yes
+Micro1,Data Work Company,"Palo Alto, California, USA",,Yes
+CipherSense AI,Data Work Company,"Lagos, Nigeria",,Yes
+VeritaAI,Data Work Company,"San Francisco, CA, USA",,Yes
+Stellar,Data Work Company,"Indianapolis, Indiana, USA",,Yes
+Revelo,Data Work Company,"Miami, Florida, USA",,Yes
+Deccan AI,Data Work Company,"San Francisco, California, USA",,Yes
+Hume AI,Data Work Company,"New York, New York, USA",,Yes
+David AI Labs Inc,Data Work Company,"San Francisco, California, USA",,Yes
+Infosearch BPO,Data Work Company,"Chennai, Tamil Nadu, India",,Yes
+DatologyAI,Data Work Company,"Redwood City, California, USA",,Yes
+Flywheel.io,Data Work Company,"Minneapolis, Minnesota, USA",,Yes
+Roboflow,Data Work Company,"Remote, Oregon, USA",,Yes
+Unstructured,Data Work Company,"Rocklin, California, USA",,Yes
+Anolytics,Data Work Company,"Levittown, NY, USA",,Yes
+Centific,Data Work Company,"Seattle, WA, USA",,Yes
+DataPure,Data Work Company,"San Mateo, CA, USA",,Yes
+Hugo Inc,Data Work Company,"Chicago, IL, USA",,Yes
+IndikaAI,Data Work Company,"Delhi, India",,Yes
+Keymakr,Data Work Company,Israel,,Yes
+LXT AI,Data Work Company,"Ontario, Canada",,Yes
+M47,Data Work Company,"Bacelona and Madrid, Spain",,Yes
+RWS,Data Work Company,United Kingdom,,Yes
+Supervisely,Data Work Company,"Tallinn, Estonia",,Yes
+Label Your Data,Data Work Company,"Wilmington, Delaware, USA",,Yes
+Sapien AI,Data Work Company,"San Francisco, California, USA",,Yes
+Infosys BPM,Data Work Company,"Bengaluru, India",,Yes
+Conectys,Data Work Company,"Bucharest, Romania",,Yes
+ZKW,Retail & Consumer Goods,Austria,,Yes
+Zoox,Manufacturing & Agriculture,USA,,Yes
+Mistral,Tech,France,,Yes
+Lenovo,Tech,Hong Kong,,Yes
+Podchaser,Tech,USA,,Yes
+Bossa Nova Robotics ,Tech,USA,,Yes
+Gifthealth,Healthcare & Pharmaceuticals,USA,,Yes
+Attentive,Tech,USA,,Yes
+Faire,Retail & Consumer Goods,USA,,Yes
+Outschool,Education,USA,,Yes
+Topicals,Retail & Consumer Goods,USA,,Yes
+Consensys,Finance & Venture Capital,USA,,Yes
+Sakara,Retail & Consumer Goods,USA,,Yes
+Nasscom,Non-profit & Philanthropy ,India,,Yes
+Indian Oil,Other,India,,Yes
+Skit.ai,Tech,"New York, New York, USA",,Yes
+Ola,Tech,India,,Yes
+Pidilite,Manufacturing & Agriculture,India,,Yes
+Hexagon,Tech,Sweden,,Yes
+Accern AI,Tech,USA,,Yes
+Clearbot,Tech,China,,Yes
+Delhi Integrated Multi-Modal Transit System Limited,Transportation & Logistics,India,,Yes
+SeeChange,Tech,United Kingdom,,Yes
+Evinced,Tech,"Palo Alto, CA, USA",,Yes
+Cognex,Tech,USA,,Yes
+Bluewhite,Tech,Israel,,Yes
+SoundAware,Tech,Netherlands,,Yes
+AgwaFarm,Manufacturing & Agriculture,USA,,Yes
+RSIP Vision,Healthcare & Pharmaceuticals,Israel,,Yes
+Cipia,Tech,Israel,,Yes
+V7,Tech,United Kingdom,,Yes
+AMD,Manufacturing & Agriculture,USA,,Yes
+Quality Match,Tech,Germany,,Yes
+Tenyks,Tech,United Kingdom,,Yes
+Logitech,Retail & Consumer Goods,Switzerland,,Yes
+Recycleye,Tech,United Kingdom,,Yes
+viisights,Tech,Israel,,Yes
+Jabra,Retail & Consumer Goods,Denmark,,Yes
+Zeekit,Retail & Consumer Goods,USA,,Yes
+Cerence,Tech,USA,,Yes
+Clobotics,Other,"Bellevue, WA, USA",,Yes
+Dubber,Tech,Australia,,Yes
+Foundever,Tech,USA,,Yes
+Coca Cola,Retail & Consumer Goods,USA,,Yes
+Danone,Retail & Consumer Goods,France,,Yes
+Deliveroo,Tech,United Kingdom,,Yes
+Skillsoft,Tech,USA,,Yes
+Allianz,Insurance,Germany,,Yes
+M+C Saatchi Group,Media & Entertainment,United Kingdom,,Yes
+Panasonic,Retail & Consumer Goods,Japan,,Yes
+Radisson Hotels,Real Estate & Construction,Belgium,,Yes
+DHL,Transportation & Logistics,Germany,,Yes
+HP ,Tech,USA,,Yes
+KONE,Manufacturing & Agriculture,Finland,,Yes
+Live Nation,Media & Entertainment,USA,,Yes
+PTT,Other,Thailand,,Yes
+Bentley,Tech,USA,,Yes
+Engie,Other,France,,Yes
+OBB,Transportation & Logistics,Austria,,Yes
+Thornton Tomasetti,Real Estate & Construction,USA,,Yes
+CNH Industrial,Manufacturing & Agriculture,USA,,Yes
+Vanderlande,Transportation & Logistics,Netherlands,,Yes
+W&H,Manufacturing & Agriculture,USA,,Yes
+Surgar,Tech,France,,Yes
+Eeve,Tech,USA,,Yes
+HUK-COBURG,Insurance,Germany,,Yes
+Optix,Tech,Canada,,Yes
+Bitwise Agronomy,Manufacturing & Agriculture,Australia,,Yes
+Raven,Manufacturing & Agriculture,USA,,Yes
+Nobel Biocare,Healthcare & Pharmaceuticals,Switzerland,,Yes
+Exxact Robotics,Tech,France,,Yes
+Rijk Zwaan,Manufacturing & Agriculture,Netherlands,,Yes
+Caresyntax,Healthcare & Pharmaceuticals,Germany,,Yes
+Enriched Ag,Manufacturing & Agriculture,USA,,Yes
+Emotion3D,Tech,Austria,,Yes
+Labra AI,Tech,USA,,Yes
+Respeecher,Tech,Ukraine,,Yes
+Evolution AI,Tech,United Kingdom,,Yes
+Searidge Technologies,Other,Canada,,Yes
+Hypatos,Tech,Germany,,Yes
+Kikleo,Tech,France,,Yes
+Nexvision,Tech,France,,Yes
+Birch Hall Equity Partners,Finance & Venture Capital,Canada,,Yes
+ThreeV,Tech,USA,,Yes
+Thorvald,Tech,USA,,Yes
+Laplace Robotics,Tech,Canada,,Yes
+Princeton University,Education,"Princeton, NJ, USA",,Yes
+George Washington University,Education,"Washington DC, USA",,Yes
+Miami University,Education,"Miami, FL, USA",,Yes
+Zendar,Tech,USA,,Yes
+DeepWalk,Tech,USA,,Yes
+Toptal,Other,USA,,Yes
+Bizerba,Manufacturing & Agriculture,Germany,,Yes
+Boston University,Education,"Boston, MA, USA",,Yes
+Kaust,Education,Saudi Arabia,,Yes
+Rutgers University,Education,"New Jersey, USA",,Yes
+Technological University Dublin,Education,"Dublin, Ireland",,Yes
+Elefant Racing,Manufacturing & Agriculture,USA,,Yes
+Nodar,Tech,USA,,Yes
+Cooper Standard,Manufacturing & Agriculture,USA,,Yes
+Blink,Manufacturing & Agriculture,USA,,Yes
+Carlex,Manufacturing & Agriculture,USA,,Yes
+&pizza,Retail & Consumer Goods,USA,,Yes
+Odeko,Tech,USA,,Yes
+RESRG Automotive,Manufacturing & Agriculture,USA,,Yes
+Neo,Finance & Venture Capital,Canada,,Yes
+Bryan Baum,Finance & Venture Capital,USA,,Yes
+Russell Kaplan,Finance & Venture Capital,USA,,Yes
+Claire Hughes Johnson,Finance & Venture Capital,USA,,Yes
+Sabrina Hahn,Finance & Venture Capital,USA,,Yes
+Scott Belsky,Finance & Venture Capital,USA,,Yes
+Old National Bank,Finance & Venture Capital,USA,,Yes
+Calabrio,Tech,USA,,Yes
+Hubspot,Tech,USA,,Yes
+Checkstep,Tech,United Kingdom,,Yes
+Europe Direct,Government,European Union,,Yes
+Indian Institute of Technology,Education,India,,Yes
+Nabla,Healthcare & Pharmaceuticals,France,,Yes
+Databricks,Tech,USA,,Yes
+Nexdata,Tech,Singapore,,
+Eaglepoint AI,Tech,USA,,
+Covalen,Tech,Ireland,,
+Domino's,Other,USA,,
+Fox Sports,Media & Entertainment,USA,,
+Marriott International,Other,USA,,
+Manulife,Finance & Venture Capital,Canada,,
+Braze,Tech,USA,,
+Contentful,Tech,Germany,,
+Five9,Tech,USA,,
+Amplitude,Tech,USA,,
+Appian,Tech,USA,,
+BigCommerce,Retail & Consumer Goods,USA,,
+Branch,Tech,USA,,
+Broadcom,Tech,USA,,
+Cohesity,Tech,USA,,
+CommerceTools,Retail & Consumer Goods,Germany,,
+Contentstack,Tech,USA,,
+CyberArk,Tech,USA,,
+eGain,Tech,USA,,
+Fortinet,Tech,USA,,
+Morpheus AI,Tech,USA,,
+NetApp,Tech,USA,,
+Optimizely,Tech,USA,,
+Orca Security,Tech,USA,,
+PAR Technology,Tech,USA,,
+Rapid One,Tech,Israel,,
+ShiftMed,Healthcare & Pharmaceuticals,USA,,
+Sumsub,Tech,United Kingdom,,
+Talon.One,Tech,Germany,,
+USA,Tech,USA,,
+Tripwire,Tech,USA,,
+Verint,Tech,USA,,
+Uniform,Tech,USA,,
+WorkVivo,Tech,Ireland,,
+Aptiv,Tech,Switzerland,,
+DeepMotion,Tech,USA,,
+Cassava Technologies,Tech,United Kingdom,,
+Schaeffler Technologies,Transportation & Logistics,Germany,,

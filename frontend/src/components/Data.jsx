@@ -4,7 +4,7 @@
 import { useState, useEffect, useRef } from 'react';
 import DataTable from './DataTable_Simple';
 
-function DataComponent({ initialData, onDataChange }) {
+function DataComponent({ initialData, onDataChange, onFilteredRowCountChange}) {
   // Cache data in sessionStorage (persists until tab closes)
   const [cachedData, setCachedData] = useState(() => {
     const cached = sessionStorage.getItem('dataTableCache');
@@ -31,7 +31,7 @@ function DataComponent({ initialData, onDataChange }) {
     }
   }, [cachedData, onDataChange]);
 
-  return <DataTable data={cachedData} />;
+  return <DataTable data={cachedData} onFilteredRowCountChange={onFilteredRowCountChange} />;
 }
 
 export default DataComponent;

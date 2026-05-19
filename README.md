@@ -2,7 +2,12 @@
 
 # Data Work Landscape
 
-The Data Work Landscape is a project that aims to shine a light on the industry of AI data work. This site features our research into the main companies in this industry. To view the site, go to https://dataworklandscape.org.
+The Data Work Landscape is a project that aims to shine a light on the opaque industry of AI data work. Our tool features: 
+- A database of companies in the AI data work industry, categorized by product type and business model
+- An interactive data visualization showing customer, partner, supplier, and investor relationships
+- Profiles on key companies in the ecosystem, their business relationships, and media coverage
+
+To view the site, go to https://dataworklandscape.org.
 
 ## For Developers
 
@@ -53,7 +58,7 @@ app.add_middleware(
 
 ```jsx
 
-// frontend/Landscape.jsx
+// frontend/database.jsx
     fetch('http://localhost:8000/data') // for development
 ```
 

@@ -26,8 +26,8 @@ export default function Home() {
       All around the world, tech companies in the AI industry are powered by workers who develop, train, test, and maintain AI systems. But these workers are hidden away behind virtual marketplaces and labyrinthine supply chains. To highlight the workers who make AI possible, we must shine a light on this shadowy industry.
       </p>
       </section>
-      {/* Button to navigate to the landscape page */}
-      <Link to="/landscape">
+      {/* Button to navigate to the database page */}
+      <Link to="/database">
         <button className="btn-home">EXPLORE THE DATA</button>
       </Link>
       </section>   
