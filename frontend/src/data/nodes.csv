@@ -196,7 +196,7 @@ Foresight Ventures,Finance & Venture Capital,Singapore,,No
 Foss,Manufacturing & Agriculture,Denmark,,Yes
 Founders Fund,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
 Fractal,Data Work Company,"New York, NY, USA",,Yes
-Franklin Templeton,Finance & Venture Capital,"San Mateo, CA, USA",,No
+Franklin Templeton,Finance & Venture Capital,"San Mateo, CA, USA",,Yes
 FTV Capital,Finance & Venture Capital,"San Francisco, CA, USA",,Yes
 Gaingels,Finance & Venture Capital,"Burlington, VT, USA",,Yes
 GE Healthcare,Healthcare & Pharmaceuticals,"Chicago, IL, USA",,Yes
@@ -417,8 +417,8 @@ TaskUs,Data Work Company,"Texas, USA",,Yes
 Tech Mahindra,Data Work Company,"Schaumburg, IL, USA",,Yes
 Techstars,Finance & Venture Capital,"New York, NY, USA",,Yes
 Teleperformance,Data Work Company,"Paris, France",,Yes
-Telus Digital,Tech,"Vancouver, Canada",,No
-Temasek Holdings,Finance & Venture Capital,Singapore,,No
+Telus Digital,Tech,"Vancouver, Canada",,Yes
+Temasek Holdings,Finance & Venture Capital,Singapore,,Yes
 TenOneTen Ventures,Finance & Venture Capital,"Los Angeles, CA, USA",,Yes
 Thinscale,Tech,Ireland,,No
 Thrive Capital,Finance & Venture Capital,"New York, NY, USA",,Yes
@@ -428,7 +428,7 @@ Tredence,Data Work Company,"San Jose, CA, USA",,Yes
 Tribe Capital,Finance & Venture Capital,"Menlo Park, CA, USA",,Yes
 Trillbit,Data Work Company,"Boston, Massachusetts, USA",,Yes
 Turing,Data Work Company,"Palo Alto, California, USA",,Yes
-Twilio,Tech,USA,,No
+Twilio,Tech,USA,,Yes
 Twitch,Tech,USA,,No
 Twitter,Tech,USA,,No
 Uber,Tech,"San Francisco, CA, USA",,Yes
@@ -534,7 +534,7 @@ Anduril,Manufacturing & Agriculture,"Orange County, CA, USA",,Yes
 Aneesh Chopra,Finance & Venture Capital,USA,,Yes
 Anheuser-Busch,Retail & Consumer Goods,"St. Louis, MO, USA",,Yes
 Annalise.ai,Healthcare & Pharmaceuticals,"Syndey, Australia",,Yes
-Antler India,Finance & Venture Capital,India,,No
+Antler India,Finance & Venture Capital,India,,Yes
 AOS Data,Tech,"Tokyo, Japan",,Yes
 Applied Compute,Tech,"San Francisco, CA, USA",,Yes
 Arcee AI,Tech,"San Francisco, CA, USA",,Yes
@@ -577,7 +577,7 @@ Benchmark,Finance & Venture Capital,USA,,Yes
 Benchmark Capital Partners,Finance & Venture Capital,USA,,Yes
 Beringea,Finance & Venture Capital,USA,,Yes
 Bestseller Foundation,Finance & Venture Capital,Denmark,,Yes
-Bewater,Finance & Venture Capital,Spain,,No
+Bewater,Finance & Venture Capital,Spain,,Yes
 Bezos Expeditions,Finance & Venture Capital,USA,,Yes
 BFR Systems,Manufacturing & Agriculture,"Chicago, IL, USA",,Yes
 BHASHINI,Tech,"New Delhi, India",,Yes
@@ -797,7 +797,7 @@ Glynn Capital,Finance & Venture Capital,USA,,Yes
 Gokul Rajaram,Finance & Venture Capital,USA,,Yes
 Good Growth Capital,Finance & Venture Capital,USA,,Yes
 GoodData,Tech,"San Francisco, CA, USA",,Yes
-Google for Startups,Finance & Venture Capital,USA,,No
+Google for Startups,Finance & Venture Capital,USA,,Yes
 Government of Qatar,Government,Qatar,,Yes
 Government of the United Kingdom,Government,United Kingdom,,Yes
 Gradient Health,Healthcare & Pharmaceuticals,"Durham, NC, USA",,Yes
@@ -890,7 +890,7 @@ John Deere,Manufacturing & Agriculture,"Moline, IL, USA",,Yes
 John Smedley,Retail & Consumer Goods,United Kingdom,,Yes
 Johnson & Johnson,Healthcare & Pharmaceuticals,"New Jersey, USA",,Yes
 Jonathan Frankle,Finance & Venture Capital,USA,,Yes
-Joshua Browder,Finance & Venture Capital,USA,,No
+Joshua Browder,Finance & Venture Capital,USA,,Yes
 JSR Corporation,Finance & Venture Capital,Japan,,Yes
 Julkisivukonsultointi JK Oy,Other,Finland,,Yes
 Justin Kan,Finance & Venture Capital,USA,,Yes
@@ -901,8 +901,8 @@ Kevin Systrom,Finance & Venture Capital,USA,,Yes
 Key Investments,Finance & Venture Capital,USA,,Yes
 Khazanah Nasional Berhad,Finance & Venture Capital,Malaysia,,Yes
 KinaTrax,Tech,"Boca Raton, FL, USA",,Yes
-King's College London,Education,UK,,No
-Kingdom Holding Company,Finance & Venture Capital,Saudi Arabia,,No
+Kings College London,Education,UK,,Yes
+Kingdom Holding Company,Finance & Venture Capital,Saudi Arabia,,Yes
 Kitware,Tech,"Clifton Park, NY, USA",,Yes
 Kiveda,Retail & Consumer Goods,Germany,,Yes
 Knockri,Tech,"Toronto, Canada",,Yes
@@ -960,7 +960,7 @@ Mayo Clinic,Healthcare & Pharmaceuticals,"Rochester, MN, USA",,Yes
 Meritech,Finance & Venture Capital,USA,,Yes
 MGX,Finance & Venture Capital,UAE,,Yes
 McAfee,Tech,"San Jose, CA, USA",,Yes
-Mike Krieger,Finance & Venture Capital,USA,,No
+Mike Krieger,Finance & Venture Capital,USA,,Yes
 Mike Maples,Finance & Venture Capital,USA,,Yes
 Mikhail Parakhin,Finance & Venture Capital,USA,,Yes
 McDonald's Corporation,Retail & Consumer Goods,"Chicago, IL, USA",,Yes
@@ -1282,7 +1282,7 @@ Tata Motors,Manufacturing & Agriculture,India,,Yes
 Telespazio,Other,"Rome, Italy",,Yes
 Tencent,Tech,China,,Yes
 Tennis Point,Retail & Consumer Goods,Germany,,Yes
-teradata,Finance & Venture Capital,"San Diego, CA, USA",,Yes
+Teradata,Finance & Venture Capital,"San Diego, CA, USA",,Yes
 TERMEX,Real Estate & Construction,Latvia,,Yes
 Terumo,Healthcare & Pharmaceuticals,Japan,,Yes
 Tess Ventures,Finance & Venture Capital,USA,,Yes
@@ -1555,48 +1555,52 @@ Sabrina Hahn,Finance & Venture Capital,USA,,Yes
 Scott Belsky,Finance & Venture Capital,USA,,Yes
 Old National Bank,Finance & Venture Capital,USA,,Yes
 Calabrio,Tech,USA,,Yes
-Hubspot,Tech,USA,,Yes
+HubSpot,Tech,USA,,Yes
 Checkstep,Tech,United Kingdom,,Yes
 Europe Direct,Government,European Union,,Yes
 Indian Institute of Technology,Education,India,,Yes
 Nabla,Healthcare & Pharmaceuticals,France,,Yes
 Databricks,Tech,USA,,Yes
-Nexdata,Tech,Singapore,,
-Eaglepoint AI,Tech,USA,,
-Covalen,Tech,Ireland,,
-Domino's,Other,USA,,
-Fox Sports,Media & Entertainment,USA,,
-Marriott International,Other,USA,,
-Manulife,Finance & Venture Capital,Canada,,
-Braze,Tech,USA,,
-Contentful,Tech,Germany,,
-Five9,Tech,USA,,
-Amplitude,Tech,USA,,
-Appian,Tech,USA,,
-BigCommerce,Retail & Consumer Goods,USA,,
-Branch,Tech,USA,,
-Broadcom,Tech,USA,,
-Cohesity,Tech,USA,,
-CommerceTools,Retail & Consumer Goods,Germany,,
-Contentstack,Tech,USA,,
-CyberArk,Tech,USA,,
-eGain,Tech,USA,,
-Fortinet,Tech,USA,,
-Morpheus AI,Tech,USA,,
-NetApp,Tech,USA,,
-Optimizely,Tech,USA,,
-Orca Security,Tech,USA,,
-PAR Technology,Tech,USA,,
-Rapid One,Tech,Israel,,
-ShiftMed,Healthcare & Pharmaceuticals,USA,,
-Sumsub,Tech,United Kingdom,,
-Talon.One,Tech,Germany,,
-USA,Tech,USA,,
-Tripwire,Tech,USA,,
-Verint,Tech,USA,,
-Uniform,Tech,USA,,
-WorkVivo,Tech,Ireland,,
-Aptiv,Tech,Switzerland,,
-DeepMotion,Tech,USA,,
-Cassava Technologies,Tech,United Kingdom,,
-Schaeffler Technologies,Transportation & Logistics,Germany,,
+Nexdata,Tech,Singapore,,Yes
+Eaglepoint AI,Tech,USA,,Yes
+Covalen,Tech,Ireland,,Yes
+Domino's,Other,USA,,Yes
+Fox Sports,Media & Entertainment,USA,,Yes
+Marriott International,Other,USA,,Yes
+Manulife,Finance & Venture Capital,Canada,,Yes
+Braze,Tech,USA,,Yes
+Contentful,Tech,Germany,,Yes
+Five9,Tech,USA,,Yes
+Amplitude,Tech,USA,,Yes
+Appian,Tech,USA,,Yes
+BigCommerce,Retail & Consumer Goods,USA,,Yes
+Branch,Tech,USA,,Yes
+Broadcom,Tech,USA,,Yes
+Cohesity,Tech,USA,,Yes
+CommerceTools,Retail & Consumer Goods,Germany,,Yes
+Contentstack,Tech,USA,,Yes
+CyberArk,Tech,USA,,Yes
+eGain,Tech,USA,,Yes
+Fortinet,Tech,USA,,Yes
+Morpheus AI,Tech,USA,,Yes
+NetApp,Tech,USA,,Yes
+Optimizely,Tech,USA,,Yes
+Orca Security,Tech,USA,,Yes
+PAR Technology,Tech,USA,,Yes
+Rapid One,Tech,Israel,,Yes
+ShiftMed,Healthcare & Pharmaceuticals,USA,,Yes
+Sumsub,Tech,United Kingdom,,Yes
+Talon.One,Tech,Germany,,Yes
+USA,Tech,USA,,No
+Tripwire,Tech,USA,,Yes
+Verint,Tech,USA,,Yes
+Uniform,Tech,USA,,Yes
+WorkVivo,Tech,Ireland,,Yes
+Aptiv,Tech,Switzerland,,Yes
+DeepMotion,Tech,USA,,Yes
+Cassava Technologies,Tech,United Kingdom,,Yes
+Schaeffler Technologies,Transportation & Logistics,Germany,,Yes
+BlackSky,Tech,USA,,Yes
+AssemblyAI,Tech,USA,,Yes
+Tomato.ai,Tech,USA,,Yes
+Snorkel,Tech,USA,,Yes
