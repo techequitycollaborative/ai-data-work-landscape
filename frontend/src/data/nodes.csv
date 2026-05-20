@@ -1,5 +1,5 @@
 name,industry,location,notes,has legit relationship?
-Accenture,Other,"Chicago, IL, USA","Listed in companies tab as a data work company, but no relationships in relationships tab so do not include as data work company in graph",Yes
+Accenture,Data Work Company,"Chicago, IL, USA",,Yes
 NBC Universal,Media & Entertainment,"New York, NY, USA",Separate entity from NBC,Yes
 NBC,Media & Entertainment,"New York, NY, USA",Separate entity from NBC Universal,Yes
 BigCode,Tech,,Unknown location,No
