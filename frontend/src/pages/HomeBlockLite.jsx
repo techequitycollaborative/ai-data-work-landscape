@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <main className="bg-gradient-to-b from-[#f3fdb8] from-40% via-white to-[#f3fdb8]">
+    <main className="min-h-screen flex flex-col justify-center bg-gradient-to-b from-[#f3fdb8] from-40% via-white to-[#f3fdb8]">
 
       {/* HERO SECTION */}
       <section
