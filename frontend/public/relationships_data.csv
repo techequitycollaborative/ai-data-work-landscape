@@ -1,8 +1,8 @@
 source,target,relationship_type,relationship_source,relationship_source2,relationship_source3,created_at,last_updated
 Appen,Adobe,Customer,https://cdn.prod.website-files.com/656a605609413dfd3feb9d34/699fbc072974a573b2b7a48c_Appen%20Annual%20Report%202025.pdf,https://www.cnbc.com/2023/09/06/appen-which-helps-amazon-and-google-train-ai-is-reeling.html,,5/20/2026,7/21/2026
-Appen,Amazon,Customer,https://www.businessinsider.com/scale-ai-meta-big-tech-rivals-poach-contractors-clients-2025-6,https://cdn.prod.website-files.com/656a605609413dfd3feb9d34/699fbc072974a573b2b7a48c_Appen%20Annual%20Report%202025.pdf,https://www.cnbc.com/2023/09/06/appen-which-helps-amazon-and-google-train-ai-is-reeling.html,5/20/2026,7/20/2026
-Appen,Clear Global,Customer,https://www.appen.com/press-release/appen-partners-with-clear-global-for-first-of-its-kind-translation-project,,,5/20/2026,6/16/2026
-Appen,Meta,Customer,https://pulitzercenter.org/stories/platform-proletariat,https://www.cnbc.com/2023/09/06/appen-which-helps-amazon-and-google-train-ai-is-reeling.html,https://www.theguardian.com/australia-news/2024/oct/25/contractors-training-amazon-meta-and-microsofts-ai-systems-left-without-pay-after-appen-moves-to-new-platform,5/20/2026,6/16/2026
+Appen,Amazon,Customer,https://www.businessinsider.com/scale-ai-meta-big-tech-rivals-poach-contractors-clients-2025-6,https://cdn.prod.website-files.com/656a605609413dfd3feb9d34/699fbc072974a573b2b7a48c_Appen%20Annual%20Report%202025.pdf,https://www.cnbc.com/2023/09/06/appen-which-helps-amazon-and-google-train-ai-is-reeling.html,5/20/2026,7/21/2026
+Appen,Clear Global,Customer,https://www.appen.com/press-release/appen-partners-with-clear-global-for-first-of-its-kind-translation-project,,,5/20/2026,7/21/2026
+Appen,Meta,Customer,https://pulitzercenter.org/stories/platform-proletariat,https://www.cnbc.com/2023/09/06/appen-which-helps-amazon-and-google-train-ai-is-reeling.html,https://www.theguardian.com/australia-news/2024/oct/25/contractors-training-amazon-meta-and-microsofts-ai-systems-left-without-pay-after-appen-moves-to-new-platform,5/20/2026,7/21/2026
 Appen,Microsoft,Customer,https://pulitzercenter.org/stories/platform-proletariat,https://cdn.prod.website-files.com/656a605609413dfd3feb9d34/699fbc072974a573b2b7a48c_Appen%20Annual%20Report%202025.pdf, https://www.cnbc.com/2023/09/06/appen-which-helps-amazon-and-google-train-ai-is-reeling.html,5/20/2026,
 Appen,Salesforce,Customer,https://cdn.prod.website-files.com/656a605609413dfd3feb9d34/699fbc072974a573b2b7a48c_Appen%20Annual%20Report%202025.pdf,,,5/20/2026,
 Appen,NVIDIA,Customer,https://www.businessinsider.com/scale-ai-meta-big-tech-rivals-poach-contractors-clients-2025-6,https://pulitzercenter.org/stories/platform-proletariat,https://www.cnbc.com/2023/09/06/appen-which-helps-amazon-and-google-train-ai-is-reeling.html,5/20/2026,
@@ -1965,7 +1965,7 @@ Accenture,SAP,Partner,https://www.accenture.com/us-en/services/data-ai,,,5/20/20
 Accenture,ServiceNow,Partner,https://www.accenture.com/us-en/services/data-ai,,,5/20/2026,
 Accenture,Snowflake,Partner,https://www.accenture.com/us-en/services/data-ai,,,5/20/2026,
 Accenture,Teradata,Partner,https://www.accenture.com/us-en/services/data-ai,,,5/20/2026,
-Uber AI Solutions,Aurora,Customer,https://www.bloomberg.com/news/articles/2026-07-01/uber-shakes-up-ai-data-labeling-business-dismissing-top-leaders,https://www.uber.com/us/en/ai-solutions/,,,7/6/2026
+Uber AI Solutions,Aurora,Customer,https://www.bloomberg.com/news/articles/2026-07-01/uber-shakes-up-ai-data-labeling-business-dismissing-top-leaders,https://www.uber.com/us/en/ai-solutions/,,,7/21/2026
 Uber AI Solutions,Niantic,Customer,https://www.bloomberg.com/news/articles/2026-07-01/uber-shakes-up-ai-data-labeling-business-dismissing-top-leaders,https://www.uber.com/us/en/ai-solutions/,,,7/6/2026
 Uber AI Solutions,wamo,Customer,https://www.uber.com/us/en/ai-solutions/,,,,7/6/2026
 Uber AI Solutions,Luma AI,Customer,https://www.uber.com/us/en/ai-solutions/,,,,7/6/2026
@@ -1975,5 +1975,6 @@ Uber AI Solutions,Genmo,Customer,https://www.uber.com/us/en/ai-solutions/,,,,7/6
 Uber AI Solutions,Voxel,Customer,https://www.uber.com/us/en/ai-solutions/,,,,7/6/2026
 Uber AI Solutions,Tier IV,Customer,https://www.uber.com/us/en/ai-solutions/,,,,7/6/2026
 Uber AI Solutions,Alphabet,Customer,https://www.bloomberg.com/news/articles/2026-07-01/uber-shakes-up-ai-data-labeling-business-dismissing-top-leaders,,,,7/6/2026
-,,,,,,,7/20/2026
-,,,,,,,7/20/2026
+,,,,,,,7/21/2026
+,,,,,,,7/21/2026
+,,,,,,,7/21/2026
