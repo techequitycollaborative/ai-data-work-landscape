@@ -1,5 +1,5 @@
 name,industry,location,notes,has legit relationship?,created_at,last_updated
-&pizza,Retail & Consumer Goods,USA,,Yes,5/20/2026,
+&pizza,Retail & Consumer Goods,USA,,Yes,5/20/2026,7/21/2026
 01 Advisors,Finance & Venture Capital,"San Francisco, CA, USA",,Yes,5/20/2026,
 1Password,Tech,"Toronto, Canada",,Yes,5/20/2026,
 2.12 Angels,Finance & Venture Capital,USA,,Yes,5/20/2026,
@@ -1453,7 +1453,8 @@ Twitch,Tech,USA,,No,5/20/2026,
 Twitter,Tech,USA,,No,5/20/2026,
 Typeface,Tech,"San Francisco, CA, USA",,Yes,5/20/2026,
 Uber,Tech,"San Francisco, CA, USA",,Yes,5/20/2026,
-Ubisoft,Media & Entertainment,France,,Yes,5/20/2026,
+Uber AI Solutions,Data Work Company,"San Francisco, CA, USA",,Yes,,7/21/2026
+Ubisoft,Media & Entertainment,France,,Yes,5/20/2026,7/21/2026
 UiPath,Tech,USA,,Yes,5/20/2026,
 Ujjivan,Finance & Venture Capital,India,,Yes,5/20/2026,
 Ulteig,Real Estate & Construction,"Fargo, ND, USA",,Yes,5/20/2026,

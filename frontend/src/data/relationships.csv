@@ -1,5 +1,5 @@
 source,target,relationship_type,relationship_source,relationship_source2,relationship_source3,screenshot,relationship_notes,from student report or DWL?,needs verification?,verification done?,verification done by?,Is target in the  nodes tab? (danya only),is source in the nodes tab?  (danya only),Include in graphs on microsite?,legit relationship?,target company not found?,created_at,last_updated
-Appen,Adobe,Customer,https://cdn.prod.website-files.com/656a605609413dfd3feb9d34/699fbc072974a573b2b7a48c_Appen%20Annual%20Report%202025.pdf,https://www.cnbc.com/2023/09/06/appen-which-helps-amazon-and-google-train-ai-is-reeling.html,,,,student report,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,7/20/2026
+Appen,Adobe,Customer,https://cdn.prod.website-files.com/656a605609413dfd3feb9d34/699fbc072974a573b2b7a48c_Appen%20Annual%20Report%202025.pdf,https://www.cnbc.com/2023/09/06/appen-which-helps-amazon-and-google-train-ai-is-reeling.html,,,,student report,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,7/21/2026
 Appen,Amazon,Customer,https://www.businessinsider.com/scale-ai-meta-big-tech-rivals-poach-contractors-clients-2025-6,https://cdn.prod.website-files.com/656a605609413dfd3feb9d34/699fbc072974a573b2b7a48c_Appen%20Annual%20Report%202025.pdf,https://www.cnbc.com/2023/09/06/appen-which-helps-amazon-and-google-train-ai-is-reeling.html,,,student report,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,7/20/2026
 Appen,Clear Global,Customer,https://www.appen.com/press-release/appen-partners-with-clear-global-for-first-of-its-kind-translation-project,,,,,student report,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,6/16/2026
 Appen,Meta,Customer,https://pulitzercenter.org/stories/platform-proletariat,https://www.cnbc.com/2023/09/06/appen-which-helps-amazon-and-google-train-ai-is-reeling.html,https://www.theguardian.com/australia-news/2024/oct/25/contractors-training-amazon-meta-and-microsofts-ai-systems-left-without-pay-after-appen-moves-to-new-platform,,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,6/16/2026
@@ -462,34 +462,34 @@ Databricks,BlackRock,Investor,Crunchbase,,,,,DWL,Yes,,,No,No,Yes,Yes,,5/20/2026,
 Databricks,Franklin Templeton,Investor,Crunchbase,,,,,DWL,Yes,,,No,No,Yes,Yes,,5/20/2026,
 Databricks,NVIDIA,Investor,Crunchbase,,,,,DWL,Yes,,,No,No,Yes,Yes,,5/20/2026,
 Databricks,Temasek Holdings,Investor,Crunchbase,,,,,DWL,Yes,,,No,No,Yes,Yes,,5/20/2026,
-Dataloop,Alpha Wave Global,Investor,https://www.ngpcap.com/insights/dataloop-secures-33-million-to-enable-companies-to-build-data-engines-for-ai,,,,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,Amazon,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1nIPQFfOIRbAf168_bgzVhwlskmBTuLif/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,Amiti Ventures,Investor,https://www.ngpcap.com/insights/dataloop-secures-33-million-to-enable-companies-to-build-data-engines-for-ai,,,,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,Asensus Surgical,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1nIPQFfOIRbAf168_bgzVhwlskmBTuLif/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,Brunswick,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1-PqBBBHHGtHxcP4_ZuD5hbe1rDCAoqck/view?usp=sharing,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,CloudFactory,Partner,https://www.cloudfactory.com/blog/launches-new-solutions-and-partnerships-to-accelerate-ai-innovation,,,,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,F2 Venture Capital,Investor,https://www.ngpcap.com/insights/dataloop-secures-33-million-to-enable-companies-to-build-data-engines-for-ai,,,,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,Ford,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1nIPQFfOIRbAf168_bgzVhwlskmBTuLif/view?usp=sharing,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,Fyusion,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1-PqBBBHHGtHxcP4_ZuD5hbe1rDCAoqck/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,Getty Images,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1y67x5rvMCdKTUwB7_55bpEn9TUHm97dA/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,Google,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1-PqBBBHHGtHxcP4_ZuD5hbe1rDCAoqck/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,Helm.ai,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1nIPQFfOIRbAf168_bgzVhwlskmBTuLif/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,IBM,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1nIPQFfOIRbAf168_bgzVhwlskmBTuLif/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,Lenovo Capital and Incubator Group (LCIG),Unclear,Crunchbase,,,,,DWL,No,Yes,Tim,No,No,No,No,,5/20/2026,
-Dataloop,Microsoft,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1nIPQFfOIRbAf168_bgzVhwlskmBTuLif/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,NGP Capital,Investor,https://www.ngpcap.com/insights/dataloop-secures-33-million-to-enable-companies-to-build-data-engines-for-ai,,,,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,Noimos,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1y67x5rvMCdKTUwB7_55bpEn9TUHm97dA/view?usp=sharing,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,NVIDIA,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1zbeehS1TAtlnp8DKjXb5wIz6RDZFp5-m/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,OdySight,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1y67x5rvMCdKTUwB7_55bpEn9TUHm97dA/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,Orpak,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1y67x5rvMCdKTUwB7_55bpEn9TUHm97dA/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,Pixellot,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1y67x5rvMCdKTUwB7_55bpEn9TUHm97dA/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,See Tree,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1nIPQFfOIRbAf168_bgzVhwlskmBTuLif/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,Semalytix,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1zbeehS1TAtlnp8DKjXb5wIz6RDZFp5-m/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,Syngenta,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1zbeehS1TAtlnp8DKjXb5wIz6RDZFp5-m/view?usp=sharing,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,Taranis,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1y67x5rvMCdKTUwB7_55bpEn9TUHm97dA/view?usp=sharing,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,Tech Mahindra,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1zbeehS1TAtlnp8DKjXb5wIz6RDZFp5-m/view?usp=sharing,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,UV EYE,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1nIPQFfOIRbAf168_bgzVhwlskmBTuLif/view?usp=sharing,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-Dataloop,Vimeo,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1zbeehS1TAtlnp8DKjXb5wIz6RDZFp5-m/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,Alpha Wave Global,Investor,https://www.ngpcap.com/insights/dataloop-secures-33-million-to-enable-companies-to-build-data-engines-for-ai,,,,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,Amazon,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1nIPQFfOIRbAf168_bgzVhwlskmBTuLif/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,Amiti Ventures,Investor,https://www.ngpcap.com/insights/dataloop-secures-33-million-to-enable-companies-to-build-data-engines-for-ai,,,,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,Asensus Surgical,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1nIPQFfOIRbAf168_bgzVhwlskmBTuLif/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,Brunswick,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1-PqBBBHHGtHxcP4_ZuD5hbe1rDCAoqck/view?usp=sharing,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,CloudFactory,Partner,https://www.cloudfactory.com/blog/launches-new-solutions-and-partnerships-to-accelerate-ai-innovation,,,,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,F2 Venture Capital,Investor,https://www.ngpcap.com/insights/dataloop-secures-33-million-to-enable-companies-to-build-data-engines-for-ai,,,,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,Ford,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1nIPQFfOIRbAf168_bgzVhwlskmBTuLif/view?usp=sharing,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,Fyusion,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1-PqBBBHHGtHxcP4_ZuD5hbe1rDCAoqck/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,Getty Images,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1y67x5rvMCdKTUwB7_55bpEn9TUHm97dA/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,Google,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1-PqBBBHHGtHxcP4_ZuD5hbe1rDCAoqck/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,Helm.ai,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1nIPQFfOIRbAf168_bgzVhwlskmBTuLif/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,IBM,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1nIPQFfOIRbAf168_bgzVhwlskmBTuLif/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,Lenovo Capital and Incubator Group (LCIG),Unclear,Crunchbase,,,,,DWL,No,Yes,Tim,No,No,No,No,,5/20/2026,
+DataLoop,Microsoft,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1nIPQFfOIRbAf168_bgzVhwlskmBTuLif/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,NGP Capital,Investor,https://www.ngpcap.com/insights/dataloop-secures-33-million-to-enable-companies-to-build-data-engines-for-ai,,,,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,Noimos,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1y67x5rvMCdKTUwB7_55bpEn9TUHm97dA/view?usp=sharing,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,NVIDIA,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1zbeehS1TAtlnp8DKjXb5wIz6RDZFp5-m/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,OdySight,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1y67x5rvMCdKTUwB7_55bpEn9TUHm97dA/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,Orpak,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1y67x5rvMCdKTUwB7_55bpEn9TUHm97dA/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,Pixellot,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1y67x5rvMCdKTUwB7_55bpEn9TUHm97dA/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,See Tree,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1nIPQFfOIRbAf168_bgzVhwlskmBTuLif/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,Semalytix,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1zbeehS1TAtlnp8DKjXb5wIz6RDZFp5-m/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,Syngenta,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1zbeehS1TAtlnp8DKjXb5wIz6RDZFp5-m/view?usp=sharing,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,Taranis,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1y67x5rvMCdKTUwB7_55bpEn9TUHm97dA/view?usp=sharing,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,Tech Mahindra,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1zbeehS1TAtlnp8DKjXb5wIz6RDZFp5-m/view?usp=sharing,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,UV EYE,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1nIPQFfOIRbAf168_bgzVhwlskmBTuLif/view?usp=sharing,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
+DataLoop,Vimeo,Customer,https://dataloop.ai/platform/human-feedback/,,,https://drive.google.com/file/d/1zbeehS1TAtlnp8DKjXb5wIz6RDZFp5-m/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
 Datasaur Inc.,Amazon Web Services,Partner,https://aws.amazon.com/marketplace/pp/prodview-nn6h4t7znveae,,,,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
 Datasaur Inc.,Adobe,Customer,https://datasaur.ai/,,,https://drive.google.com/file/d/14mWj922FnuKLywIdEGTu9dTlugAI_C4S/view?usp=sharing,,DWL,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
 Datasaur Inc.,Calvin French-Owen,Investor,https://www.prnewswire.com/news-releases/datasaur-secures-4m-and-unveils-new-feature-dinamic-to-train-custom-natural-language-processing-models-301892086.html,,,,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
@@ -715,7 +715,7 @@ IngeData,IBAU,Customer,https://www.ingedata.ai/about-us,,,https://drive.google.c
 IngeData,Lightsource Research,Customer,https://www.ingedata.ai/case-studies/advancing-early-heart-attack-detection-through-plaque-activity-analysis,,,,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
 IngeData,Median Technologies,Customer,https://www.ingedata.ai/about-us,https://www.ingedata.ai/case-studies/achieving-97-precision-in-diagnosing-lung-cancer-at-every-stage,,https://drive.google.com/file/d/1053pmLF3Gvajfk2gGuV8sJL52ZBh9azx/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
 IngeData,Milvue,Customer,https://www.ingedata.ai/about-us,,,https://drive.google.com/file/d/1djQJlm5jNslpoi2NeQxV0ViQCIE1I38_/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
-IngeData,Miroa,Could not verify any relationship,https://www.ingedata.ai/,,,,,DWL,No,Yes,Tim,No,No,No,No,,5/20/2026,
+IngeData,Miroa,Could not verify any relationship,https://www.ingedata.ai/,,,,,DWL,No,Yes,Tim,No,No,No,No,,5/20/2026,7/21/2026
 IngeData,namR,Customer,https://www.ingedata.ai/about-us,,,https://drive.google.com/file/d/1djQJlm5jNslpoi2NeQxV0ViQCIE1I38_/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
 IngeData,ONET Technologies,Customer,https://www.ingedata.ai/about-us,,,https://drive.google.com/file/d/1djQJlm5jNslpoi2NeQxV0ViQCIE1I38_/view?usp=sharing,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
 IngeData,Pellenc ST,Customer,https://www.ingedata.ai/case-studies/classifying-20-material-types-to-improve-optical-waste-sorting,,,,,,No,Yes,Tim,No,No,Yes,Yes,,5/20/2026,
@@ -2043,15 +2043,15 @@ Accenture,SAP,Partner,https://www.accenture.com/us-en/services/data-ai,,,https:/
 Accenture,ServiceNow,Partner,https://www.accenture.com/us-en/services/data-ai,,,https://drive.google.com/file/d/1B7D7ESzGJpHXCWAlPKJ7hPDYuhCwL2fd/view?usp=drive_link,,,No,Yes,Swati,No,No,Yes,Yes,,5/20/2026,
 Accenture,Snowflake,Partner,https://www.accenture.com/us-en/services/data-ai,,,https://drive.google.com/file/d/1B7D7ESzGJpHXCWAlPKJ7hPDYuhCwL2fd/view?usp=drive_link,,,No,Yes,Swati,No,No,Yes,Yes,,5/20/2026,
 Accenture,Teradata,Partner,https://www.accenture.com/us-en/services/data-ai,,,https://drive.google.com/file/d/1B7D7ESzGJpHXCWAlPKJ7hPDYuhCwL2fd/view?usp=drive_link,,,No,Yes,Swati,No,No,Yes,Yes,,5/20/2026,
-Uber,Aurora,Customer,https://www.bloomberg.com/news/articles/2026-07-01/uber-shakes-up-ai-data-labeling-business-dismissing-top-leaders,https://www.uber.com/us/en/ai-solutions/,,https://drive.google.com/file/d/1x8goeo7tTm7XaZOnUIEZ-oK1_XASCweE/view?usp=sharing,,,,,,,,,,,,7/6/2026
-Uber,Niantic,Customer,https://www.bloomberg.com/news/articles/2026-07-01/uber-shakes-up-ai-data-labeling-business-dismissing-top-leaders,https://www.uber.com/us/en/ai-solutions/,,https://drive.google.com/file/d/1x8goeo7tTm7XaZOnUIEZ-oK1_XASCweE/view?usp=sharing,,,,,,,,,,,,7/6/2026
-Uber,wamo,Customer,https://www.uber.com/us/en/ai-solutions/,,,https://drive.google.com/file/d/1x8goeo7tTm7XaZOnUIEZ-oK1_XASCweE/view?usp=sharing,,,,,,,,,,,,7/6/2026
-Uber,Luma AI,Customer,https://www.uber.com/us/en/ai-solutions/,,,https://drive.google.com/file/d/1jVfHOrHdyad-Hs3Q6Pv8xXatn6rrsRaE/view?usp=sharing,,,,,,,,,,,,7/6/2026
-Uber,Fryd,Customer,https://www.uber.com/us/en/ai-solutions/,,,https://drive.google.com/file/d/1jVfHOrHdyad-Hs3Q6Pv8xXatn6rrsRaE/view?usp=sharing,,,,,,,,,,,,7/6/2026
-Uber,Digs,Customer,https://www.uber.com/us/en/ai-solutions/,,,https://drive.google.com/file/d/1jVfHOrHdyad-Hs3Q6Pv8xXatn6rrsRaE/view?usp=sharing,,,,,,,,,,,,7/6/2026
-Uber,Genmo,Customer,https://www.uber.com/us/en/ai-solutions/,,,https://drive.google.com/file/d/1oRjWHCa9EEBnSPjQ3kXMseZ5_NHLXFYS/view?usp=sharing,,,,,,,,,,,,7/6/2026
-Uber,Voxel,Customer,https://www.uber.com/us/en/ai-solutions/,,,https://drive.google.com/file/d/1oRjWHCa9EEBnSPjQ3kXMseZ5_NHLXFYS/view?usp=sharing,,,,,,,,,,,,7/6/2026
-Uber,Tier IV,Customer,https://www.uber.com/us/en/ai-solutions/,,,https://drive.google.com/file/d/1oRjWHCa9EEBnSPjQ3kXMseZ5_NHLXFYS/view?usp=sharing,,,,,,,,,,,,7/6/2026
-Uber,Alphabet,Customer,https://www.bloomberg.com/news/articles/2026-07-01/uber-shakes-up-ai-data-labeling-business-dismissing-top-leaders,,,,,,,,,,,,,,,7/6/2026
+Uber AI Solutions,Aurora,Customer,https://www.bloomberg.com/news/articles/2026-07-01/uber-shakes-up-ai-data-labeling-business-dismissing-top-leaders,https://www.uber.com/us/en/ai-solutions/,,https://drive.google.com/file/d/1x8goeo7tTm7XaZOnUIEZ-oK1_XASCweE/view?usp=sharing,,,,,,,,,,,,7/6/2026
+Uber AI Solutions,Niantic,Customer,https://www.bloomberg.com/news/articles/2026-07-01/uber-shakes-up-ai-data-labeling-business-dismissing-top-leaders,https://www.uber.com/us/en/ai-solutions/,,https://drive.google.com/file/d/1x8goeo7tTm7XaZOnUIEZ-oK1_XASCweE/view?usp=sharing,,,,,,,,,,,,7/6/2026
+Uber AI Solutions,wamo,Customer,https://www.uber.com/us/en/ai-solutions/,,,https://drive.google.com/file/d/1x8goeo7tTm7XaZOnUIEZ-oK1_XASCweE/view?usp=sharing,,,,,,,,,,,,7/6/2026
+Uber AI Solutions,Luma AI,Customer,https://www.uber.com/us/en/ai-solutions/,,,https://drive.google.com/file/d/1jVfHOrHdyad-Hs3Q6Pv8xXatn6rrsRaE/view?usp=sharing,,,,,,,,,,,,7/6/2026
+Uber AI Solutions,Fryd,Customer,https://www.uber.com/us/en/ai-solutions/,,,https://drive.google.com/file/d/1jVfHOrHdyad-Hs3Q6Pv8xXatn6rrsRaE/view?usp=sharing,,,,,,,,,,,,7/6/2026
+Uber AI Solutions,Digs,Customer,https://www.uber.com/us/en/ai-solutions/,,,https://drive.google.com/file/d/1jVfHOrHdyad-Hs3Q6Pv8xXatn6rrsRaE/view?usp=sharing,,,,,,,,,,,,7/6/2026
+Uber AI Solutions,Genmo,Customer,https://www.uber.com/us/en/ai-solutions/,,,https://drive.google.com/file/d/1oRjWHCa9EEBnSPjQ3kXMseZ5_NHLXFYS/view?usp=sharing,,,,,,,,,,,,7/6/2026
+Uber AI Solutions,Voxel,Customer,https://www.uber.com/us/en/ai-solutions/,,,https://drive.google.com/file/d/1oRjWHCa9EEBnSPjQ3kXMseZ5_NHLXFYS/view?usp=sharing,,,,,,,,,,,,7/6/2026
+Uber AI Solutions,Tier IV,Customer,https://www.uber.com/us/en/ai-solutions/,,,https://drive.google.com/file/d/1oRjWHCa9EEBnSPjQ3kXMseZ5_NHLXFYS/view?usp=sharing,,,,,,,,,,,,7/6/2026
+Uber AI Solutions,Alphabet,Customer,https://www.bloomberg.com/news/articles/2026-07-01/uber-shakes-up-ai-data-labeling-business-dismissing-top-leaders,,,,,,,,,,,,,,,7/6/2026
 ,,,,,,,,,,,,,,,,,,7/20/2026
 ,,,,,,,,,,,,,,,,,,7/20/2026
